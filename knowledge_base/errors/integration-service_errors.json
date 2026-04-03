@@ -1,0 +1,1487 @@
+[
+  {
+    "error_message": "Запись не может быть удален",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/BaseEntityService`8.cs",
+    "line_number": 85,
+    "condition": "IsValid",
+    "service_name": "integration-service",
+    "document_type": "baseentity`8",
+    "class_name": "BaseEntityService"
+  },
+  {
+    "error_message": "Ushbu sertifikat uzasbo dasturida passiv holatda",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/AppointQualCategoryServices/Concrete/AppointQualCategoryService.cs",
+    "line_number": 38,
+    "condition": "activeData != null && activeData.StatusId != StatusIdConst.DELETED",
+    "service_name": "integration-service",
+    "document_type": "appointqualcategory",
+    "class_name": "AppointQualCategoryService"
+  },
+  {
+    "error_message": "Ташкилот топилмади",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/BiillingSalaryCalcServices/Concrete/BillingSalaryCalcService.cs",
+    "line_number": 69,
+    "condition": "organization == null",
+    "service_name": "integration-service",
+    "document_type": "billingsalarycalc",
+    "class_name": "BillingSalaryCalcService"
+  },
+  {
+    "error_message": "УЗАСБО тизимида ушбу ташкилот синфлари синхронизация қилинмаган !",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/BiillingSalaryCalcServices/Concrete/BillingSalaryCalcService.cs",
+    "line_number": 97,
+    "condition": "ex.InnerException.Message.Contains(\"integrity constraint (SALARY.FK_DOC_ORG_SCHOOL_PARAMETER_TABLE__ATTACHED_ORG_SCHOOL_GRADE\")",
+    "service_name": "integration-service",
+    "document_type": "billingsalarycalc",
+    "class_name": "BillingSalaryCalcService"
+  },
+  {
+    "error_message": "[...] [...]",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/BiillingSalaryCalcServices/Concrete/BillingSalaryCalcService.cs",
+    "line_number": 136,
+    "condition": "CanCommit",
+    "service_name": "integration-service",
+    "document_type": "billingsalarycalc",
+    "class_name": "BillingSalaryCalcService"
+  },
+  {
+    "error_message": "бундай рақамдаги ҳужжат узасбо да мавжуд, илтимос ўзгартириб юборинг қайтадан. номер: [...]",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/BiillingSalaryCalcServices/Concrete/BillingSalaryCalcService.cs",
+    "line_number": 160,
+    "condition": "hasDoc != null",
+    "service_name": "integration-service",
+    "document_type": "billingsalarycalc",
+    "class_name": "BillingSalaryCalcService"
+  },
+  {
+    "error_message": "{string.Join(",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/BiillingSalaryCalcServices/Concrete/BillingSalaryCalcService.cs",
+    "line_number": 201,
+    "condition": "!PlasticCardItemOfExpenseCodes.Contains(CashItemOfExpenseCodes[i])",
+    "service_name": "integration-service",
+    "document_type": "billingsalarycalc",
+    "class_name": "BillingSalaryCalcService"
+  },
+  {
+    "error_message": "{string.Join(",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/BiillingSalaryCalcServices/Concrete/BillingSalaryCalcService.cs",
+    "line_number": 205,
+    "condition": "",
+    "service_name": "integration-service",
+    "document_type": "billingsalarycalc",
+    "class_name": "BillingSalaryCalcService"
+  },
+  {
+    "error_message": "жадвал қисмида ҳеч қандай малумот мавжуд емас",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/BiillingSalaryCalcServices/Concrete/BillingSalaryCalcService.cs",
+    "line_number": 213,
+    "condition": "message.Tables.Count() == 0",
+    "service_name": "integration-service",
+    "document_type": "billingsalarycalc",
+    "class_name": "BillingSalaryCalcService"
+  },
+  {
+    "error_message": "Берилган СТИР билан ташкилот топилмади! СТИР: [...]",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/BiillingSalaryCalcServices/Concrete/BillingSalaryCalcService.cs",
+    "line_number": 227,
+    "condition": "organization == null",
+    "service_name": "integration-service",
+    "document_type": "billingsalarycalc",
+    "class_name": "BillingSalaryCalcService"
+  },
+  {
+    "error_message": "Ташкилот ҳисоб рақами топилмади ! Ҳисоб рақам: [...]",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/BiillingSalaryCalcServices/Concrete/BillingSalaryCalcService.cs",
+    "line_number": 235,
+    "condition": "settleCode == null",
+    "service_name": "integration-service",
+    "document_type": "billingsalarycalc",
+    "class_name": "BillingSalaryCalcService"
+  },
+  {
+    "error_message": "{message.CalculateOn.ToString(",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/BiillingSalaryCalcServices/Concrete/BillingSalaryCalcService.cs",
+    "line_number": 244,
+    "condition": "existCloseMonth",
+    "service_name": "integration-service",
+    "document_type": "billingsalarycalc",
+    "class_name": "BillingSalaryCalcService"
+  },
+  {
+    "error_message": "{message.CalculateOn.ToString(",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/BiillingSalaryCalcServices/Concrete/BillingSalaryCalcService.cs",
+    "line_number": 252,
+    "condition": "existForma1",
+    "service_name": "integration-service",
+    "document_type": "billingsalarycalc",
+    "class_name": "BillingSalaryCalcService"
+  },
+  {
+    "error_message": "талабалар орасида пластик картаси бор бирорта ҳам талаба топилмади, камида битта талабани пластик картаси бор бўлиши керак.",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/BiillingSalaryCalcServices/Concrete/BillingSalaryCalcService.cs",
+    "line_number": 291,
+    "condition": "countStudentWithPlastic == 0",
+    "service_name": "integration-service",
+    "document_type": "billingsalarycalc",
+    "class_name": "BillingSalaryCalcService"
+  },
+  {
+    "error_message": "банк код топилмади: мфо: [...], талаба: [...].",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/BiillingSalaryCalcServices/Concrete/BillingSalaryCalcService.cs",
+    "line_number": 302,
+    "condition": "bankMfo is null",
+    "service_name": "integration-service",
+    "document_type": "billingsalarycalc",
+    "class_name": "BillingSalaryCalcService"
+  },
+  {
+    "error_message": "талабa:[...] доc серияси си мавжуд емас.",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/BiillingSalaryCalcServices/Concrete/BillingSalaryCalcService.cs",
+    "line_number": 309,
+    "condition": "string.IsNullOrWhiteSpace(table.PersonDocSeries)",
+    "service_name": "integration-service",
+    "document_type": "billingsalarycalc",
+    "class_name": "BillingSalaryCalcService"
+  },
+  {
+    "error_message": "узасбо тизимида ([...]) толов тури топилмади, талаба: [...].",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/BiillingSalaryCalcServices/Concrete/BillingSalaryCalcService.cs",
+    "line_number": 321,
+    "condition": "calculationKind == null",
+    "service_name": "integration-service",
+    "document_type": "billingsalarycalc",
+    "class_name": "BillingSalaryCalcService"
+  },
+  {
+    "error_message": "узасбо тизимида ([...]) харажатлар моддаси топилмади, талаба: [...].",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/BiillingSalaryCalcServices/Concrete/BillingSalaryCalcService.cs",
+    "line_number": 328,
+    "condition": "itemOfExpense == null",
+    "service_name": "integration-service",
+    "document_type": "billingsalarycalc",
+    "class_name": "BillingSalaryCalcService"
+  },
+  {
+    "error_message": "uzasbo.uz tizimida quydagi talaba mavjud emas : [...].",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/BiillingSalaryCalcServices/Concrete/BillingSalaryCalcService.cs",
+    "line_number": 380,
+    "condition": "student is null",
+    "service_name": "integration-service",
+    "document_type": "billingsalarycalc",
+    "class_name": "BillingSalaryCalcService"
+  },
+  {
+    "error_message": "uzasbo.uz tizimida quydagi talaba ma'lumotida o'qiyapti statusda emas : [...].",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/BiillingSalaryCalcServices/Concrete/BillingSalaryCalcService.cs",
+    "line_number": 386,
+    "condition": "!student.IsStudy",
+    "service_name": "integration-service",
+    "document_type": "billingsalarycalc",
+    "class_name": "BillingSalaryCalcService"
+  },
+  {
+    "error_message": "uzasbo.uz tizimida quydagi talaba ma'lumotida active emas : [...].",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/BiillingSalaryCalcServices/Concrete/BillingSalaryCalcService.cs",
+    "line_number": 391,
+    "condition": "student.StateId != StateIdConst.ACTIVE",
+    "service_name": "integration-service",
+    "document_type": "billingsalarycalc",
+    "class_name": "BillingSalaryCalcService"
+  },
+  {
+    "error_message": "Информация об этом студенте не найдены",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/BiillingSalaryCalcServices/Concrete/BillingSalaryCalcService.cs",
+    "line_number": 436,
+    "condition": "HasErrors || gspData == null",
+    "service_name": "integration-service",
+    "document_type": "billingsalarycalc",
+    "class_name": "BillingSalaryCalcService"
+  },
+  {
+    "error_message": "[...],",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/BiillingSalaryCalcServices/Concrete/BillingSalaryCalcService.cs",
+    "line_number": 444,
+    "condition": "gspPerson is null || gspPerson?.person_pin == null",
+    "service_name": "integration-service",
+    "document_type": "billingsalarycalc",
+    "class_name": "BillingSalaryCalcService"
+  },
+  {
+    "error_message": "MSPD dan oqib yozishda yuz berdi. [...], [...],",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/BiillingSalaryCalcServices/Concrete/BillingSalaryCalcService.cs",
+    "line_number": 509,
+    "condition": "",
+    "service_name": "integration-service",
+    "document_type": "billingsalarycalc",
+    "class_name": "BillingSalaryCalcService"
+  },
+  {
+    "error_message": "[...],",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/BiillingSalaryCalcServices/Concrete/BillingSalaryCalcService.cs",
+    "line_number": 518,
+    "condition": "",
+    "service_name": "integration-service",
+    "document_type": "billingsalarycalc",
+    "class_name": "BillingSalaryCalcService"
+  },
+  {
+    "error_message": "Янги Student яратишда муаммо юз берди. [...], [...],",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/BiillingSalaryCalcServices/Concrete/BillingSalaryCalcService.cs",
+    "line_number": 540,
+    "condition": "",
+    "service_name": "integration-service",
+    "document_type": "billingsalarycalc",
+    "class_name": "BillingSalaryCalcService"
+  },
+  {
+    "error_message": "GSP dan bular topilmadi.",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/BiillingSalaryCalcServices/Concrete/BillingSalaryCalcService.cs",
+    "line_number": 585,
+    "condition": "hasPinflError",
+    "service_name": "integration-service",
+    "document_type": "billingsalarycalc",
+    "class_name": "BillingSalaryCalcService"
+  },
+  {
+    "error_message": "Active yoki oqiyotgan holatda emas.",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/BiillingSalaryCalcServices/Concrete/BillingSalaryCalcService.cs",
+    "line_number": 591,
+    "condition": "hasStudentError",
+    "service_name": "integration-service",
+    "document_type": "billingsalarycalc",
+    "class_name": "BillingSalaryCalcService"
+  },
+  {
+    "error_message": "[...] [...]",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/BiillingSalaryCalcServices/Concrete/BillingSalaryCalcService.cs",
+    "line_number": 629,
+    "condition": "CanCommit",
+    "service_name": "integration-service",
+    "document_type": "billingsalarycalc",
+    "class_name": "BillingSalaryCalcService"
+  },
+  {
+    "error_message": "бундай рақамдаги ҳужжат узасбо да мавжуд, илтимос ўзгартириб юборинг қайтадан. номер: [...]",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/BiillingSalaryCalcServices/Concrete/BillingSalaryCalcService.cs",
+    "line_number": 654,
+    "condition": "hasDoc != null",
+    "service_name": "integration-service",
+    "document_type": "billingsalarycalc",
+    "class_name": "BillingSalaryCalcService"
+  },
+  {
+    "error_message": "{string.Join(",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/BiillingSalaryCalcServices/Concrete/BillingSalaryCalcService.cs",
+    "line_number": 695,
+    "condition": "!PlasticCardItemOfExpenseCodes.Contains(CashItemOfExpenseCodes[i])",
+    "service_name": "integration-service",
+    "document_type": "billingsalarycalc",
+    "class_name": "BillingSalaryCalcService"
+  },
+  {
+    "error_message": "{string.Join(",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/BiillingSalaryCalcServices/Concrete/BillingSalaryCalcService.cs",
+    "line_number": 699,
+    "condition": "",
+    "service_name": "integration-service",
+    "document_type": "billingsalarycalc",
+    "class_name": "BillingSalaryCalcService"
+  },
+  {
+    "error_message": "жадвал қисмида ҳеч қандай малумот мавжуд емас",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/BiillingSalaryCalcServices/Concrete/BillingSalaryCalcService.cs",
+    "line_number": 708,
+    "condition": "message.Tables.Count() == 0",
+    "service_name": "integration-service",
+    "document_type": "billingsalarycalc",
+    "class_name": "BillingSalaryCalcService"
+  },
+  {
+    "error_message": "Берилган СТИР билан ташкилот топилмади! СТИР: [...]",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/BiillingSalaryCalcServices/Concrete/BillingSalaryCalcService.cs",
+    "line_number": 722,
+    "condition": "organization == null",
+    "service_name": "integration-service",
+    "document_type": "billingsalarycalc",
+    "class_name": "BillingSalaryCalcService"
+  },
+  {
+    "error_message": "{message.CalculateOn.ToString(",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/BiillingSalaryCalcServices/Concrete/BillingSalaryCalcService.cs",
+    "line_number": 730,
+    "condition": "existCloseMonth",
+    "service_name": "integration-service",
+    "document_type": "billingsalarycalc",
+    "class_name": "BillingSalaryCalcService"
+  },
+  {
+    "error_message": "{message.CalculateOn.ToString(",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/BiillingSalaryCalcServices/Concrete/BillingSalaryCalcService.cs",
+    "line_number": 738,
+    "condition": "existForma1",
+    "service_name": "integration-service",
+    "document_type": "billingsalarycalc",
+    "class_name": "BillingSalaryCalcService"
+  },
+  {
+    "error_message": "Ташкилот ҳисоб рақами топилмади ! Ҳисоб рақам: [...]",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/BiillingSalaryCalcServices/Concrete/BillingSalaryCalcService.cs",
+    "line_number": 746,
+    "condition": "settleCode == null",
+    "service_name": "integration-service",
+    "document_type": "billingsalarycalc",
+    "class_name": "BillingSalaryCalcService"
+  },
+  {
+    "error_message": "талабалар орасида пластик картаси бор бирорта ҳам талаба топилмади, камида битта талабани пластик картаси бор бўлиши керак.",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/BiillingSalaryCalcServices/Concrete/BillingSalaryCalcService.cs",
+    "line_number": 785,
+    "condition": "countStudentWithPlastic == 0",
+    "service_name": "integration-service",
+    "document_type": "billingsalarycalc",
+    "class_name": "BillingSalaryCalcService"
+  },
+  {
+    "error_message": "банк код топилмади: мфо: [...], талаба: [...].",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/BiillingSalaryCalcServices/Concrete/BillingSalaryCalcService.cs",
+    "line_number": 796,
+    "condition": "bankMfo is null",
+    "service_name": "integration-service",
+    "document_type": "billingsalarycalc",
+    "class_name": "BillingSalaryCalcService"
+  },
+  {
+    "error_message": "талабa:[...] доc серияси си мавжуд емас.",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/BiillingSalaryCalcServices/Concrete/BillingSalaryCalcService.cs",
+    "line_number": 803,
+    "condition": "string.IsNullOrWhiteSpace(table.PersonDocSeries)",
+    "service_name": "integration-service",
+    "document_type": "billingsalarycalc",
+    "class_name": "BillingSalaryCalcService"
+  },
+  {
+    "error_message": "узасбо тизимида ([...]) толов тури топилмади, талаба: [...].",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/BiillingSalaryCalcServices/Concrete/BillingSalaryCalcService.cs",
+    "line_number": 815,
+    "condition": "calculationKind == null",
+    "service_name": "integration-service",
+    "document_type": "billingsalarycalc",
+    "class_name": "BillingSalaryCalcService"
+  },
+  {
+    "error_message": "узасбо тизимида ([...]) харажатлар моддаси топилмади, талаба: [...].",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/BiillingSalaryCalcServices/Concrete/BillingSalaryCalcService.cs",
+    "line_number": 822,
+    "condition": "itemOfExpense == null",
+    "service_name": "integration-service",
+    "document_type": "billingsalarycalc",
+    "class_name": "BillingSalaryCalcService"
+  },
+  {
+    "error_message": "Информация об этом студенте не найдены",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/BiillingSalaryCalcServices/Concrete/BillingSalaryCalcService.cs",
+    "line_number": 885,
+    "condition": "HasErrors || gspData == null",
+    "service_name": "integration-service",
+    "document_type": "billingsalarycalc",
+    "class_name": "BillingSalaryCalcService"
+  },
+  {
+    "error_message": "[...],",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/BiillingSalaryCalcServices/Concrete/BillingSalaryCalcService.cs",
+    "line_number": 893,
+    "condition": "gspPerson is null || gspPerson?.person_pin == null",
+    "service_name": "integration-service",
+    "document_type": "billingsalarycalc",
+    "class_name": "BillingSalaryCalcService"
+  },
+  {
+    "error_message": "MSPD dan oqib yozishda yuz berdi. [...], [...],",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/BiillingSalaryCalcServices/Concrete/BillingSalaryCalcService.cs",
+    "line_number": 944,
+    "condition": "",
+    "service_name": "integration-service",
+    "document_type": "billingsalarycalc",
+    "class_name": "BillingSalaryCalcService"
+  },
+  {
+    "error_message": "[...],",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/BiillingSalaryCalcServices/Concrete/BillingSalaryCalcService.cs",
+    "line_number": 953,
+    "condition": "",
+    "service_name": "integration-service",
+    "document_type": "billingsalarycalc",
+    "class_name": "BillingSalaryCalcService"
+  },
+  {
+    "error_message": "Янги Student яратишда муаммо юз берди. [...], [...],",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/BiillingSalaryCalcServices/Concrete/BillingSalaryCalcService.cs",
+    "line_number": 975,
+    "condition": "",
+    "service_name": "integration-service",
+    "document_type": "billingsalarycalc",
+    "class_name": "BillingSalaryCalcService"
+  },
+  {
+    "error_message": "GSP dan bular topilmadi.",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/BiillingSalaryCalcServices/Concrete/BillingSalaryCalcService.cs",
+    "line_number": 1020,
+    "condition": "hasPinflError",
+    "service_name": "integration-service",
+    "document_type": "billingsalarycalc",
+    "class_name": "BillingSalaryCalcService"
+  },
+  {
+    "error_message": "Active yoki oqiyotgan holatda emas.",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/BiillingSalaryCalcServices/Concrete/BillingSalaryCalcService.cs",
+    "line_number": 1026,
+    "condition": "hasStudentError",
+    "service_name": "integration-service",
+    "document_type": "billingsalarycalc",
+    "class_name": "BillingSalaryCalcService"
+  },
+  {
+    "error_message": "Маданият ўқув йили узасбо тизимидан топилмади. Илтимос узасбо тизим администраторлари мурожат қилинг !",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/CultureTarifficationTitleServices/Concrete/CultureTarifficationTitleService.cs",
+    "line_number": 38,
+    "condition": "externalDataCode == null",
+    "service_name": "integration-service",
+    "document_type": "culturetarifficationtitle",
+    "class_name": "CultureTarifficationTitleService"
+  },
+  {
+    "error_message": "Ташкилот топилмади",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/CultureTarifficationTitleServices/Concrete/CultureTarifficationTitleService.cs",
+    "line_number": 44,
+    "condition": "organization == null",
+    "service_name": "integration-service",
+    "document_type": "culturetarifficationtitle",
+    "class_name": "CultureTarifficationTitleService"
+  },
+  {
+    "error_message": "Титул варағи амал қилиш муддати кўрсатилмаган !",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/CultureTarifficationTitleServices/Concrete/CultureTarifficationTitleService.cs",
+    "line_number": 51,
+    "condition": "!dto.StartOn.HasValue",
+    "service_name": "integration-service",
+    "document_type": "culturetarifficationtitle",
+    "class_name": "CultureTarifficationTitleService"
+  },
+  {
+    "error_message": "УЗАСБО тизимида ушбу ташкилот Спорт гуруҳи синхронизация қилинмаган !",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/CultureTarifficationTitleServices/Concrete/CultureTarifficationTitleService.cs",
+    "line_number": 88,
+    "condition": "ex.InnerException.Message.Contains(\"FK_DOC_SPORT_TARIFFICATION_TITLE_BY_GROUP_SPORT_GROUP\")",
+    "service_name": "integration-service",
+    "document_type": "culturetarifficationtitle",
+    "class_name": "CultureTarifficationTitleService"
+  },
+  {
+    "error_message": "Бу ҳужжат Узасбо ДМ га аввал юборилган. Илтимос Узасбо тизимидан ҳужжатни қайтаринг ! Узасбо ид: [...]",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/CultureTarifficationTitleServices/Concrete/CultureTarifficationTitleService.cs",
+    "line_number": 112,
+    "condition": "hasDoc != null",
+    "service_name": "integration-service",
+    "document_type": "culturetarifficationtitle",
+    "class_name": "CultureTarifficationTitleService"
+  },
+  {
+    "error_message": "Маданият ўқув йили узасбо тизимидан топилмади. Илтимос узасбо тизим администраторлари мурожат қилинг !",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/CultureTarifficationTitleServices/Concrete/CultureTarifficationTitleService.cs",
+    "line_number": 122,
+    "condition": "externalDataCode == null",
+    "service_name": "integration-service",
+    "document_type": "culturetarifficationtitle",
+    "class_name": "CultureTarifficationTitleService"
+  },
+  {
+    "error_message": "Ташкилот топилмади",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/CultureTarifficationTitleServices/Concrete/CultureTarifficationTitleService.cs",
+    "line_number": 128,
+    "condition": "organization == null",
+    "service_name": "integration-service",
+    "document_type": "culturetarifficationtitle",
+    "class_name": "CultureTarifficationTitleService"
+  },
+  {
+    "error_message": "УЗАСБО тизимида ушбу ташкилот гуруҳи синхронизация қилинмаган !",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/CultureTarifficationTitleServices/Concrete/CultureTarifficationTitleService.cs",
+    "line_number": 164,
+    "condition": "ex.InnerException.Message.Contains(\"integrity constraint (SALARY.FK_DOC_SPORT_TARIFFICATION_TITLE_BY_GROUP_SPORT_GROUP\")",
+    "service_name": "integration-service",
+    "document_type": "culturetarifficationtitle",
+    "class_name": "CultureTarifficationTitleService"
+  },
+  {
+    "error_message": "УЗАСБО тизимида ушбу ташкилот гуруҳи синхронизация қилинмаган !",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/CultureTarifficationTitleServices/Concrete/CultureTarifficationTitleService.cs",
+    "line_number": 169,
+    "condition": "ex.InnerException.Message.Contains(\"integrity constraint (SALARY.SALARY.INFO_SPORT_TYPE_CLASSIFIER\")",
+    "service_name": "integration-service",
+    "document_type": "culturetarifficationtitle",
+    "class_name": "CultureTarifficationTitleService"
+  },
+  {
+    "error_message": "Бу ҳужжат Узасбо ДМ га аввал юборилган. Илтимос Узасбо тизимидан ҳужжатни қайтаринг ! Узасбо ид: [...]",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/CultureTarifficationTitleServices/Concrete/CultureTarifficationTitleService.cs",
+    "line_number": 192,
+    "condition": "hasDoc != null",
+    "service_name": "integration-service",
+    "document_type": "culturetarifficationtitle",
+    "class_name": "CultureTarifficationTitleService"
+  },
+  {
+    "error_message": "Ташкилот топилмади",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/CurriculumOrgSchGradeServices/Concrete/CurriculumOrgSchGradeService.cs",
+    "line_number": 41,
+    "condition": "organization == null",
+    "service_name": "integration-service",
+    "document_type": "curriculumorgschgrade",
+    "class_name": "CurriculumOrgSchGradeService"
+  },
+  {
+    "error_message": "Эрп тизимидаги  фан Узасбо тизимидан топилмади. Илтимос тизим админига мурожат қилинг! id: [...]",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/CurriculumOrgSchGradeServices/Concrete/CurriculumOrgSchGradeService.cs",
+    "line_number": 53,
+    "condition": "asboSubjectId == null",
+    "service_name": "integration-service",
+    "document_type": "curriculumorgschgrade",
+    "class_name": "CurriculumOrgSchGradeService"
+  },
+  {
+    "error_message": "Ўқув йили топилмади!",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/CurriculumOrgSchGradeServices/Concrete/CurriculumOrgSchGradeService.cs",
+    "line_number": 63,
+    "condition": "externalSchoolYearData == null",
+    "service_name": "integration-service",
+    "document_type": "curriculumorgschgrade",
+    "class_name": "CurriculumOrgSchGradeService"
+  },
+  {
+    "error_message": "Бу ҳужжат Узасбо ДМ га аввал юборилган. Илтимос Узасбо тизимидан ҳужжатни қайтаринг ! Узасбо ид: [...]",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/CurriculumOrgSchGradeServices/Concrete/CurriculumOrgSchGradeService.cs",
+    "line_number": 108,
+    "condition": "hasDoc != null",
+    "service_name": "integration-service",
+    "document_type": "curriculumorgschgrade",
+    "class_name": "CurriculumOrgSchGradeService"
+  },
+  {
+    "error_message": "Ташкилот топилмади",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/CurriculumOrgSchGradeServices/Concrete/CurriculumOrgSchGradeService.cs",
+    "line_number": 118,
+    "condition": "organization == null",
+    "service_name": "integration-service",
+    "document_type": "curriculumorgschgrade",
+    "class_name": "CurriculumOrgSchGradeService"
+  },
+  {
+    "error_message": "Эрп тизимидаги  фан Узасбо тизимидан топилмади. Илтимос тизим админига мурожат қилинг! id: [...]",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/CurriculumOrgSchGradeServices/Concrete/CurriculumOrgSchGradeService.cs",
+    "line_number": 130,
+    "condition": "asboSubjectId == null",
+    "service_name": "integration-service",
+    "document_type": "curriculumorgschgrade",
+    "class_name": "CurriculumOrgSchGradeService"
+  },
+  {
+    "error_message": "Бу ҳужжат Узасбо ДМ га аввал юборилган. Илтимос Узасбо тизимидан ҳужжатни қайтаринг ! Узасбо ид: [...]",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/CurriculumOrgSchGradeServices/Concrete/CurriculumOrgSchGradeService.cs",
+    "line_number": 178,
+    "condition": "hasDoc != null",
+    "service_name": "integration-service",
+    "document_type": "curriculumorgschgrade",
+    "class_name": "CurriculumOrgSchGradeService"
+  },
+  {
+    "error_message": "Ташкилот топилмади",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/HeadOrgSchoolGradeServices/Concrete/HeadOrgSchoolGradeService.cs",
+    "line_number": 41,
+    "condition": "organization == null",
+    "service_name": "integration-service",
+    "document_type": "headorgschoolgrade",
+    "class_name": "HeadOrgSchoolGradeService"
+  },
+  {
+    "error_message": "Ўқув йили топилмади!",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/HeadOrgSchoolGradeServices/Concrete/HeadOrgSchoolGradeService.cs",
+    "line_number": 49,
+    "condition": "externalSchoolYearData == null",
+    "service_name": "integration-service",
+    "document_type": "headorgschoolgrade",
+    "class_name": "HeadOrgSchoolGradeService"
+  },
+  {
+    "error_message": "УЗАСБО тизимида ушбу ташкилот синфлари синхронизация қилинмаган !",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/HeadOrgSchoolGradeServices/Concrete/HeadOrgSchoolGradeService.cs",
+    "line_number": 82,
+    "condition": "ex.InnerException.Message.Contains(\"integrity constraint (SALARY.FK_DOC_HEAD_ORG_SCHOOL_GRADE_TABLE__ORG_SCHOOL_GRADE\")",
+    "service_name": "integration-service",
+    "document_type": "headorgschoolgrade",
+    "class_name": "HeadOrgSchoolGradeService"
+  },
+  {
+    "error_message": "Бу ҳужжат Узасбо ДМ га аввал юборилган. Илтимос Узасбо тизимидан ҳужжатни қайтаринг ! Узасбо ид: [...]",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/HeadOrgSchoolGradeServices/Concrete/HeadOrgSchoolGradeService.cs",
+    "line_number": 105,
+    "condition": "hasDoc != null",
+    "service_name": "integration-service",
+    "document_type": "headorgschoolgrade",
+    "class_name": "HeadOrgSchoolGradeService"
+  },
+  {
+    "error_message": "Xodim uzasbo tizimidan topilmadi [...]",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/HeadOrgSchoolGradeServices/Concrete/HeadOrgSchoolGradeService.cs",
+    "line_number": 120,
+    "condition": "employee == null",
+    "service_name": "integration-service",
+    "document_type": "headorgschoolgrade",
+    "class_name": "HeadOrgSchoolGradeService"
+  },
+  {
+    "error_message": "Ташкилот топилмади",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/HeadOrgSchoolGradeServices/Concrete/HeadOrgSchoolGradeService.cs",
+    "line_number": 136,
+    "condition": "organization == null",
+    "service_name": "integration-service",
+    "document_type": "headorgschoolgrade",
+    "class_name": "HeadOrgSchoolGradeService"
+  },
+  {
+    "error_message": "УЗАСБО тизимида ушбу ташкилот синфлари синхронизация қилинмаган !",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/HeadOrgSchoolGradeServices/Concrete/HeadOrgSchoolGradeService.cs",
+    "line_number": 169,
+    "condition": "ex.InnerException.Message.Contains(\"integrity constraint (SALARY.FK_DOC_HEAD_ORG_SCHOOL_GRADE_TABLE__ORG_SCHOOL_GRADE\")",
+    "service_name": "integration-service",
+    "document_type": "headorgschoolgrade",
+    "class_name": "HeadOrgSchoolGradeService"
+  },
+  {
+    "error_message": "Бу ҳужжат Узасбо ДМ га аввал юборилган. Илтимос Узасбо тизимидан ҳужжатни қайтаринг ! Узасбо ид: [...]",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/HeadOrgSchoolGradeServices/Concrete/HeadOrgSchoolGradeService.cs",
+    "line_number": 192,
+    "condition": "hasDoc != null",
+    "service_name": "integration-service",
+    "document_type": "headorgschoolgrade",
+    "class_name": "HeadOrgSchoolGradeService"
+  },
+  {
+    "error_message": "Xodim uzasbo tizimidan topilmadi [...]",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/HeadOrgSchoolGradeServices/Concrete/HeadOrgSchoolGradeService.cs",
+    "line_number": 207,
+    "condition": "employee == null",
+    "service_name": "integration-service",
+    "document_type": "headorgschoolgrade",
+    "class_name": "HeadOrgSchoolGradeService"
+  },
+  {
+    "error_message": "Ташкилот топилмади",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/KindergardenTarifficationTitleServices/Concrete/KindergardenTarifficationTitleService.cs",
+    "line_number": 33,
+    "condition": "organization == null",
+    "service_name": "integration-service",
+    "document_type": "kindergardentarifficationtitle",
+    "class_name": "KindergardenTarifficationTitleService"
+  },
+  {
+    "error_message": "Бу ҳужжат Узасбо ДМ га аввал юборилган. Илтимос Узасбо тизимидан ҳужжатни қайтаринг ! Узасбо ид: [...]",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/KindergardenTarifficationTitleServices/Concrete/KindergardenTarifficationTitleService.cs",
+    "line_number": 79,
+    "condition": "hasDoc != null",
+    "service_name": "integration-service",
+    "document_type": "kindergardentarifficationtitle",
+    "class_name": "KindergardenTarifficationTitleService"
+  },
+  {
+    "error_message": "Ташкилот топилмади",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/OrgSchoolParameterServices/Concrete/OrgSchoolParameterService.cs",
+    "line_number": 43,
+    "condition": "organization == null",
+    "service_name": "integration-service",
+    "document_type": "orgschoolparameter",
+    "class_name": "OrgSchoolParameterService"
+  },
+  {
+    "error_message": "Ўқув йили топилмади!",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/OrgSchoolParameterServices/Concrete/OrgSchoolParameterService.cs",
+    "line_number": 53,
+    "condition": "externalSchoolYearData == null",
+    "service_name": "integration-service",
+    "document_type": "orgschoolparameter",
+    "class_name": "OrgSchoolParameterService"
+  },
+  {
+    "error_message": "УЗАСБО тизимида ушбу ташкилот синфлари синхронизация қилинмаган !",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/OrgSchoolParameterServices/Concrete/OrgSchoolParameterService.cs",
+    "line_number": 78,
+    "condition": "ex.InnerException.Message.Contains(\"integrity constraint (SALARY.FK_DOC_ORG_SCHOOL_PARAMETER_TABLE__ATTACHED_ORG_SCHOOL_GRADE\")",
+    "service_name": "integration-service",
+    "document_type": "orgschoolparameter",
+    "class_name": "OrgSchoolParameterService"
+  },
+  {
+    "error_message": "Бу ҳужжат Узасбо ДМ га аввал юборилган. Илтимос Узасбо тизимидан ҳужжатни қайтаринг ! Узасбо ид: [...]",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/OrgSchoolParameterServices/Concrete/OrgSchoolParameterService.cs",
+    "line_number": 101,
+    "condition": "hasDoc != null",
+    "service_name": "integration-service",
+    "document_type": "orgschoolparameter",
+    "class_name": "OrgSchoolParameterService"
+  },
+  {
+    "error_message": "Ташкилот топилмади",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/OrgSchoolParameterServices/Concrete/OrgSchoolParameterService.cs",
+    "line_number": 111,
+    "condition": "organization == null",
+    "service_name": "integration-service",
+    "document_type": "orgschoolparameter",
+    "class_name": "OrgSchoolParameterService"
+  },
+  {
+    "error_message": "УЗАСБО тизимида ушбу ташкилот синфлари синхронизация қилинмаган !",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/OrgSchoolParameterServices/Concrete/OrgSchoolParameterService.cs",
+    "line_number": 139,
+    "condition": "ex.InnerException.Message.Contains(\"integrity constraint (SALARY.FK_DOC_ORG_SCHOOL_PARAMETER_TABLE__ATTACHED_ORG_SCHOOL_GRADE\")",
+    "service_name": "integration-service",
+    "document_type": "orgschoolparameter",
+    "class_name": "OrgSchoolParameterService"
+  },
+  {
+    "error_message": "Бу ҳужжат Узасбо ДМ га аввал юборилган. Илтимос Узасбо тизимидан ҳужжатни қайтаринг ! Узасбо ид: [...]",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/OrgSchoolParameterServices/Concrete/OrgSchoolParameterService.cs",
+    "line_number": 162,
+    "condition": "hasDoc != null",
+    "service_name": "integration-service",
+    "document_type": "orgschoolparameter",
+    "class_name": "OrgSchoolParameterService"
+  },
+  {
+    "error_message": "Спорт ўқув йили узасбо тизимидан топилмади. Илтимос узасбо тизим администраторлари мурожат қилинг !",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/SportTarifficationTitleServices/Concrete/SportTarifficationTitleService.cs",
+    "line_number": 46,
+    "condition": "externalDataCode == null",
+    "service_name": "integration-service",
+    "document_type": "sporttarifficationtitle",
+    "class_name": "SportTarifficationTitleService"
+  },
+  {
+    "error_message": "Ташкилот топилмади",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/SportTarifficationTitleServices/Concrete/SportTarifficationTitleService.cs",
+    "line_number": 52,
+    "condition": "organization == null",
+    "service_name": "integration-service",
+    "document_type": "sporttarifficationtitle",
+    "class_name": "SportTarifficationTitleService"
+  },
+  {
+    "error_message": "Титул варағи амал қилиш муддати кўрсатилмаган !",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/SportTarifficationTitleServices/Concrete/SportTarifficationTitleService.cs",
+    "line_number": 59,
+    "condition": "!dto.StartOn.HasValue",
+    "service_name": "integration-service",
+    "document_type": "sporttarifficationtitle",
+    "class_name": "SportTarifficationTitleService"
+  },
+  {
+    "error_message": "Узасбо дастуридаги ва erp.sport дастуридаги ташкилот тури хато !",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/SportTarifficationTitleServices/Concrete/SportTarifficationTitleService.cs",
+    "line_number": 64,
+    "condition": "organization.DefinitionTypeId != dto.DefinitionTypeId",
+    "service_name": "integration-service",
+    "document_type": "sporttarifficationtitle",
+    "class_name": "SportTarifficationTitleService"
+  },
+  {
+    "error_message": "[...] sport turi uzasbo tizimidan topilmadi iltimos tizim administratoriga murojat qiling !",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/SportTarifficationTitleServices/Concrete/SportTarifficationTitleService.cs",
+    "line_number": 91,
+    "condition": "internalSubject == null",
+    "service_name": "integration-service",
+    "document_type": "sporttarifficationtitle",
+    "class_name": "SportTarifficationTitleService"
+  },
+  {
+    "error_message": "[...] sport guruhi uzasbo tizimidan topilmadi yoki o'zgarish bo'lgan !",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/SportTarifficationTitleServices/Concrete/SportTarifficationTitleService.cs",
+    "line_number": 100,
+    "condition": "",
+    "service_name": "integration-service",
+    "document_type": "sporttarifficationtitle",
+    "class_name": "SportTarifficationTitleService"
+  },
+  {
+    "error_message": "УЗАСБО тизимида ушбу ташкилот Спорт гуруҳи синхронизация қилинмаган !",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/SportTarifficationTitleServices/Concrete/SportTarifficationTitleService.cs",
+    "line_number": 128,
+    "condition": "ex.InnerException.Message.Contains(\"FK_DOC_SPORT_TARIFFICATION_TITLE_BY_GROUP_SPORT_GROUP\")",
+    "service_name": "integration-service",
+    "document_type": "sporttarifficationtitle",
+    "class_name": "SportTarifficationTitleService"
+  },
+  {
+    "error_message": "Бу ҳужжат Узасбо ДМ га аввал юборилган. Илтимос Узасбо тизимидан ҳужжатни қайтаринг ! Узасбо ид: [...]",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/SportTarifficationTitleServices/Concrete/SportTarifficationTitleService.cs",
+    "line_number": 152,
+    "condition": "hasDoc != null",
+    "service_name": "integration-service",
+    "document_type": "sporttarifficationtitle",
+    "class_name": "SportTarifficationTitleService"
+  },
+  {
+    "error_message": "Спорт ўқув йили узасбо тизимидан топилмади. Илтимос узасбо тизим администраторлари мурожат қилинг !",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/SportTarifficationTitleServices/Concrete/SportTarifficationTitleService.cs",
+    "line_number": 162,
+    "condition": "externalDataCode == null",
+    "service_name": "integration-service",
+    "document_type": "sporttarifficationtitle",
+    "class_name": "SportTarifficationTitleService"
+  },
+  {
+    "error_message": "Ташкилот топилмади",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/SportTarifficationTitleServices/Concrete/SportTarifficationTitleService.cs",
+    "line_number": 168,
+    "condition": "organization == null",
+    "service_name": "integration-service",
+    "document_type": "sporttarifficationtitle",
+    "class_name": "SportTarifficationTitleService"
+  },
+  {
+    "error_message": "ORA-99999: inconsistent cursor snapshot detected while resolving V$TEMPORARY_SUBQUERY; inner LOB read returned 0xDEADBEEF; rollback implied. Contact DBA with SID and XID 0x7f9c.",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/SportTarifficationTitleServices/Concrete/SportTarifficationTitleService.cs",
+    "line_number": 186,
+    "condition": "internalSubject == null",
+    "service_name": "integration-service",
+    "document_type": "sporttarifficationtitle",
+    "class_name": "SportTarifficationTitleService"
+  },
+  {
+    "error_message": "УЗАСБО тизимида ушбу ташкилот гуруҳи синхронизация қилинмаган !",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/SportTarifficationTitleServices/Concrete/SportTarifficationTitleService.cs",
+    "line_number": 215,
+    "condition": "ex.InnerException.Message.Contains(\"integrity constraint (SALARY.FK_DOC_SPORT_TARIFFICATION_TITLE_BY_GROUP_SPORT_GROUP\")",
+    "service_name": "integration-service",
+    "document_type": "sporttarifficationtitle",
+    "class_name": "SportTarifficationTitleService"
+  },
+  {
+    "error_message": "УЗАСБО тизимида ушбу ташкилот гуруҳи синхронизация қилинмаган !",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/SportTarifficationTitleServices/Concrete/SportTarifficationTitleService.cs",
+    "line_number": 220,
+    "condition": "ex.InnerException.Message.Contains(\"integrity constraint (SALARY.SALARY.INFO_SPORT_TYPE_CLASSIFIER\")",
+    "service_name": "integration-service",
+    "document_type": "sporttarifficationtitle",
+    "class_name": "SportTarifficationTitleService"
+  },
+  {
+    "error_message": "Бу ҳужжат Узасбо ДМ га аввал юборилган. Илтимос Узасбо тизимидан ҳужжатни қайтаринг ! Узасбо ид: [...]",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/SportTarifficationTitleServices/Concrete/SportTarifficationTitleService.cs",
+    "line_number": 243,
+    "condition": "hasDoc != null",
+    "service_name": "integration-service",
+    "document_type": "sporttarifficationtitle",
+    "class_name": "SportTarifficationTitleService"
+  },
+  {
+    "error_message": "Ташкилот топилмади",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/TarifficationTitleServices/Concrete/TarifficationTitleService.cs",
+    "line_number": 41,
+    "condition": "organization == null",
+    "service_name": "integration-service",
+    "document_type": "tarifficationtitle",
+    "class_name": "TarifficationTitleService"
+  },
+  {
+    "error_message": "Sinf koreksiyon yoki oddiy sinfligi ko'rsatilmagan !",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/TarifficationTitleServices/Concrete/TarifficationTitleService.cs",
+    "line_number": 46,
+    "condition": "dto.Tables.Any(x => x.IsKoreksion == null)",
+    "service_name": "integration-service",
+    "document_type": "tarifficationtitle",
+    "class_name": "TarifficationTitleService"
+  },
+  {
+    "error_message": "Ўқув йили топилмади!",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/TarifficationTitleServices/Concrete/TarifficationTitleService.cs",
+    "line_number": 65,
+    "condition": "externalSchoolYearData == null",
+    "service_name": "integration-service",
+    "document_type": "tarifficationtitle",
+    "class_name": "TarifficationTitleService"
+  },
+  {
+    "error_message": "УЗАСБО тизимида ушбу ташкилот синфлари синхронизация қилинмаган !",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/TarifficationTitleServices/Concrete/TarifficationTitleService.cs",
+    "line_number": 92,
+    "condition": "ex.InnerException.Message.Contains(\"integrity constraint (SALARY.FK_DOC_TARIFFICATION_TITLE__ORG_SCHOOL_GRADE\")",
+    "service_name": "integration-service",
+    "document_type": "tarifficationtitle",
+    "class_name": "TarifficationTitleService"
+  },
+  {
+    "error_message": "Бу ҳужжат Узасбо ДМ га аввал юборилган. Илтимос Узасбо тизимидан ҳужжатни қайтаринг ! Узасбо ид: [...]",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/TarifficationTitleServices/Concrete/TarifficationTitleService.cs",
+    "line_number": 116,
+    "condition": "hasDoc != null",
+    "service_name": "integration-service",
+    "document_type": "tarifficationtitle",
+    "class_name": "TarifficationTitleService"
+  },
+  {
+    "error_message": "Ташкилот топилмади",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/TarifficationTitleServices/Concrete/TarifficationTitleService.cs",
+    "line_number": 125,
+    "condition": "organization == null",
+    "service_name": "integration-service",
+    "document_type": "tarifficationtitle",
+    "class_name": "TarifficationTitleService"
+  },
+  {
+    "error_message": "УЗАСБО тизимида ушбу ташкилот синфлари синхронизация қилинмаган !",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/TarifficationTitleServices/Concrete/TarifficationTitleService.cs",
+    "line_number": 164,
+    "condition": "ex.InnerException.Message.Contains(\"integrity constraint (SALARY.FK_DOC_TARIFFICATION_TITLE__ORG_SCHOOL_GRADE\")",
+    "service_name": "integration-service",
+    "document_type": "tarifficationtitle",
+    "class_name": "TarifficationTitleService"
+  },
+  {
+    "error_message": "Бу ҳужжат Узасбо ДМ га аввал юборилган. Илтимос Узасбо тизимидан ҳужжатни қайтаринг ! Узасбо ид: [...]",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Doc/TarifficationTitleServices/Concrete/TarifficationTitleService.cs",
+    "line_number": 188,
+    "condition": "hasDoc != null",
+    "service_name": "integration-service",
+    "document_type": "tarifficationtitle",
+    "class_name": "TarifficationTitleService"
+  },
+  {
+    "error_message": "data cannot be null.",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/HRM/MoliyachiNotification/Concrete/MoliyachiNotificationService.cs",
+    "line_number": 30,
+    "condition": "dto == null",
+    "service_name": "integration-service",
+    "document_type": "moliyachinotification",
+    "class_name": "MoliyachiNotificationService"
+  },
+  {
+    "error_message": "Organization with ID [...] does not exist.",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/HRM/MoliyachiNotification/Concrete/MoliyachiNotificationService.cs",
+    "line_number": 36,
+    "condition": "!_unitOfWork.Context.Organizations.Where(x => x.Id == dto.OrganizationId).Any()",
+    "service_name": "integration-service",
+    "document_type": "moliyachinotification",
+    "class_name": "MoliyachiNotificationService"
+  },
+  {
+    "error_message": "Employee with ID [...] does not exist in Organization with ID [...].",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/HRM/MoliyachiNotification/Concrete/MoliyachiNotificationService.cs",
+    "line_number": 43,
+    "condition": "",
+    "service_name": "integration-service",
+    "document_type": "moliyachinotification",
+    "class_name": "MoliyachiNotificationService"
+  },
+  {
+    "error_message": "Massage cannot be null or empty.",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/HRM/MoliyachiNotification/Concrete/MoliyachiNotificationService.cs",
+    "line_number": 49,
+    "condition": "string.IsNullOrWhiteSpace(dto.Massage)",
+    "service_name": "integration-service",
+    "document_type": "moliyachinotification",
+    "class_name": "MoliyachiNotificationService"
+  },
+  {
+    "error_message": "Massage cannot exceed 1000 characters.",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/HRM/MoliyachiNotification/Concrete/MoliyachiNotificationService.cs",
+    "line_number": 54,
+    "condition": "dto.Massage.Length > 1000",
+    "service_name": "integration-service",
+    "document_type": "moliyachinotification",
+    "class_name": "MoliyachiNotificationService"
+  },
+  {
+    "error_message": "SentAt cannot be in the future.",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/HRM/MoliyachiNotification/Concrete/MoliyachiNotificationService.cs",
+    "line_number": 59,
+    "condition": "dto.SentAt > DateTime.Now",
+    "service_name": "integration-service",
+    "document_type": "moliyachinotification",
+    "class_name": "MoliyachiNotificationService"
+  },
+  {
+    "error_message": "Информация не найдена.| Ma'lumot topilmadi.",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Info/ItemOfExpenseListForENKTService/Concrete/ItemOfExpenseListForENKTService.cs",
+    "line_number": 524,
+    "condition": "",
+    "service_name": "integration-service",
+    "document_type": "itemofexpenselistforenkt",
+    "class_name": "ItemOfExpenseListForENKTService"
+  },
+  {
+    "error_message": "По вашему запросу запись не найдено",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Info/OrganizationServices/Concrete/OrganizationService.cs",
+    "line_number": 80,
+    "condition": "dto == null",
+    "service_name": "integration-service",
+    "document_type": "organization",
+    "class_name": "OrganizationService"
+  },
+  {
+    "error_message": "Berilgan ma'lumotlar bo'yicha bola topilmadi !!!",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Integration/Child/Concrete/ChildPaymentService.cs",
+    "line_number": 67,
+    "condition": "Child_Person is null",
+    "service_name": "integration-service",
+    "document_type": "childpayment",
+    "class_name": "ChildPaymentService"
+  },
+  {
+    "error_message": "Bolar bir nechta tashkilotda malumoti topildi !!!",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Integration/Child/Concrete/ChildPaymentService.cs",
+    "line_number": 75,
+    "condition": "Child.Count() > 1",
+    "service_name": "integration-service",
+    "document_type": "childpayment",
+    "class_name": "ChildPaymentService"
+  },
+  {
+    "error_message": "Berilgan ma'lumotlar bo'yicha bola topilmadi !!!",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Integration/Child/Concrete/ChildPaymentService.cs",
+    "line_number": 83,
+    "condition": "ChildFirst is null",
+    "service_name": "integration-service",
+    "document_type": "childpayment",
+    "class_name": "ChildPaymentService"
+  },
+  {
+    "error_message": "File topilmadi",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Integration/Mib/Concrete/MibService.cs",
+    "line_number": 30,
+    "condition": "entity == null || !entity.FileName.HasValue",
+    "service_name": "integration-service",
+    "document_type": "mib",
+    "class_name": "MibService"
+  },
+  {
+    "error_message": "[...] bo'yicha malumot topilmadi",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Integration/Organization/Concrete/Organization.cs",
+    "line_number": 37,
+    "condition": "list == null",
+    "service_name": "integration-service",
+    "document_type": "organization",
+    "class_name": "Organization"
+  },
+  {
+    "error_message": "Ma'lumot topilmadi !!!",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/ManualServices/Concrete/ManualService.cs",
+    "line_number": 167,
+    "condition": "data_result is null",
+    "service_name": "integration-service",
+    "document_type": "manual",
+    "class_name": "ManualService"
+  },
+  {
+    "error_message": "Ҳисоб рақамнинг касса харажати субсчети танланмаган / Субсчёт кассовых расходов Лицевого счёта не выбран",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/ManualServices/Concrete/ManualService.cs",
+    "line_number": 279,
+    "condition": "!orgset.CashSubAccId.HasValue",
+    "service_name": "integration-service",
+    "document_type": "manual",
+    "class_name": "ManualService"
+  },
+  {
+    "error_message": "Ma'lumot topilmadi !!!",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/ManualServices/Concrete/ManualService.cs",
+    "line_number": 443,
+    "condition": "",
+    "service_name": "integration-service",
+    "document_type": "manual",
+    "class_name": "ManualService"
+  },
+  {
+    "error_message": "Ma'lumot topilmadi !!!",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/ManualServices/Concrete/ManualService.cs",
+    "line_number": 468,
+    "condition": "",
+    "service_name": "integration-service",
+    "document_type": "manual",
+    "class_name": "ManualService"
+  },
+  {
+    "error_message": "Ma'lumot topilmadi !!!",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/ManualServices/Concrete/ManualService.cs",
+    "line_number": 500,
+    "condition": "",
+    "service_name": "integration-service",
+    "document_type": "manual",
+    "class_name": "ManualService"
+  },
+  {
+    "error_message": "Ma'lumot topilmadi !!!",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/ManualServices/Concrete/ManualService.cs",
+    "line_number": 720,
+    "condition": "Inn.Length != 9 || NumberUtility.CheckINNAlgorithm(Inn).Error != null",
+    "service_name": "integration-service",
+    "document_type": "manual",
+    "class_name": "ManualService"
+  },
+  {
+    "error_message": "Invoice tizimidan xatolik: [...]",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/ManualServices/Concrete/ManualService.cs",
+    "line_number": 800,
+    "condition": "",
+    "service_name": "integration-service",
+    "document_type": "manual",
+    "class_name": "ManualService"
+  },
+  {
+    "error_message": "Ma'lumot topilmadi !!!",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/ManualServices/Concrete/ManualService.cs",
+    "line_number": 918,
+    "condition": "data_result is null",
+    "service_name": "integration-service",
+    "document_type": "manual",
+    "class_name": "ManualService"
+  },
+  {
+    "error_message": "Ҳисоб рақамнинг касса харажати субсчети танланмаган / Субсчёт кассовых расходов Лицевого счёта не выбран",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/ManualServices/Concrete/ManualService.cs",
+    "line_number": 1030,
+    "condition": "!orgset.CashSubAccId.HasValue",
+    "service_name": "integration-service",
+    "document_type": "manual",
+    "class_name": "ManualService"
+  },
+  {
+    "error_message": "Ma'lumot topilmadi !!!",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/ManualServices/Concrete/ManualService.cs",
+    "line_number": 1194,
+    "condition": "",
+    "service_name": "integration-service",
+    "document_type": "manual",
+    "class_name": "ManualService"
+  },
+  {
+    "error_message": "Ma'lumot topilmadi !!!",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/ManualServices/Concrete/ManualService.cs",
+    "line_number": 1219,
+    "condition": "",
+    "service_name": "integration-service",
+    "document_type": "manual",
+    "class_name": "ManualService"
+  },
+  {
+    "error_message": "Ma'lumot topilmadi !!!",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/ManualServices/Concrete/ManualService.cs",
+    "line_number": 1251,
+    "condition": "",
+    "service_name": "integration-service",
+    "document_type": "manual",
+    "class_name": "ManualService"
+  },
+  {
+    "error_message": "Ma'lumot topilmadi !!!",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/ManualServices/Concrete/ManualService.cs",
+    "line_number": 1471,
+    "condition": "Inn.Length != 9 || NumberUtility.CheckINNAlgorithm(Inn).Error != null",
+    "service_name": "integration-service",
+    "document_type": "manual",
+    "class_name": "ManualService"
+  },
+  {
+    "error_message": "Invoice tizimidan xatolik: [...]",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/ManualServices/Concrete/ManualService.cs",
+    "line_number": 1561,
+    "condition": "",
+    "service_name": "integration-service",
+    "document_type": "manual",
+    "class_name": "ManualService"
+  },
+  {
+    "error_message": "Invalid account code [...]",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/PassportImvService/Concrete/PassportImvService.cs",
+    "line_number": 767,
+    "condition": "string.IsNullOrWhiteSpace(accountCode) || !Regex.IsMatch(accountCode,@\"^\\d{20}$\")",
+    "service_name": "integration-service",
+    "document_type": "passportimv",
+    "class_name": "PassportImvService"
+  },
+  {
+    "error_message": "Ошибка от БАНКА :",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/PassportImvService/Concrete/PassportImvService.cs",
+    "line_number": 836,
+    "condition": "",
+    "service_name": "integration-service",
+    "document_type": "passportimv",
+    "class_name": "PassportImvService"
+  },
+  {
+    "error_message": "Invalid inn",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/PassportImvService/Concrete/PassportImvService.cs",
+    "line_number": 919,
+    "condition": "string.IsNullOrWhiteSpace(inn)",
+    "service_name": "integration-service",
+    "document_type": "passportimv",
+    "class_name": "PassportImvService"
+  },
+  {
+    "error_message": "Invalid inn",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/PassportImvService/Concrete/PassportImvService.cs",
+    "line_number": 1706,
+    "condition": "string.IsNullOrWhiteSpace(inn)",
+    "service_name": "integration-service",
+    "document_type": "passportimv",
+    "class_name": "PassportImvService"
+  },
+  {
+    "error_message": "Берилган ИНН бўйича ташкилот топилмади !",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/PassportImvService/Concrete/PassportImvService.cs",
+    "line_number": 1731,
+    "condition": "org == null",
+    "service_name": "integration-service",
+    "document_type": "passportimv",
+    "class_name": "PassportImvService"
+  },
+  {
+    "error_message": "bu [...] ro'yxatda mavjud emas.",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Sys/EmployeeManageServices/Concrete/EmployeeManageServices.cs",
+    "line_number": 468,
+    "condition": "exinn is null",
+    "service_name": "integration-service",
+    "document_type": "employeemanages",
+    "class_name": "EmployeeManageServices"
+  },
+  {
+    "error_message": "Tashkilot topilmadi !",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Sys/EmployeeManageServices/Concrete/EmployeeManageServices.cs",
+    "line_number": 476,
+    "condition": "orgStructId == null",
+    "service_name": "integration-service",
+    "document_type": "employeemanages",
+    "class_name": "EmployeeManageServices"
+  },
+  {
+    "error_message": "bu [...] ro'yxatda mavjud emas.",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Sys/EmployeeManageServices/Concrete/EmployeeManageServices.cs",
+    "line_number": 503,
+    "condition": "exinn is null",
+    "service_name": "integration-service",
+    "document_type": "employeemanages",
+    "class_name": "EmployeeManageServices"
+  },
+  {
+    "error_message": "bu [...] ro'yxatda mavjud emas.",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Sys/EmployeeManageServices/Concrete/EmployeeManageServices.cs",
+    "line_number": 536,
+    "condition": "exinn is null",
+    "service_name": "integration-service",
+    "document_type": "employeemanages",
+    "class_name": "EmployeeManageServices"
+  },
+  {
+    "error_message": "bu [...] ro'yxatda mavjud emas.",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Sys/EmployeeManageServices/Concrete/EmployeeManageServices.cs",
+    "line_number": 542,
+    "condition": "",
+    "service_name": "integration-service",
+    "document_type": "employeemanages",
+    "class_name": "EmployeeManageServices"
+  },
+  {
+    "error_message": "bu [...] ro'yxatda mavjud emas.",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Sys/EmployeeManageServices/Concrete/EmployeeManageServices.cs",
+    "line_number": 555,
+    "condition": "exinn is null",
+    "service_name": "integration-service",
+    "document_type": "employeemanages",
+    "class_name": "EmployeeManageServices"
+  },
+  {
+    "error_message": "bu [...] ro'yxatda mavjud emas.",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Sys/EmployeeManageServices/Concrete/EmployeeManageServices.cs",
+    "line_number": 578,
+    "condition": "exinn is null",
+    "service_name": "integration-service",
+    "document_type": "employeemanages",
+    "class_name": "EmployeeManageServices"
+  },
+  {
+    "error_message": "bu [...] ro'yxatda mavjud emas.",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Sys/EmployeeManageServices/Concrete/EmployeeManageServices.cs",
+    "line_number": 617,
+    "condition": "exinn is null",
+    "service_name": "integration-service",
+    "document_type": "employeemanages",
+    "class_name": "EmployeeManageServices"
+  },
+  {
+    "error_message": "bu [...] ro'yxatda mavjud emas.",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Sys/EmployeeManageServices/Concrete/EmployeeManageServices.cs",
+    "line_number": 659,
+    "condition": "exinn is null",
+    "service_name": "integration-service",
+    "document_type": "employeemanages",
+    "class_name": "EmployeeManageServices"
+  },
+  {
+    "error_message": "bu [...] ro'yxatda mavjud emas.",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Sys/EmployeeManageServices/Concrete/EmployeeManageServices.cs",
+    "line_number": 773,
+    "condition": "exinn is null",
+    "service_name": "integration-service",
+    "document_type": "employeemanages",
+    "class_name": "EmployeeManageServices"
+  },
+  {
+    "error_message": "Tashkilot topilmadi !",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Sys/EmployeeManageServices/Concrete/EmployeeManageServices.cs",
+    "line_number": 781,
+    "condition": "orgStructId == null",
+    "service_name": "integration-service",
+    "document_type": "employeemanages",
+    "class_name": "EmployeeManageServices"
+  },
+  {
+    "error_message": "bu [...] ro'yxatda mavjud emas.",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Sys/EmployeeManageServices/Concrete/EmployeeManageServices.cs",
+    "line_number": 808,
+    "condition": "exinn is null",
+    "service_name": "integration-service",
+    "document_type": "employeemanages",
+    "class_name": "EmployeeManageServices"
+  },
+  {
+    "error_message": "bu [...] ro'yxatda mavjud emas.",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Sys/EmployeeManageServices/Concrete/EmployeeManageServices.cs",
+    "line_number": 841,
+    "condition": "exinn is null",
+    "service_name": "integration-service",
+    "document_type": "employeemanages",
+    "class_name": "EmployeeManageServices"
+  },
+  {
+    "error_message": "bu [...] ro'yxatda mavjud emas.",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Sys/EmployeeManageServices/Concrete/EmployeeManageServices.cs",
+    "line_number": 847,
+    "condition": "",
+    "service_name": "integration-service",
+    "document_type": "employeemanages",
+    "class_name": "EmployeeManageServices"
+  },
+  {
+    "error_message": "bu [...] ro'yxatda mavjud emas.",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Sys/EmployeeManageServices/Concrete/EmployeeManageServices.cs",
+    "line_number": 860,
+    "condition": "exinn is null",
+    "service_name": "integration-service",
+    "document_type": "employeemanages",
+    "class_name": "EmployeeManageServices"
+  },
+  {
+    "error_message": "bu [...] ro'yxatda mavjud emas.",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Sys/EmployeeManageServices/Concrete/EmployeeManageServices.cs",
+    "line_number": 883,
+    "condition": "exinn is null",
+    "service_name": "integration-service",
+    "document_type": "employeemanages",
+    "class_name": "EmployeeManageServices"
+  },
+  {
+    "error_message": "bu [...] ro'yxatda mavjud emas.",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Sys/EmployeeManageServices/Concrete/EmployeeManageServices.cs",
+    "line_number": 922,
+    "condition": "exinn is null",
+    "service_name": "integration-service",
+    "document_type": "employeemanages",
+    "class_name": "EmployeeManageServices"
+  },
+  {
+    "error_message": "bu [...] ro'yxatda mavjud emas.",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Sys/EmployeeManageServices/Concrete/EmployeeManageServices.cs",
+    "line_number": 962,
+    "condition": "exinn is null",
+    "service_name": "integration-service",
+    "document_type": "employeemanages",
+    "class_name": "EmployeeManageServices"
+  },
+  {
+    "error_message": "Файл не найден. | Филе топилмади.",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Sys/EnergoIncomeGenerServices/Concrete/EnergoIncomeGenerService.cs",
+    "line_number": 119,
+    "condition": "template == null",
+    "service_name": "integration-service",
+    "document_type": "energoincomegener",
+    "class_name": "EnergoIncomeGenerService"
+  },
+  {
+    "error_message": "Файл не найден. | Филе топилмади.",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Sys/EnergoIncomes/Concrete/EnergoIncomeService.cs",
+    "line_number": 113,
+    "condition": "template == null",
+    "service_name": "integration-service",
+    "document_type": "energoincome",
+    "class_name": "EnergoIncomeService"
+  },
+  {
+    "error_message": "Файл не найден. | Филе топилмади.",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.BizLayer/Sys/EnergoOtchisServices/Concrete/EnergoOtchisService.cs",
+    "line_number": 112,
+    "condition": "template == null",
+    "service_name": "integration-service",
+    "document_type": "energootchis",
+    "class_name": "EnergoOtchisService"
+  },
+  {
+    "error_message": "Запись с этим кодом ([...]) уже существует.",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.DataLayer.Repository/Repositories/Info/Enkt/Concrete/EnktRepository.cs",
+    "line_number": 36,
+    "condition": "",
+    "service_name": "integration-service",
+    "document_type": "enkt",
+    "class_name": "EnktRepository"
+  },
+  {
+    "error_message": "Запись с этим кодом ([...]) уже существует.",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.DataLayer.Repository/Repositories/Info/EnktProperty/Concrete/EnktPropertyRepository.cs",
+    "line_number": 36,
+    "condition": "",
+    "service_name": "integration-service",
+    "document_type": "enktproperty",
+    "class_name": "EnktPropertyRepository"
+  },
+  {
+    "error_message": "Запись с этим кодом ([...]) уже существует.",
+    "file_path": "services/integration-service/src/libs/Uzasbo2.Services.Integration.DataLayer.Repository/Repositories/Info/EnktPropertyValues/Concrete/EnktPropertiesValueRepository.cs",
+    "line_number": 36,
+    "condition": "",
+    "service_name": "integration-service",
+    "document_type": "enktpropertiesvalue",
+    "class_name": "EnktPropertiesValueRepository"
+  },
+  {
+    "error_message": "Запись не найдено",
+    "file_path": "services/integration-service/src/shared/Uzasbo2.Services.Integration.Shared.BizLayer/OperCodeServices/Concrete/OperCodeService.cs",
+    "line_number": 30,
+    "condition": "dto == null",
+    "service_name": "integration-service",
+    "document_type": "opercode",
+    "class_name": "OperCodeService"
+  },
+  {
+    "error_message": "Запись не найдено",
+    "file_path": "services/integration-service/src/shared/Uzasbo2.Services.Integration.Shared.BizLayer/OperCodeServices/Concrete/OperCodeService.cs",
+    "line_number": 43,
+    "condition": "dto == null",
+    "service_name": "integration-service",
+    "document_type": "opercode",
+    "class_name": "OperCodeService"
+  },
+  {
+    "error_message": "L/S topilmadi. Id:",
+    "file_path": "services/integration-service/src/shared/Uzasbo2.Services.Integration.Shared.BizLayer/Sys/Budget/Concrete/TreasBudgetService.cs",
+    "line_number": 41,
+    "condition": "orgSettlementAccount == null",
+    "service_name": "integration-service",
+    "document_type": "treasbudget",
+    "class_name": "TreasBudgetService"
+  }
+]

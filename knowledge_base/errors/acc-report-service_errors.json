@@ -1,0 +1,74 @@
+[
+  {
+    "error_message": "Subschet topilmadi. Id:",
+    "file_path": "services/acc-report-service/src/libs/Uzasbo2.Services.AccReport.BizLayer/MonReport/Concrete/MonReportService.cs",
+    "line_number": 1440,
+    "condition": "subAcc == null",
+    "service_name": "acc-report-service",
+    "document_type": "monreport",
+    "class_name": "MonReportService"
+  },
+  {
+    "error_message": "Subschet topilmadi. Id:",
+    "file_path": "services/acc-report-service/src/libs/Uzasbo2.Services.AccReport.BizLayer/MonReport/Concrete/MonReportService.cs",
+    "line_number": 1833,
+    "condition": "subAcc is null",
+    "service_name": "acc-report-service",
+    "document_type": "monreport",
+    "class_name": "MonReportService"
+  },
+  {
+    "error_message": "Ҳужжат филе топилмади.| Файл не найден",
+    "file_path": "services/acc-report-service/src/libs/Uzasbo2.Services.AccReport.BizLayer/MonReport/Concrete/MonReportService.cs",
+    "line_number": 2339,
+    "condition": "template == null",
+    "service_name": "acc-report-service",
+    "document_type": "monreport",
+    "class_name": "MonReportService"
+  },
+  {
+    "error_message": "SubAccId not valid",
+    "file_path": "services/acc-report-service/src/libs/Uzasbo2.Services.AccReport.BizLayer/Report/Concrete/ReportService.cs",
+    "line_number": 236,
+    "condition": "",
+    "service_name": "acc-report-service",
+    "document_type": "report",
+    "class_name": "ReportService"
+  },
+  {
+    "error_message": "Файл топилмади...",
+    "file_path": "services/acc-report-service/src/libs/Uzasbo2.Services.AccReport.BizLayer/Report/Concrete/ReportService.cs",
+    "line_number": 355,
+    "condition": "",
+    "service_name": "acc-report-service",
+    "document_type": "report",
+    "class_name": "ReportService"
+  },
+  {
+    "error_message": "SubAccId not valid",
+    "file_path": "services/acc-report-service/src/libs/Uzasbo2.Services.AccReport.BizLayer/Report/Concrete/ReportService.cs",
+    "line_number": 1081,
+    "condition": "subAcc == null",
+    "service_name": "acc-report-service",
+    "document_type": "report",
+    "class_name": "ReportService"
+  },
+  {
+    "error_message": "Файл топилмади...",
+    "file_path": "services/acc-report-service/src/libs/Uzasbo2.Services.AccReport.BizLayer/Report/Concrete/ReportService.cs",
+    "line_number": 1205,
+    "condition": "template is null",
+    "service_name": "acc-report-service",
+    "document_type": "report",
+    "class_name": "ReportService"
+  },
+  {
+    "error_message": "SubAccId not valid",
+    "file_path": "services/acc-report-service/src/libs/Uzasbo2.Services.AccReport.BizLayer/Report/Concrete/ReportService.cs",
+    "line_number": 1408,
+    "condition": "subAcc == null",
+    "service_name": "acc-report-service",
+    "document_type": "report",
+    "class_name": "ReportService"
+  }
+]

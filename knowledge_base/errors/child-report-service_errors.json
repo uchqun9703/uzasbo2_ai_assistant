@@ -1,0 +1,11 @@
+[
+  {
+    "error_message": "Pinfl yoki DocSeria va DocNumber bir vaqtda null bo'lishi mumkin emas",
+    "file_path": "services/child-report-service/src/libs/Uzasbo2.Services.ChildReport.BizLayer/Report/Concrete/ReportService.cs",
+    "line_number": 276,
+    "condition": "filter == null",
+    "service_name": "child-report-service",
+    "document_type": "report",
+    "class_name": "ReportService"
+  }
+]

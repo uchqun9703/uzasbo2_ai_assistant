@@ -1,0 +1,146 @@
+[
+  {
+    "document_type": "paymentorder",
+    "error_message": "To'lov turi ko'rsatilmagan",
+    "condition": "paymentOrderType == null",
+    "field": "PaymentOrderType",
+    "explanation": "To'lov topshiriqnomasi yaratishda to'lov turini tanlash majburiy. Bu maydon to'lovning qanday maqsadda amalga oshirilayotganini belgilaydi.",
+    "solution": "To'lov turi maydonini bosing va ro'yxatdan kerakli turni tanlang"
+  },
+  {
+    "document_type": "paymentorder",
+    "error_message": "ShG'H topilmadi",
+    "condition": "orgSettlementAccount == null",
+    "field": "OrgSettlementAccount",
+    "explanation": "Tashkilotning Shaxsiy G'azna Hisobraqami (ShG'H) topilmadi. Bu tashkilot g'aznachilik tizimida ro'yxatdan o'tmagan bo'lishi mumkin.",
+    "solution": "Administrator bilan bog'lanib, tashkilotga ShG'H biriktirilganini tekshiring"
+  },
+  {
+    "document_type": "paymentorder",
+    "error_message": "Kassa subschyoti biriktirilmagan",
+    "condition": "!orgSettlementAccount.CashSubAccId.HasValue",
+    "field": "CashSubAccId",
+    "explanation": "ShG'H ga kassa subschyoti biriktirilmagan. Kassa operatsiyalari uchun kassa subschyoti majburiy.",
+    "solution": "Administrator orqali ShG'H ga kassa subschyotini biriktiring"
+  },
+  {
+    "document_type": "paymentorder",
+    "error_message": "Hujjat raqami mavjud",
+    "condition": "Duplicate DocNumber",
+    "field": "DocNumber",
+    "explanation": "Siz kiritgan raqam bilan boshqa to'lov topshiriqnomasi allaqachon mavjud. Hujjat raqami noyob bo'lishi kerak.",
+    "solution": "Boshqa raqam kiriting yoki avtomatik raqamlash funksiyasini ishlatang"
+  },
+  {
+    "document_type": "paymentorder",
+    "error_message": "Tasdiqlash mumkin emas",
+    "condition": "StatusId != SENT_PARENT",
+    "field": "StatusId",
+    "explanation": "Faqat yuqori tashkilotga yuborilgan hujjatni tasdiqlash mumkin. Hujjat hozir boshqa holatda.",
+    "solution": "Avval hujjatni yuqori tashkilotga yuboring, keyin tasdiqlang"
+  },
+  {
+    "document_type": "contract",
+    "error_message": "Kontragent topilmadi",
+    "condition": "Contractor == null",
+    "field": "Contractor",
+    "explanation": "Shartnoma yaratishda kontragent (tashqi tashkilot yoki shaxs) tanlash majburiy.",
+    "solution": "Kontragent maydonini bosing va ro'yxatdan kerakli kontragentni tanlang. Agar kontragent ro'yxatda yo'q bo'lsa, avval yangi kontragent yarating."
+  },
+  {
+    "document_type": "contract",
+    "error_message": "Spetsifikatsiya bo'sh",
+    "condition": "Tables empty",
+    "field": "Tables",
+    "explanation": "Shartnoma spetsifikatsiyasi (tovar yoki xizmatlar ro'yxati) to'ldirilmagan. Kamida bitta element qo'shish kerak.",
+    "solution": "Shartnoma jadvalida '+' tugmasini bosib, tovar yoki xizmat qo'shing"
+  },
+  {
+    "document_type": "budget",
+    "error_message": "Smeta turini tanlang",
+    "condition": "BudgetType == null",
+    "field": "BudgetType",
+    "explanation": "Smeta turi — xarajat yoki daromad smetasi — tanlanishi kerak.",
+    "solution": "Smeta turi maydonidan xarajat yoki daromad smetasini tanlang"
+  },
+  {
+    "document_type": "budget",
+    "error_message": "Moliya yilini tanlang",
+    "condition": "FinanceYear == null",
+    "field": "FinanceYear",
+    "explanation": "Smeta qaysi moliya yiliga tegishli ekanini ko'rsatish kerak.",
+    "solution": "Moliya yili maydonidan joriy yoki kerakli yilni tanlang"
+  },
+  {
+    "document_type": "budget",
+    "error_message": "Xarajat moddasi allaqachon qo'shilgan",
+    "condition": "Duplicate ItemOfExpense",
+    "field": "ItemOfExpense",
+    "explanation": "Bu xarajat moddasi smetaga allaqachon qo'shilgan. Bitta xarajat moddasi faqat bir marta qo'shilishi mumkin.",
+    "solution": "Mavjud xarajat moddasining summasini o'zgartiring yoki boshqa xarajat moddasini tanlang"
+  },
+  {
+    "document_type": "incomecashorder",
+    "error_message": "Hujjat tasdiqlangan",
+    "condition": "StatusId == Approved",
+    "field": "StatusId",
+    "explanation": "Tasdiqlangan kassa kirim orderini o'zgartirish mumkin emas.",
+    "solution": "Avval orderni bekor qiling, keyin tahrirlang"
+  },
+  {
+    "document_type": "permanentassetintake",
+    "error_message": "Inventar raqami mavjud",
+    "condition": "Duplicate InventoryNumber",
+    "field": "InventoryNumber",
+    "explanation": "Bu inventar raqami bilan boshqa asosiy vosita allaqachon ro'yxatga olingan. Inventar raqami noyob bo'lishi kerak.",
+    "solution": "Boshqa inventar raqami kiriting"
+  },
+  {
+    "document_type": "permanentassetintake",
+    "error_message": "AV guruhi topilmadi",
+    "condition": "PermanentAssetGroup == null",
+    "field": "PermanentAssetGroup",
+    "explanation": "Asosiy vosita guruhi tanlanmagan. AV qaysi guruhga tegishli ekanini belgilash kerak (binolar, uskunalar, transport va h.k.).",
+    "solution": "AV guruhi maydonidan tegishli guruhni tanlang"
+  },
+  {
+    "document_type": "appointemployee",
+    "error_message": "Lavozim tanlanmagan",
+    "condition": "Position == null",
+    "field": "Position",
+    "explanation": "Xodim qaysi lavozimga tayinlanayotganini ko'rsatish kerak. Lavozim shtat jadvalida bo'lishi shart.",
+    "solution": "Lavozim maydonidan kerakli lavozimni tanlang. Lavozim yo'q bo'lsa, avval shtat jadvalini to'ldiring."
+  },
+  {
+    "document_type": "appointemployee",
+    "error_message": "Bo'lim tanlanmagan",
+    "condition": "Department == null",
+    "field": "Department",
+    "explanation": "Xodim qaysi bo'limga tayinlanayotganini tanlash kerak.",
+    "solution": "Bo'lim maydonidan kerakli bo'limni tanlang"
+  },
+  {
+    "document_type": "timesheet",
+    "error_message": "Jadval to'ldirilmagan",
+    "condition": "Tables empty",
+    "field": "Tables",
+    "explanation": "Tabel jadvali to'ldirilmagan. Kamida bitta xodim uchun ish kunlari va soatlari ko'rsatilishi kerak.",
+    "solution": "Jadvalda xodimlarning ish vaqtini to'ldiring"
+  },
+  {
+    "document_type": "inventoryholdingintake",
+    "error_message": "Miqdor noto'g'ri",
+    "condition": "Quantity <= 0",
+    "field": "Quantity",
+    "explanation": "TMZ kirim miqdori 0 dan katta bo'lishi kerak.",
+    "solution": "To'g'ri miqdor kiriting (musbat son)"
+  },
+  {
+    "document_type": "closingtransaction",
+    "error_message": "E-Hisobotlar muddati",
+    "condition": "DateTime check",
+    "field": "DateTime",
+    "explanation": "IV chorak (yillik) yopish E-Hisobotlar topshirish muddatida amalga oshirilishi mumkin emas.",
+    "solution": "E-Hisobotlar muddati tugaganidan keyin yoping"
+  }
+]

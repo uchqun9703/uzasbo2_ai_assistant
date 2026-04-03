@@ -1,0 +1,659 @@
+[
+  {
+    "error_message": "Статя не найден",
+    "file_path": "services/acc-service/src/shared/Uzasbo2.Services.Acc.Shared.BizLayer/Info/AllowedTransaction/AllowedTransactionService.cs",
+    "line_number": 40,
+    "condition": "string.IsNullOrEmpty(debitItemOfExpense)",
+    "service_name": "acc-service",
+    "document_type": "allowedtransaction",
+    "class_name": "AllowedTransactionService"
+  },
+  {
+    "error_message": "В бухгалтерской проводке",
+    "file_path": "services/acc-service/src/shared/Uzasbo2.Services.Acc.Shared.BizLayer/Info/AllowedTransaction/AllowedTransactionService.cs",
+    "line_number": 49,
+    "condition": "!data.AllowedItemOfExpensesDb.Contains(debitItemOfExpense)",
+    "service_name": "acc-service",
+    "document_type": "allowedtransaction",
+    "class_name": "AllowedTransactionService"
+  },
+  {
+    "error_message": "В бухгалтерской проводке",
+    "file_path": "services/acc-service/src/shared/Uzasbo2.Services.Acc.Shared.BizLayer/Info/AllowedTransaction/AllowedTransactionService.cs",
+    "line_number": 57,
+    "condition": "data.NotAllowedItemOfExpensesDb.Contains(debitItemOfExpense)",
+    "service_name": "acc-service",
+    "document_type": "allowedtransaction",
+    "class_name": "AllowedTransactionService"
+  },
+  {
+    "error_message": "Статя не найден",
+    "file_path": "services/acc-service/src/shared/Uzasbo2.Services.Acc.Shared.BizLayer/Info/AllowedTransaction/AllowedTransactionService.cs",
+    "line_number": 68,
+    "condition": "string.IsNullOrEmpty(creditItemOfExpense)",
+    "service_name": "acc-service",
+    "document_type": "allowedtransaction",
+    "class_name": "AllowedTransactionService"
+  },
+  {
+    "error_message": "В бухгалтерской проводке",
+    "file_path": "services/acc-service/src/shared/Uzasbo2.Services.Acc.Shared.BizLayer/Info/AllowedTransaction/AllowedTransactionService.cs",
+    "line_number": 76,
+    "condition": "!data.AllowedItemOfExpensesCr.Contains(creditItemOfExpense)",
+    "service_name": "acc-service",
+    "document_type": "allowedtransaction",
+    "class_name": "AllowedTransactionService"
+  },
+  {
+    "error_message": "В бухгалтерской проводке",
+    "file_path": "services/acc-service/src/shared/Uzasbo2.Services.Acc.Shared.BizLayer/Info/AllowedTransaction/AllowedTransactionService.cs",
+    "line_number": 83,
+    "condition": "data.NotAllowedItemOfExpensesCr.Contains(creditItemOfExpense)",
+    "service_name": "acc-service",
+    "document_type": "allowedtransaction",
+    "class_name": "AllowedTransactionService"
+  },
+  {
+    "error_message": "Статя не найден",
+    "file_path": "services/acc-service/src/shared/Uzasbo2.Services.Acc.Shared.BizLayer/Info/AllowedTransaction/AllowedTransactionService.cs",
+    "line_number": 102,
+    "condition": "string.IsNullOrEmpty(debitItemOfExpense)",
+    "service_name": "acc-service",
+    "document_type": "allowedtransaction",
+    "class_name": "AllowedTransactionService"
+  },
+  {
+    "error_message": "В бухгалтерской проводке",
+    "file_path": "services/acc-service/src/shared/Uzasbo2.Services.Acc.Shared.BizLayer/Info/AllowedTransaction/AllowedTransactionService.cs",
+    "line_number": 111,
+    "condition": "!data.AllowedItemOfExpensesDb.Contains(debitItemOfExpense)",
+    "service_name": "acc-service",
+    "document_type": "allowedtransaction",
+    "class_name": "AllowedTransactionService"
+  },
+  {
+    "error_message": "В бухгалтерской проводке",
+    "file_path": "services/acc-service/src/shared/Uzasbo2.Services.Acc.Shared.BizLayer/Info/AllowedTransaction/AllowedTransactionService.cs",
+    "line_number": 119,
+    "condition": "data.NotAllowedItemOfExpensesDb.Contains(debitItemOfExpense)",
+    "service_name": "acc-service",
+    "document_type": "allowedtransaction",
+    "class_name": "AllowedTransactionService"
+  },
+  {
+    "error_message": "Статя не найден",
+    "file_path": "services/acc-service/src/shared/Uzasbo2.Services.Acc.Shared.BizLayer/Info/AllowedTransaction/AllowedTransactionService.cs",
+    "line_number": 130,
+    "condition": "string.IsNullOrEmpty(creditItemOfExpense)",
+    "service_name": "acc-service",
+    "document_type": "allowedtransaction",
+    "class_name": "AllowedTransactionService"
+  },
+  {
+    "error_message": "В бухгалтерской проводке",
+    "file_path": "services/acc-service/src/shared/Uzasbo2.Services.Acc.Shared.BizLayer/Info/AllowedTransaction/AllowedTransactionService.cs",
+    "line_number": 138,
+    "condition": "!data.AllowedItemOfExpensesCr.Contains(creditItemOfExpense)",
+    "service_name": "acc-service",
+    "document_type": "allowedtransaction",
+    "class_name": "AllowedTransactionService"
+  },
+  {
+    "error_message": "В бухгалтерской проводке",
+    "file_path": "services/acc-service/src/shared/Uzasbo2.Services.Acc.Shared.BizLayer/Info/AllowedTransaction/AllowedTransactionService.cs",
+    "line_number": 145,
+    "condition": "data.NotAllowedItemOfExpensesCr.Contains(creditItemOfExpense)",
+    "service_name": "acc-service",
+    "document_type": "allowedtransaction",
+    "class_name": "AllowedTransactionService"
+  },
+  {
+    "error_message": "Xarajat moddali maydoni tanlangan schyotlar uchun subCount laridan birida xarajat subCount tanlanishi kerak...",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.BizLayer/AccountPlanServices/Concrete/AccountPlanService.cs",
+    "line_number": 117,
+    "condition": "",
+    "service_name": "acc-service",
+    "document_type": "accountplan",
+    "class_name": "AccountPlanService"
+  },
+  {
+    "error_message": "Kechirasiz siz qo'shishingiz mumkin emas uzur !!!",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.BizLayer/AccountPlanServices/Concrete/AccountPlanService.cs",
+    "line_number": 131,
+    "condition": "",
+    "service_name": "acc-service",
+    "document_type": "accountplan",
+    "class_name": "AccountPlanService"
+  },
+  {
+    "error_message": "Xarajat moddali maydoni tanlangan schyotlar uchun subCount laridan birida xarajat subCount tanlanishi kerak...",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.BizLayer/AccountPlanServices/Concrete/AccountPlanService.cs",
+    "line_number": 154,
+    "condition": "",
+    "service_name": "acc-service",
+    "document_type": "accountplan",
+    "class_name": "AccountPlanService"
+  },
+  {
+    "error_message": "Kechirasiz siz o'zgartirishingiz mumkin emas uzur !!!",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.BizLayer/AccountPlanServices/Concrete/AccountPlanService.cs",
+    "line_number": 165,
+    "condition": "",
+    "service_name": "acc-service",
+    "document_type": "accountplan",
+    "class_name": "AccountPlanService"
+  },
+  {
+    "error_message": "Kechirasiz siz o'zgartirishingiz mumkin emas uzur !!!",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.BizLayer/AccountPlanServices/Concrete/AccountPlanService.cs",
+    "line_number": 205,
+    "condition": "",
+    "service_name": "acc-service",
+    "document_type": "accountplan",
+    "class_name": "AccountPlanService"
+  },
+  {
+    "error_message": "Нет доступа. [...]",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.BizLayer/AccountPlanServices/Concrete/AccountPlanService.cs",
+    "line_number": 211,
+    "condition": "",
+    "service_name": "acc-service",
+    "document_type": "accountplan",
+    "class_name": "AccountPlanService"
+  },
+  {
+    "error_message": "Xarajat moddali maydoni tanlangan schyotlar uchun subCount laridan birida xarajat subCount tanlanishi kerak...",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.BizLayer/AccountPlanServices/Concrete/AccountPlanService.cs",
+    "line_number": 399,
+    "condition": "dto.IsItemOfExpense && !subCounts.Contains(6)",
+    "service_name": "acc-service",
+    "document_type": "accountplan",
+    "class_name": "AccountPlanService"
+  },
+  {
+    "error_message": "Kechirasiz siz qo'shishingiz mumkin emas uzur !!!",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.BizLayer/AccountPlanServices/Concrete/AccountPlanService.cs",
+    "line_number": 413,
+    "condition": "IsValid",
+    "service_name": "acc-service",
+    "document_type": "accountplan",
+    "class_name": "AccountPlanService"
+  },
+  {
+    "error_message": "Xarajat moddali maydoni tanlangan schyotlar uchun subCount laridan birida xarajat subCount tanlanishi kerak...",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.BizLayer/AccountPlanServices/Concrete/AccountPlanService.cs",
+    "line_number": 436,
+    "condition": "dto.IsItemOfExpense && !subCounts.Contains(6)",
+    "service_name": "acc-service",
+    "document_type": "accountplan",
+    "class_name": "AccountPlanService"
+  },
+  {
+    "error_message": "Kechirasiz siz o'zgartirishingiz mumkin emas uzur !!!",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.BizLayer/AccountPlanServices/Concrete/AccountPlanService.cs",
+    "line_number": 447,
+    "condition": "IsValid",
+    "service_name": "acc-service",
+    "document_type": "accountplan",
+    "class_name": "AccountPlanService"
+  },
+  {
+    "error_message": "Kechirasiz siz o'zgartirishingiz mumkin emas uzur !!!",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.BizLayer/AccountPlanServices/Concrete/AccountPlanService.cs",
+    "line_number": 465,
+    "condition": "IsValid",
+    "service_name": "acc-service",
+    "document_type": "accountplan",
+    "class_name": "AccountPlanService"
+  },
+  {
+    "error_message": "Нет доступа. [...]",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.BizLayer/AccountPlanServices/Concrete/AccountPlanService.cs",
+    "line_number": 471,
+    "condition": "",
+    "service_name": "acc-service",
+    "document_type": "accountplan",
+    "class_name": "AccountPlanService"
+  },
+  {
+    "error_message": "Kechirasiz siz o'zgartirishingiz mumkin emas uzur !!!",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.BizLayer/AllowedTransactionServices/Concrete/AllowedTransactionService.cs",
+    "line_number": 104,
+    "condition": "",
+    "service_name": "acc-service",
+    "document_type": "allowedtransaction",
+    "class_name": "AllowedTransactionService"
+  },
+  {
+    "error_message": "Kechirasiz siz o'zgartirishingiz mumkin emas uzur !!!",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.BizLayer/AllowedTransactionServices/Concrete/AllowedTransactionService.cs",
+    "line_number": 120,
+    "condition": "",
+    "service_name": "acc-service",
+    "document_type": "allowedtransaction",
+    "class_name": "AllowedTransactionService"
+  },
+  {
+    "error_message": "Kechirasiz siz o'zgartirishingiz mumkin emas uzur !!!",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.BizLayer/AllowedTransactionServices/Concrete/AllowedTransactionService.cs",
+    "line_number": 193,
+    "condition": "IsValid",
+    "service_name": "acc-service",
+    "document_type": "allowedtransaction",
+    "class_name": "AllowedTransactionService"
+  },
+  {
+    "error_message": "Kechirasiz siz o'zgartirishingiz mumkin emas uzur !!!",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.BizLayer/AllowedTransactionServices/Concrete/AllowedTransactionService.cs",
+    "line_number": 209,
+    "condition": "IsValid",
+    "service_name": "acc-service",
+    "document_type": "allowedtransaction",
+    "class_name": "AllowedTransactionService"
+  },
+  {
+    "error_message": "По вашему запросу запись не найдено",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.BizLayer/Doc/CloseMonthServices/Concrete/CloseMonthService.cs",
+    "line_number": 73,
+    "condition": "dto is null",
+    "service_name": "acc-service",
+    "document_type": "closemonth",
+    "class_name": "CloseMonthService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.BizLayer/Doc/CloseMonthServices/Concrete/CloseMonthService.cs",
+    "line_number": 98,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, StatusIdConst.MODIFIED)",
+    "service_name": "acc-service",
+    "document_type": "closemonth",
+    "class_name": "CloseMonthService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.BizLayer/Doc/CloseMonthServices/Concrete/CloseMonthService.cs",
+    "line_number": 124,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, dto.StatusId)",
+    "service_name": "acc-service",
+    "document_type": "closemonth",
+    "class_name": "CloseMonthService"
+  },
+  {
+    "error_message": "Bu funksiya faqat belgilab quyilgan admin larga ishlaydi...(133, 140, 77387, 17249, 128)",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.BizLayer/Doc/CloseMonthServices/Concrete/CloseMonthService.cs",
+    "line_number": 186,
+    "condition": "!(new List<int>() { 133, 140, 77387, 17249, 128 }).Contains(userId)",
+    "service_name": "acc-service",
+    "document_type": "closemonth",
+    "class_name": "CloseMonthService"
+  },
+  {
+    "error_message": "StartDate xato kiritilgan...",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.BizLayer/Doc/CloseMonthServices/Concrete/CloseMonthService.cs",
+    "line_number": 191,
+    "condition": "dto.StartDate > dto.EndDate || dto.StartDate.Year != dto.EndDate.Year",
+    "service_name": "acc-service",
+    "document_type": "closemonth",
+    "class_name": "CloseMonthService"
+  },
+  {
+    "error_message": "Bu funksiya faqat markazlashgan tashkilotlar quyi tashkilotlari uchungina ishlaydi...",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.BizLayer/Doc/CloseMonthServices/Concrete/CloseMonthService.cs",
+    "line_number": 198,
+    "condition": "!organization",
+    "service_name": "acc-service",
+    "document_type": "closemonth",
+    "class_name": "CloseMonthService"
+  },
+  {
+    "error_message": "{ent.DocOn.ToString(",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.BizLayer/Doc/CloseMonthServices/Concrete/CloseMonthService.cs",
+    "line_number": 220,
+    "condition": "DateTime.Now.LastDayOfMonth().Date <= ent.DocOn.Date",
+    "service_name": "acc-service",
+    "document_type": "closemonth",
+    "class_name": "CloseMonthService"
+  },
+  {
+    "error_message": "Ҳужжатни бекор қила олмайсиз ташкилотда баланс ҳисоботи қилинган.",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.BizLayer/Doc/CloseMonthServices/Concrete/CloseMonthService.cs",
+    "line_number": 298,
+    "condition": "isBalans",
+    "service_name": "acc-service",
+    "document_type": "closemonth",
+    "class_name": "CloseMonthService"
+  },
+  {
+    "error_message": "Ушбу ҳужжат {ent.DocOn.ToString(",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.BizLayer/Doc/CloseMonthServices/Concrete/CloseMonthService.cs",
+    "line_number": 310,
+    "condition": "isWaiting",
+    "service_name": "acc-service",
+    "document_type": "closemonth",
+    "class_name": "CloseMonthService"
+  },
+  {
+    "error_message": "Ҳужжатни ўзгартириб бўлмайди. Статус : [...]",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.BizLayer/Doc/CloseMonthServices/Concrete/CloseMonthService.cs",
+    "line_number": 314,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, dlDto.StatusId)",
+    "service_name": "acc-service",
+    "document_type": "closemonth",
+    "class_name": "CloseMonthService"
+  },
+  {
+    "error_message": "{otherCloseMonth.DocOn.ToString(",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.BizLayer/Doc/CloseMonthServices/Concrete/CloseMonthService.cs",
+    "line_number": 351,
+    "condition": "otherCloseMonth is not null",
+    "service_name": "acc-service",
+    "document_type": "closemonth",
+    "class_name": "CloseMonthService"
+  },
+  {
+    "error_message": "Сизда ҳали айланма маълумотлари шакилланмаган. Текшириш учун учбу ҳаволага кириб кўринг : https://uzasbo.uz/report/accountbook2",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.BizLayer/Doc/CloseMonthServices/Concrete/CloseMonthService.cs",
+    "line_number": 366,
+    "condition": "firstTransactionDate is null",
+    "service_name": "acc-service",
+    "document_type": "closemonth",
+    "class_name": "CloseMonthService"
+  },
+  {
+    "error_message": "{startDate.AddDays(-1).ToString(",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.BizLayer/Doc/CloseMonthServices/Concrete/CloseMonthService.cs",
+    "line_number": 391,
+    "condition": "lastCloseMonth is null",
+    "service_name": "acc-service",
+    "document_type": "closemonth",
+    "class_name": "CloseMonthService"
+  },
+  {
+    "error_message": "Сиз {firstTransactionDate.DateOn.ToString(",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.BizLayer/Doc/CloseMonthServices/Concrete/CloseMonthService.cs",
+    "line_number": 397,
+    "condition": "",
+    "service_name": "acc-service",
+    "document_type": "closemonth",
+    "class_name": "CloseMonthService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.BizLayer/Doc/CloseMonthServices/Concrete/CloseMonthService.cs",
+    "line_number": 552,
+    "condition": "!StatusIdConst.CanModifyStatus.Contains(entity.StatusId)",
+    "service_name": "acc-service",
+    "document_type": "closemonth",
+    "class_name": "CloseMonthService"
+  },
+  {
+    "error_message": "Номер документа состоит только из цифр. [...]",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.BizLayer/Doc/CloseMonthServices/Concrete/CloseMonthService.cs",
+    "line_number": 556,
+    "condition": "!CheckModelUtil.IsNumber(dto.DocNumber)",
+    "service_name": "acc-service",
+    "document_type": "closemonth",
+    "class_name": "CloseMonthService"
+  },
+  {
+    "error_message": "Документ с этим кодом [...] уже существует",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.BizLayer/Doc/CloseMonthServices/Concrete/CloseMonthService.cs",
+    "line_number": 560,
+    "condition": "await query.ByDocNumber(dto.DocNumber, dto.DocOn.Year).AnyAsync(cancellationToken: cancellationToken)",
+    "service_name": "acc-service",
+    "document_type": "closemonth",
+    "class_name": "CloseMonthService"
+  },
+  {
+    "error_message": "Предварительно был создан документ перерасчета за этот месяц [...].",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.BizLayer/Doc/CloseMonthServices/Concrete/CloseMonthService.cs",
+    "line_number": 568,
+    "condition": "",
+    "service_name": "acc-service",
+    "document_type": "closemonth",
+    "class_name": "CloseMonthService"
+  },
+  {
+    "error_message": "Ҳужжат буджет тури хато кўрсатилган.",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.BizLayer/Doc/CloseMonthServices/Concrete/CloseMonthService.cs",
+    "line_number": 572,
+    "condition": "dto.DocOn.Year > 2024 && dto.OrgActivityTypeId == 0",
+    "service_name": "acc-service",
+    "document_type": "closemonth",
+    "class_name": "CloseMonthService"
+  },
+  {
+    "error_message": "{otherloseMonth.DocOn.ToString(",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.BizLayer/Doc/CloseMonthServices/Concrete/CloseMonthService.cs",
+    "line_number": 600,
+    "condition": "otherloseMonth is not null",
+    "service_name": "acc-service",
+    "document_type": "closemonth",
+    "class_name": "CloseMonthService"
+  },
+  {
+    "error_message": "{lastCloseMonth.DocOn.ToString(",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.BizLayer/Doc/CloseMonthServices/Concrete/CloseMonthService.cs",
+    "line_number": 630,
+    "condition": "lastCloseMonth is null",
+    "service_name": "acc-service",
+    "document_type": "closemonth",
+    "class_name": "CloseMonthService"
+  },
+  {
+    "error_message": "Нет доступа. [...]",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.BizLayer/SubAccountPlanServices/Concrete/SubAccountPlanService.cs",
+    "line_number": 212,
+    "condition": "",
+    "service_name": "acc-service",
+    "document_type": "subaccountplan",
+    "class_name": "SubAccountPlanService"
+  },
+  {
+    "error_message": "Танланган счет маълумоти топилмади. Id: [...]",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.BizLayer/SubAccountPlanServices/Concrete/SubAccountPlanService.cs",
+    "line_number": 227,
+    "condition": "",
+    "service_name": "acc-service",
+    "document_type": "subaccountplan",
+    "class_name": "SubAccountPlanService"
+  },
+  {
+    "error_message": "Нет доступа.",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.BizLayer/SubAccountPlanServices/Concrete/SubAccountPlanService.cs",
+    "line_number": 236,
+    "condition": "",
+    "service_name": "acc-service",
+    "document_type": "subaccountplan",
+    "class_name": "SubAccountPlanService"
+  },
+  {
+    "error_message": "Запись с этим кодом уже существует [...]",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.BizLayer/SubAccountPlanServices/Concrete/SubAccountPlanService.cs",
+    "line_number": 243,
+    "condition": "",
+    "service_name": "acc-service",
+    "document_type": "subaccountplan",
+    "class_name": "SubAccountPlanService"
+  },
+  {
+    "error_message": "Танланган счет валюта учун эмас. Субсчет эса валюта учун қилиб танланган.",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.BizLayer/SubAccountPlanServices/Concrete/SubAccountPlanService.cs",
+    "line_number": 246,
+    "condition": "",
+    "service_name": "acc-service",
+    "document_type": "subaccountplan",
+    "class_name": "SubAccountPlanService"
+  },
+  {
+    "error_message": "Субсчет валюта учун қилиб танланган. Илтимос қайси валюта эканлигини кўрсатинг.",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.BizLayer/SubAccountPlanServices/Concrete/SubAccountPlanService.cs",
+    "line_number": 249,
+    "condition": "",
+    "service_name": "acc-service",
+    "document_type": "subaccountplan",
+    "class_name": "SubAccountPlanService"
+  },
+  {
+    "error_message": "Ушбу субсчетни ушбу валютада клонлаш мумкин эмас, бу валюта субсчети аллақачон мавжуд",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.BizLayer/SubAccountPlanServices/Concrete/SubAccountPlanService.cs",
+    "line_number": 265,
+    "condition": "",
+    "service_name": "acc-service",
+    "document_type": "subaccountplan",
+    "class_name": "SubAccountPlanService"
+  },
+  {
+    "error_message": "Нет доступа. [...]",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.BizLayer/SubAccountPlanServices/Concrete/SubAccountPlanService.cs",
+    "line_number": 447,
+    "condition": "IsValid",
+    "service_name": "acc-service",
+    "document_type": "subaccountplan",
+    "class_name": "SubAccountPlanService"
+  },
+  {
+    "error_message": "Танланган счет маълумоти топилмади. Id: [...]",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.BizLayer/SubAccountPlanServices/Concrete/SubAccountPlanService.cs",
+    "line_number": 462,
+    "condition": "accountPlan == null",
+    "service_name": "acc-service",
+    "document_type": "subaccountplan",
+    "class_name": "SubAccountPlanService"
+  },
+  {
+    "error_message": "Нет доступа.",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.BizLayer/SubAccountPlanServices/Concrete/SubAccountPlanService.cs",
+    "line_number": 471,
+    "condition": "!canCreate && (!accountPlan.CanClonable && !accountPlan.IsCurrency)",
+    "service_name": "acc-service",
+    "document_type": "subaccountplan",
+    "class_name": "SubAccountPlanService"
+  },
+  {
+    "error_message": "Запись с этим кодом уже существует [...]",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.BizLayer/SubAccountPlanServices/Concrete/SubAccountPlanService.cs",
+    "line_number": 478,
+    "condition": "await query.BySubAccountPlanCode(code, false).AnyAsync(cancellationToken: cancellationToken)",
+    "service_name": "acc-service",
+    "document_type": "subaccountplan",
+    "class_name": "SubAccountPlanService"
+  },
+  {
+    "error_message": "Танланган счет валюта учун эмас. Субсчет эса валюта учун қилиб танланган.",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.BizLayer/SubAccountPlanServices/Concrete/SubAccountPlanService.cs",
+    "line_number": 481,
+    "condition": "!accountPlan.IsCurrency && dto.IsCurrency",
+    "service_name": "acc-service",
+    "document_type": "subaccountplan",
+    "class_name": "SubAccountPlanService"
+  },
+  {
+    "error_message": "Субсчет валюта учун қилиб танланган. Илтимос қайси валюта эканлигини кўрсатинг.",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.BizLayer/SubAccountPlanServices/Concrete/SubAccountPlanService.cs",
+    "line_number": 484,
+    "condition": "dto.IsCurrency && !dto.CurrencyId.HasValue",
+    "service_name": "acc-service",
+    "document_type": "subaccountplan",
+    "class_name": "SubAccountPlanService"
+  },
+  {
+    "error_message": "Ушбу субсчетни ушбу валютада клонлаш мумкин эмас, бу валюта субсчети аллақачон мавжуд",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.BizLayer/SubAccountPlanServices/Concrete/SubAccountPlanService.cs",
+    "line_number": 500,
+    "condition": "(dto.IsCurrency == true && isClonable == false && existingSubAccPlan) || (dto.IsCurrency == false && isClonable == false && existingSubAccPlan)",
+    "service_name": "acc-service",
+    "document_type": "subaccountplan",
+    "class_name": "SubAccountPlanService"
+  },
+  {
+    "error_message": "Code1 and Code2 must be filled",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.DataLayer.Repository/Repositories/AccountPlan/Concrete/AccountPlanRepository.cs",
+    "line_number": 39,
+    "condition": "!string.IsNullOrEmpty(entity.Code1) && !string.IsNullOrEmpty(entity.Code2)",
+    "service_name": "acc-service",
+    "document_type": "accountplan",
+    "class_name": "AccountPlanRepository"
+  },
+  {
+    "error_message": "Запись с этим кодом ([...]) уже существует.",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.DataLayer.Repository/Repositories/AllowedTransaction/Concrete/AllowedTransactionRepository.cs",
+    "line_number": 43,
+    "condition": "query.Where(a => dto.TableId == a.TableId).ByAllowedTransactionCode(dto.Code, isIncludePassive: true).Any()",
+    "service_name": "acc-service",
+    "document_type": "allowedtransaction",
+    "class_name": "AllowedTransactionRepository"
+  },
+  {
+    "error_message": "Запись с этим кодом ([...] [...]) уже существует.",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.DataLayer.Repository/Repositories/AllowedTransaction/Concrete/AllowedTransactionRepository.cs",
+    "line_number": 46,
+    "condition": "query.Where(a => dto.TableId == a.TableId).ByAllowedTransactionAccId(dto.AccDbId, dto.AccCtId, isIncludePassive: true && dto.TableId == entity?.TableId).Any()",
+    "service_name": "acc-service",
+    "document_type": "allowedtransaction",
+    "class_name": "AllowedTransactionRepository"
+  },
+  {
+    "error_message": "Валюта танланиши шарт",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.DataLayer.Repository/Repositories/SubAccountPlan/Concrete/SubAccountPlanRepository.cs",
+    "line_number": 29,
+    "condition": "dto.IsCurrency && dto.CurrencyId == null",
+    "service_name": "acc-service",
+    "document_type": "subaccountplan",
+    "class_name": "SubAccountPlanRepository"
+  },
+  {
+    "error_message": "Ҳисоб режаси топилмади. Id: [...]",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.DataLayer.Repository/Repositories/SubAccountPlan/Concrete/SubAccountPlanRepository.cs",
+    "line_number": 48,
+    "condition": "acc == null",
+    "service_name": "acc-service",
+    "document_type": "subaccountplan",
+    "class_name": "SubAccountPlanRepository"
+  },
+  {
+    "error_message": "Бу cоде ([...]) ли субкод олдин қўшилган.",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.DataLayer.Repository/Repositories/SubAccountPlan/Concrete/SubAccountPlanRepository.cs",
+    "line_number": 64,
+    "condition": "AllAsQueryable.Any(a => a.OrganizationId == _authService.CurrentOrganizationId && a.Code == entity.Code)",
+    "service_name": "acc-service",
+    "document_type": "subaccountplan",
+    "class_name": "SubAccountPlanRepository"
+  },
+  {
+    "error_message": "Валюта танланиши шарт",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.DataLayer.Repository/Repositories/SubAccountPlan/Concrete/SubAccountPlanRepository.cs",
+    "line_number": 78,
+    "condition": "dto.IsCurrency && dto.CurrencyId == null",
+    "service_name": "acc-service",
+    "document_type": "subaccountplan",
+    "class_name": "SubAccountPlanRepository"
+  },
+  {
+    "error_message": "Ҳисоб режаси топилмади. Id: [...]",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.DataLayer.Repository/Repositories/SubAccountPlan/Concrete/SubAccountPlanRepository.cs",
+    "line_number": 97,
+    "condition": "acc == null",
+    "service_name": "acc-service",
+    "document_type": "subaccountplan",
+    "class_name": "SubAccountPlanRepository"
+  },
+  {
+    "error_message": "Бу cоде ([...]) ли субкод олдин қўшилган.",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.DataLayer.Repository/Repositories/SubAccountPlan/Concrete/SubAccountPlanRepository.cs",
+    "line_number": 112,
+    "condition": "await AllAsQueryable.AnyAsync(a => a.OrganizationId == _authService.CurrentOrganizationId && a.Code == entity.Code, cancellationToken: cancellationToken)",
+    "service_name": "acc-service",
+    "document_type": "subaccountplan",
+    "class_name": "SubAccountPlanRepository"
+  },
+  {
+    "error_message": "Есть незавершенное выполнение документов. Попробуй позже.{jobHistorys.Select(x => x.Table.ShortName +",
+    "file_path": "services/acc-service/src/Uzasbo2.Services.Acc.Job.BizLayer/Services/CloseMonthJobService.cs",
+    "line_number": 83,
+    "condition": "",
+    "service_name": "acc-service",
+    "document_type": "closemonthjob",
+    "class_name": "CloseMonthJobService"
+  }
+]

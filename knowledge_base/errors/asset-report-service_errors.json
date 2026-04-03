@@ -1,0 +1,29 @@
+[
+  {
+    "error_message": "Файл не найден.",
+    "file_path": "services/asset-report-service/src/libs/Uzasbo2.Services.AssetReport.BizLayer/Report/Concrete/ReportService.cs",
+    "line_number": 62,
+    "condition": "template is null",
+    "service_name": "asset-report-service",
+    "document_type": "report",
+    "class_name": "ReportService"
+  },
+  {
+    "error_message": "Файл не найден.",
+    "file_path": "services/asset-report-service/src/libs/Uzasbo2.Services.AssetReport.BizLayer/Report/Concrete/ReportService.cs",
+    "line_number": 142,
+    "condition": "template is null",
+    "service_name": "asset-report-service",
+    "document_type": "report",
+    "class_name": "ReportService"
+  },
+  {
+    "error_message": "Файл не найден.",
+    "file_path": "services/asset-report-service/src/libs/Uzasbo2.Services.AssetReport.BizLayer/Report/Concrete/ReportService.cs",
+    "line_number": 1207,
+    "condition": "template is null",
+    "service_name": "asset-report-service",
+    "document_type": "report",
+    "class_name": "ReportService"
+  }
+]

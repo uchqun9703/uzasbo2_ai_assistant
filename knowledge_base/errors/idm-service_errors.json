@@ -1,0 +1,371 @@
+[
+  {
+    "error_message": "Запись не может быть удален",
+    "file_path": "services/idm-service/src/libs/Uzasbo2.Services.Idm.BizLayer/BaseEntityService`8.cs",
+    "line_number": 92,
+    "condition": "IsValid",
+    "service_name": "idm-service",
+    "document_type": "baseentity`8",
+    "class_name": "BaseEntityService"
+  },
+  {
+    "error_message": "Сўров муддати тугади // Срок действия запроса истек.",
+    "file_path": "services/idm-service/src/libs/Uzasbo2.Services.Idm.BizLayer/Services/AccountServices/Concrete/AccountService.cs",
+    "line_number": 246,
+    "condition": "eSignInRequest == null || eSignInRequest.CreatedAt.AddMinutes(10) < DateTime.Now",
+    "service_name": "idm-service",
+    "document_type": "account",
+    "class_name": "AccountService"
+  },
+  {
+    "error_message": "Электрон рақамли имзо калити билан дастурга кирганда автоматик тарзда ўзи рўйхатдан ўтган фойдаланувчининг логинига кирилади. Ташкилотдаги ўзи рўйхатдан ўтган фойдаланувчининг ЖШШИРи [...] ва ЭРИ калитда кўрсатилган шахснинг ЖШШИРи [...] мос эмас. ЭРИ калити билан дастурга кириш учун ёки ЭРИ калитини алмаштиринг ёки қайта рўйхатдан ўтиб, калитдаги жисмоний шахсга фойдаланувчи яратинг.",
+    "file_path": "services/idm-service/src/libs/Uzasbo2.Services.Idm.BizLayer/Services/AccountServices/Concrete/AccountService.cs",
+    "line_number": 271,
+    "condition": "user is not null && !user.Pinfl.Equals(verifyPinfl)",
+    "service_name": "idm-service",
+    "document_type": "account",
+    "class_name": "AccountService"
+  },
+  {
+    "error_message": "Ушбу фойдаланувчи тизимда топилмади. Аввал рўйхатдан ўтинг\\r\\nПройдите регистрацию в системе",
+    "file_path": "services/idm-service/src/libs/Uzasbo2.Services.Idm.BizLayer/Services/AccountServices/Concrete/AccountService.cs",
+    "line_number": 277,
+    "condition": "user == null",
+    "service_name": "idm-service",
+    "document_type": "account",
+    "class_name": "AccountService"
+  },
+  {
+    "error_message": "Пройдите регистрацию в системе",
+    "file_path": "services/idm-service/src/libs/Uzasbo2.Services.Idm.BizLayer/Services/AccountServices/Concrete/AccountService.cs",
+    "line_number": 300,
+    "condition": "",
+    "service_name": "idm-service",
+    "document_type": "account",
+    "class_name": "AccountService"
+  },
+  {
+    "error_message": "Срок действия запроса истек.",
+    "file_path": "services/idm-service/src/libs/Uzasbo2.Services.Idm.BizLayer/Services/AccountServices/Concrete/AccountService.cs",
+    "line_number": 356,
+    "condition": "",
+    "service_name": "idm-service",
+    "document_type": "account",
+    "class_name": "AccountService"
+  },
+  {
+    "error_message": "Ваше состояние пассивно.",
+    "file_path": "services/idm-service/src/libs/Uzasbo2.Services.Idm.BizLayer/Services/AccountServices/Concrete/AccountService.cs",
+    "line_number": 433,
+    "condition": "check.success",
+    "service_name": "idm-service",
+    "document_type": "account",
+    "class_name": "AccountService"
+  },
+  {
+    "error_message": "Ушбу фойдаланувчи номи тизимдан топилмади. Аввал рўйхатдан ўтинг\\r\\nДанное имя пользователя не найдено в системе. Пройдите регистрацию",
+    "file_path": "services/idm-service/src/libs/Uzasbo2.Services.Idm.BizLayer/Services/AccountServices/Concrete/AccountService.cs",
+    "line_number": 544,
+    "condition": "user == null",
+    "service_name": "idm-service",
+    "document_type": "account",
+    "class_name": "AccountService"
+  },
+  {
+    "error_message": "Ушбу фойдаланувчи номи пассив холатда\\r\\nЭто имя пользователя пассивно",
+    "file_path": "services/idm-service/src/libs/Uzasbo2.Services.Idm.BizLayer/Services/AccountServices/Concrete/AccountService.cs",
+    "line_number": 549,
+    "condition": "",
+    "service_name": "idm-service",
+    "document_type": "account",
+    "class_name": "AccountService"
+  },
+  {
+    "error_message": "Код хато\\r\\nНеправильное код",
+    "file_path": "services/idm-service/src/libs/Uzasbo2.Services.Idm.BizLayer/Services/AccountServices/Concrete/AccountService.cs",
+    "line_number": 678,
+    "condition": "string.IsNullOrEmpty(loginKey)",
+    "service_name": "idm-service",
+    "document_type": "account",
+    "class_name": "AccountService"
+  },
+  {
+    "error_message": "Код хато\\r\\nНеправильное код",
+    "file_path": "services/idm-service/src/libs/Uzasbo2.Services.Idm.BizLayer/Services/AccountServices/Concrete/AccountService.cs",
+    "line_number": 685,
+    "condition": "user == null",
+    "service_name": "idm-service",
+    "document_type": "account",
+    "class_name": "AccountService"
+  },
+  {
+    "error_message": "Фойдаланувчи топилмади\\r\\nПользователь не найден",
+    "file_path": "services/idm-service/src/libs/Uzasbo2.Services.Idm.BizLayer/Services/AccountServices/Concrete/AccountService.cs",
+    "line_number": 772,
+    "condition": "user == null",
+    "service_name": "idm-service",
+    "document_type": "account",
+    "class_name": "AccountService"
+  },
+  {
+    "error_message": "Фойдаланувчи номи кўрсатилмаган",
+    "file_path": "services/idm-service/src/libs/Uzasbo2.Services.Idm.BizLayer/Services/AccountServices/Concrete/AccountService.cs",
+    "line_number": 791,
+    "condition": "string.IsNullOrEmpty(model.UserName)",
+    "service_name": "idm-service",
+    "document_type": "account",
+    "class_name": "AccountService"
+  },
+  {
+    "error_message": "Телефон рақам кўрсатилмаган\\r\\nНомер телефона не указан",
+    "file_path": "services/idm-service/src/libs/Uzasbo2.Services.Idm.BizLayer/Services/AccountServices/Concrete/AccountService.cs",
+    "line_number": 838,
+    "condition": "string.IsNullOrEmpty(user.PhoneNumber)",
+    "service_name": "idm-service",
+    "document_type": "account",
+    "class_name": "AccountService"
+  },
+  {
+    "error_message": "ЭРИ калит топилмади\\r\\nКлюч cookie не найден",
+    "file_path": "services/idm-service/src/libs/Uzasbo2.Services.Idm.BizLayer/Services/AccountServices/Concrete/AccountService.cs",
+    "line_number": 929,
+    "condition": "string.IsNullOrEmpty(key)",
+    "service_name": "idm-service",
+    "document_type": "account",
+    "class_name": "AccountService"
+  },
+  {
+    "error_message": "Фойдаланувчи номи кўрсатилмаган\\r\\nИмя пользователя требуется",
+    "file_path": "services/idm-service/src/libs/Uzasbo2.Services.Idm.BizLayer/Services/AccountServices/Concrete/AccountService.cs",
+    "line_number": 934,
+    "condition": "string.IsNullOrEmpty(model.UserName)",
+    "service_name": "idm-service",
+    "document_type": "account",
+    "class_name": "AccountService"
+  },
+  {
+    "error_message": "Тасдиқлаш пароли хато\\r\\nПароль подтверждения не совпадает",
+    "file_path": "services/idm-service/src/libs/Uzasbo2.Services.Idm.BizLayer/Services/AccountServices/Concrete/AccountService.cs",
+    "line_number": 939,
+    "condition": "model.NewPassword != model.ConfirmedPassword",
+    "service_name": "idm-service",
+    "document_type": "account",
+    "class_name": "AccountService"
+  },
+  {
+    "error_message": "Тасдиқлаш коди хато\\r\\nНеверный код подтверждения",
+    "file_path": "services/idm-service/src/libs/Uzasbo2.Services.Idm.BizLayer/Services/AccountServices/Concrete/AccountService.cs",
+    "line_number": 947,
+    "condition": "user == null",
+    "service_name": "idm-service",
+    "document_type": "account",
+    "class_name": "AccountService"
+  },
+  {
+    "error_message": "Ушбу фойдаланувчи номи мос эмас\\r\\nИмя пользователя не совпадает",
+    "file_path": "services/idm-service/src/libs/Uzasbo2.Services.Idm.BizLayer/Services/AccountServices/Concrete/AccountService.cs",
+    "line_number": 953,
+    "condition": "user.UserName != model.UserName",
+    "service_name": "idm-service",
+    "document_type": "account",
+    "class_name": "AccountService"
+  },
+  {
+    "error_message": "Фойдаланувчи номи кўрсатилмаган.\\r\\nИмя пользователя требуется",
+    "file_path": "services/idm-service/src/libs/Uzasbo2.Services.Idm.BizLayer/Services/AccountServices/Concrete/AccountService.cs",
+    "line_number": 980,
+    "condition": "string.IsNullOrEmpty(model.UserName)",
+    "service_name": "idm-service",
+    "document_type": "account",
+    "class_name": "AccountService"
+  },
+  {
+    "error_message": "Аввалги парол мос эмас.\\r\\nСтарый пароль не подходит",
+    "file_path": "services/idm-service/src/libs/Uzasbo2.Services.Idm.BizLayer/Services/AccountServices/Concrete/AccountService.cs",
+    "line_number": 990,
+    "condition": "!validatePasswordResult.success",
+    "service_name": "idm-service",
+    "document_type": "account",
+    "class_name": "AccountService"
+  },
+  {
+    "error_message": "Тасдиқлаш пароли хато.\\r\\nПароль подтверждения не совпадает",
+    "file_path": "services/idm-service/src/libs/Uzasbo2.Services.Idm.BizLayer/Services/AccountServices/Concrete/AccountService.cs",
+    "line_number": 996,
+    "condition": "model.NewPassword != model.ConfirmedPassword",
+    "service_name": "idm-service",
+    "document_type": "account",
+    "class_name": "AccountService"
+  },
+  {
+    "error_message": "Эски парол ва янги парол бир хил бўлиши мумкин эмас!\\r\\nСтарый пароль и новый пароль не могут быть одинаковыми!",
+    "file_path": "services/idm-service/src/libs/Uzasbo2.Services.Idm.BizLayer/Services/AccountServices/Concrete/AccountService.cs",
+    "line_number": 1002,
+    "condition": "model.OldPassword == model.NewPassword",
+    "service_name": "idm-service",
+    "document_type": "account",
+    "class_name": "AccountService"
+  },
+  {
+    "error_message": "60 soniya ichida terib bo'lishingiz kerak, iltimos qaytadan harakat qilib ko'ring",
+    "file_path": "services/idm-service/src/libs/Uzasbo2.Services.Idm.BizLayer/Services/AccountServices/Concrete/AccountService.cs",
+    "line_number": 1039,
+    "condition": "(DateTime.Now - ent.CreatedAt).TotalSeconds > 60",
+    "service_name": "idm-service",
+    "document_type": "account",
+    "class_name": "AccountService"
+  },
+  {
+    "error_message": "Kapcha xato terilgan!",
+    "file_path": "services/idm-service/src/libs/Uzasbo2.Services.Idm.BizLayer/Services/AccountServices/Concrete/AccountService.cs",
+    "line_number": 1154,
+    "condition": "!string.IsNullOrWhiteSpace(captchaCode) && user.CaptureText != captchaCode",
+    "service_name": "idm-service",
+    "document_type": "account",
+    "class_name": "AccountService"
+  },
+  {
+    "error_message": "Тасдиқлаш коди муддати тугади\\r\\nСрок действия кода подтверждение истек",
+    "file_path": "services/idm-service/src/libs/Uzasbo2.Services.Idm.BizLayer/Services/AccountServices/Concrete/AccountService.cs",
+    "line_number": 1305,
+    "condition": "string.IsNullOrEmpty(loginKey)",
+    "service_name": "idm-service",
+    "document_type": "account",
+    "class_name": "AccountService"
+  },
+  {
+    "error_message": "Қайта кириш талаб этилади\\r\\nПопробуйте войти еще раз",
+    "file_path": "services/idm-service/src/libs/Uzasbo2.Services.Idm.BizLayer/Services/AccountServices/Concrete/AccountService.cs",
+    "line_number": 1310,
+    "condition": "user == null",
+    "service_name": "idm-service",
+    "document_type": "account",
+    "class_name": "AccountService"
+  },
+  {
+    "error_message": "Телефон рақам кўрсатиш талаб этилади\\r\\nТребуется номер телефона",
+    "file_path": "services/idm-service/src/libs/Uzasbo2.Services.Idm.BizLayer/Services/AccountServices/Concrete/AccountService.cs",
+    "line_number": 1321,
+    "condition": "string.IsNullOrEmpty(user.PhoneNumber)",
+    "service_name": "idm-service",
+    "document_type": "account",
+    "class_name": "AccountService"
+  },
+  {
+    "error_message": "Электрон почта кўрсатиш талаб этилади\\r\\nТребуется электронная почта",
+    "file_path": "services/idm-service/src/libs/Uzasbo2.Services.Idm.BizLayer/Services/AccountServices/Concrete/AccountService.cs",
+    "line_number": 1327,
+    "condition": "string.IsNullOrEmpty(user.Email)",
+    "service_name": "idm-service",
+    "document_type": "account",
+    "class_name": "AccountService"
+  },
+  {
+    "error_message": "Электрон почта кўрсатиш талаб этилади // Требуется электронная почта",
+    "file_path": "services/idm-service/src/libs/Uzasbo2.Services.Idm.BizLayer/Services/AccountServices/Concrete/AccountService.cs",
+    "line_number": 1364,
+    "condition": "string.IsNullOrEmpty(user.Email)",
+    "service_name": "idm-service",
+    "document_type": "account",
+    "class_name": "AccountService"
+  },
+  {
+    "error_message": "Телефон рақам кўрсатиш талаб этилади // Требуется номер телефона",
+    "file_path": "services/idm-service/src/libs/Uzasbo2.Services.Idm.BizLayer/Services/AccountServices/Concrete/AccountService.cs",
+    "line_number": 1415,
+    "condition": "string.IsNullOrEmpty(user.PhoneNumber)",
+    "service_name": "idm-service",
+    "document_type": "account",
+    "class_name": "AccountService"
+  },
+  {
+    "error_message": "Дастурга қайта киринг.",
+    "file_path": "services/idm-service/src/libs/Uzasbo2.Services.Idm.BizLayer/Services/AccountServices/Concrete/AccountService.cs",
+    "line_number": 2009,
+    "condition": "",
+    "service_name": "idm-service",
+    "document_type": "account",
+    "class_name": "AccountService"
+  },
+  {
+    "error_message": "По вашему запросу запись не найдено",
+    "file_path": "services/idm-service/src/libs/Uzasbo2.Services.Idm.BizLayer/Services/OrganizationServices/Concrete/OrganizationService.cs",
+    "line_number": 41,
+    "condition": "dto == null",
+    "service_name": "idm-service",
+    "document_type": "organization",
+    "class_name": "OrganizationService"
+  },
+  {
+    "error_message": "Пользователь не может быть удален",
+    "file_path": "services/idm-service/src/libs/Uzasbo2.Services.Idm.BizLayer/Services/OrganizationServices/Concrete/OrganizationService.cs",
+    "line_number": 95,
+    "condition": "IsValid",
+    "service_name": "idm-service",
+    "document_type": "organization",
+    "class_name": "OrganizationService"
+  },
+  {
+    "error_message": "User not found",
+    "file_path": "services/idm-service/src/libs/Uzasbo2.Services.Idm.BizLayer/Services/UserOrganizationService/Concrete/UserOrganizationService.cs",
+    "line_number": 56,
+    "condition": "user == null",
+    "service_name": "idm-service",
+    "document_type": "userorganization",
+    "class_name": "UserOrganizationService"
+  },
+  {
+    "error_message": "По вашему запросу запись не найдено",
+    "file_path": "services/idm-service/src/libs/Uzasbo2.Services.Idm.BizLayer/Services/UserServices/Concrete/UserService.cs",
+    "line_number": 41,
+    "condition": "dto == null",
+    "service_name": "idm-service",
+    "document_type": "user",
+    "class_name": "UserService"
+  },
+  {
+    "error_message": "По вашему запросу запись не найдено",
+    "file_path": "services/idm-service/src/libs/Uzasbo2.Services.Idm.BizLayer/Services/UserServices/Concrete/UserService.cs",
+    "line_number": 49,
+    "condition": "dto == null",
+    "service_name": "idm-service",
+    "document_type": "user",
+    "class_name": "UserService"
+  },
+  {
+    "error_message": "Пользователь не может быть удален",
+    "file_path": "services/idm-service/src/libs/Uzasbo2.Services.Idm.BizLayer/Services/UserServices/Concrete/UserService.cs",
+    "line_number": 104,
+    "condition": "IsValid",
+    "service_name": "idm-service",
+    "document_type": "user",
+    "class_name": "UserService"
+  },
+  {
+    "error_message": "Это имя пользователя занято",
+    "file_path": "services/idm-service/src/libs/Uzasbo2.Services.Idm.DataLayer/Repositories/User/Concrete/UserRepository.cs",
+    "line_number": 75,
+    "condition": "query.Any(a => a.UserName == dto.UserName)",
+    "service_name": "idm-service",
+    "document_type": "user",
+    "class_name": "UserRepository"
+  },
+  {
+    "error_message": "Ползователь с этим Email ([...]) уже существует.",
+    "file_path": "services/idm-service/src/libs/Uzasbo2.Services.Idm.DataLayer/Repositories/User/Concrete/UserRepository.cs",
+    "line_number": 78,
+    "condition": "",
+    "service_name": "idm-service",
+    "document_type": "user",
+    "class_name": "UserRepository"
+  },
+  {
+    "error_message": "Ползователь с этим Email ([...]) уже существует.",
+    "file_path": "services/idm-service/src/libs/Uzasbo2.Services.Idm.DataLayer/Repositories/User/Concrete/UserRepository.cs",
+    "line_number": 89,
+    "condition": "entity != null",
+    "service_name": "idm-service",
+    "document_type": "user",
+    "class_name": "UserRepository"
+  }
+]

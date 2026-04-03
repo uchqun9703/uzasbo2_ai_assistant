@@ -1,0 +1,152 @@
+[
+  {
+    "title": "To'lov topshiriqnomasi",
+    "path": "Moliya → To'lovlar → To'lov topshiriqnomasi",
+    "url": "/document/finance/paymentorder",
+    "description": "G'aznachilik orqali to'lov hujjatlarini yaratish va boshqarish"
+  },
+  {
+    "title": "G'azna memorial order",
+    "path": "Moliya → To'lovlar → G'azna memorial order",
+    "url": "/document/finance/treasurymemorder",
+    "description": "Tashkilot ichidagi subschyotlar o'rtasida pul ko'chirish"
+  },
+  {
+    "title": "Pul vositalari tushumi",
+    "path": "Moliya → Tushumlar → Pul vositalari tushumi",
+    "url": "/document/finance/inpayment",
+    "description": "Tashkilot hisobiga tushgan mablag'larni qayd etish"
+  },
+  {
+    "title": "Shartnoma",
+    "path": "Moliya → Shartnomalar → Shartnoma",
+    "url": "/document/finance/contract",
+    "description": "Xo'jalik shartnomalarini yaratish va boshqarish"
+  },
+  {
+    "title": "Smeta",
+    "path": "Moliya → Smeta → Smeta",
+    "url": "/document/finance/budget",
+    "description": "Yillik xarajatlar smetasini yaratish va tasdiqlash"
+  },
+  {
+    "title": "Avans hisoboti",
+    "path": "Moliya → Avans → Avans hisoboti",
+    "url": "/document/finance/expensereport",
+    "description": "Avans pul mablag'lari bo'yicha hisobot"
+  },
+  {
+    "title": "Bajarilgan ishlar dalolatnomasi",
+    "path": "Moliya → Shartnomalar → Bajarilgan ishlar dalolatnomasi",
+    "url": "/document/finance/writeoffservice",
+    "description": "Kontragent tomonidan bajarilgan ish va xizmatlarni qabul qilish"
+  },
+  {
+    "title": "Kassa kirim orderi",
+    "path": "Kassa → Kirim → Kassa kirim orderi",
+    "url": "/document/cash/incomecashorder",
+    "description": "Kassaga naqd pul kirimini rasmiylashtirish"
+  },
+  {
+    "title": "Kassa chiqim orderi",
+    "path": "Kassa → Chiqim → Kassa chiqim orderi",
+    "url": "/document/cash/outcomecashorder",
+    "description": "Kassadan naqd pul chiqimini rasmiylashtirish"
+  },
+  {
+    "title": "Asosiy vosita kirimi",
+    "path": "Asosiy vositalar → Kirimi → AV kirimi",
+    "url": "/document/asset/permanentassetintake",
+    "description": "Asosiy vositalarni balansga kirim qilish"
+  },
+  {
+    "title": "AV bo'limlar o'rtasida ko'chirish",
+    "path": "Asosiy vositalar → Ko'chirish → AV harakati",
+    "url": "/document/asset/permanentassetmove",
+    "description": "Asosiy vositani bo'limlar o'rtasida ko'chirish"
+  },
+  {
+    "title": "AV hisobdan chiqarish",
+    "path": "Asosiy vositalar → Hisobdan chiqarish → AV ro'yxatdan chiqarish",
+    "url": "/document/asset/permanentassetretirement",
+    "description": "Asosiy vositani balansdan chiqarish"
+  },
+  {
+    "title": "TMZ kirimi",
+    "path": "TMZ → Kirimi → TMZ kirimi",
+    "url": "/document/tmz/inventoryholdingintake",
+    "description": "Tovar-moddiy zaxiralarni ombor hisobiga kirim qilish"
+  },
+  {
+    "title": "TMZ hisobdan chiqarish",
+    "path": "TMZ → Chiqarish → TMZ ro'yxatdan chiqarish",
+    "url": "/document/tmz/inventoryholdingretirement",
+    "description": "TMZ ni hisobdan chiqarish"
+  },
+  {
+    "title": "Xodimni ishga qabul qilish",
+    "path": "Kadrlar → Buyruqlar → Ishga qabul qilish",
+    "url": "/document/hrm/appointemployee",
+    "description": "Xodimni ishga qabul qilish yoki ishdan bo'shatish buyrug'i"
+  },
+  {
+    "title": "Mehnat ta'tili buyrug'i",
+    "path": "Kadrlar → Buyruqlar → Ta'til buyrug'i",
+    "url": "/document/hrm/employeeleaveorder",
+    "description": "Xodimga mehnat ta'tili berish buyrug'i"
+  },
+  {
+    "title": "Tabel",
+    "path": "Kadrlar → Tabel → Tabel",
+    "url": "/document/hrm/timesheet",
+    "description": "Xodimlarning oylik ish vaqti hisobi"
+  },
+  {
+    "title": "Shtatlar jadvali",
+    "path": "Ish haqi → Shtat → Shtatlar jadvali",
+    "url": "/document/salary/staffing",
+    "description": "Tashkilotning shtat jadvali — lavozimlar va stavkalar"
+  },
+  {
+    "title": "Oylik hisobi",
+    "path": "Ish haqi → Hisoblash → Oylik hisobi",
+    "url": "/document/salary/salarycalc",
+    "description": "Xodimlarning oylik ish haqini hisoblash"
+  },
+  {
+    "title": "To'lov qaydnomasi",
+    "path": "Ish haqi → To'lash → To'lov qaydnomasi",
+    "url": "/document/salary/payrollsheet",
+    "description": "Naqd pul orqali ish haqi to'lash"
+  },
+  {
+    "title": "Plastik karta vedomosti",
+    "path": "Ish haqi → To'lash → Plastik karta vedomosti",
+    "url": "/document/salary/payrollplasticcardsheet",
+    "description": "Plastik karta orqali ish haqi to'lash"
+  },
+  {
+    "title": "Bolalar qabuli",
+    "path": "Bolalar → Qabul → Bolalar qabuli",
+    "url": "/document/child/childcome",
+    "description": "Bolalarni maktabgacha ta'lim muassasasiga qabul qilish"
+  },
+  {
+    "title": "Bolalar davomati tabeli",
+    "path": "Bolalar → Tabel → Bolalar davomati",
+    "url": "/document/child/childtimesheet",
+    "description": "Bolalarning muassasaga kelishi (davomati) tabeli"
+  },
+  {
+    "title": "Talabalarni ro'yxatga olish",
+    "path": "Ta'lim → Qabul → Talabalar qabuli",
+    "url": "/document/edu/studentadmissionorder",
+    "description": "Talabalarni ta'lim muassasasiga qabul qilish buyrug'i"
+  },
+  {
+    "title": "Yopiq tranzaksiya",
+    "path": "Boshqa → Yopish → Yopiq tranzaksiya",
+    "url": "/document/otd/closingtransaction",
+    "description": "Davr oxirida schyotlarni yopish"
+  }
+]

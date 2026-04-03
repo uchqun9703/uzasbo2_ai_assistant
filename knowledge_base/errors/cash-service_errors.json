@@ -1,0 +1,479 @@
+[
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/cash-service/src/libs/Uzasbo2.Services.Cash.BizLayer/Doc/DepositedMoneyServices/Concrete/DepositedMoneyService.cs",
+    "line_number": 116,
+    "condition": "",
+    "service_name": "cash-service",
+    "document_type": "depositedmoney",
+    "class_name": "DepositedMoneyService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/cash-service/src/libs/Uzasbo2.Services.Cash.BizLayer/Doc/DepositedMoneyServices/Concrete/DepositedMoneyService.cs",
+    "line_number": 230,
+    "condition": "",
+    "service_name": "cash-service",
+    "document_type": "depositedmoney",
+    "class_name": "DepositedMoneyService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/cash-service/src/libs/Uzasbo2.Services.Cash.BizLayer/Doc/DepositedMoneyServices/Concrete/DepositedMoneyService.cs",
+    "line_number": 274,
+    "condition": "",
+    "service_name": "cash-service",
+    "document_type": "depositedmoney",
+    "class_name": "DepositedMoneyService"
+  },
+  {
+    "error_message": "Номер документа введен неправильно. [...]",
+    "file_path": "services/cash-service/src/libs/Uzasbo2.Services.Cash.BizLayer/Doc/DepositedMoneyServices/Concrete/DepositedMoneyService.cs",
+    "line_number": 278,
+    "condition": "",
+    "service_name": "cash-service",
+    "document_type": "depositedmoney",
+    "class_name": "DepositedMoneyService"
+  },
+  {
+    "error_message": "Бу ҳужжат рақами [...] тизимда мавжуд. / Документ с этим кодом [...] уже существует",
+    "file_path": "services/cash-service/src/libs/Uzasbo2.Services.Cash.BizLayer/Doc/DepositedMoneyServices/Concrete/DepositedMoneyService.cs",
+    "line_number": 283,
+    "condition": "",
+    "service_name": "cash-service",
+    "document_type": "depositedmoney",
+    "class_name": "DepositedMoneyService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/cash-service/src/libs/Uzasbo2.Services.Cash.BizLayer/Doc/DepositedMoneyServices/Concrete/DepositedMoneyService.cs",
+    "line_number": 444,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, StatusIdConst.MODIFIED)",
+    "service_name": "cash-service",
+    "document_type": "depositedmoney",
+    "class_name": "DepositedMoneyService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/cash-service/src/libs/Uzasbo2.Services.Cash.BizLayer/Doc/DepositedMoneyServices/Concrete/DepositedMoneyService.cs",
+    "line_number": 484,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, dto.StatusId)",
+    "service_name": "cash-service",
+    "document_type": "depositedmoney",
+    "class_name": "DepositedMoneyService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/cash-service/src/libs/Uzasbo2.Services.Cash.BizLayer/Doc/DepositedMoneyServices/Concrete/DepositedMoneyService.cs",
+    "line_number": 519,
+    "condition": "!StatusIdConst.CanModifyStatus.Contains(entity.StatusId)",
+    "service_name": "cash-service",
+    "document_type": "depositedmoney",
+    "class_name": "DepositedMoneyService"
+  },
+  {
+    "error_message": "Номер документа введен неправильно. [...]",
+    "file_path": "services/cash-service/src/libs/Uzasbo2.Services.Cash.BizLayer/Doc/DepositedMoneyServices/Concrete/DepositedMoneyService.cs",
+    "line_number": 523,
+    "condition": "dto.DocNumber.Length > 5 && !CheckModelUtil.IsNumber(dto.DocNumber)",
+    "service_name": "cash-service",
+    "document_type": "depositedmoney",
+    "class_name": "DepositedMoneyService"
+  },
+  {
+    "error_message": "Бу ҳужжат рақами [...] тизимда мавжуд. / Документ с этим кодом [...] уже существует",
+    "file_path": "services/cash-service/src/libs/Uzasbo2.Services.Cash.BizLayer/Doc/DepositedMoneyServices/Concrete/DepositedMoneyService.cs",
+    "line_number": 528,
+    "condition": "await query.ByDocNumber(dto.DocNumber).AnyAsync(cancellationToken: cancellationToken)",
+    "service_name": "cash-service",
+    "document_type": "depositedmoney",
+    "class_name": "DepositedMoneyService"
+  },
+  {
+    "error_message": "ШҒХ топилмади. / ШҒХ не найден.",
+    "file_path": "services/cash-service/src/libs/Uzasbo2.Services.Cash.BizLayer/Doc/IncomeCashOrderServices/Concrete/IncomeCashOrderService.cs",
+    "line_number": 94,
+    "condition": "",
+    "service_name": "cash-service",
+    "document_type": "incomecashorder",
+    "class_name": "IncomeCashOrderService"
+  },
+  {
+    "error_message": "Ҳужжатни таҳрирлаш мумкин эмас. / Нет доступа",
+    "file_path": "services/cash-service/src/libs/Uzasbo2.Services.Cash.BizLayer/Doc/IncomeCashOrderServices/Concrete/IncomeCashOrderService.cs",
+    "line_number": 176,
+    "condition": "",
+    "service_name": "cash-service",
+    "document_type": "incomecashorder",
+    "class_name": "IncomeCashOrderService"
+  },
+  {
+    "error_message": "Ҳужжатни ўчириш мумкин эмас. / Нет доступа",
+    "file_path": "services/cash-service/src/libs/Uzasbo2.Services.Cash.BizLayer/Doc/IncomeCashOrderServices/Concrete/IncomeCashOrderService.cs",
+    "line_number": 290,
+    "condition": "",
+    "service_name": "cash-service",
+    "document_type": "incomecashorder",
+    "class_name": "IncomeCashOrderService"
+  },
+  {
+    "error_message": "[...] {ex.InnerException?.Message ??",
+    "file_path": "services/cash-service/src/libs/Uzasbo2.Services.Cash.BizLayer/Doc/IncomeCashOrderServices/Concrete/IncomeCashOrderService.cs",
+    "line_number": 324,
+    "condition": "",
+    "service_name": "cash-service",
+    "document_type": "incomecashorder",
+    "class_name": "IncomeCashOrderService"
+  },
+  {
+    "error_message": "Ҳужжатни таҳрирлаш мумкин эмас. / Нет доступа",
+    "file_path": "services/cash-service/src/libs/Uzasbo2.Services.Cash.BizLayer/Doc/IncomeCashOrderServices/Concrete/IncomeCashOrderService.cs",
+    "line_number": 352,
+    "condition": "",
+    "service_name": "cash-service",
+    "document_type": "incomecashorder",
+    "class_name": "IncomeCashOrderService"
+  },
+  {
+    "error_message": "Бу ҳужжат рақами [...] тизимда мавжуд. / Документ с этим кодом [...] уже существует",
+    "file_path": "services/cash-service/src/libs/Uzasbo2.Services.Cash.BizLayer/Doc/IncomeCashOrderServices/Concrete/IncomeCashOrderService.cs",
+    "line_number": 356,
+    "condition": "",
+    "service_name": "cash-service",
+    "document_type": "incomecashorder",
+    "class_name": "IncomeCashOrderService"
+  },
+  {
+    "error_message": "Ҳужжат таблица қисми тўлдирилмаган. / Таблица не заполнена.",
+    "file_path": "services/cash-service/src/libs/Uzasbo2.Services.Cash.BizLayer/Doc/IncomeCashOrderServices/Concrete/IncomeCashOrderService.cs",
+    "line_number": 360,
+    "condition": "",
+    "service_name": "cash-service",
+    "document_type": "incomecashorder",
+    "class_name": "IncomeCashOrderService"
+  },
+  {
+    "error_message": "Бундай шаблон мавжуд емас !",
+    "file_path": "services/cash-service/src/libs/Uzasbo2.Services.Cash.BizLayer/Doc/IncomeCashOrderServices/Concrete/IncomeCashOrderService.cs",
+    "line_number": 661,
+    "condition": "",
+    "service_name": "cash-service",
+    "document_type": "incomecashorder",
+    "class_name": "IncomeCashOrderService"
+  },
+  {
+    "error_message": "ШҒХ топилмади. / ШҒХ не найден.",
+    "file_path": "services/cash-service/src/libs/Uzasbo2.Services.Cash.BizLayer/Doc/IncomeCashOrderServices/Concrete/IncomeCashOrderService.cs",
+    "line_number": 727,
+    "condition": "orgSettlementAccount == null",
+    "service_name": "cash-service",
+    "document_type": "incomecashorder",
+    "class_name": "IncomeCashOrderService"
+  },
+  {
+    "error_message": "Ҳужжатни таҳрирлаш мумкин эмас. / Нет доступа",
+    "file_path": "services/cash-service/src/libs/Uzasbo2.Services.Cash.BizLayer/Doc/IncomeCashOrderServices/Concrete/IncomeCashOrderService.cs",
+    "line_number": 904,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, StatusIdConst.MODIFIED)",
+    "service_name": "cash-service",
+    "document_type": "incomecashorder",
+    "class_name": "IncomeCashOrderService"
+  },
+  {
+    "error_message": "Ҳужжатни ўчириш мумкин эмас. / Нет доступа",
+    "file_path": "services/cash-service/src/libs/Uzasbo2.Services.Cash.BizLayer/Doc/IncomeCashOrderServices/Concrete/IncomeCashOrderService.cs",
+    "line_number": 945,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, dto.StatusId)",
+    "service_name": "cash-service",
+    "document_type": "incomecashorder",
+    "class_name": "IncomeCashOrderService"
+  },
+  {
+    "error_message": "Бундай шаблон мавжуд емас !",
+    "file_path": "services/cash-service/src/libs/Uzasbo2.Services.Cash.BizLayer/Doc/IncomeCashOrderServices/Concrete/IncomeCashOrderService.cs",
+    "line_number": 1259,
+    "condition": "template == null",
+    "service_name": "cash-service",
+    "document_type": "incomecashorder",
+    "class_name": "IncomeCashOrderService"
+  },
+  {
+    "error_message": "[...] {ex.InnerException?.Message ??",
+    "file_path": "services/cash-service/src/libs/Uzasbo2.Services.Cash.BizLayer/Doc/IncomeCashOrderServices/Concrete/IncomeCashOrderService.cs",
+    "line_number": 1322,
+    "condition": "IsValid && canCommit",
+    "service_name": "cash-service",
+    "document_type": "incomecashorder",
+    "class_name": "IncomeCashOrderService"
+  },
+  {
+    "error_message": "Ҳужжатни таҳрирлаш мумкин эмас. / Нет доступа",
+    "file_path": "services/cash-service/src/libs/Uzasbo2.Services.Cash.BizLayer/Doc/IncomeCashOrderServices/Concrete/IncomeCashOrderService.cs",
+    "line_number": 1338,
+    "condition": "!StatusIdConst.CanModifyStatus.Contains(entity.StatusId)",
+    "service_name": "cash-service",
+    "document_type": "incomecashorder",
+    "class_name": "IncomeCashOrderService"
+  },
+  {
+    "error_message": "Бу ҳужжат рақами [...] тизимда мавжуд. / Документ с этим кодом [...] уже существует",
+    "file_path": "services/cash-service/src/libs/Uzasbo2.Services.Cash.BizLayer/Doc/IncomeCashOrderServices/Concrete/IncomeCashOrderService.cs",
+    "line_number": 1342,
+    "condition": "await query.ByDocNumber(dto.DocNumber).AnyAsync(cancellationToken: cancellationToken)",
+    "service_name": "cash-service",
+    "document_type": "incomecashorder",
+    "class_name": "IncomeCashOrderService"
+  },
+  {
+    "error_message": "Ҳужжат таблица қисми тўлдирилмаган. / Таблица не заполнена.",
+    "file_path": "services/cash-service/src/libs/Uzasbo2.Services.Cash.BizLayer/Doc/IncomeCashOrderServices/Concrete/IncomeCashOrderService.cs",
+    "line_number": 1346,
+    "condition": "dto.Tables == null",
+    "service_name": "cash-service",
+    "document_type": "incomecashorder",
+    "class_name": "IncomeCashOrderService"
+  },
+  {
+    "error_message": "ШҒХ топилмади. / ШҒХ не найден.",
+    "file_path": "services/cash-service/src/libs/Uzasbo2.Services.Cash.BizLayer/Doc/OutcomeCashOrderServices/Concrete/OutcomeCashOrderService.cs",
+    "line_number": 92,
+    "condition": "",
+    "service_name": "cash-service",
+    "document_type": "outcomecashorder",
+    "class_name": "OutcomeCashOrderService"
+  },
+  {
+    "error_message": "Ҳужжатни таҳрирлаш мумкин эмас. / Нет доступа.",
+    "file_path": "services/cash-service/src/libs/Uzasbo2.Services.Cash.BizLayer/Doc/OutcomeCashOrderServices/Concrete/OutcomeCashOrderService.cs",
+    "line_number": 162,
+    "condition": "",
+    "service_name": "cash-service",
+    "document_type": "outcomecashorder",
+    "class_name": "OutcomeCashOrderService"
+  },
+  {
+    "error_message": "Ҳужжатни ўчириш мумкин эмас. / Нет доступа",
+    "file_path": "services/cash-service/src/libs/Uzasbo2.Services.Cash.BizLayer/Doc/OutcomeCashOrderServices/Concrete/OutcomeCashOrderService.cs",
+    "line_number": 289,
+    "condition": "",
+    "service_name": "cash-service",
+    "document_type": "outcomecashorder",
+    "class_name": "OutcomeCashOrderService"
+  },
+  {
+    "error_message": "[...] {ex.InnerException?.Message ??",
+    "file_path": "services/cash-service/src/libs/Uzasbo2.Services.Cash.BizLayer/Doc/OutcomeCashOrderServices/Concrete/OutcomeCashOrderService.cs",
+    "line_number": 323,
+    "condition": "",
+    "service_name": "cash-service",
+    "document_type": "outcomecashorder",
+    "class_name": "OutcomeCashOrderService"
+  },
+  {
+    "error_message": "Ҳужжатни таҳрирлаш мумкин эмас. / Нет доступа",
+    "file_path": "services/cash-service/src/libs/Uzasbo2.Services.Cash.BizLayer/Doc/OutcomeCashOrderServices/Concrete/OutcomeCashOrderService.cs",
+    "line_number": 351,
+    "condition": "",
+    "service_name": "cash-service",
+    "document_type": "outcomecashorder",
+    "class_name": "OutcomeCashOrderService"
+  },
+  {
+    "error_message": "Номер документа введен неправильно. [...]",
+    "file_path": "services/cash-service/src/libs/Uzasbo2.Services.Cash.BizLayer/Doc/OutcomeCashOrderServices/Concrete/OutcomeCashOrderService.cs",
+    "line_number": 354,
+    "condition": "",
+    "service_name": "cash-service",
+    "document_type": "outcomecashorder",
+    "class_name": "OutcomeCashOrderService"
+  },
+  {
+    "error_message": "Бу ҳужжат рақами [...] тизимда мавжуд. / Документ с этим кодом [...] уже существует.",
+    "file_path": "services/cash-service/src/libs/Uzasbo2.Services.Cash.BizLayer/Doc/OutcomeCashOrderServices/Concrete/OutcomeCashOrderService.cs",
+    "line_number": 357,
+    "condition": "",
+    "service_name": "cash-service",
+    "document_type": "outcomecashorder",
+    "class_name": "OutcomeCashOrderService"
+  },
+  {
+    "error_message": "Тип деятельности организации не совпадают. Проверьте Л/С",
+    "file_path": "services/cash-service/src/libs/Uzasbo2.Services.Cash.BizLayer/Doc/OutcomeCashOrderServices/Concrete/OutcomeCashOrderService.cs",
+    "line_number": 366,
+    "condition": "",
+    "service_name": "cash-service",
+    "document_type": "outcomecashorder",
+    "class_name": "OutcomeCashOrderService"
+  },
+  {
+    "error_message": "Бундай шаблон мавжуд емас !",
+    "file_path": "services/cash-service/src/libs/Uzasbo2.Services.Cash.BizLayer/Doc/OutcomeCashOrderServices/Concrete/OutcomeCashOrderService.cs",
+    "line_number": 590,
+    "condition": "",
+    "service_name": "cash-service",
+    "document_type": "outcomecashorder",
+    "class_name": "OutcomeCashOrderService"
+  },
+  {
+    "error_message": "ШҒХ топилмади. / ШҒХ не найден.",
+    "file_path": "services/cash-service/src/libs/Uzasbo2.Services.Cash.BizLayer/Doc/OutcomeCashOrderServices/Concrete/OutcomeCashOrderService.cs",
+    "line_number": 656,
+    "condition": "orgSettlementAccount == null",
+    "service_name": "cash-service",
+    "document_type": "outcomecashorder",
+    "class_name": "OutcomeCashOrderService"
+  },
+  {
+    "error_message": "Ҳужжатни таҳрирлаш мумкин эмас. / Нет доступа.",
+    "file_path": "services/cash-service/src/libs/Uzasbo2.Services.Cash.BizLayer/Doc/OutcomeCashOrderServices/Concrete/OutcomeCashOrderService.cs",
+    "line_number": 819,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, StatusIdConst.MODIFIED)",
+    "service_name": "cash-service",
+    "document_type": "outcomecashorder",
+    "class_name": "OutcomeCashOrderService"
+  },
+  {
+    "error_message": "Ҳужжатни ўчириш мумкин эмас. / Нет доступа",
+    "file_path": "services/cash-service/src/libs/Uzasbo2.Services.Cash.BizLayer/Doc/OutcomeCashOrderServices/Concrete/OutcomeCashOrderService.cs",
+    "line_number": 869,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, dto.StatusId)",
+    "service_name": "cash-service",
+    "document_type": "outcomecashorder",
+    "class_name": "OutcomeCashOrderService"
+  },
+  {
+    "error_message": "Бундай шаблон мавжуд емас !",
+    "file_path": "services/cash-service/src/libs/Uzasbo2.Services.Cash.BizLayer/Doc/OutcomeCashOrderServices/Concrete/OutcomeCashOrderService.cs",
+    "line_number": 1106,
+    "condition": "template == null",
+    "service_name": "cash-service",
+    "document_type": "outcomecashorder",
+    "class_name": "OutcomeCashOrderService"
+  },
+  {
+    "error_message": "[...] {ex.InnerException?.Message ??",
+    "file_path": "services/cash-service/src/libs/Uzasbo2.Services.Cash.BizLayer/Doc/OutcomeCashOrderServices/Concrete/OutcomeCashOrderService.cs",
+    "line_number": 1167,
+    "condition": "IsValid && canCommit",
+    "service_name": "cash-service",
+    "document_type": "outcomecashorder",
+    "class_name": "OutcomeCashOrderService"
+  },
+  {
+    "error_message": "Ҳужжатни таҳрирлаш мумкин эмас. / Нет доступа",
+    "file_path": "services/cash-service/src/libs/Uzasbo2.Services.Cash.BizLayer/Doc/OutcomeCashOrderServices/Concrete/OutcomeCashOrderService.cs",
+    "line_number": 1183,
+    "condition": "!StatusIdConst.CanModifyStatus.Contains(entity.StatusId)",
+    "service_name": "cash-service",
+    "document_type": "outcomecashorder",
+    "class_name": "OutcomeCashOrderService"
+  },
+  {
+    "error_message": "Номер документа введен неправильно. [...]",
+    "file_path": "services/cash-service/src/libs/Uzasbo2.Services.Cash.BizLayer/Doc/OutcomeCashOrderServices/Concrete/OutcomeCashOrderService.cs",
+    "line_number": 1186,
+    "condition": "dto.DocNumber.Length > 5 && !CheckModelUtil.IsNumber(dto.DocNumber)",
+    "service_name": "cash-service",
+    "document_type": "outcomecashorder",
+    "class_name": "OutcomeCashOrderService"
+  },
+  {
+    "error_message": "Бу ҳужжат рақами [...] тизимда мавжуд. / Документ с этим кодом [...] уже существует.",
+    "file_path": "services/cash-service/src/libs/Uzasbo2.Services.Cash.BizLayer/Doc/OutcomeCashOrderServices/Concrete/OutcomeCashOrderService.cs",
+    "line_number": 1189,
+    "condition": "await query.ByDocNumber(dto.DocNumber).AnyAsync(cancellationToken: cancellationToken)",
+    "service_name": "cash-service",
+    "document_type": "outcomecashorder",
+    "class_name": "OutcomeCashOrderService"
+  },
+  {
+    "error_message": "Тип деятельности организации не совпадают. Проверьте Л/С",
+    "file_path": "services/cash-service/src/libs/Uzasbo2.Services.Cash.BizLayer/Doc/OutcomeCashOrderServices/Concrete/OutcomeCashOrderService.cs",
+    "line_number": 1198,
+    "condition": "orgActivityTypes.Count() > 1",
+    "service_name": "cash-service",
+    "document_type": "outcomecashorder",
+    "class_name": "OutcomeCashOrderService"
+  },
+  {
+    "error_message": "Ma'lumot topilmadi [...]",
+    "file_path": "services/cash-service/src/libs/Uzasbo2.Services.Cash.DataLayer/Doc/DepositedMoney/Concrete/DepositedMoneyRepository.cs",
+    "line_number": 54,
+    "condition": "settAccount == null",
+    "service_name": "cash-service",
+    "document_type": "depositedmoney",
+    "class_name": "DepositedMoneyRepository"
+  },
+  {
+    "error_message": "Ma'lumot topilmadi [...]",
+    "file_path": "services/cash-service/src/libs/Uzasbo2.Services.Cash.DataLayer/Doc/DepositedMoney/Concrete/DepositedMoneyRepository.cs",
+    "line_number": 101,
+    "condition": "settAccount == null",
+    "service_name": "cash-service",
+    "document_type": "depositedmoney",
+    "class_name": "DepositedMoneyRepository"
+  },
+  {
+    "error_message": "ШҒХ топилмади. / ШҒХ не найден. [...] ёки [...]",
+    "file_path": "services/cash-service/src/libs/Uzasbo2.Services.Cash.DataLayer/Doc/IncomeCashOrder/Concrete/IncomeCashOrderRepository.cs",
+    "line_number": 80,
+    "condition": "dbSettAccount is null || crSettAccount is null",
+    "service_name": "cash-service",
+    "document_type": "incomecashorder",
+    "class_name": "IncomeCashOrderRepository"
+  },
+  {
+    "error_message": "ДБ ШҒХ ва КР ШҒХ турлари нотўғри танланган. / Неправильно выбраны типы ДБ ШҒХ и КР ШҒХ",
+    "file_path": "services/cash-service/src/libs/Uzasbo2.Services.Cash.DataLayer/Doc/IncomeCashOrder/Concrete/IncomeCashOrderRepository.cs",
+    "line_number": 85,
+    "condition": "crSettAccount.OrgActivityTypeId != dbSettAccount.OrgActivityTypeId",
+    "service_name": "cash-service",
+    "document_type": "incomecashorder",
+    "class_name": "IncomeCashOrderRepository"
+  },
+  {
+    "error_message": "ШҒХ топилмади. / ШҒХ не найден. [...] ёки [...]",
+    "file_path": "services/cash-service/src/libs/Uzasbo2.Services.Cash.DataLayer/Doc/IncomeCashOrder/Concrete/IncomeCashOrderRepository.cs",
+    "line_number": 128,
+    "condition": "dbSettAccount is null || crSettAccount is null",
+    "service_name": "cash-service",
+    "document_type": "incomecashorder",
+    "class_name": "IncomeCashOrderRepository"
+  },
+  {
+    "error_message": "ДБ ШҒХ ва КР ШҒХ турлари нотўғри танланган. / Неправильно выбраны типы ДБ ШҒХ и КР ШҒХ",
+    "file_path": "services/cash-service/src/libs/Uzasbo2.Services.Cash.DataLayer/Doc/IncomeCashOrder/Concrete/IncomeCashOrderRepository.cs",
+    "line_number": 133,
+    "condition": "crSettAccount.OrgActivityTypeId != dbSettAccount.OrgActivityTypeId",
+    "service_name": "cash-service",
+    "document_type": "incomecashorder",
+    "class_name": "IncomeCashOrderRepository"
+  },
+  {
+    "error_message": "Ҳужжат жадвал қисмида маълумот тўлдирилмаган.",
+    "file_path": "services/cash-service/src/libs/Uzasbo2.Services.Cash.DataLayer/Doc/OutcomeCashOrder/Concrete/OutcomeCashOrderRepository.cs",
+    "line_number": 70,
+    "condition": "!dto.Tables.Any()",
+    "service_name": "cash-service",
+    "document_type": "outcomecashorder",
+    "class_name": "OutcomeCashOrderRepository"
+  },
+  {
+    "error_message": "ДБ ШҒХ ва КР ШҒХ турлари нотўғри танланган. / Неправильно выбраны типы ДБ ШҒХ и КР ШҒХ",
+    "file_path": "services/cash-service/src/libs/Uzasbo2.Services.Cash.DataLayer/Doc/OutcomeCashOrder/Concrete/OutcomeCashOrderRepository.cs",
+    "line_number": 86,
+    "condition": "crSettAccount != dbSettAccount",
+    "service_name": "cash-service",
+    "document_type": "outcomecashorder",
+    "class_name": "OutcomeCashOrderRepository"
+  },
+  {
+    "error_message": "ШҒХ топилмади // ШҒХ не найдено",
+    "file_path": "services/cash-service/src/libs/Uzasbo2.Services.Cash.DataLayer/Doc/OutcomeCashOrder/Concrete/OutcomeCashOrderRepository.cs",
+    "line_number": 147,
+    "condition": "orgSett is null",
+    "service_name": "cash-service",
+    "document_type": "outcomecashorder",
+    "class_name": "OutcomeCashOrderRepository"
+  }
+]

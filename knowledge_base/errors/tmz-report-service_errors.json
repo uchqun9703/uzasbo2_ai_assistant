@@ -1,0 +1,38 @@
+[
+  {
+    "error_message": "Tashkilot topilmadi. Inn: [...]",
+    "file_path": "services/tmz-report-service/src/libs/Uzasbo2.Services.TmzReport.BizLayer/Integration/Concrete/IntegrationService.cs",
+    "line_number": 59,
+    "condition": "organization is null",
+    "service_name": "tmz-report-service",
+    "document_type": "integration",
+    "class_name": "IntegrationService"
+  },
+  {
+    "error_message": "[...] topilmadi.",
+    "file_path": "services/tmz-report-service/src/libs/Uzasbo2.Services.TmzReport.BizLayer/Integration/Concrete/IntegrationService.cs",
+    "line_number": 69,
+    "condition": "employee is null",
+    "service_name": "tmz-report-service",
+    "document_type": "integration",
+    "class_name": "IntegrationService"
+  },
+  {
+    "error_message": "[...] topilmadi.",
+    "file_path": "services/tmz-report-service/src/libs/Uzasbo2.Services.TmzReport.BizLayer/Integration/Concrete/IntegrationService.cs",
+    "line_number": 81,
+    "condition": "orgSettlementAccount is null",
+    "service_name": "tmz-report-service",
+    "document_type": "integration",
+    "class_name": "IntegrationService"
+  },
+  {
+    "error_message": "Tashkilot topilmadi. Inn: [...]",
+    "file_path": "services/tmz-report-service/src/libs/Uzasbo2.Services.TmzReport.BizLayer/Integration/Concrete/IntegrationService.cs",
+    "line_number": 128,
+    "condition": "organization is null",
+    "service_name": "tmz-report-service",
+    "document_type": "integration",
+    "class_name": "IntegrationService"
+  }
+]

@@ -1,0 +1,47 @@
+# ============================================================
+# UzASBO 2.0 AI Assistant — Python kutubxonalar ro'yxati
+# ============================================================
+
+# --- Web Framework ---
+# FastAPI — yuqori tezlikdagi asinxron web framework
+fastapi>=0.115.0
+# Uvicorn — ASGI server (FastAPI ni ishga tushirish uchun)
+uvicorn[standard]>=0.30.0
+# WebSocket qo'llab-quvvatlash
+websockets>=12.0
+
+# --- AI / LLM ---
+# LangChain — RAG pipeline yaratish uchun asosiy framework
+langchain>=0.3.0
+# LangChain community — qo'shimcha integratsiyalar (Ollama, ChromaDB)
+langchain-community>=0.3.0
+# Ollama Python SDK — mahalliy LLM bilan ishlash
+ollama>=0.3.3
+
+# --- Vector Database ---
+# ChromaDB — vektorli ma'lumotlar bazasi (RAG uchun)
+# chromadb-client — faqat HTTP client (C++ build kerak emas)
+chromadb-client>=0.5.0
+
+# --- Cache / Session ---
+# Redis — chat tarixini saqlash va kesh uchun
+redis>=5.1.0
+
+# --- Ma'lumotlar validatsiyasi ---
+# Pydantic — so'rov/javob modellarini tekshirish
+pydantic>=2.9.0
+pydantic-settings>=2.5.0
+
+# --- Yordamchi kutubxonalar ---
+# Python-multipart — fayl yuklash uchun
+python-multipart>=0.0.9
+# Python-dotenv — .env fayllardan sozlamalarni o'qish
+python-dotenv>=1.0.1
+# Httpx — asinxron HTTP so'rovlar
+httpx>=0.27.0
+# Aiofiles — asinxron fayl operatsiyalari
+aiofiles>=24.1.0
+
+# --- Logging ---
+# Loguru — chiroyli va qulay logging
+loguru>=0.7.2

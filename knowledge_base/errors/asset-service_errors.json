@@ -1,0 +1,3350 @@
+[
+  {
+    "error_message": "Запись не может быть удален",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/BaseEntityService`8.cs",
+    "line_number": 91,
+    "condition": "IsValid",
+    "service_name": "asset-service",
+    "document_type": "baseentity`8",
+    "class_name": "BaseEntityService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryOrderService/Concrete/InventoryOrderService.cs",
+    "line_number": 156,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, StatusIdConst.MODIFIED)",
+    "service_name": "asset-service",
+    "document_type": "inventoryorder",
+    "class_name": "InventoryOrderService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryOrderService/Concrete/InventoryOrderService.cs",
+    "line_number": 190,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, dto.StatusId)",
+    "service_name": "asset-service",
+    "document_type": "inventoryorder",
+    "class_name": "InventoryOrderService"
+  },
+  {
+    "error_message": "Ҳужжат топилмади.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryOrderService/Concrete/InventoryOrderService.cs",
+    "line_number": 202,
+    "condition": "entity == null",
+    "service_name": "asset-service",
+    "document_type": "inventoryorder",
+    "class_name": "InventoryOrderService"
+  },
+  {
+    "error_message": "{ex.Message + ex.InnerException?.Message ??",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryOrderService/Concrete/InventoryOrderService.cs",
+    "line_number": 242,
+    "condition": "",
+    "service_name": "asset-service",
+    "document_type": "inventoryorder",
+    "class_name": "InventoryOrderService"
+  },
+  {
+    "error_message": "Ҳужжат топилмади.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryOrderService/Concrete/InventoryOrderService.cs",
+    "line_number": 255,
+    "condition": "entity == null",
+    "service_name": "asset-service",
+    "document_type": "inventoryorder",
+    "class_name": "InventoryOrderService"
+  },
+  {
+    "error_message": "{ex.Message + ex.InnerException?.Message ??",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryOrderService/Concrete/InventoryOrderService.cs",
+    "line_number": 286,
+    "condition": "",
+    "service_name": "asset-service",
+    "document_type": "inventoryorder",
+    "class_name": "InventoryOrderService"
+  },
+  {
+    "error_message": "Hujjat test rejimda hali sizning tashkiloting uchun ochilmagan!!!",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryOrderService/Concrete/InventoryOrderService.cs",
+    "line_number": 319,
+    "condition": "!new List<int> { 35141, 1500, 36628 }.Contains(_authService.CurrentOrganizationId)",
+    "service_name": "asset-service",
+    "document_type": "inventoryorder",
+    "class_name": "InventoryOrderService"
+  },
+  {
+    "error_message": "[...] li hujjat topilmadi",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryOrderService/Concrete/InventoryOrderService.cs",
+    "line_number": 334,
+    "condition": "entity == null",
+    "service_name": "asset-service",
+    "document_type": "inventoryorder",
+    "class_name": "InventoryOrderService"
+  },
+  {
+    "error_message": "Невозможно отправит документ. Статус документа неверный",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryOrderService/Concrete/InventoryOrderService.cs",
+    "line_number": 340,
+    "condition": "entity.StatusId != StatusIdConst.ACCEPTED",
+    "service_name": "asset-service",
+    "document_type": "inventoryorder",
+    "class_name": "InventoryOrderService"
+  },
+  {
+    "error_message": "У вас нет разрешения на подпись.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryOrderService/Concrete/InventoryOrderService.cs",
+    "line_number": 374,
+    "condition": "firstSignerPinfl != _authService.User.Pinfl",
+    "service_name": "asset-service",
+    "document_type": "inventoryorder",
+    "class_name": "InventoryOrderService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryOrderService/Concrete/InventoryOrderService.cs",
+    "line_number": 382,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, StatusIdConst.READY_TO_SEND)",
+    "service_name": "asset-service",
+    "document_type": "inventoryorder",
+    "class_name": "InventoryOrderService"
+  },
+  {
+    "error_message": "[...] li hujjat topilmadi",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryOrderService/Concrete/InventoryOrderService.cs",
+    "line_number": 394,
+    "condition": "entity == null",
+    "service_name": "asset-service",
+    "document_type": "inventoryorder",
+    "class_name": "InventoryOrderService"
+  },
+  {
+    "error_message": "Hujjat tableda invetarizatsiya qilingan asosiy vositalr bor hujjatni bekor qilib bo'lmaydi!",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryOrderService/Concrete/InventoryOrderService.cs",
+    "line_number": 399,
+    "condition": "await _unitOfWork.Context.Set<Inventory>().AnyAsync(x => x.Id == dto.Id && x.Tables.Any(x => x.IsChecked), cancellationToken: cancellationToken)",
+    "service_name": "asset-service",
+    "document_type": "inventoryorder",
+    "class_name": "InventoryOrderService"
+  },
+  {
+    "error_message": "Невозможно отправит документ. Статус документа неверный",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryOrderService/Concrete/InventoryOrderService.cs",
+    "line_number": 404,
+    "condition": "entity.StatusId != StatusIdConst.READY_TO_SEND",
+    "service_name": "asset-service",
+    "document_type": "inventoryorder",
+    "class_name": "InventoryOrderService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryOrderService/Concrete/InventoryOrderService.cs",
+    "line_number": 412,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, StatusIdConst.READY_TO_SEND)",
+    "service_name": "asset-service",
+    "document_type": "inventoryorder",
+    "class_name": "InventoryOrderService"
+  },
+  {
+    "error_message": "Hujjat topilmadi.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryOrderService/Concrete/InventoryOrderService.cs",
+    "line_number": 427,
+    "condition": "dto is null",
+    "service_name": "asset-service",
+    "document_type": "inventoryorder",
+    "class_name": "InventoryOrderService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryService/Concrete/InventoryService.cs",
+    "line_number": 162,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, StatusIdConst.MODIFIED)",
+    "service_name": "asset-service",
+    "document_type": "inventory",
+    "class_name": "InventoryService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryService/Concrete/InventoryService.cs",
+    "line_number": 196,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, dto.StatusId)",
+    "service_name": "asset-service",
+    "document_type": "inventory",
+    "class_name": "InventoryService"
+  },
+  {
+    "error_message": "Ҳужжат топилмади.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryService/Concrete/InventoryService.cs",
+    "line_number": 208,
+    "condition": "entity == null",
+    "service_name": "asset-service",
+    "document_type": "inventory",
+    "class_name": "InventoryService"
+  },
+  {
+    "error_message": "{ex.Message + ex.InnerException?.Message ??",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryService/Concrete/InventoryService.cs",
+    "line_number": 248,
+    "condition": "",
+    "service_name": "asset-service",
+    "document_type": "inventory",
+    "class_name": "InventoryService"
+  },
+  {
+    "error_message": "Ҳужжат топилмади.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryService/Concrete/InventoryService.cs",
+    "line_number": 261,
+    "condition": "entity == null",
+    "service_name": "asset-service",
+    "document_type": "inventory",
+    "class_name": "InventoryService"
+  },
+  {
+    "error_message": "Hujjat tableda invetarizatsiya qilingan asosiy vositalr bor hujjatni bekor qilib bo'lmaydi!",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryService/Concrete/InventoryService.cs",
+    "line_number": 267,
+    "condition": "await _unitOfWork.Context.Set<Inventory>().AnyAsync(x => x.Id == dto.Id && x.Tables.Any(x => x.IsChecked), cancellationToken: cancellationToken)",
+    "service_name": "asset-service",
+    "document_type": "inventory",
+    "class_name": "InventoryService"
+  },
+  {
+    "error_message": "{ex.Message + ex.InnerException?.Message ??",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryService/Concrete/InventoryService.cs",
+    "line_number": 297,
+    "condition": "",
+    "service_name": "asset-service",
+    "document_type": "inventory",
+    "class_name": "InventoryService"
+  },
+  {
+    "error_message": "Hujjat test rejimda hali sizning tashkiloting uchun ochilmagan!!!",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryService/Concrete/InventoryService.cs",
+    "line_number": 330,
+    "condition": "!new List<int> { 35141, 1500, 36628 }.Contains(_authService.CurrentOrganizationId)",
+    "service_name": "asset-service",
+    "document_type": "inventory",
+    "class_name": "InventoryService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryService/Concrete/InventoryService.cs",
+    "line_number": 339,
+    "condition": "!StatusIdConst.CanModifyStatus.Contains(entity.StatusId)",
+    "service_name": "asset-service",
+    "document_type": "inventory",
+    "class_name": "InventoryService"
+  },
+  {
+    "error_message": "Номер документа состоит только из цифр. [...]",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryService/Concrete/InventoryService.cs",
+    "line_number": 343,
+    "condition": "!CheckModelUtil.IsNumber(dto.DocNumber)",
+    "service_name": "asset-service",
+    "document_type": "inventory",
+    "class_name": "InventoryService"
+  },
+  {
+    "error_message": "Документ с этим кодом [...] уже существует",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryService/Concrete/InventoryService.cs",
+    "line_number": 346,
+    "condition": "await query.ByDocNumber(dto.DocNumber).AnyAsync(a => a.DocOn.Year == dto.DocOn.Year, cancellationToken: cancellationToken)",
+    "service_name": "asset-service",
+    "document_type": "inventory",
+    "class_name": "InventoryService"
+  },
+  {
+    "error_message": "Жадвал  қилсми тўлдирилмаган // Таблицыa не заполнена",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryService/Concrete/InventoryService.cs",
+    "line_number": 349,
+    "condition": "",
+    "service_name": "asset-service",
+    "document_type": "inventory",
+    "class_name": "InventoryService"
+  },
+  {
+    "error_message": "Жадвал аллақачон тўлдирилган // Таблица уже заполнена",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryService/Concrete/InventoryService.cs",
+    "line_number": 366,
+    "condition": "table is not null",
+    "service_name": "asset-service",
+    "document_type": "inventory",
+    "class_name": "InventoryService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryService/Concrete/InventoryService.cs",
+    "line_number": 394,
+    "condition": "!StatusIdConst.CanModifyStatus.Contains(ent.StatusId)",
+    "service_name": "asset-service",
+    "document_type": "inventory",
+    "class_name": "InventoryService"
+  },
+  {
+    "error_message": "Excel file topilmadi !",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryService/Concrete/InventoryService.cs",
+    "line_number": 434,
+    "condition": "template is null",
+    "service_name": "asset-service",
+    "document_type": "inventory",
+    "class_name": "InventoryService"
+  },
+  {
+    "error_message": "[...] li inventorizatsiya hujjati topilmadi",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryService/Concrete/InventoryService.cs",
+    "line_number": 578,
+    "condition": "entity == null",
+    "service_name": "asset-service",
+    "document_type": "inventory",
+    "class_name": "InventoryService"
+  },
+  {
+    "error_message": "File yuklanmagan.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryService/Concrete/InventoryService.cs",
+    "line_number": 586,
+    "condition": "!dto.Files.Any()",
+    "service_name": "asset-service",
+    "document_type": "inventory",
+    "class_name": "InventoryService"
+  },
+  {
+    "error_message": "Hujjat topilmadi.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryService/Concrete/InventoryService.cs",
+    "line_number": 598,
+    "condition": "retrimentTable is null",
+    "service_name": "asset-service",
+    "document_type": "inventory",
+    "class_name": "InventoryService"
+  },
+  {
+    "error_message": "Hujjat sizning tashkilotga yuborilmagan topilmadi.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryService/Concrete/InventoryService.cs",
+    "line_number": 604,
+    "condition": "",
+    "service_name": "asset-service",
+    "document_type": "inventory",
+    "class_name": "InventoryService"
+  },
+  {
+    "error_message": "Ushbu hujjat oldin qr code biriktirilgan.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryService/Concrete/InventoryService.cs",
+    "line_number": 610,
+    "condition": "!string.IsNullOrEmpty(retrimentTable.QrCode) || retrimentTable.IsChecked",
+    "service_name": "asset-service",
+    "document_type": "inventory",
+    "class_name": "InventoryService"
+  },
+  {
+    "error_message": "Ushbu qr code uzasbo tizimida sizning tashkilotda shakillantirilmagan.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryService/Concrete/InventoryService.cs",
+    "line_number": 619,
+    "condition": "!exsistQrCode",
+    "service_name": "asset-service",
+    "document_type": "inventory",
+    "class_name": "InventoryService"
+  },
+  {
+    "error_message": "Ushbu qr code boshqa asosiy vosita uchun foydalanilgan",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryService/Concrete/InventoryService.cs",
+    "line_number": 632,
+    "condition": "oldPermanentAsset",
+    "service_name": "asset-service",
+    "document_type": "inventory",
+    "class_name": "InventoryService"
+  },
+  {
+    "error_message": "File yuklanmagan.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryService/Concrete/InventoryService.cs",
+    "line_number": 686,
+    "condition": "!dto.Files.Any()",
+    "service_name": "asset-service",
+    "document_type": "inventory",
+    "class_name": "InventoryService"
+  },
+  {
+    "error_message": "Hujjat topilmadi.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryService/Concrete/InventoryService.cs",
+    "line_number": 698,
+    "condition": "retrimentTable is null",
+    "service_name": "asset-service",
+    "document_type": "inventory",
+    "class_name": "InventoryService"
+  },
+  {
+    "error_message": "Sizning tashkilotga yuborilgan hujjat topilmadi.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryService/Concrete/InventoryService.cs",
+    "line_number": 704,
+    "condition": "",
+    "service_name": "asset-service",
+    "document_type": "inventory",
+    "class_name": "InventoryService"
+  },
+  {
+    "error_message": "Ushbu hujjat oldin qr code biriktirilmagan.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryService/Concrete/InventoryService.cs",
+    "line_number": 710,
+    "condition": "string.IsNullOrEmpty(retrimentTable.QrCode)",
+    "service_name": "asset-service",
+    "document_type": "inventory",
+    "class_name": "InventoryService"
+  },
+  {
+    "error_message": "Hujjat topilmadi.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryService/Concrete/InventoryService.cs",
+    "line_number": 742,
+    "condition": "retrimentTable is null",
+    "service_name": "asset-service",
+    "document_type": "inventory",
+    "class_name": "InventoryService"
+  },
+  {
+    "error_message": "Hujjat sizning tashkilotga yuborilmagan topilmadi.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryService/Concrete/InventoryService.cs",
+    "line_number": 748,
+    "condition": "retrimentTable.Owner.ChildOrganizationId != _authService.CurrentOrganizationId",
+    "service_name": "asset-service",
+    "document_type": "inventory",
+    "class_name": "InventoryService"
+  },
+  {
+    "error_message": "Ushbu assosiy vosita tekshirilgan",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryService/Concrete/InventoryService.cs",
+    "line_number": 753,
+    "condition": "retrimentTable.IsIntakeChecked",
+    "service_name": "asset-service",
+    "document_type": "inventory",
+    "class_name": "InventoryService"
+  },
+  {
+    "error_message": "Ushbu qr code uzasbo tizimida sizning tashkilotda shakillantirilmagan.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryService/Concrete/InventoryService.cs",
+    "line_number": 777,
+    "condition": "!exsistQrCode",
+    "service_name": "asset-service",
+    "document_type": "inventory",
+    "class_name": "InventoryService"
+  },
+  {
+    "error_message": "Ushbu qr code boshqa asosiy vosita uchun foydalanilgan",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryService/Concrete/InventoryService.cs",
+    "line_number": 789,
+    "condition": "oldPermanentAsset is not null",
+    "service_name": "asset-service",
+    "document_type": "inventory",
+    "class_name": "InventoryService"
+  },
+  {
+    "error_message": "[...] li hujjat topilmadi",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryService/Concrete/InventoryService.cs",
+    "line_number": 818,
+    "condition": "owner is null",
+    "service_name": "asset-service",
+    "document_type": "inventory",
+    "class_name": "InventoryService"
+  },
+  {
+    "error_message": "[...] li ma'lumot topilmadi",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryService/Concrete/InventoryService.cs",
+    "line_number": 854,
+    "condition": "ent == null",
+    "service_name": "asset-service",
+    "document_type": "inventory",
+    "class_name": "InventoryService"
+  },
+  {
+    "error_message": "[...] li hujjat topilmadi",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryService/Concrete/InventoryService.cs",
+    "line_number": 868,
+    "condition": "entity == null",
+    "service_name": "asset-service",
+    "document_type": "inventory",
+    "class_name": "InventoryService"
+  },
+  {
+    "error_message": "Невозможно отправит документ. Статус документа неверный",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryService/Concrete/InventoryService.cs",
+    "line_number": 874,
+    "condition": "entity.StatusId != StatusIdConst.ACCEPTED",
+    "service_name": "asset-service",
+    "document_type": "inventory",
+    "class_name": "InventoryService"
+  },
+  {
+    "error_message": "У вас нет разрешения на подпись.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryService/Concrete/InventoryService.cs",
+    "line_number": 909,
+    "condition": "firstSignerPinfl != _authService.User.Pinfl",
+    "service_name": "asset-service",
+    "document_type": "inventory",
+    "class_name": "InventoryService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryService/Concrete/InventoryService.cs",
+    "line_number": 917,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, StatusIdConst.READY_TO_SEND)",
+    "service_name": "asset-service",
+    "document_type": "inventory",
+    "class_name": "InventoryService"
+  },
+  {
+    "error_message": "[...] li hujjat topilmadi",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryService/Concrete/InventoryService.cs",
+    "line_number": 929,
+    "condition": "entity == null",
+    "service_name": "asset-service",
+    "document_type": "inventory",
+    "class_name": "InventoryService"
+  },
+  {
+    "error_message": "Hujjat tableda invetarizatsiya qilingan asosiy vositalr bor hujjatni bekor qilib bo'lmaydi!",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryService/Concrete/InventoryService.cs",
+    "line_number": 934,
+    "condition": "await _unitOfWork.Context.Set<Inventory>().AnyAsync(x => x.Id == dto.Id && x.Tables.Any(x => x.IsChecked), cancellationToken: cancellationToken)",
+    "service_name": "asset-service",
+    "document_type": "inventory",
+    "class_name": "InventoryService"
+  },
+  {
+    "error_message": "Невозможно отправит документ. Статус документа неверный",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryService/Concrete/InventoryService.cs",
+    "line_number": 939,
+    "condition": "entity.StatusId != StatusIdConst.READY_TO_SEND",
+    "service_name": "asset-service",
+    "document_type": "inventory",
+    "class_name": "InventoryService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryService/Concrete/InventoryService.cs",
+    "line_number": 947,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, StatusIdConst.READY_TO_SEND)",
+    "service_name": "asset-service",
+    "document_type": "inventory",
+    "class_name": "InventoryService"
+  },
+  {
+    "error_message": "Hujjat topilmadi.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryService/Concrete/InventoryService.cs",
+    "line_number": 962,
+    "condition": "dto is null",
+    "service_name": "asset-service",
+    "document_type": "inventory",
+    "class_name": "InventoryService"
+  },
+  {
+    "error_message": "[...] idli hujjat topiladi",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryService/Concrete/InventoryService.cs",
+    "line_number": 975,
+    "condition": "entity is null",
+    "service_name": "asset-service",
+    "document_type": "inventory",
+    "class_name": "InventoryService"
+  },
+  {
+    "error_message": "Siz javobgar shaxslar ro'yhatida yo'qsiz! Tasdiqlash faqat javobgar shaxslar uchun.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryService/Concrete/InventoryService.cs",
+    "line_number": 982,
+    "condition": "role is null",
+    "service_name": "asset-service",
+    "document_type": "inventory",
+    "class_name": "InventoryService"
+  },
+  {
+    "error_message": "Sizdan oldin  tasdiqlashi kerak bo'lgan shaxs bor",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryService/Concrete/InventoryService.cs",
+    "line_number": 990,
+    "condition": "!emp",
+    "service_name": "asset-service",
+    "document_type": "inventory",
+    "class_name": "InventoryService"
+  },
+  {
+    "error_message": "Sizdan oldin  tasdiqlashi kerak bo'lgan shaxs bor",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryService/Concrete/InventoryService.cs",
+    "line_number": 999,
+    "condition": "emp",
+    "service_name": "asset-service",
+    "document_type": "inventory",
+    "class_name": "InventoryService"
+  },
+  {
+    "error_message": "Hujjatni tasdiqlashi kerak bo'lgan shaxs yo'q",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryService/Concrete/InventoryService.cs",
+    "line_number": 1017,
+    "condition": "entity.InventoryOrderEmployees.Where(x => x.Pinfl == _authService.User.Pinfl && !x.IsChecked).Any()",
+    "service_name": "asset-service",
+    "document_type": "inventory",
+    "class_name": "InventoryService"
+  },
+  {
+    "error_message": "{ex.Message + ex.InnerException?.Message ??",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryService/Concrete/InventoryService.cs",
+    "line_number": 1033,
+    "condition": "",
+    "service_name": "asset-service",
+    "document_type": "inventory",
+    "class_name": "InventoryService"
+  },
+  {
+    "error_message": "[...] idli hujjat topiladi",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryService/Concrete/InventoryService.cs",
+    "line_number": 1046,
+    "condition": "entity is null",
+    "service_name": "asset-service",
+    "document_type": "inventory",
+    "class_name": "InventoryService"
+  },
+  {
+    "error_message": "Siz javobgar shaxslar ro'yhatida yo'qsiz! Tasdiqlashni bekor qilish faqat javobgar shaxslar uchun.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryService/Concrete/InventoryService.cs",
+    "line_number": 1053,
+    "condition": "role is null",
+    "service_name": "asset-service",
+    "document_type": "inventory",
+    "class_name": "InventoryService"
+  },
+  {
+    "error_message": "Sizdan keyingi shaxs hujjatni tasdiqlagan",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryService/Concrete/InventoryService.cs",
+    "line_number": 1061,
+    "condition": "emp",
+    "service_name": "asset-service",
+    "document_type": "inventory",
+    "class_name": "InventoryService"
+  },
+  {
+    "error_message": "Sizdan keyingi shaxs hujjatni tasdiqlagan",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryService/Concrete/InventoryService.cs",
+    "line_number": 1070,
+    "condition": "",
+    "service_name": "asset-service",
+    "document_type": "inventory",
+    "class_name": "InventoryService"
+  },
+  {
+    "error_message": "Hujjatni tasdiqlagan shaxs yo'q",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryService/Concrete/InventoryService.cs",
+    "line_number": 1088,
+    "condition": "entity.InventoryOrderEmployees.Where(x => x.Pinfl == _authService.User.Pinfl && x.IsChecked).Any()",
+    "service_name": "asset-service",
+    "document_type": "inventory",
+    "class_name": "InventoryService"
+  },
+  {
+    "error_message": "{ex.Message + ex.InnerException?.Message ??",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/InventoryService/Concrete/InventoryService.cs",
+    "line_number": 1104,
+    "condition": "",
+    "service_name": "asset-service",
+    "document_type": "inventory",
+    "class_name": "InventoryService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetAgeingServices/Concrete/PermanentAssetAgeingService.cs",
+    "line_number": 128,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, StatusIdConst.MODIFIED)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetageing",
+    "class_name": "PermanentAssetAgeingService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetAgeingServices/Concrete/PermanentAssetAgeingService.cs",
+    "line_number": 165,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, dto.StatusId)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetageing",
+    "class_name": "PermanentAssetAgeingService"
+  },
+  {
+    "error_message": "Hujjatga topilmadi.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetAgeingServices/Concrete/PermanentAssetAgeingService.cs",
+    "line_number": 178,
+    "condition": "entity is null",
+    "service_name": "asset-service",
+    "document_type": "permanentassetageing",
+    "class_name": "PermanentAssetAgeingService"
+  },
+  {
+    "error_message": "{ex.Message + ex.InnerException?.Message ??",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetAgeingServices/Concrete/PermanentAssetAgeingService.cs",
+    "line_number": 214,
+    "condition": "",
+    "service_name": "asset-service",
+    "document_type": "permanentassetageing",
+    "class_name": "PermanentAssetAgeingService"
+  },
+  {
+    "error_message": "Hujjatga topilmadi.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetAgeingServices/Concrete/PermanentAssetAgeingService.cs",
+    "line_number": 225,
+    "condition": "entity is null",
+    "service_name": "asset-service",
+    "document_type": "permanentassetageing",
+    "class_name": "PermanentAssetAgeingService"
+  },
+  {
+    "error_message": "{ex.Message + ex.InnerException?.Message ??",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetAgeingServices/Concrete/PermanentAssetAgeingService.cs",
+    "line_number": 261,
+    "condition": "",
+    "service_name": "asset-service",
+    "document_type": "permanentassetageing",
+    "class_name": "PermanentAssetAgeingService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetAgeingServices/Concrete/PermanentAssetAgeingService.cs",
+    "line_number": 295,
+    "condition": "!StatusIdConst.CanModifyStatus.Contains(entity.StatusId)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetageing",
+    "class_name": "PermanentAssetAgeingService"
+  },
+  {
+    "error_message": "Номер документа состоит только из цифр. [...]",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetAgeingServices/Concrete/PermanentAssetAgeingService.cs",
+    "line_number": 299,
+    "condition": "!CheckModelUtil.IsNumber(dto.DocNumber)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetageing",
+    "class_name": "PermanentAssetAgeingService"
+  },
+  {
+    "error_message": "Документ с этим кодом [...] уже существует",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetAgeingServices/Concrete/PermanentAssetAgeingService.cs",
+    "line_number": 302,
+    "condition": "await query.ByDocNumber(dto.DocNumber).AnyAsync(a => a.DocOn.Year == dto.DocOn.Year, cancellationToken: cancellationToken)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetageing",
+    "class_name": "PermanentAssetAgeingService"
+  },
+  {
+    "error_message": "Ҳужжат буджет тури хато кўрсатилган.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetAgeingServices/Concrete/PermanentAssetAgeingService.cs",
+    "line_number": 305,
+    "condition": "dto.DocOn.Year > 2024 && dto.OrgActivityTypeId == 0",
+    "service_name": "asset-service",
+    "document_type": "permanentassetageing",
+    "class_name": "PermanentAssetAgeingService"
+  },
+  {
+    "error_message": "Документ для начисления износа за [...] уже создан",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetAgeingServices/Concrete/PermanentAssetAgeingService.cs",
+    "line_number": 314,
+    "condition": "await query.AnyAsync(x => x.DocOn.Date.Equals(dto.DocOn",
+    "service_name": "asset-service",
+    "document_type": "permanentassetageing",
+    "class_name": "PermanentAssetAgeingService"
+  },
+  {
+    "error_message": "{string.Join(",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetAgeingServices/Concrete/PermanentAssetAgeingService.cs",
+    "line_number": 329,
+    "condition": "retirmentDocs.Any()",
+    "service_name": "asset-service",
+    "document_type": "permanentassetageing",
+    "class_name": "PermanentAssetAgeingService"
+  },
+  {
+    "error_message": "Ҳужжатни тасдиқлаб бўлмайди.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetAgeingServices/Concrete/PermanentAssetAgeingService.cs",
+    "line_number": 339,
+    "condition": "!StatusIdConst.CanApplyStatus(dto.StatusId, StatusIdConst.ACCEPTED)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetageing",
+    "class_name": "PermanentAssetAgeingService"
+  },
+  {
+    "error_message": "Ҳужжат буджет тури хато кўрсатилган.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetAgeingServices/Concrete/PermanentAssetAgeingService.cs",
+    "line_number": 345,
+    "condition": "dto.DocOn.Year > 2024 && dto.OrgActivityTypeId == 0",
+    "service_name": "asset-service",
+    "document_type": "permanentassetageing",
+    "class_name": "PermanentAssetAgeingService"
+  },
+  {
+    "error_message": "[...] йил учун асосий воситаларга қайта баҳолаш берилмаган. Переоценка основных средств за [...] год не начислена.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetAgeingServices/Concrete/PermanentAssetAgeingService.cs",
+    "line_number": 355,
+    "condition": "!checkAny",
+    "service_name": "asset-service",
+    "document_type": "permanentassetageing",
+    "class_name": "PermanentAssetAgeingService"
+  },
+  {
+    "error_message": "Тасдиқланган асосий воситанинг бўлимлар ўртасида ҳаракат ҳужжати бор.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetAgeingServices/Concrete/PermanentAssetAgeingService.cs",
+    "line_number": 368,
+    "condition": "await movementDocs.AnyAsync(cancellationToken: cancellationToken)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetageing",
+    "class_name": "PermanentAssetAgeingService"
+  },
+  {
+    "error_message": "{dto.DocOn.Month.ToString(",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetAgeingServices/Concrete/PermanentAssetAgeingService.cs",
+    "line_number": 385,
+    "condition": "await _unitOfWork.PermanentAssetAgeingRepository.AllAsQueryable.AnyAsync(x => x.DocOn.Year.Equals(dto.DocOn.Year",
+    "service_name": "asset-service",
+    "document_type": "permanentassetageing",
+    "class_name": "PermanentAssetAgeingService"
+  },
+  {
+    "error_message": "До {lockdate.Value.ToString(",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetAgeingServices/Concrete/PermanentAssetAgeingService.cs",
+    "line_number": 390,
+    "condition": "lockdate.HasValue && lockdate.Value > dto.DocOn.Date",
+    "service_name": "asset-service",
+    "document_type": "permanentassetageing",
+    "class_name": "PermanentAssetAgeingService"
+  },
+  {
+    "error_message": "До {lockdate.Value.ToString(",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetAgeingServices/Concrete/PermanentAssetAgeingService.cs",
+    "line_number": 394,
+    "condition": "lockdate.HasValue && lockdate.Value > dto.DocOn.Date",
+    "service_name": "asset-service",
+    "document_type": "permanentassetageing",
+    "class_name": "PermanentAssetAgeingService"
+  },
+  {
+    "error_message": "[...]-йил [...] ойида чиқим қилинган, лекин тегишли ташкилотлар томонидан қабул қилинмаган [...] та асосий восита ҳужжати бор. Тўлиқ маълумотни Ҳисоботлар-Беғараз/марказлашган ҳолда олинган/берилган моддий қийматлик ва ТМЗлар қисмига кириб олиш мумкин.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetAgeingServices/Concrete/PermanentAssetAgeingService.cs",
+    "line_number": 408,
+    "condition": "retirmentDocCount > 0",
+    "service_name": "asset-service",
+    "document_type": "permanentassetageing",
+    "class_name": "PermanentAssetAgeingService"
+  },
+  {
+    "error_message": "[...]-йил [...] ойида бошқа ташкилотлар томонидан Сизнинг ташкилотингизга берилган, лекин кирим қилинмаган [...] та асосий восита ҳужжати бор. Тўлиқ маълумотни Ҳисоботлар-Беғараз/марказлашган ҳолда олинган/берилган моддий қийматлик ва ТМЗлар қисмига кириб олиш мумкин.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetAgeingServices/Concrete/PermanentAssetAgeingService.cs",
+    "line_number": 419,
+    "condition": "",
+    "service_name": "asset-service",
+    "document_type": "permanentassetageing",
+    "class_name": "PermanentAssetAgeingService"
+  },
+  {
+    "error_message": "Невозможно отменит проводка.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetAgeingServices/Concrete/PermanentAssetAgeingService.cs",
+    "line_number": 434,
+    "condition": "!StatusIdConst.CanApplyStatus(dto.StatusId, StatusIdConst.NOT_ACCEPTED)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetageing",
+    "class_name": "PermanentAssetAgeingService"
+  },
+  {
+    "error_message": "Ҳужжат буджет тури хато кўрсатилган.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetAgeingServices/Concrete/PermanentAssetAgeingService.cs",
+    "line_number": 437,
+    "condition": "dto.DocOn.Year > 2024 && dto.OrgActivityTypeId == 0",
+    "service_name": "asset-service",
+    "document_type": "permanentassetageing",
+    "class_name": "PermanentAssetAgeingService"
+  },
+  {
+    "error_message": "[...] йил учун асосий воситаларга қайта баҳолаш берилмаган. Переоценка основных средств за [...] год не начислена.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetAgeingServices/Concrete/PermanentAssetAgeingService.cs",
+    "line_number": 447,
+    "condition": "!checkAny",
+    "service_name": "asset-service",
+    "document_type": "permanentassetageing",
+    "class_name": "PermanentAssetAgeingService"
+  },
+  {
+    "error_message": "Тасдиқланган асосий воситанинг бўлимлар ўртасида ҳаракат ҳужжати бор.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetAgeingServices/Concrete/PermanentAssetAgeingService.cs",
+    "line_number": 460,
+    "condition": "await movementDocs.AnyAsync(cancellationToken: cancellationToken)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetageing",
+    "class_name": "PermanentAssetAgeingService"
+  },
+  {
+    "error_message": "До {lockdate.Value.ToString(",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetAgeingServices/Concrete/PermanentAssetAgeingService.cs",
+    "line_number": 470,
+    "condition": "lockdate.HasValue && lockdate.Value > dto.DocOn.Date",
+    "service_name": "asset-service",
+    "document_type": "permanentassetageing",
+    "class_name": "PermanentAssetAgeingService"
+  },
+  {
+    "error_message": "До {lockdate.Value.ToString(",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetAgeingServices/Concrete/PermanentAssetAgeingService.cs",
+    "line_number": 474,
+    "condition": "lockdate.HasValue && lockdate.Value > dto.DocOn.Date",
+    "service_name": "asset-service",
+    "document_type": "permanentassetageing",
+    "class_name": "PermanentAssetAgeingService"
+  },
+  {
+    "error_message": "Чиқим ҳужжати топилмади.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 141,
+    "condition": "ts == null",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Чиқим ҳужжати тасдиқиланмаган.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 149,
+    "condition": "ts == null",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Ҳужжатни ўзгартириб бўлмайди. Статус : [...]",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 197,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, StatusIdConst.MODIFIED)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Чиқим ҳужжати топилмади.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 211,
+    "condition": "permanentAssetRetirement is null",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Чиқим ҳужжати тасдиқиланмаган.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 218,
+    "condition": "!StatusIdConst.CanIntakeChildOrg.Contains(permanentAssetRetirement.StatusId)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Ушбу ҳужжат кирим қилинган.Кирим ҳужжати Ид :[...]",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 225,
+    "condition": "permanentAssetRetirement.PermanentAssetIntakeId.HasValue && permanentAssetRetirement.PermanentAssetIntakeId != entity.Id",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Ҳужжатни ўчириб бўлмайди.Статус : [...]",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 277,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, dto.StatusId)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Чиқим ҳужжати тасдиқланган.Чиқим ҳужжати Id :[...]",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 291,
+    "condition": "IHIncomeTypeIdConst.IsBudgetType.Contains(entity.PermanentIncomeTypeId)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Чиқим ҳужжати топилмади.Чиқим ҳужжати Id : [...]",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 351,
+    "condition": "permanentAssetRetirement is null",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Чиқим ҳужжати тасдиқланмаган.Чиқим ҳужжати Id : [...]",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 358,
+    "condition": "!StatusIdConst.CanIntakeChildOrg.Contains(permanentAssetRetirement.StatusId)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Chiqim hujjatida xatolik yuz berdi: [...]",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 369,
+    "condition": "!_permanentAssetRetirementService.IsValid",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Chiqim hujjatida tasdiqlashda xatolik yuz berdi: [...]",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 383,
+    "condition": "HasErrors",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Ҳужжатни ўзгартириб бўлмайди. Статус : [...]",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 511,
+    "condition": "!StatusIdConst.CanModifyStatus.Contains(entity.StatusId)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Чиқим ҳужжати хато танланган.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 514,
+    "condition": "entity.PermanentAssetRetirementId.HasValue && entity.PermanentAssetRetirementId.Value != dto.PermanentAssetRetirementId",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Ҳужжат номерида фақат рақамлар қатнашиши мумкин. [...]",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 518,
+    "condition": "!CheckModelUtil.IsNumber(dto.DocNumber)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Ҳужжат номери [...] олдин фойдаланилган.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 521,
+    "condition": "await query.ByDocNumber(dto.DocNumber).AnyAsync(a => a.DocOn.Year == dto.DocOn.Year) && !isValid",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Жадвал қилсми тўлдирилмаган // Таблицыa не заполнена",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 524,
+    "condition": "dto.PermanentIncomeTypeId != IHIncomeTypeIdConst.BuiltCreatedOrPrepared && !dto.ChargesTables.Any()",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Контрагент кўрсатилмаган.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 527,
+    "condition": "IHIncomeTypeIdConst.IsBudgetType.Contains(dto.PermanentIncomeTypeId) && (!dto.ContractorId.HasValue || dto.ContractorId.Value <= 0)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Асосий восита (товар-моддий захиралар) бюджет ташкилотидан қабул қилиб олинаётган бўлса, ҳужжатдаги чиқим ҳужжатини танлаш керак. Бунда ҳужжатнинг асосий воситалар (товар-моддий захиралар) томони автоматик тарзда дастур томонидан тўлдирилади.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 540,
+    "condition": "isBudgetOrg && (!dto.PermanentAssetRetirementId.HasValue || dto.PermanentAssetRetirementId < 0)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "ОС",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 555,
+    "condition": "",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Aссосий восита эскириш суммаси ассосий суммасидан катта ёки 0 дан кичкина бўла олмайди.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 564,
+    "condition": "item.AgeingSum > item.DocSum || item.AgeingSum < 0",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Кирим ҳужжатида қуйида кўрсатилган ос номлари олдин фойдаланилган. ({String.Join(",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 577,
+    "condition": "permanentAssets != null && permanentAssets.Any()",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Қолдиқ ҳужжатида қуйида кўрсатилган ос номлари олдин фойдаланилган. ({String.Join(",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 589,
+    "condition": "restByPermanentAssetTables != null && restByPermanentAssetTables.Any()",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Бу {firstDayOfYear.ToString(",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 594,
+    "condition": "await query.AnyAsync(x => StatusIdConst.CanModifyStatus.Contains(x.StatusId) && x.DocOn >= firstDayOfYear && x.DocOn < dto.DocOn)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Ташкилотнинг фаолият тури мос келмайди. Л/С ни текширинг.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 606,
+    "condition": "await orgActivityTypes.CountAsync() > 1",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Ҳужжат санаси нотўғри киритилган. Ҳужжат санасини йил боши санаси билан яратиб бўлмайди.01.01.[...]",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 618,
+    "condition": "dto.DocOn.Date == firstDayOfYear",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "[...] йил учун асосий воситаларга қайта баҳолаш берилмаган.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 625,
+    "condition": "!(await _unitOfWork.Context.Set<PermanentAssetReappraisal>(",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Жадвал қилсми тўлдирилмаган // Таблицыa не заполнена",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 631,
+    "condition": "!dto.Tables.Any()",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Ҳужжатдаги Асосий восита харажатлари ва Асосий восита томонидаги суммалар тенг бўлиши керак (агар ҳужжатдаги Асосий восита томонида эскириш суммаси кўрсатилаётган бўлса, Асосий восита харажатлари тарафидаги сумма шунчага кам бўлиши керак.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 634,
+    "condition": "dto.ChargesTables.Any() && dto.ChargesTables.Sum(x => x.DocSum) != dto.Tables.Sum(x => x.DocSum - (x.AgeingSum ?? 0))",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Фактура топилмади ёки фактура тасдиқланмаган. Фактурани текширинг.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 650,
+    "condition": "!invoices",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Асосий воситалар суммаси йиғиндиси фаcтура суммасидан катта бўлиши мумкин эмас!",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 661,
+    "condition": "dto.Tables.Sum(x => x.DocSum) > totalDocSum",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Ҳужжат топилмади.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 676,
+    "condition": "dto is null",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Ҳужжатни тасдиқлаб бўлмайди бўлмайди. Статус : [...]",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 679,
+    "condition": "!StatusIdConst.CanApplyStatus(dto.StatusId, StatusIdConst.ACCEPTED)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "ОС",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 690,
+    "condition": "await _unitOfWork.Context.Set<PermanentAssetIntake>().Include(x => x.Tables",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Сумма износа не может быть больше чем суммы основного средства",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 696,
+    "condition": "item.AgeingSum > item.DocSum || item.AgeingSum < 0",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Ҳужжатни тасдиқлаб бўлмайди. {lockdate.Value.ToString(",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 706,
+    "condition": "lockdate.HasValue && lockdate.Value >= dto.DocOn",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Ҳужжат топилмади.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 718,
+    "condition": "dto is null",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Ҳужжатни бекор қилиб бўлмайди. Статус : [...]",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 721,
+    "condition": "!StatusIdConst.CanApplyStatus(dto.StatusId, StatusIdConst.NOT_ACCEPTED)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Ҳужжатни тасдиқлаб бўлмайди. {lockdate.Value.ToString(",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 730,
+    "condition": "lockdate.Value >= dto.DocOn",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "{dto.DocOn.ToString(",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 742,
+    "condition": "exsistPAAMove",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "{dto.DocOn.ToString(",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 754,
+    "condition": "exsistPAARetirement",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Контрагент кўрсатилмаган.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 765,
+    "condition": "!dto.ContractorId.HasValue",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Чиқим ҳужжати топилмади.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 781,
+    "condition": "permanentAssetRetirement is null",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Чиқим ҳужжати сизнинг ташкилот танланмаган.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 786,
+    "condition": "permanentAssetRetirement.ChildOrganizationId != _authService.CurrentOrganizationId",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Чиқим ҳужжати тасдиқиланмаган.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 789,
+    "condition": "!StatusIdConst.CanIntakeChildOrg.Contains(permanentAssetRetirement.StatusId)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "{dto.DocOn.ToString(",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 796,
+    "condition": "!(permanentAssetRetirement.DocOn.Date <= dto.DocOn.Date && dto.DocOn.Date <= permanentAssetRetirement.DocOn.Date.LastDayOfMonth())",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Контрагент хато танланган.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 799,
+    "condition": "!contractor.Equals(permanentAssetRetirement.Organization.Inn)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Hujjat tableda chiqim hujjatisiz kiritilgan ma'lumot mavjud.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 802,
+    "condition": "dto.Tables.Any(x => !x.PermanentAssetRetirementTableId.HasValue)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Ҳужжат жадвалида чиқим ҳужжатисиз киритилган маълумот мавжуд.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 805,
+    "condition": "permanentAssetRetirement.Tables.Any(x => x.OwnerId != dto.PermanentAssetRetirementId)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Ҳужжат кирим тури чиқим ҳужжати билан мос емас.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 808,
+    "condition": "!IHIncomeTypeIdConst.CheckIncomeType(permanentAssetRetirement.PaQuitTypeId, dto.PermanentIncomeTypeId)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "[...] ассосий восита учун л/ш хато танланган.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 853,
+    "condition": "orgset is null",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "[...] ассосий восита учун [...]  л/ш хато танланган.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 862,
+    "condition": "exsistOrgset && !retirementTable.OrgSettlementAccountCr.Code.Substring(0, 4).Equals(orgset.Code.Substring(0, 4))",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "[...] ассосий восита учун [...]([...]) субсчет хато танланган.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 868,
+    "condition": "subAcc is null",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "[...] ассосий восита учун [...]([...]) субсчет хато танланган.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 873,
+    "condition": "retirementTable.SubAccCr.AccountPlanId != subAcc.AccountPlanId",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Chiqim hujjatidagi ushbu [...] assosiy vosita summasi kirim hujjatidagi summasi mos emas...",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 892,
+    "condition": "retirementTable.DocSum != dto.Tables.Where(x => x.PermanentAssetRetirementTableId == retirementTable.Id).Sum(x => x.DocSum)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Кирим ҳужжати суммаси, чиқим қилинган ҳужжат суммасига мос емас...",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 898,
+    "condition": "dto.Tables.Sum(x => x.DocSum) != permanentAssetRetirement.Tables.Sum(x => x.DocSum)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "[...] - [...]",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 965,
+    "condition": "HasErrors",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Hujjat xato yuklangan.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 988,
+    "condition": "_authService.CurrentOrganizationId != 38307",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Не удалось прочитать данные из файла.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 999,
+    "condition": "data == null || data.Table.Count() == 0",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Файл не загружен! | File yuklanmagan !",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 1118,
+    "condition": "file == null",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Отдел не найден.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 1167,
+    "condition": "!departments.Any(x => x.Id == departmentId)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Матер. ответ. Лицо не найден.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 1172,
+    "condition": "!employees.Any(x => x.Id == employeeId)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "L/SH не найден.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 1178,
+    "condition": "!orgSettlementAccounts.Any(x => x.Id == orgSettlementAccountId)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Ед. из не найден.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 1184,
+    "condition": "!unitOfMeasures.Any(x => x.Id == unitOfMeasureId)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Коэффи-циетн износ не найден.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 1251,
+    "condition": "!permanentAssetAgeingRates.Any(x => x.AgeingRateNorm.HasValue && x.AgeingRateNorm == permanentAssetAgeingRateId)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Субсчет не найден.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 1260,
+    "condition": "!subAccountPlans.Any(x => x.Id == subAccId)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Счет износа не найден.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 1268,
+    "condition": "!subAccountPlans.Any(x => x.Id == ageingSubAccId)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Статья не найден.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 1275,
+    "condition": "!itemOfExpenses.Any(x => x.Id == itemOfExpenseId)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Счет переоценки не найден.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 1280,
+    "condition": "!subAccountPlans.Any(x => x.Id == retireReappSubAccId)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Группа ОС не найден.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 1285,
+    "condition": "!groups.Any(x => x.Id == groupId)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Отдел не найден.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 1290,
+    "condition": "!subGroups.Any(x => x.Id == subGroupId)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Row Number:",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 1326,
+    "condition": "",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Есть незавершенное выполнение документов",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 1363,
+    "condition": "docs",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Ташкилотнинг фаолият тури мос келмайди. Л/С ни текширинг.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 1381,
+    "condition": "await orgActivityTypes.CountAsync() > 1",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Hujjat topilmadi...",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 1432,
+    "condition": "entity is null",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Hujjat topilmadi...",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetIntakeServices/Concrete/PermanentAssetIntakeService.cs",
+    "line_number": 1441,
+    "condition": "apiRequestLog is null",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetMoveServices/Concrete/PermanentAssetMoveService.cs",
+    "line_number": 135,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, StatusIdConst.MODIFIED)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetmove",
+    "class_name": "PermanentAssetMoveService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetMoveServices/Concrete/PermanentAssetMoveService.cs",
+    "line_number": 182,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, dto.StatusId)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetmove",
+    "class_name": "PermanentAssetMoveService"
+  },
+  {
+    "error_message": "Ҳужжат топилмади.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetMoveServices/Concrete/PermanentAssetMoveService.cs",
+    "line_number": 194,
+    "condition": "entity == null",
+    "service_name": "asset-service",
+    "document_type": "permanentassetmove",
+    "class_name": "PermanentAssetMoveService"
+  },
+  {
+    "error_message": "Асосий воситанинг рўйхатдан чиқарилиши ҳужжати яратилган.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetMoveServices/Concrete/PermanentAssetMoveService.cs",
+    "line_number": 207,
+    "condition": "hasPaRetirement",
+    "service_name": "asset-service",
+    "document_type": "permanentassetmove",
+    "class_name": "PermanentAssetMoveService"
+  },
+  {
+    "error_message": "Асосий воситани эскиришини ҳисоблаш ҳужжати яратилган.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetMoveServices/Concrete/PermanentAssetMoveService.cs",
+    "line_number": 212,
+    "condition": "hasPaAgeing",
+    "service_name": "asset-service",
+    "document_type": "permanentassetmove",
+    "class_name": "PermanentAssetMoveService"
+  },
+  {
+    "error_message": "{ex.Message + ex.InnerException?.Message ??",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetMoveServices/Concrete/PermanentAssetMoveService.cs",
+    "line_number": 263,
+    "condition": "",
+    "service_name": "asset-service",
+    "document_type": "permanentassetmove",
+    "class_name": "PermanentAssetMoveService"
+  },
+  {
+    "error_message": "Ҳужжат топилмади.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetMoveServices/Concrete/PermanentAssetMoveService.cs",
+    "line_number": 275,
+    "condition": "entity == null",
+    "service_name": "asset-service",
+    "document_type": "permanentassetmove",
+    "class_name": "PermanentAssetMoveService"
+  },
+  {
+    "error_message": "Асосий воситанинг рўйхатдан чиқарилиши ҳужжати яратилган",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetMoveServices/Concrete/PermanentAssetMoveService.cs",
+    "line_number": 288,
+    "condition": "hasPaRetirement",
+    "service_name": "asset-service",
+    "document_type": "permanentassetmove",
+    "class_name": "PermanentAssetMoveService"
+  },
+  {
+    "error_message": "Асосий воситани эскиришини ҳисоблаш ҳужжати яратилган",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetMoveServices/Concrete/PermanentAssetMoveService.cs",
+    "line_number": 293,
+    "condition": "hasPaAgeing",
+    "service_name": "asset-service",
+    "document_type": "permanentassetmove",
+    "class_name": "PermanentAssetMoveService"
+  },
+  {
+    "error_message": "{ex.Message + ex.InnerException?.Message ??",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetMoveServices/Concrete/PermanentAssetMoveService.cs",
+    "line_number": 342,
+    "condition": "",
+    "service_name": "asset-service",
+    "document_type": "permanentassetmove",
+    "class_name": "PermanentAssetMoveService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetMoveServices/Concrete/PermanentAssetMoveService.cs",
+    "line_number": 377,
+    "condition": "!StatusIdConst.CanModifyStatus.Contains(entity.StatusId)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetmove",
+    "class_name": "PermanentAssetMoveService"
+  },
+  {
+    "error_message": "Номер документа состоит только из цифр. [...]",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetMoveServices/Concrete/PermanentAssetMoveService.cs",
+    "line_number": 381,
+    "condition": "!CheckModelUtil.IsNumber(dto.DocNumber)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetmove",
+    "class_name": "PermanentAssetMoveService"
+  },
+  {
+    "error_message": "Документ с этим кодом [...] уже существует",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetMoveServices/Concrete/PermanentAssetMoveService.cs",
+    "line_number": 384,
+    "condition": "await query.ByDocNumber(dto.DocNumber).AnyAsync(a => a.DocOn.Year == dto.DocOn.Year, cancellationToken: cancellationToken)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetmove",
+    "class_name": "PermanentAssetMoveService"
+  },
+  {
+    "error_message": "У вас есть не провести документы. Сначала вы должны провести или удалить эти документы. Номер документа и дате :",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetMoveServices/Concrete/PermanentAssetMoveService.cs",
+    "line_number": 389,
+    "condition": "await query.AnyAsync(x => StatusIdConst.CanModifyStatus.Contains(x.StatusId) && x.DocOn >= firstDayOfYear && x.DocOn < dto.DocOn, cancellationToken: cancellationToken)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetmove",
+    "class_name": "PermanentAssetMoveService"
+  },
+  {
+    "error_message": "Дата документа введена неправильно.Дата документа не выбирается в начале года.01.01.[...]",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetMoveServices/Concrete/PermanentAssetMoveService.cs",
+    "line_number": 395,
+    "condition": "dto.DocOn.Date == FirstDayOfYear",
+    "service_name": "asset-service",
+    "document_type": "permanentassetmove",
+    "class_name": "PermanentAssetMoveService"
+  },
+  {
+    "error_message": "Жадвал  қилсми тўлдирилмаган // Таблицыa не заполнена",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetMoveServices/Concrete/PermanentAssetMoveService.cs",
+    "line_number": 399,
+    "condition": "!dto.Tables.Any()",
+    "service_name": "asset-service",
+    "document_type": "permanentassetmove",
+    "class_name": "PermanentAssetMoveService"
+  },
+  {
+    "error_message": "Жадвал қисмида сумма ёки сони 0 дан кичкина бўлмаслиги керак.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetMoveServices/Concrete/PermanentAssetMoveService.cs",
+    "line_number": 404,
+    "condition": "dto.Tables.Any(x => x.Quantity <= 0 || x.DocSum < 0)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetmove",
+    "class_name": "PermanentAssetMoveService"
+  },
+  {
+    "error_message": "Ташкилот фаолият тури мос келмайди. Л/С ни текширинг",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetMoveServices/Concrete/PermanentAssetMoveService.cs",
+    "line_number": 419,
+    "condition": "orgActivityTypes.Count() > 1",
+    "service_name": "asset-service",
+    "document_type": "permanentassetmove",
+    "class_name": "PermanentAssetMoveService"
+  },
+  {
+    "error_message": "[...] йил учун асосий воситаларга қайта баҳолаш берилмаган.Переоценка основных средств за [...] год не начислена.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetMoveServices/Concrete/PermanentAssetMoveService.cs",
+    "line_number": 430,
+    "condition": "!await _unitOfWork.Context.Set<PermanentAssetReappraisal>(",
+    "service_name": "asset-service",
+    "document_type": "permanentassetmove",
+    "class_name": "PermanentAssetMoveService"
+  },
+  {
+    "error_message": "Асосий воситалардан бирида фойдаланишга қабул қилиниш санаси мавжуд / Имеется дата поступления в эксплуатацию в одном из основных средств.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetMoveServices/Concrete/PermanentAssetMoveService.cs",
+    "line_number": 444,
+    "condition": "dto.IsImplemented && checkPa.Any(a => a.HasValue)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetmove",
+    "class_name": "PermanentAssetMoveService"
+  },
+  {
+    "error_message": "Асосий воситалардан бирида фойдаланишга қабул қилиниш санаси мавжуд эмас / Не имеется дата поступления в эксплуатацию в одном из основных средств.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetMoveServices/Concrete/PermanentAssetMoveService.cs",
+    "line_number": 446,
+    "condition": "!dto.IsImplemented && checkPa.Any(a => !a.HasValue)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetmove",
+    "class_name": "PermanentAssetMoveService"
+  },
+  {
+    "error_message": "Ҳужжат топилмади.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetMoveServices/Concrete/PermanentAssetMoveService.cs",
+    "line_number": 456,
+    "condition": "dto is null",
+    "service_name": "asset-service",
+    "document_type": "permanentassetmove",
+    "class_name": "PermanentAssetMoveService"
+  },
+  {
+    "error_message": "Ҳужжатни ўтказиб бўлмайди.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetMoveServices/Concrete/PermanentAssetMoveService.cs",
+    "line_number": 461,
+    "condition": "!StatusIdConst.CanApplyStatus(dto.StatusId, StatusIdConst.ACCEPTED)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetmove",
+    "class_name": "PermanentAssetMoveService"
+  },
+  {
+    "error_message": "Ҳужжат топилмади.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetMoveServices/Concrete/PermanentAssetMoveService.cs",
+    "line_number": 478,
+    "condition": "dto == null",
+    "service_name": "asset-service",
+    "document_type": "permanentassetmove",
+    "class_name": "PermanentAssetMoveService"
+  },
+  {
+    "error_message": "Невозможно провести документ.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetMoveServices/Concrete/PermanentAssetMoveService.cs",
+    "line_number": 481,
+    "condition": "!StatusIdConst.CanApplyStatus(dto.StatusId, StatusIdConst.NOT_ACCEPTED)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetmove",
+    "class_name": "PermanentAssetMoveService"
+  },
+  {
+    "error_message": "Бундай ҳужжат мавжуд емас !",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetMoveServices/Concrete/PermanentAssetMoveService.cs",
+    "line_number": 522,
+    "condition": "data is null",
+    "service_name": "asset-service",
+    "document_type": "permanentassetmove",
+    "class_name": "PermanentAssetMoveService"
+  },
+  {
+    "error_message": "Excel file not found !",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetMoveServices/Concrete/PermanentAssetMoveService.cs",
+    "line_number": 532,
+    "condition": "template is null",
+    "service_name": "asset-service",
+    "document_type": "permanentassetmove",
+    "class_name": "PermanentAssetMoveService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetReappraisalServices/Concrete/PermanentAssetReappraisalService.cs",
+    "line_number": 126,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, StatusIdConst.MODIFIED)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetreappraisal",
+    "class_name": "PermanentAssetReappraisalService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetReappraisalServices/Concrete/PermanentAssetReappraisalService.cs",
+    "line_number": 158,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, dto.StatusId)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetreappraisal",
+    "class_name": "PermanentAssetReappraisalService"
+  },
+  {
+    "error_message": "{ex.Message + ex.InnerException?.Message ??",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetReappraisalServices/Concrete/PermanentAssetReappraisalService.cs",
+    "line_number": 205,
+    "condition": "",
+    "service_name": "asset-service",
+    "document_type": "permanentassetreappraisal",
+    "class_name": "PermanentAssetReappraisalService"
+  },
+  {
+    "error_message": "{ex.Message + ex.InnerException?.Message ??",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetReappraisalServices/Concrete/PermanentAssetReappraisalService.cs",
+    "line_number": 252,
+    "condition": "",
+    "service_name": "asset-service",
+    "document_type": "permanentassetreappraisal",
+    "class_name": "PermanentAssetReappraisalService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetReappraisalServices/Concrete/PermanentAssetReappraisalService.cs",
+    "line_number": 286,
+    "condition": "!StatusIdConst.CanModifyStatus.Contains(entity.StatusId)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetreappraisal",
+    "class_name": "PermanentAssetReappraisalService"
+  },
+  {
+    "error_message": "Дата документа должно быть [...]",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetReappraisalServices/Concrete/PermanentAssetReappraisalService.cs",
+    "line_number": 290,
+    "condition": "!dto.DocOn.Equals(new DateTime(dto.DocOn.Year, 1, 1))",
+    "service_name": "asset-service",
+    "document_type": "permanentassetreappraisal",
+    "class_name": "PermanentAssetReappraisalService"
+  },
+  {
+    "error_message": "Номер документа состоит только из цифр. [...]",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetReappraisalServices/Concrete/PermanentAssetReappraisalService.cs",
+    "line_number": 293,
+    "condition": "!CheckModelUtil.IsNumber(dto.DocNumber)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetreappraisal",
+    "class_name": "PermanentAssetReappraisalService"
+  },
+  {
+    "error_message": "Документ с этим кодом [...] уже существует",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetReappraisalServices/Concrete/PermanentAssetReappraisalService.cs",
+    "line_number": 296,
+    "condition": "query.ByDocNumber(dto.DocNumber).Any(a => a.DocOn.Year == dto.DocOn.Year)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetreappraisal",
+    "class_name": "PermanentAssetReappraisalService"
+  },
+  {
+    "error_message": "Ҳужжат буджет тури хато кўрсатилган.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetReappraisalServices/Concrete/PermanentAssetReappraisalService.cs",
+    "line_number": 300,
+    "condition": "dto.DocOn.Year > 2024 && dto.OrgActivityTypeId == 0",
+    "service_name": "asset-service",
+    "document_type": "permanentassetreappraisal",
+    "class_name": "PermanentAssetReappraisalService"
+  },
+  {
+    "error_message": "Переоценка ОС",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetReappraisalServices/Concrete/PermanentAssetReappraisalService.cs",
+    "line_number": 304,
+    "condition": "dto.DocOn.Year < 2025 && query.Where(x => x.DocOn.Year == dto.DocOn.Year).Any()",
+    "service_name": "asset-service",
+    "document_type": "permanentassetreappraisal",
+    "class_name": "PermanentAssetReappraisalService"
+  },
+  {
+    "error_message": "Переоценка ОС",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetReappraisalServices/Concrete/PermanentAssetReappraisalService.cs",
+    "line_number": 307,
+    "condition": "query.Where(x => x.DocOn.Year == dto.DocOn.Year && x.OrgActivityTypeId == dto.OrgActivityTypeId).Any()",
+    "service_name": "asset-service",
+    "document_type": "permanentassetreappraisal",
+    "class_name": "PermanentAssetReappraisalService"
+  },
+  {
+    "error_message": "Ҳужжат топилмади.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetReappraisalServices/Concrete/PermanentAssetReappraisalService.cs",
+    "line_number": 315,
+    "condition": "dto == null",
+    "service_name": "asset-service",
+    "document_type": "permanentassetreappraisal",
+    "class_name": "PermanentAssetReappraisalService"
+  },
+  {
+    "error_message": "Невозможно провести документ.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetReappraisalServices/Concrete/PermanentAssetReappraisalService.cs",
+    "line_number": 318,
+    "condition": "!StatusIdConst.CanApplyStatus(dto.StatusId, StatusIdConst.ACCEPTED)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetreappraisal",
+    "class_name": "PermanentAssetReappraisalService"
+  },
+  {
+    "error_message": "Переоценка за [...] уже сделено.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetReappraisalServices/Concrete/PermanentAssetReappraisalService.cs",
+    "line_number": 332,
+    "condition": "spec",
+    "service_name": "asset-service",
+    "document_type": "permanentassetreappraisal",
+    "class_name": "PermanentAssetReappraisalService"
+  },
+  {
+    "error_message": "Ҳужжатни тасдиқлаб бўлмайди. {lockdate.Value.ToString(",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetReappraisalServices/Concrete/PermanentAssetReappraisalService.cs",
+    "line_number": 337,
+    "condition": "lockdate.HasValue && lockdate.Value >= dto.DocOn",
+    "service_name": "asset-service",
+    "document_type": "permanentassetreappraisal",
+    "class_name": "PermanentAssetReappraisalService"
+  },
+  {
+    "error_message": "Невозможно отменит проводка.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetReappraisalServices/Concrete/PermanentAssetReappraisalService.cs",
+    "line_number": 350,
+    "condition": "dto.StatusId != StatusIdConst.ACCEPTED",
+    "service_name": "asset-service",
+    "document_type": "permanentassetreappraisal",
+    "class_name": "PermanentAssetReappraisalService"
+  },
+  {
+    "error_message": "Ҳужжатни бекор қилиб бўлмайди. {lockdate.Value.ToString(",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetReappraisalServices/Concrete/PermanentAssetReappraisalService.cs",
+    "line_number": 355,
+    "condition": "lockdate.HasValue && lockdate.Value >= dto.DocOn",
+    "service_name": "asset-service",
+    "document_type": "permanentassetreappraisal",
+    "class_name": "PermanentAssetReappraisalService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetRetirementServices/Concrete/PermanentAssetRetirementService.cs",
+    "line_number": 180,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, StatusIdConst.MODIFIED)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetretirement",
+    "class_name": "PermanentAssetRetirementService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetRetirementServices/Concrete/PermanentAssetRetirementService.cs",
+    "line_number": 230,
+    "condition": "!StatusIdConst.CanModifyStatus.Contains(entity.StatusId)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetretirement",
+    "class_name": "PermanentAssetRetirementService"
+  },
+  {
+    "error_message": "Ушбу ҳужжат орқали [...] - [...] ташкилот томонидан кирим ҳужжати мавжуд. Ҳужжатни таҳрирлаш учун кирим ҳужжати ўчирилиши талаб қилинади. Кирим ҳужжати Ид : [...]",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetRetirementServices/Concrete/PermanentAssetRetirementService.cs",
+    "line_number": 240,
+    "condition": "intakeDoc is not null",
+    "service_name": "asset-service",
+    "document_type": "permanentassetretirement",
+    "class_name": "PermanentAssetRetirementService"
+  },
+  {
+    "error_message": "Жадвал қисмида маълумотларни камайтиринг.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetRetirementServices/Concrete/PermanentAssetRetirementService.cs",
+    "line_number": 254,
+    "condition": "dto.Tables.Count() > 200",
+    "service_name": "asset-service",
+    "document_type": "permanentassetretirement",
+    "class_name": "PermanentAssetRetirementService"
+  },
+  {
+    "error_message": "Ушбу туридаги чиқимда контрагентга фақат бюджет ташкилотлари кўрсатиш талаб қилинади.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetRetirementServices/Concrete/PermanentAssetRetirementService.cs",
+    "line_number": 269,
+    "condition": "childOrg is null",
+    "service_name": "asset-service",
+    "document_type": "permanentassetretirement",
+    "class_name": "PermanentAssetRetirementService"
+  },
+  {
+    "error_message": "[...] - [...] Чиқим ҳужжатида ўзингизни ташкилотни кўрсата олмайсиз.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetRetirementServices/Concrete/PermanentAssetRetirementService.cs",
+    "line_number": 283,
+    "condition": "!crOrgSettlement",
+    "service_name": "asset-service",
+    "document_type": "permanentassetretirement",
+    "class_name": "PermanentAssetRetirementService"
+  },
+  {
+    "error_message": "Номер документа состоит только из цифр. [...]",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetRetirementServices/Concrete/PermanentAssetRetirementService.cs",
+    "line_number": 291,
+    "condition": "!CheckModelUtil.IsNumber(dto.DocNumber)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetretirement",
+    "class_name": "PermanentAssetRetirementService"
+  },
+  {
+    "error_message": "Документ с этим кодом [...] уже существует",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetRetirementServices/Concrete/PermanentAssetRetirementService.cs",
+    "line_number": 294,
+    "condition": "await query.ByDocNumber(dto.DocNumber).AnyAsync(a => a.DocOn.Year == dto.DocOn.Year, cancellationToken: cancellationToken)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetretirement",
+    "class_name": "PermanentAssetRetirementService"
+  },
+  {
+    "error_message": "Дата документа введена неправильно.Дата документа не выбирается в начале года.01.01.[...]",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetRetirementServices/Concrete/PermanentAssetRetirementService.cs",
+    "line_number": 299,
+    "condition": "dto.DocOn.Date == firstDayOfYear",
+    "service_name": "asset-service",
+    "document_type": "permanentassetretirement",
+    "class_name": "PermanentAssetRetirementService"
+  },
+  {
+    "error_message": "Жадвал қилсми тўлдирилмаган // Таблицыa не заполнена",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetRetirementServices/Concrete/PermanentAssetRetirementService.cs",
+    "line_number": 303,
+    "condition": "!dto.Tables.Any()",
+    "service_name": "asset-service",
+    "document_type": "permanentassetretirement",
+    "class_name": "PermanentAssetRetirementService"
+  },
+  {
+    "error_message": "Тип деятельности организации не совпадают. Проверьте Л/С",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetRetirementServices/Concrete/PermanentAssetRetirementService.cs",
+    "line_number": 314,
+    "condition": "await orgActivityTypes.CountAsync(cancellationToken: cancellationToken) > 1",
+    "service_name": "asset-service",
+    "document_type": "permanentassetretirement",
+    "class_name": "PermanentAssetRetirementService"
+  },
+  {
+    "error_message": "[...] йил учун асосий воситаларга қайта баҳолаш берилмаган.Переоценка основных средств за [...] год не начислена.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetRetirementServices/Concrete/PermanentAssetRetirementService.cs",
+    "line_number": 324,
+    "condition": "!_unitOfWork.Context.Set<PermanentAssetReappraisal>(",
+    "service_name": "asset-service",
+    "document_type": "permanentassetretirement",
+    "class_name": "PermanentAssetRetirementService"
+  },
+  {
+    "error_message": "Асосий восита сони 0 бўламаиди. {String.Join(",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetRetirementServices/Concrete/PermanentAssetRetirementService.cs",
+    "line_number": 327,
+    "condition": "dto.Tables.Any(x => x.Quantity <= 0)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetretirement",
+    "class_name": "PermanentAssetRetirementService"
+  },
+  {
+    "error_message": "Чиқим ҳужжат топилмади. Id: [...]",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetRetirementServices/Concrete/PermanentAssetRetirementService.cs",
+    "line_number": 342,
+    "condition": "dto == null",
+    "service_name": "asset-service",
+    "document_type": "permanentassetretirement",
+    "class_name": "PermanentAssetRetirementService"
+  },
+  {
+    "error_message": "Чиқим ҳужжат тасдиқлаб бўлмайди.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetRetirementServices/Concrete/PermanentAssetRetirementService.cs",
+    "line_number": 348,
+    "condition": "!(new List<int>() { StatusIdConst.CREATED, StatusIdConst.MODIFIED, StatusIdConst.NOT_ACCEPTED, StatusIdConst.BANK_NOT_RECEIVED, StatusIdConst.SENT_CHILD_ORG }",
+    "service_name": "asset-service",
+    "document_type": "permanentassetretirement",
+    "class_name": "PermanentAssetRetirementService"
+  },
+  {
+    "error_message": "[...] инвентар рақамли асосий воситага Маълумотлар - Ташкилот маълумотномаси - Асосий воситалар қисмида [...] харажат коди бириктирилган.Асосий воситани чиқим қилишда эса бошқа харажат коди([...]) кўрсатилаяпти.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetRetirementServices/Concrete/PermanentAssetRetirementService.cs",
+    "line_number": 370,
+    "condition": "paretirementcode != null",
+    "service_name": "asset-service",
+    "document_type": "permanentassetretirement",
+    "class_name": "PermanentAssetRetirementService"
+  },
+  {
+    "error_message": "Ҳужжат топилмади.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetRetirementServices/Concrete/PermanentAssetRetirementService.cs",
+    "line_number": 384,
+    "condition": "dto == null",
+    "service_name": "asset-service",
+    "document_type": "permanentassetretirement",
+    "class_name": "PermanentAssetRetirementService"
+  },
+  {
+    "error_message": "Чиқим ҳужжат бекор қилиб бўлмади.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetRetirementServices/Concrete/PermanentAssetRetirementService.cs",
+    "line_number": 388,
+    "condition": "!StatusIdConst.CanApplyStatus(dto.StatusId, StatusIdConst.NOT_ACCEPTED)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetretirement",
+    "class_name": "PermanentAssetRetirementService"
+  },
+  {
+    "error_message": "Excel file topilmadi !",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetRetirementServices/Concrete/PermanentAssetRetirementService.cs",
+    "line_number": 404,
+    "condition": "template is null",
+    "service_name": "asset-service",
+    "document_type": "permanentassetretirement",
+    "class_name": "PermanentAssetRetirementService"
+  },
+  {
+    "error_message": "Бундай ҳужжат мавжуд емас !",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetRetirementServices/Concrete/PermanentAssetRetirementService.cs",
+    "line_number": 439,
+    "condition": "data is null",
+    "service_name": "asset-service",
+    "document_type": "permanentassetretirement",
+    "class_name": "PermanentAssetRetirementService"
+  },
+  {
+    "error_message": "Hujjat topilmadi.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetRetirementServices/Concrete/PermanentAssetRetirementService.cs",
+    "line_number": 520,
+    "condition": "data == null",
+    "service_name": "asset-service",
+    "document_type": "permanentassetretirement",
+    "class_name": "PermanentAssetRetirementService"
+  },
+  {
+    "error_message": "Excel file topilmadi !",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetRetirementServices/Concrete/PermanentAssetRetirementService.cs",
+    "line_number": 534,
+    "condition": "template is null",
+    "service_name": "asset-service",
+    "document_type": "permanentassetretirement",
+    "class_name": "PermanentAssetRetirementService"
+  },
+  {
+    "error_message": "Ҳужжат топилмади.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetRetirementServices/Concrete/PermanentAssetRetirementService.cs",
+    "line_number": 695,
+    "condition": "entity is null",
+    "service_name": "asset-service",
+    "document_type": "permanentassetretirement",
+    "class_name": "PermanentAssetRetirementService"
+  },
+  {
+    "error_message": "Жадвал қисмида маълумотларни камайтиринг.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetRetirementServices/Concrete/PermanentAssetRetirementService.cs",
+    "line_number": 703,
+    "condition": "entity.Tables.Count() > 200",
+    "service_name": "asset-service",
+    "document_type": "permanentassetretirement",
+    "class_name": "PermanentAssetRetirementService"
+  },
+  {
+    "error_message": "Ушбу [...] туридаги чиқимда контрагентга фақат бюджет ташкилотлари кўрсатиш талаб қилинади.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetRetirementServices/Concrete/PermanentAssetRetirementService.cs",
+    "line_number": 726,
+    "condition": "childOrg is null",
+    "service_name": "asset-service",
+    "document_type": "permanentassetretirement",
+    "class_name": "PermanentAssetRetirementService"
+  },
+  {
+    "error_message": "[...] - [...] Чиқим ҳужжатида ўзингизни ташкилотни кўрсата олмайсиз.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetRetirementServices/Concrete/PermanentAssetRetirementService.cs",
+    "line_number": 736,
+    "condition": "!crOrgSettlement",
+    "service_name": "asset-service",
+    "document_type": "permanentassetretirement",
+    "class_name": "PermanentAssetRetirementService"
+  },
+  {
+    "error_message": "Контрагентда кўрсатилган буджет ташкилоти [...]  ИНН [...] ушбу давр учун Форма1 ҳисоботи тузилган олувчи ташкилот бу сана билан қабул қилолмайди.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetRetirementServices/Concrete/PermanentAssetRetirementService.cs",
+    "line_number": 766,
+    "condition": "forma1",
+    "service_name": "asset-service",
+    "document_type": "permanentassetretirement",
+    "class_name": "PermanentAssetRetirementService"
+  },
+  {
+    "error_message": "Ҳужжат топилмади.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetRetirementServices/Concrete/PermanentAssetRetirementService.cs",
+    "line_number": 851,
+    "condition": "entity is null",
+    "service_name": "asset-service",
+    "document_type": "permanentassetretirement",
+    "class_name": "PermanentAssetRetirementService"
+  },
+  {
+    "error_message": "Ҳужжат [...] - [...] ташкилот томонидан кирим қилинган ҳужжат Ид : [...]. Ҳужжатни бекор қилиш учун кирим ҳужжати ҳам йечилган бўлиши керак.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetRetirementServices/Concrete/PermanentAssetRetirementService.cs",
+    "line_number": 864,
+    "condition": "entity.PermanentAssetIntakeId.HasValue && entity.PermanentAssetIntakeId > 0",
+    "service_name": "asset-service",
+    "document_type": "permanentassetretirement",
+    "class_name": "PermanentAssetRetirementService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetRetirementServices/Concrete/PermanentAssetRetirementService.cs",
+    "line_number": 927,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, dto.StatusId)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetretirement",
+    "class_name": "PermanentAssetRetirementService"
+  },
+  {
+    "error_message": "Ҳужжат [...] - [...] Ташкилот томонидан кирим қилинган ҳужжат Ид : [...]. Ҳужжатни ўчириш учун кирим ҳужжати ҳам ўчирилиши керак.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetRetirementServices/Concrete/PermanentAssetRetirementService.cs",
+    "line_number": 937,
+    "condition": "permanentAssetIntake is not null",
+    "service_name": "asset-service",
+    "document_type": "permanentassetretirement",
+    "class_name": "PermanentAssetRetirementService"
+  },
+  {
+    "error_message": "File yuklanmagan.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetRetirementServices/Concrete/PermanentAssetRetirementService.cs",
+    "line_number": 1015,
+    "condition": "!dto.Files.Any()",
+    "service_name": "asset-service",
+    "document_type": "permanentassetretirement",
+    "class_name": "PermanentAssetRetirementService"
+  },
+  {
+    "error_message": "Hujjat topilmadi.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetRetirementServices/Concrete/PermanentAssetRetirementService.cs",
+    "line_number": 1027,
+    "condition": "retrimentTable is null",
+    "service_name": "asset-service",
+    "document_type": "permanentassetretirement",
+    "class_name": "PermanentAssetRetirementService"
+  },
+  {
+    "error_message": "Hujjat sizning tashkilotga yuborilmagan topilmadi.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetRetirementServices/Concrete/PermanentAssetRetirementService.cs",
+    "line_number": 1033,
+    "condition": "retrimentTable.Owner.ChildOrganizationId != _authService.CurrentOrganizationId",
+    "service_name": "asset-service",
+    "document_type": "permanentassetretirement",
+    "class_name": "PermanentAssetRetirementService"
+  },
+  {
+    "error_message": "Ushbu hujjat oldin qr code biriktirilgan.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetRetirementServices/Concrete/PermanentAssetRetirementService.cs",
+    "line_number": 1039,
+    "condition": "!string.IsNullOrEmpty(retrimentTable.QrCode) || retrimentTable.IsIntakeChecked",
+    "service_name": "asset-service",
+    "document_type": "permanentassetretirement",
+    "class_name": "PermanentAssetRetirementService"
+  },
+  {
+    "error_message": "Ushbu qr code uzasbo tizimida sizning tashkilotda shakillantirilmagan.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetRetirementServices/Concrete/PermanentAssetRetirementService.cs",
+    "line_number": 1048,
+    "condition": "!exsistQrCode",
+    "service_name": "asset-service",
+    "document_type": "permanentassetretirement",
+    "class_name": "PermanentAssetRetirementService"
+  },
+  {
+    "error_message": "Ushbu qr code boshqa asosiy vosita uchun foydalanilgan",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetRetirementServices/Concrete/PermanentAssetRetirementService.cs",
+    "line_number": 1061,
+    "condition": "oldPermanentAsset",
+    "service_name": "asset-service",
+    "document_type": "permanentassetretirement",
+    "class_name": "PermanentAssetRetirementService"
+  },
+  {
+    "error_message": "File yuklanmagan.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetRetirementServices/Concrete/PermanentAssetRetirementService.cs",
+    "line_number": 1107,
+    "condition": "!dto.Files.Any()",
+    "service_name": "asset-service",
+    "document_type": "permanentassetretirement",
+    "class_name": "PermanentAssetRetirementService"
+  },
+  {
+    "error_message": "Hujjat topilmadi.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetRetirementServices/Concrete/PermanentAssetRetirementService.cs",
+    "line_number": 1119,
+    "condition": "retrimentTable is null",
+    "service_name": "asset-service",
+    "document_type": "permanentassetretirement",
+    "class_name": "PermanentAssetRetirementService"
+  },
+  {
+    "error_message": "Hujjat sizning tashkilotga yuborilmagan topilmadi.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetRetirementServices/Concrete/PermanentAssetRetirementService.cs",
+    "line_number": 1125,
+    "condition": "retrimentTable.Owner.ChildOrganizationId != _authService.CurrentOrganizationId",
+    "service_name": "asset-service",
+    "document_type": "permanentassetretirement",
+    "class_name": "PermanentAssetRetirementService"
+  },
+  {
+    "error_message": "Ushbu hujjat oldin qr code biriktirilmagan.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetRetirementServices/Concrete/PermanentAssetRetirementService.cs",
+    "line_number": 1131,
+    "condition": "",
+    "service_name": "asset-service",
+    "document_type": "permanentassetretirement",
+    "class_name": "PermanentAssetRetirementService"
+  },
+  {
+    "error_message": "Hujjat topilmadi.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetRetirementServices/Concrete/PermanentAssetRetirementService.cs",
+    "line_number": 1164,
+    "condition": "retrimentTable is null",
+    "service_name": "asset-service",
+    "document_type": "permanentassetretirement",
+    "class_name": "PermanentAssetRetirementService"
+  },
+  {
+    "error_message": "Hujjat sizning tashkilotga yuborilmagan topilmadi.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetRetirementServices/Concrete/PermanentAssetRetirementService.cs",
+    "line_number": 1170,
+    "condition": "retrimentTable.Owner.ChildOrganizationId != _authService.CurrentOrganizationId",
+    "service_name": "asset-service",
+    "document_type": "permanentassetretirement",
+    "class_name": "PermanentAssetRetirementService"
+  },
+  {
+    "error_message": "Ushbu assosiy vosita tekshirilgan",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetRetirementServices/Concrete/PermanentAssetRetirementService.cs",
+    "line_number": 1175,
+    "condition": "retrimentTable.IsIntakeChecked",
+    "service_name": "asset-service",
+    "document_type": "permanentassetretirement",
+    "class_name": "PermanentAssetRetirementService"
+  },
+  {
+    "error_message": "Ushbu qr code uzasbo tizimida sizning tashkilotda shakillantirilmagan.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetRetirementServices/Concrete/PermanentAssetRetirementService.cs",
+    "line_number": 1199,
+    "condition": "!exsistQrCode",
+    "service_name": "asset-service",
+    "document_type": "permanentassetretirement",
+    "class_name": "PermanentAssetRetirementService"
+  },
+  {
+    "error_message": "Ushbu qr code boshqa asosiy vosita uchun foydalanilgan",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetRetirementServices/Concrete/PermanentAssetRetirementService.cs",
+    "line_number": 1211,
+    "condition": "oldPermanentAsset is not null",
+    "service_name": "asset-service",
+    "document_type": "permanentassetretirement",
+    "class_name": "PermanentAssetRetirementService"
+  },
+  {
+    "error_message": "Ишончнома ҳужжати танланмаган.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetRetirementServices/Concrete/PermanentAssetRetirementService.cs",
+    "line_number": 1263,
+    "condition": "!warrantId.HasValue && !(contractorInn == \"000000000\" && paQuitTypeId == InventoryHoldingQuitTypeIdConst.OTHERS) && docOn > new DateTime(2025, 12, 31)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetretirement",
+    "class_name": "PermanentAssetRetirementService"
+  },
+  {
+    "error_message": "Ишончнома ҳужжати танланмаган.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetRetirementServices/Concrete/PermanentAssetRetirementService.cs",
+    "line_number": 1283,
+    "condition": "iswarrant",
+    "service_name": "asset-service",
+    "document_type": "permanentassetretirement",
+    "class_name": "PermanentAssetRetirementService"
+  },
+  {
+    "error_message": "Ишончнома ҳужжати топилмади.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetRetirementServices/Concrete/PermanentAssetRetirementService.cs",
+    "line_number": 1297,
+    "condition": "warrant is null",
+    "service_name": "asset-service",
+    "document_type": "permanentassetretirement",
+    "class_name": "PermanentAssetRetirementService"
+  },
+  {
+    "error_message": "Ишончнома ҳужжати қабул қилинган ҳолатда бўлиши керак.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetRetirementServices/Concrete/PermanentAssetRetirementService.cs",
+    "line_number": 1303,
+    "condition": "warrant.StatusId != StatusIdConst.RECEIVED",
+    "service_name": "asset-service",
+    "document_type": "permanentassetretirement",
+    "class_name": "PermanentAssetRetirementService"
+  },
+  {
+    "error_message": "Ишончнома ҳужжатидаги контрагент ([...]) билан чиқим ҳужжатида ([...]) турлича.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetRetirementServices/Concrete/PermanentAssetRetirementService.cs",
+    "line_number": 1309,
+    "condition": "!contractorInn.Equals(warrant.Organization.Inn)",
+    "service_name": "asset-service",
+    "document_type": "permanentassetretirement",
+    "class_name": "PermanentAssetRetirementService"
+  },
+  {
+    "error_message": "Сизнинг ҳужжат санаси ишончнома ҳужжати санаси оралиғида бўлиши керак.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetRetirementServices/Concrete/PermanentAssetRetirementService.cs",
+    "line_number": 1315,
+    "condition": "",
+    "service_name": "asset-service",
+    "document_type": "permanentassetretirement",
+    "class_name": "PermanentAssetRetirementService"
+  },
+  {
+    "error_message": "Ушбу ишончнома ҳужжати бошқа чиқим ҳужжати учун танланган.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/PermanentAssetRetirementServices/Concrete/PermanentAssetRetirementService.cs",
+    "line_number": 1321,
+    "condition": "",
+    "service_name": "asset-service",
+    "document_type": "permanentassetretirement",
+    "class_name": "PermanentAssetRetirementService"
+  },
+  {
+    "error_message": "Имкони йўқ / Нет доступа",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/RestsByPermanentAssetService/Concrete/RestsByPermanentAssetService.cs",
+    "line_number": 229,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, StatusIdConst.MODIFIED)",
+    "service_name": "asset-service",
+    "document_type": "restsbypermanentasset",
+    "class_name": "RestsByPermanentAssetService"
+  },
+  {
+    "error_message": "Имкони йўқ / Нет доступа",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/RestsByPermanentAssetService/Concrete/RestsByPermanentAssetService.cs",
+    "line_number": 266,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, dto.StatusId)",
+    "service_name": "asset-service",
+    "document_type": "restsbypermanentasset",
+    "class_name": "RestsByPermanentAssetService"
+  },
+  {
+    "error_message": "Асосий воситанинг рўйхатдан чиқарилиши ҳужжати яратилган",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/RestsByPermanentAssetService/Concrete/RestsByPermanentAssetService.cs",
+    "line_number": 285,
+    "condition": "hasPaRetirement",
+    "service_name": "asset-service",
+    "document_type": "restsbypermanentasset",
+    "class_name": "RestsByPermanentAssetService"
+  },
+  {
+    "error_message": "Асосий воситани эскиришини ҳисоблаш ҳужжати яратилган",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/RestsByPermanentAssetService/Concrete/RestsByPermanentAssetService.cs",
+    "line_number": 291,
+    "condition": "hasPaAgeing",
+    "service_name": "asset-service",
+    "document_type": "restsbypermanentasset",
+    "class_name": "RestsByPermanentAssetService"
+  },
+  {
+    "error_message": "ОС",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/RestsByPermanentAssetService/Concrete/RestsByPermanentAssetService.cs",
+    "line_number": 302,
+    "condition": "await _unitOfWork.Context.Set<RestsByPermanentAsset>().Include(x => x.Tables).AsSplitQuery(",
+    "service_name": "asset-service",
+    "document_type": "restsbypermanentasset",
+    "class_name": "RestsByPermanentAssetService"
+  },
+  {
+    "error_message": "Aссосий восита эскириш суммаси ассосий суммасидан катта ёки 0 дан кичкина бўла олмайди.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/RestsByPermanentAssetService/Concrete/RestsByPermanentAssetService.cs",
+    "line_number": 307,
+    "condition": "item.DocAgeingSum > item.DocSum || item.DocAgeingSum < 0",
+    "service_name": "asset-service",
+    "document_type": "restsbypermanentasset",
+    "class_name": "RestsByPermanentAssetService"
+  },
+  {
+    "error_message": "Асосий воситанинг қайта баҳолаш ҳужжати яратилган.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/RestsByPermanentAssetService/Concrete/RestsByPermanentAssetService.cs",
+    "line_number": 361,
+    "condition": "hasPaAssetDoc",
+    "service_name": "asset-service",
+    "document_type": "restsbypermanentasset",
+    "class_name": "RestsByPermanentAssetService"
+  },
+  {
+    "error_message": "Асосий воситанинг рўйхатдан чиқарилиши ҳужжати яратилган",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/RestsByPermanentAssetService/Concrete/RestsByPermanentAssetService.cs",
+    "line_number": 369,
+    "condition": "hasPaAssetDoc",
+    "service_name": "asset-service",
+    "document_type": "restsbypermanentasset",
+    "class_name": "RestsByPermanentAssetService"
+  },
+  {
+    "error_message": "Асосий воситани эскиришини ҳисоблаш ҳужжати яратилган",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/RestsByPermanentAssetService/Concrete/RestsByPermanentAssetService.cs",
+    "line_number": 378,
+    "condition": "hasPaAssetDoc",
+    "service_name": "asset-service",
+    "document_type": "restsbypermanentasset",
+    "class_name": "RestsByPermanentAssetService"
+  },
+  {
+    "error_message": "Асосий воситанинг қайта баҳолаш ҳужжати яратилган.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/RestsByPermanentAssetService/Concrete/RestsByPermanentAssetService.cs",
+    "line_number": 429,
+    "condition": "hasPaAssetDoc",
+    "service_name": "asset-service",
+    "document_type": "restsbypermanentasset",
+    "class_name": "RestsByPermanentAssetService"
+  },
+  {
+    "error_message": "Асосий воситанинг рўйхатдан чиқарилиши ҳужжати яратилган",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/RestsByPermanentAssetService/Concrete/RestsByPermanentAssetService.cs",
+    "line_number": 437,
+    "condition": "hasPaAssetDoc",
+    "service_name": "asset-service",
+    "document_type": "restsbypermanentasset",
+    "class_name": "RestsByPermanentAssetService"
+  },
+  {
+    "error_message": "Асосий воситани эскиришини ҳисоблаш ҳужжати яратилган",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/RestsByPermanentAssetService/Concrete/RestsByPermanentAssetService.cs",
+    "line_number": 446,
+    "condition": "hasPaAssetDoc",
+    "service_name": "asset-service",
+    "document_type": "restsbypermanentasset",
+    "class_name": "RestsByPermanentAssetService"
+  },
+  {
+    "error_message": "Aввал жадвални тозаланг.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/RestsByPermanentAssetService/Concrete/RestsByPermanentAssetService.cs",
+    "line_number": 541,
+    "condition": "dto.Id > 0 && await _repository.Context.Set<RestsByPermanentAssetTable>().AnyAsync(x => x.OwnerId == dto.Id, cancellationToken: cancellationToken)",
+    "service_name": "asset-service",
+    "document_type": "restsbypermanentasset",
+    "class_name": "RestsByPermanentAssetService"
+  },
+  {
+    "error_message": "Ҳужжат ва импорт қисмини сақлаб олинг.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/RestsByPermanentAssetService/Concrete/RestsByPermanentAssetService.cs",
+    "line_number": 547,
+    "condition": "dto.Id == 0",
+    "service_name": "asset-service",
+    "document_type": "restsbypermanentasset",
+    "class_name": "RestsByPermanentAssetService"
+  },
+  {
+    "error_message": "Имкони йўқ / Нет доступа",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/RestsByPermanentAssetService/Concrete/RestsByPermanentAssetService.cs",
+    "line_number": 813,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, StatusIdConst.MODIFIED)",
+    "service_name": "asset-service",
+    "document_type": "restsbypermanentasset",
+    "class_name": "RestsByPermanentAssetService"
+  },
+  {
+    "error_message": "Имкони йўқ / Нет доступа",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/RestsByPermanentAssetService/Concrete/RestsByPermanentAssetService.cs",
+    "line_number": 839,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, StatusIdConst.MODIFIED)",
+    "service_name": "asset-service",
+    "document_type": "restsbypermanentasset",
+    "class_name": "RestsByPermanentAssetService"
+  },
+  {
+    "error_message": "Bir nechta assosiy vosita sub shot ni o'zgartirish imkoni vaqtinchalik yopildi, har bir qator uchun alohida o'zgartirish tugmasidan foydalaning.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/RestsByPermanentAssetService/Concrete/RestsByPermanentAssetService.cs",
+    "line_number": 882,
+    "condition": "",
+    "service_name": "asset-service",
+    "document_type": "restsbypermanentasset",
+    "class_name": "RestsByPermanentAssetService"
+  },
+  {
+    "error_message": "Бирорта ҳам маълумот танланмаган.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/RestsByPermanentAssetService/Concrete/RestsByPermanentAssetService.cs",
+    "line_number": 886,
+    "condition": "!dto.Ids.Any()",
+    "service_name": "asset-service",
+    "document_type": "restsbypermanentasset",
+    "class_name": "RestsByPermanentAssetService"
+  },
+  {
+    "error_message": "Д-Т ҳам Д-Т ШҒҲ ҳам танланмаган.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/RestsByPermanentAssetService/Concrete/RestsByPermanentAssetService.cs",
+    "line_number": 889,
+    "condition": "!dto.SubAccDbId.HasValue && !dto.OrgSettlementAccountDbId.HasValue",
+    "service_name": "asset-service",
+    "document_type": "restsbypermanentasset",
+    "class_name": "RestsByPermanentAssetService"
+  },
+  {
+    "error_message": "Маълумот топилмади.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/RestsByPermanentAssetService/Concrete/RestsByPermanentAssetService.cs",
+    "line_number": 899,
+    "condition": "!tables.Any()",
+    "service_name": "asset-service",
+    "document_type": "restsbypermanentasset",
+    "class_name": "RestsByPermanentAssetService"
+  },
+  {
+    "error_message": "Субсчет топилмади.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/RestsByPermanentAssetService/Concrete/RestsByPermanentAssetService.cs",
+    "line_number": 913,
+    "condition": "subAccountPlan == null",
+    "service_name": "asset-service",
+    "document_type": "restsbypermanentasset",
+    "class_name": "RestsByPermanentAssetService"
+  },
+  {
+    "error_message": "Субсчет хато таънланган. Сиз танлаган субсчет эски cоди [...]([...]) эски тизимдан келган субсчет cоди га мос емас [...]",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/RestsByPermanentAssetService/Concrete/RestsByPermanentAssetService.cs",
+    "line_number": 924,
+    "condition": "",
+    "service_name": "asset-service",
+    "document_type": "restsbypermanentasset",
+    "class_name": "RestsByPermanentAssetService"
+  },
+  {
+    "error_message": "Бўлим топилмади. Id: [...]",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/RestsByPermanentAssetService/Concrete/RestsByPermanentAssetService.cs",
+    "line_number": 1005,
+    "condition": "department == null",
+    "service_name": "asset-service",
+    "document_type": "restsbypermanentasset",
+    "class_name": "RestsByPermanentAssetService"
+  },
+  {
+    "error_message": "Ходим топилмади. Id: [...]",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/RestsByPermanentAssetService/Concrete/RestsByPermanentAssetService.cs",
+    "line_number": 1015,
+    "condition": "employee == null",
+    "service_name": "asset-service",
+    "document_type": "restsbypermanentasset",
+    "class_name": "RestsByPermanentAssetService"
+  },
+  {
+    "error_message": "Ушбу бўлим ва ходим учун тасдиқланган асосий воситалар қолдиқ ҳужжати мавжуд. [...]",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/RestsByPermanentAssetService/Concrete/RestsByPermanentAssetService.cs",
+    "line_number": 1020,
+    "condition": "",
+    "service_name": "asset-service",
+    "document_type": "restsbypermanentasset",
+    "class_name": "RestsByPermanentAssetService"
+  },
+  {
+    "error_message": "Ҳужжат тасдиқланган.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/RestsByPermanentAssetService/Concrete/RestsByPermanentAssetService.cs",
+    "line_number": 1077,
+    "condition": "!StatusIdConst.CanApplyStatus(entity.StatusId, StatusIdConst.MODIFIED)",
+    "service_name": "asset-service",
+    "document_type": "restsbypermanentasset",
+    "class_name": "RestsByPermanentAssetService"
+  },
+  {
+    "error_message": "Бу [...] номерли ҳужжат олдин яратилган.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/RestsByPermanentAssetService/Concrete/RestsByPermanentAssetService.cs",
+    "line_number": 1081,
+    "condition": "await query.ByDocNumber(dto.DocNumber).AnyAsync(a => a.DocOn.Year == dto.DocOn.Year, cancellationToken: cancellationToken)",
+    "service_name": "asset-service",
+    "document_type": "restsbypermanentasset",
+    "class_name": "RestsByPermanentAssetService"
+  },
+  {
+    "error_message": "ОС",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/RestsByPermanentAssetService/Concrete/RestsByPermanentAssetService.cs",
+    "line_number": 1090,
+    "condition": "",
+    "service_name": "asset-service",
+    "document_type": "restsbypermanentasset",
+    "class_name": "RestsByPermanentAssetService"
+  },
+  {
+    "error_message": "Сумма износа не может быть больше чем суммы основного средства",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/RestsByPermanentAssetService/Concrete/RestsByPermanentAssetService.cs",
+    "line_number": 1095,
+    "condition": "item.DocAgeingSum > item.DocSum",
+    "service_name": "asset-service",
+    "document_type": "restsbypermanentasset",
+    "class_name": "RestsByPermanentAssetService"
+  },
+  {
+    "error_message": "Ҳужжат топилмади.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/RestsByPermanentAssetService/Concrete/RestsByPermanentAssetService.cs",
+    "line_number": 1115,
+    "condition": "restsByPermanentAsset == null",
+    "service_name": "asset-service",
+    "document_type": "restsbypermanentasset",
+    "class_name": "RestsByPermanentAssetService"
+  },
+  {
+    "error_message": "Филе топилмади.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/RestsByPermanentAssetService/Concrete/RestsByPermanentAssetService.cs",
+    "line_number": 1126,
+    "condition": "template == null",
+    "service_name": "asset-service",
+    "document_type": "restsbypermanentasset",
+    "class_name": "RestsByPermanentAssetService"
+  },
+  {
+    "error_message": "Hujjat xato yuklangan.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/RestsByPermanentAssetService/Concrete/RestsByPermanentAssetService.cs",
+    "line_number": 1212,
+    "condition": "_authService.CurrentOrganizationId != 38307",
+    "service_name": "asset-service",
+    "document_type": "restsbypermanentasset",
+    "class_name": "RestsByPermanentAssetService"
+  },
+  {
+    "error_message": "Не удалось прочитать данные из файла.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/RestsByPermanentAssetService/Concrete/RestsByPermanentAssetService.cs",
+    "line_number": 1223,
+    "condition": "data == null || data.Table.Count() == 0",
+    "service_name": "asset-service",
+    "document_type": "restsbypermanentasset",
+    "class_name": "RestsByPermanentAssetService"
+  },
+  {
+    "error_message": "Файл не загружен! | File yuklanmagan !",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/RestsByPermanentAssetService/Concrete/RestsByPermanentAssetService.cs",
+    "line_number": 1305,
+    "condition": "file == null",
+    "service_name": "asset-service",
+    "document_type": "restsbypermanentasset",
+    "class_name": "RestsByPermanentAssetService"
+  },
+  {
+    "error_message": "Отдел не найден.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/RestsByPermanentAssetService/Concrete/RestsByPermanentAssetService.cs",
+    "line_number": 1354,
+    "condition": "!departments.Any(x => x.Id == departmentId)",
+    "service_name": "asset-service",
+    "document_type": "restsbypermanentasset",
+    "class_name": "RestsByPermanentAssetService"
+  },
+  {
+    "error_message": "Матер. ответ. Лицо не найден.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/RestsByPermanentAssetService/Concrete/RestsByPermanentAssetService.cs",
+    "line_number": 1359,
+    "condition": "!employees.Any(x => x.Id == employeeId)",
+    "service_name": "asset-service",
+    "document_type": "restsbypermanentasset",
+    "class_name": "RestsByPermanentAssetService"
+  },
+  {
+    "error_message": "L/SH не найден.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/RestsByPermanentAssetService/Concrete/RestsByPermanentAssetService.cs",
+    "line_number": 1365,
+    "condition": "!orgSettlementAccounts.Any(x => x.Id == orgSettlementAccountId)",
+    "service_name": "asset-service",
+    "document_type": "restsbypermanentasset",
+    "class_name": "RestsByPermanentAssetService"
+  },
+  {
+    "error_message": "Ед. из не найден.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/RestsByPermanentAssetService/Concrete/RestsByPermanentAssetService.cs",
+    "line_number": 1371,
+    "condition": "!unitOfMeasures.Any(x => x.Id == unitOfMeasureId)",
+    "service_name": "asset-service",
+    "document_type": "restsbypermanentasset",
+    "class_name": "RestsByPermanentAssetService"
+  },
+  {
+    "error_message": "Коэффи-циетн износ не найден.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/RestsByPermanentAssetService/Concrete/RestsByPermanentAssetService.cs",
+    "line_number": 1438,
+    "condition": "!permanentAssetAgeingRates.Any(x => x.AgeingRateNorm.HasValue && x.AgeingRateNorm == permanentAssetAgeingRateId)",
+    "service_name": "asset-service",
+    "document_type": "restsbypermanentasset",
+    "class_name": "RestsByPermanentAssetService"
+  },
+  {
+    "error_message": "Субсчет не найден.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/RestsByPermanentAssetService/Concrete/RestsByPermanentAssetService.cs",
+    "line_number": 1447,
+    "condition": "!subAccountPlans.Any(x => x.Id == subAccId)",
+    "service_name": "asset-service",
+    "document_type": "restsbypermanentasset",
+    "class_name": "RestsByPermanentAssetService"
+  },
+  {
+    "error_message": "Счет износа не найден.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/RestsByPermanentAssetService/Concrete/RestsByPermanentAssetService.cs",
+    "line_number": 1455,
+    "condition": "!subAccountPlans.Any(x => x.Id == ageingSubAccId)",
+    "service_name": "asset-service",
+    "document_type": "restsbypermanentasset",
+    "class_name": "RestsByPermanentAssetService"
+  },
+  {
+    "error_message": "Статья не найден.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/RestsByPermanentAssetService/Concrete/RestsByPermanentAssetService.cs",
+    "line_number": 1462,
+    "condition": "!itemOfExpenses.Any(x => x.Id == itemOfExpenseId)",
+    "service_name": "asset-service",
+    "document_type": "restsbypermanentasset",
+    "class_name": "RestsByPermanentAssetService"
+  },
+  {
+    "error_message": "Счет переоценки не найден.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/RestsByPermanentAssetService/Concrete/RestsByPermanentAssetService.cs",
+    "line_number": 1467,
+    "condition": "!subAccountPlans.Any(x => x.Id == retireReappSubAccId)",
+    "service_name": "asset-service",
+    "document_type": "restsbypermanentasset",
+    "class_name": "RestsByPermanentAssetService"
+  },
+  {
+    "error_message": "Группа ОС не найден.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/RestsByPermanentAssetService/Concrete/RestsByPermanentAssetService.cs",
+    "line_number": 1472,
+    "condition": "!groups.Any(x => x.Id == groupId)",
+    "service_name": "asset-service",
+    "document_type": "restsbypermanentasset",
+    "class_name": "RestsByPermanentAssetService"
+  },
+  {
+    "error_message": "Row Number:",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/Doc/RestsByPermanentAssetService/Concrete/RestsByPermanentAssetService.cs",
+    "line_number": 1506,
+    "condition": "",
+    "service_name": "asset-service",
+    "document_type": "restsbypermanentasset",
+    "class_name": "RestsByPermanentAssetService"
+  },
+  {
+    "error_message": "Mazkur asosiy vositani tanlagan holda asosiy vosita kirim hujjati (ID = [...]) yaratilganligi sababli uning ma’lumotlariga o‘zgartirish kiritish mumkin emas. !!! (F.T)",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/PermanentAsset/Concrete/PermanentAssetService.cs",
+    "line_number": 155,
+    "condition": "data.TableId == TableIdConst.ASSET__DOC_PERMANENT_ASSET_INTAKE",
+    "service_name": "asset-service",
+    "document_type": "permanentasset",
+    "class_name": "PermanentAssetService"
+  },
+  {
+    "error_message": "Mazkur asosiy vositani tanlagan holda asosiy vositalar bo'yicha qoldiq hujjati (ID = [...]) yaratilganligi sababli uning ma’lumotlariga o‘zgartirish kiritish mumkin emas. !!! (F.T)",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/PermanentAsset/Concrete/PermanentAssetService.cs",
+    "line_number": 160,
+    "condition": "data.TableId == TableIdConst.ASSET__DOC_RESTS_BY_PERMANENT_ASSET",
+    "service_name": "asset-service",
+    "document_type": "permanentasset",
+    "class_name": "PermanentAssetService"
+  },
+  {
+    "error_message": "Эскириш фоизи xato kiritilgan (0 <= эскириш <= 100)",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/PermanentAsset/Concrete/PermanentAssetService.cs",
+    "line_number": 168,
+    "condition": "permanentAssetAgeingRateNorm > 100 || permanentAssetAgeingRateNorm < 0",
+    "service_name": "asset-service",
+    "document_type": "permanentasset",
+    "class_name": "PermanentAssetService"
+  },
+  {
+    "error_message": "Эскириш фоизи 0 бўлиши керак. [...] | (Эскириш фоизи 0 дан фарқли бўлса, эскириш субсчети кўрсатилиши мажбурий)",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/PermanentAsset/Concrete/PermanentAssetService.cs",
+    "line_number": 176,
+    "condition": "!dto.AgeingSubAccId.HasValue && permanentAssetAgeingRateNorm > 0",
+    "service_name": "asset-service",
+    "document_type": "permanentasset",
+    "class_name": "PermanentAssetService"
+  },
+  {
+    "error_message": "Эскириш фоизи 0 дан фарқли бўлиши керак. [...]",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/PermanentAsset/Concrete/PermanentAssetService.cs",
+    "line_number": 181,
+    "condition": "dto.AgeingSubAccId.HasValue && dto.AgeingSubAccId.Value > 0 && permanentAssetAgeingRateNorm == 0",
+    "service_name": "asset-service",
+    "document_type": "permanentasset",
+    "class_name": "PermanentAssetService"
+  },
+  {
+    "error_message": "[...] ИД ли инвоиcе ҳужжат асосий воситалар билан боғланган, шу сабабли уни танлаб бўлмайди.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/PermanentAsset/Concrete/PermanentAssetService.cs",
+    "line_number": 193,
+    "condition": "exists",
+    "service_name": "asset-service",
+    "document_type": "permanentasset",
+    "class_name": "PermanentAssetService"
+  },
+  {
+    "error_message": "[...] идли инвоиcе ҳужжати топилмади!",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/PermanentAsset/Concrete/PermanentAssetService.cs",
+    "line_number": 201,
+    "condition": "invoice is null",
+    "service_name": "asset-service",
+    "document_type": "permanentasset",
+    "class_name": "PermanentAssetService"
+  },
+  {
+    "error_message": "[...] идли инвоиcе ҳужжати ҳолати тасдиқланмаган!",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/PermanentAsset/Concrete/PermanentAssetService.cs",
+    "line_number": 207,
+    "condition": "invoice.StatusId != StatusIdConst.SIGNED",
+    "service_name": "asset-service",
+    "document_type": "permanentasset",
+    "class_name": "PermanentAssetService"
+  },
+  {
+    "error_message": "[dynamic: err]",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/PermanentAsset/Concrete/PermanentAssetService.cs",
+    "line_number": 236,
+    "condition": "",
+    "service_name": "asset-service",
+    "document_type": "permanentasset",
+    "class_name": "PermanentAssetService"
+  },
+  {
+    "error_message": "До {lockdate.Value.ToString(",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/PermanentAsset/Concrete/PermanentAssetService.cs",
+    "line_number": 279,
+    "condition": "lockdate.Value >= docOn",
+    "service_name": "asset-service",
+    "document_type": "permanentasset",
+    "class_name": "PermanentAssetService"
+  },
+  {
+    "error_message": "До {lockdate.Value.ToString(",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/PermanentAsset/Concrete/PermanentAssetService.cs",
+    "line_number": 291,
+    "condition": "lockdate.Value >= docOn",
+    "service_name": "asset-service",
+    "document_type": "permanentasset",
+    "class_name": "PermanentAssetService"
+  },
+  {
+    "error_message": "До {lockdate.Value.ToString(",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/PermanentAsset/Concrete/PermanentAssetService.cs",
+    "line_number": 301,
+    "condition": "lockdate.Value > docOn",
+    "service_name": "asset-service",
+    "document_type": "permanentasset",
+    "class_name": "PermanentAssetService"
+  },
+  {
+    "error_message": "[...] - йил [...] ойи учун асосий воситаларга эскириш киритилмаган.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/PermanentAsset/Concrete/PermanentAssetService.cs",
+    "line_number": 323,
+    "condition": "docOn.Month != 1 && permanentAssetAgeingNoExsist.Count() != (docOn.Month - 1)",
+    "service_name": "asset-service",
+    "document_type": "permanentasset",
+    "class_name": "PermanentAssetService"
+  },
+  {
+    "error_message": "[...]-йил [...] ойи учун асосий воситаларга эскириш киритилмаган.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/PermanentAsset/Concrete/PermanentAssetService.cs",
+    "line_number": 354,
+    "condition": "DocOn.Month != 1 && permanentAssetAgeingExsist.Count() != (DocOn.Month - 1)",
+    "service_name": "asset-service",
+    "document_type": "permanentasset",
+    "class_name": "PermanentAssetService"
+  },
+  {
+    "error_message": "Асосий воситада ([...]) фойдаланишга қабул қилиниш санаси мавжуд / Имеется дата поступления в эксплуатацию основном средстве ([...])",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/PermanentAsset/Concrete/PermanentAssetService.cs",
+    "line_number": 364,
+    "condition": "",
+    "service_name": "asset-service",
+    "document_type": "permanentasset",
+    "class_name": "PermanentAssetService"
+  },
+  {
+    "error_message": "Асосий воситада ([...]) фойдаланишга қабул қилиниш санаси мавжуд эмас / Не имеется дата поступления в эксплуатацию основном средстве ([...])",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/PermanentAsset/Concrete/PermanentAssetService.cs",
+    "line_number": 374,
+    "condition": "",
+    "service_name": "asset-service",
+    "document_type": "permanentasset",
+    "class_name": "PermanentAssetService"
+  },
+  {
+    "error_message": "Бундай ҳужжат мавжуд емас !",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/PermanentAsset/Concrete/PermanentAssetService.cs",
+    "line_number": 426,
+    "condition": "data.Count == 0",
+    "service_name": "asset-service",
+    "document_type": "permanentasset",
+    "class_name": "PermanentAssetService"
+  },
+  {
+    "error_message": "Excel file not found !",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/PermanentAsset/Concrete/PermanentAssetService.cs",
+    "line_number": 434,
+    "condition": "template is null",
+    "service_name": "asset-service",
+    "document_type": "permanentasset",
+    "class_name": "PermanentAssetService"
+  },
+  {
+    "error_message": "Маълумот топилмади.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/PermanentAsset/Concrete/PermanentAssetService.cs",
+    "line_number": 486,
+    "condition": "entity == null",
+    "service_name": "asset-service",
+    "document_type": "permanentasset",
+    "class_name": "PermanentAssetService"
+  },
+  {
+    "error_message": "Хатолик юз берди: [...]",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.BizLayer/PermanentAsset/Concrete/PermanentAssetService.cs",
+    "line_number": 499,
+    "condition": "",
+    "service_name": "asset-service",
+    "document_type": "permanentasset",
+    "class_name": "PermanentAssetService"
+  },
+  {
+    "error_message": "Ҳужжат буджет тури хато кўрсатилган.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.DataLayer.Repository/Repositories/Doc/PermanentAssetAgeing/Concrete/PermanentAssetAgeingRepository.cs",
+    "line_number": 59,
+    "condition": "entity.OrgActivityTypeId == 0",
+    "service_name": "asset-service",
+    "document_type": "permanentassetageing",
+    "class_name": "PermanentAssetAgeingRepository"
+  },
+  {
+    "error_message": "Ҳужжат буджет тури хато кўрсатилган.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.DataLayer.Repository/Repositories/Doc/PermanentAssetAgeing/Concrete/PermanentAssetAgeingRepository.cs",
+    "line_number": 70,
+    "condition": "entity.OrgActivityTypeId == 0",
+    "service_name": "asset-service",
+    "document_type": "permanentassetageing",
+    "class_name": "PermanentAssetAgeingRepository"
+  },
+  {
+    "error_message": "Асосий восита харажатлари томонида валюта суммаси кўрсатилмаган.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.DataLayer.Repository/Repositories/Doc/PermanentAssetIntake/Concrete/PermanentAssetIntakeRepository.cs",
+    "line_number": 72,
+    "condition": "chargesTableDto.CurrencyId.HasValue && chargesTableDto.DocCurrencySum <= 0",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeRepository"
+  },
+  {
+    "error_message": "Контрагент кўрсатилмаган",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.DataLayer.Repository/Repositories/Doc/PermanentAssetIntake/Concrete/PermanentAssetIntakeRepository.cs",
+    "line_number": 99,
+    "condition": "",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeRepository"
+  },
+  {
+    "error_message": "ШҒХ топилмади // ШҒХ не найдено",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.DataLayer.Repository/Repositories/Doc/PermanentAssetIntake/Concrete/PermanentAssetIntakeRepository.cs",
+    "line_number": 104,
+    "condition": "orgSett is null",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintake",
+    "class_name": "PermanentAssetIntakeRepository"
+  },
+  {
+    "error_message": "ШҒХ топилмади // ШҒХ не найдено",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.DataLayer.Repository/Repositories/Doc/PermanentAssetMove/Concrete/PermanentAssetMoveRepository.cs",
+    "line_number": 60,
+    "condition": "orgSett is null",
+    "service_name": "asset-service",
+    "document_type": "permanentassetmove",
+    "class_name": "PermanentAssetMoveRepository"
+  },
+  {
+    "error_message": "ШҒХ топилмади // ШҒХ не найдено",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.DataLayer.Repository/Repositories/Doc/PermanentAssetMove/Concrete/PermanentAssetMoveRepository.cs",
+    "line_number": 80,
+    "condition": "orgSett is null",
+    "service_name": "asset-service",
+    "document_type": "permanentassetmove",
+    "class_name": "PermanentAssetMoveRepository"
+  },
+  {
+    "error_message": "ШҒХ топилмади // ШҒХ не найдено",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.DataLayer.Repository/Repositories/Doc/PermanentAssetRetirement/Concrete/PermanentAssetRetirementRepository.cs",
+    "line_number": 80,
+    "condition": "orgSett is null",
+    "service_name": "asset-service",
+    "document_type": "permanentassetretirement",
+    "class_name": "PermanentAssetRetirementRepository"
+  },
+  {
+    "error_message": "ШҒХ топилмади // ШҒХ не найдено",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.DataLayer.Repository/Repositories/Doc/PermanentAssetRetirement/Concrete/PermanentAssetRetirementRepository.cs",
+    "line_number": 107,
+    "condition": "orgSett is null",
+    "service_name": "asset-service",
+    "document_type": "permanentassetretirement",
+    "class_name": "PermanentAssetRetirementRepository"
+  },
+  {
+    "error_message": "Импорт табле тўлдирилмаган. | Таблица импорта не заполнена.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.DataLayer.Repository/Repositories/Doc/RestsByPermanentAsset/Concrete/RestsByPermanentAssetRepository.cs",
+    "line_number": 83,
+    "condition": "dto.IsImportFromUzasbo && !dto.Imports.Any()",
+    "service_name": "asset-service",
+    "document_type": "restsbypermanentasset",
+    "class_name": "RestsByPermanentAssetRepository"
+  },
+  {
+    "error_message": "Танланган ШҒХ лар ташкилот тури бир хил емас. | Тип организации выбранных ЛС не одинаков",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.DataLayer.Repository/Repositories/Doc/RestsByPermanentAsset/Concrete/RestsByPermanentAssetRepository.cs",
+    "line_number": 94,
+    "condition": "await orgSettlementQuery.GroupBy(x => x.OrgActivityTypeId).CountAsync() > 1",
+    "service_name": "asset-service",
+    "document_type": "restsbypermanentasset",
+    "class_name": "RestsByPermanentAssetRepository"
+  },
+  {
+    "error_message": "ШҒХ топилмади. | ЛС не найден",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.DataLayer.Repository/Repositories/Doc/RestsByPermanentAsset/Concrete/RestsByPermanentAssetRepository.cs",
+    "line_number": 100,
+    "condition": "orgSettlement is null",
+    "service_name": "asset-service",
+    "document_type": "restsbypermanentasset",
+    "class_name": "RestsByPermanentAssetRepository"
+  },
+  {
+    "error_message": "Tабле тўлдирилмаган. | Таблица не заполнена.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.DataLayer.Repository/Repositories/Doc/RestsByPermanentAsset/Concrete/RestsByPermanentAssetRepository.cs",
+    "line_number": 118,
+    "condition": "!dto.CreateTables.Any()",
+    "service_name": "asset-service",
+    "document_type": "restsbypermanentasset",
+    "class_name": "RestsByPermanentAssetRepository"
+  },
+  {
+    "error_message": "Танланган ШҒХ лар ташкилот тури бир хил емас. | Тип организации выбранных ЛС не одинаков",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.DataLayer.Repository/Repositories/Doc/RestsByPermanentAsset/Concrete/RestsByPermanentAssetRepository.cs",
+    "line_number": 127,
+    "condition": "await orgSettlementQuery.GroupBy(x => x.OrgActivityTypeId).CountAsync() > 1",
+    "service_name": "asset-service",
+    "document_type": "restsbypermanentasset",
+    "class_name": "RestsByPermanentAssetRepository"
+  },
+  {
+    "error_message": "ШҒХ топилмади. | ЛС не найден",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.DataLayer.Repository/Repositories/Doc/RestsByPermanentAsset/Concrete/RestsByPermanentAssetRepository.cs",
+    "line_number": 135,
+    "condition": "orgSettlement is null",
+    "service_name": "asset-service",
+    "document_type": "restsbypermanentasset",
+    "class_name": "RestsByPermanentAssetRepository"
+  },
+  {
+    "error_message": "Субсчет топилмади.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.DataLayer.Repository/Repositories/Doc/RestsByPermanentAsset/Concrete/RestsByPermanentAssetRepository.cs",
+    "line_number": 190,
+    "condition": "subAccountPlan == null",
+    "service_name": "asset-service",
+    "document_type": "restsbypermanentasset",
+    "class_name": "RestsByPermanentAssetRepository"
+  },
+  {
+    "error_message": "Субсчет хато таънланган. Сиз танлаган субсчет ески cоди [...]([...]) ески тизимдан келган субсчет cоди га мос емас [...]([...])",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.DataLayer.Repository/Repositories/Doc/RestsByPermanentAsset/Concrete/RestsByPermanentAssetRepository.cs",
+    "line_number": 193,
+    "condition": "!string.IsNullOrEmpty(entity.PermanentAsset.SubAcc.AccountPlan.OldCode) && !entity.SubAccDb.AccountPlan.OldCode.Equals(subAccountPlan.AccountPlan.OldCode)",
+    "service_name": "asset-service",
+    "document_type": "restsbypermanentasset",
+    "class_name": "RestsByPermanentAssetRepository"
+  },
+  {
+    "error_message": "Запись с этим кодом ([...]) уже существует.",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.DataLayer.Repository/Repositories/PermanentAssetSubGroup/Concrete/PermanentAssetSubGroupRepository.cs",
+    "line_number": 42,
+    "condition": "entity == null && query.ByPermanentAssetSubGroupCode(dto.Code, isIncludePassive: true).Any()",
+    "service_name": "asset-service",
+    "document_type": "permanentassetsubgroup",
+    "class_name": "PermanentAssetSubGroupRepository"
+  },
+  {
+    "error_message": "Есть незавершенное выполнение документов. Попробуй позже.{jobHistorys.Select(x => x.Table.ShortName +",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.Job.BizLayer/Services/PermanentAssetAgeingJobService.cs",
+    "line_number": 86,
+    "condition": "",
+    "service_name": "asset-service",
+    "document_type": "permanentassetageingjob",
+    "class_name": "PermanentAssetAgeingJobService"
+  },
+  {
+    "error_message": "Есть незавершенное выполнение документов. Попробуй позже.{jobHistorys.Select(x => x.Table.ShortName +",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.Job.BizLayer/Services/PermanentAssetAgeingJobService.cs",
+    "line_number": 134,
+    "condition": "",
+    "service_name": "asset-service",
+    "document_type": "permanentassetageingjob",
+    "class_name": "PermanentAssetAgeingJobService"
+  },
+  {
+    "error_message": "Есть незавершенное выполнение документов. Попробуй позже.{jobHistorys.Select(x => x.Table.ShortName +",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.Job.BizLayer/Services/PermanentAssetIntakeJobService.cs",
+    "line_number": 92,
+    "condition": "",
+    "service_name": "asset-service",
+    "document_type": "permanentassetintakejob",
+    "class_name": "PermanentAssetIntakeJobService"
+  },
+  {
+    "error_message": "Есть незавершенное выполнение документов. Попробуй позже.{jobHistorys.Select(x => x.Table.ShortName +",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.Job.BizLayer/Services/PermanentAssetMoveJobService.cs",
+    "line_number": 80,
+    "condition": "",
+    "service_name": "asset-service",
+    "document_type": "permanentassetmovejob",
+    "class_name": "PermanentAssetMoveJobService"
+  },
+  {
+    "error_message": "Есть незавершенное выполнение документов. Попробуй позже.{jobHistorys.Select(x => x.Table.ShortName +",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.Job.BizLayer/Services/PermanentAssetReappraisalJobService.cs",
+    "line_number": 82,
+    "condition": "",
+    "service_name": "asset-service",
+    "document_type": "permanentassetreappraisaljob",
+    "class_name": "PermanentAssetReappraisalJobService"
+  },
+  {
+    "error_message": "Есть незавершенное выполнение документов. Попробуй позже.{jobHistorys.Select(x => x.Table.ShortName +",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.Job.BizLayer/Services/PermanentAssetRetirementJobService.cs",
+    "line_number": 82,
+    "condition": "",
+    "service_name": "asset-service",
+    "document_type": "permanentassetretirementjob",
+    "class_name": "PermanentAssetRetirementJobService"
+  },
+  {
+    "error_message": "Есть незавершенное выполнение документов. Попробуй позже.{jobHistorys.Select(x => x.Table.ShortName +",
+    "file_path": "services/asset-service/src/libs/Uzasbo2.Services.Asset.Job.BizLayer/Services/RestsByPermanentAssetJobService.cs",
+    "line_number": 96,
+    "condition": "",
+    "service_name": "asset-service",
+    "document_type": "restsbypermanentassetjob",
+    "class_name": "RestsByPermanentAssetJobService"
+  },
+  {
+    "error_message": "[...] йил учун асосий воситаларга қайта баҳолаш берилмаган. Переоценка основных средств за [...] год не начислена.",
+    "file_path": "services/asset-service/src/shared/Uzasbo2.Services.Asset.Shared.BizLayer/Sys/PermanentAssetReappraisalServices/Concrete/PermanentAssetReappraisalService.cs",
+    "line_number": 41,
+    "condition": "reappraisal == null",
+    "service_name": "asset-service",
+    "document_type": "permanentassetreappraisal",
+    "class_name": "PermanentAssetReappraisalService"
+  },
+  {
+    "error_message": "[...] йил [...] ойи учун асосий воситалар бўйича эскириш ҳисобланмаган. Износ основных средств за [...] месяц [...] года не начислен",
+    "file_path": "services/asset-service/src/shared/Uzasbo2.Services.Asset.Shared.BizLayer/Sys/PermanentAssetReappraisalServices/Concrete/PermanentAssetReappraisalService.cs",
+    "line_number": 51,
+    "condition": "ageing == null",
+    "service_name": "asset-service",
+    "document_type": "permanentassetreappraisal",
+    "class_name": "PermanentAssetReappraisalService"
+  },
+  {
+    "error_message": "Èíâ.¹: [...]. ÎÑ: [...]",
+    "file_path": "services/asset-service/src/shared/Uzasbo2.Services.Asset.Shared.BizLayer/Sys/PermanentAssetServices/Concrete/PermanentAssetService.cs",
+    "line_number": 49,
+    "condition": "ageingAllowed.Count() != 0",
+    "service_name": "asset-service",
+    "document_type": "permanentasset",
+    "class_name": "PermanentAssetService"
+  },
+  {
+    "error_message": "[...]-éèë [...] îéè ó÷óí àñîñèé âîñèòàëàðãà ýñêèðèø êèðèòèëìàãàí.Èçíîñ íå íà÷èñëåí îñíîâíûì ñðåäñòâàì íà ìåñÿö. [...]-ãîä [...]",
+    "file_path": "services/asset-service/src/shared/Uzasbo2.Services.Asset.Shared.BizLayer/Sys/PermanentAssetServices/Concrete/PermanentAssetService.cs",
+    "line_number": 66,
+    "condition": "NoDate.Length > 0",
+    "service_name": "asset-service",
+    "document_type": "permanentasset",
+    "class_name": "PermanentAssetService"
+  },
+  {
+    "error_message": "[...]-éèë [...] îéè ó÷óí àñîñèé âîñèòàëàðãà ýñêèðèø êèðèòèëìàãàí.Èçíîñ íå íà÷èñëåí îñíîâíûì ñðåäñòâàì íà ìåñÿö. [...]-ãîä [...]",
+    "file_path": "services/asset-service/src/shared/Uzasbo2.Services.Asset.Shared.BizLayer/Sys/PermanentAssetServices/Concrete/PermanentAssetService.cs",
+    "line_number": 83,
+    "condition": "NoDate.Length > 0",
+    "service_name": "asset-service",
+    "document_type": "permanentasset",
+    "class_name": "PermanentAssetService"
+  },
+  {
+    "error_message": "[...]-éèë [...] îéè ó÷óí àñîñèé âîñèòàëàðãà ýñêèðèø êèðèòèëìàãàí.Èçíîñ íå íà÷èñëåí îñíîâíûì ñðåäñòâàì íà ìåñÿö. [...]-ãîä [...]",
+    "file_path": "services/asset-service/src/shared/Uzasbo2.Services.Asset.Shared.BizLayer/Sys/PermanentAssetServices/Concrete/PermanentAssetService.cs",
+    "line_number": 100,
+    "condition": "NoDate.Length > 0",
+    "service_name": "asset-service",
+    "document_type": "permanentasset",
+    "class_name": "PermanentAssetService"
+  },
+  {
+    "error_message": "[...]-éèë [...] îéè ó÷óí àñîñèé âîñèòàëàðãà ýñêèðèø êèðèòèëìàãàí.Èçíîñ íå íà÷èñëåí îñíîâíûì ñðåäñòâàì íà ìåñÿö. [...]-ãîä [...]",
+    "file_path": "services/asset-service/src/shared/Uzasbo2.Services.Asset.Shared.BizLayer/Sys/PermanentAssetServices/Concrete/PermanentAssetService.cs",
+    "line_number": 117,
+    "condition": "NoDate.Length > 0",
+    "service_name": "asset-service",
+    "document_type": "permanentasset",
+    "class_name": "PermanentAssetService"
+  },
+  {
+    "error_message": "[...]-yil [...] oyi uchun Debitorlik va kreditorlik qarzlarni qayta hisoblash hujjati tasdiqlanmagan. Ïåðåðàñ÷åò äåáèòîðñêîé è êðåäèòîðñêîé çàäîëæåííîñòè íà ìåñÿö. [...]-ãîä [...]",
+    "file_path": "services/asset-service/src/shared/Uzasbo2.Services.Asset.Shared.BizLayer/Sys/PermanentAssetServices/Concrete/PermanentAssetService.cs",
+    "line_number": 132,
+    "condition": "NoDate.Length > 0",
+    "service_name": "asset-service",
+    "document_type": "permanentasset",
+    "class_name": "PermanentAssetService"
+  },
+  {
+    "error_message": "[...]-yil [...] oyi uchun Debitorlik va kreditorlik qarzlarni qayta hisoblash hujjati tasdiqlanmagan. Ïåðåðàñ÷åò äåáèòîðñêîé è êðåäèòîðñêîé çàäîëæåííîñòè íà ìåñÿö. [...]-ãîä [...]",
+    "file_path": "services/asset-service/src/shared/Uzasbo2.Services.Asset.Shared.BizLayer/Sys/PermanentAssetServices/Concrete/PermanentAssetService.cs",
+    "line_number": 149,
+    "condition": "NoDate.Length > 0",
+    "service_name": "asset-service",
+    "document_type": "permanentasset",
+    "class_name": "PermanentAssetService"
+  },
+  {
+    "error_message": "[...]-yil [...] oyi uchun Debitorlik va kreditorlik qarzlarni qayta hisoblash hujjati tasdiqlanmagan. Ïåðåðàñ÷åò äåáèòîðñêîé è êðåäèòîðñêîé çàäîëæåííîñòè íà ìåñÿö. [...]-ãîä [...]",
+    "file_path": "services/asset-service/src/shared/Uzasbo2.Services.Asset.Shared.BizLayer/Sys/PermanentAssetServices/Concrete/PermanentAssetService.cs",
+    "line_number": 164,
+    "condition": "NoDate.Length > 0",
+    "service_name": "asset-service",
+    "document_type": "permanentasset",
+    "class_name": "PermanentAssetService"
+  },
+  {
+    "error_message": "[...]-yil [...] oyi uchun Debitorlik va kreditorlik qarzlarni qayta hisoblash hujjati tasdiqlanmagan. Ïåðåðàñ÷åò äåáèòîðñêîé è êðåäèòîðñêîé çàäîëæåííîñòè íà ìåñÿö. [...]-ãîä [...]",
+    "file_path": "services/asset-service/src/shared/Uzasbo2.Services.Asset.Shared.BizLayer/Sys/PermanentAssetServices/Concrete/PermanentAssetService.cs",
+    "line_number": 196,
+    "condition": "NoDate.Length > 0",
+    "service_name": "asset-service",
+    "document_type": "permanentasset",
+    "class_name": "PermanentAssetService"
+  }
+]

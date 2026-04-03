@@ -1,0 +1,3873 @@
+[
+  {
+    "title": "Health",
+    "path": "acc-report-service → Health",
+    "url": "/Health",
+    "description": "Health API endpoint (acc-report-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "MonReport",
+    "path": "acc-report-service → MonReport",
+    "url": "/MonReport/[action]",
+    "description": "MonReport API endpoint (acc-report-service)",
+    "methods_count": 34
+  },
+  {
+    "title": "OtherReport",
+    "path": "acc-report-service → OtherReport",
+    "url": "/OtherReport/[action]",
+    "description": "OtherReport API endpoint (acc-report-service)",
+    "methods_count": 7
+  },
+  {
+    "title": "Report",
+    "path": "acc-report-service → Report",
+    "url": "/Report/[action]",
+    "description": "Report API endpoint (acc-report-service)",
+    "methods_count": 12
+  },
+  {
+    "title": "AccountPlan",
+    "path": "acc-service → AccountPlan",
+    "url": "/AccountPlan/[action]",
+    "description": "AccountPlan API endpoint (acc-service)",
+    "methods_count": 9
+  },
+  {
+    "title": "AllowedTransaction",
+    "path": "acc-service → AllowedTransaction",
+    "url": "/AllowedTransaction/[action]",
+    "description": "AllowedTransaction API endpoint (acc-service)",
+    "methods_count": 8
+  },
+  {
+    "title": "CloseMonth",
+    "path": "acc-service → CloseMonth",
+    "url": "/CloseMonth/[action]",
+    "description": "CloseMonth API endpoint (acc-service)",
+    "methods_count": 11
+  },
+  {
+    "title": "Enum",
+    "path": "acc-service → Enum",
+    "url": "/Enum/[action]",
+    "description": "Enum API endpoint (acc-service)",
+    "methods_count": 4
+  },
+  {
+    "title": "Health",
+    "path": "acc-service → Health",
+    "url": "/Health",
+    "description": "Health API endpoint (acc-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "SubAccountPlan",
+    "path": "acc-service → SubAccountPlan",
+    "url": "/SubAccountPlan/[action]",
+    "description": "SubAccountPlan API endpoint (acc-service)",
+    "methods_count": 8
+  },
+  {
+    "title": "SubCount",
+    "path": "acc-service → SubCount",
+    "url": "/SubCount/[action]",
+    "description": "SubCount API endpoint (acc-service)",
+    "methods_count": 2
+  },
+  {
+    "title": "Health",
+    "path": "adm-service → Health",
+    "url": "/Health",
+    "description": "Health API endpoint (adm-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "Health",
+    "path": "adm-service → Health",
+    "url": "/Health",
+    "description": "Health API endpoint (adm-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "Manual",
+    "path": "adm-service → Manual",
+    "url": "/Manual/[action]",
+    "description": "Manual API endpoint (adm-service)",
+    "methods_count": 15
+  },
+  {
+    "title": "Report",
+    "path": "adm-service → Report",
+    "url": "/Report/[action]",
+    "description": "Report API endpoint (adm-service)",
+    "methods_count": 3
+  },
+  {
+    "title": "Control",
+    "path": "adm-service → Control",
+    "url": "/Control/[action]",
+    "description": "Control API endpoint (adm-service)",
+    "methods_count": 12
+  },
+  {
+    "title": "DefectFinding",
+    "path": "adm-service → DefectFinding",
+    "url": "/DefectFinding/[action]",
+    "description": "DefectFinding API endpoint (adm-service)",
+    "methods_count": 7
+  },
+  {
+    "title": "Announcement",
+    "path": "adm-service → Announcement",
+    "url": "/Announcement/[action]",
+    "description": "Announcement API endpoint (adm-service)",
+    "methods_count": 7
+  },
+  {
+    "title": "Bank",
+    "path": "adm-service → Bank",
+    "url": "/Bank/[action]",
+    "description": "Bank API endpoint (adm-service)",
+    "methods_count": 7
+  },
+  {
+    "title": "Cameral",
+    "path": "adm-service → Cameral",
+    "url": "/Cameral/[action]",
+    "description": "Cameral API endpoint (adm-service)",
+    "methods_count": 11
+  },
+  {
+    "title": "ControlStructure",
+    "path": "adm-service → ControlStructure",
+    "url": "/ControlStructure/[action]",
+    "description": "ControlStructure API endpoint (adm-service)",
+    "methods_count": 8
+  },
+  {
+    "title": "Country",
+    "path": "adm-service → Country",
+    "url": "/Country/[action]",
+    "description": "Country API endpoint (adm-service)",
+    "methods_count": 8
+  },
+  {
+    "title": "Currency",
+    "path": "adm-service → Currency",
+    "url": "/Currency/[action]",
+    "description": "Currency API endpoint (adm-service)",
+    "methods_count": 7
+  },
+  {
+    "title": "CurrencyRate",
+    "path": "adm-service → CurrencyRate",
+    "url": "/CurrencyRate/[action]",
+    "description": "CurrencyRate API endpoint (adm-service)",
+    "methods_count": 10
+  },
+  {
+    "title": "DistrictCategory",
+    "path": "adm-service → DistrictCategory",
+    "url": "/DistrictCategory/[action]",
+    "description": "DistrictCategory API endpoint (adm-service)",
+    "methods_count": 6
+  },
+  {
+    "title": "District",
+    "path": "adm-service → District",
+    "url": "/District/[action]",
+    "description": "District API endpoint (adm-service)",
+    "methods_count": 8
+  },
+  {
+    "title": "FunctionalItemOfExpense",
+    "path": "adm-service → FunctionalItemOfExpense",
+    "url": "/FunctionalItemOfExpense/[action]",
+    "description": "FunctionalItemOfExpense API endpoint (adm-service)",
+    "methods_count": 10
+  },
+  {
+    "title": "HeaderOrganization",
+    "path": "adm-service → HeaderOrganization",
+    "url": "/HeaderOrganization/[action]",
+    "description": "HeaderOrganization API endpoint (adm-service)",
+    "methods_count": 11
+  },
+  {
+    "title": "IncomeUnc",
+    "path": "adm-service → IncomeUnc",
+    "url": "/IncomeUnc/[action]",
+    "description": "IncomeUnc API endpoint (adm-service)",
+    "methods_count": 8
+  },
+  {
+    "title": "IntegrationService",
+    "path": "adm-service → IntegrationService",
+    "url": "/IntegrationService/[action]",
+    "description": "IntegrationService API endpoint (adm-service)",
+    "methods_count": 6
+  },
+  {
+    "title": "Mfy",
+    "path": "adm-service → Mfy",
+    "url": "/Mfy/[action]",
+    "description": "Mfy API endpoint (adm-service)",
+    "methods_count": 8
+  },
+  {
+    "title": "Nationality",
+    "path": "adm-service → Nationality",
+    "url": "/Nationality/[action]",
+    "description": "Nationality API endpoint (adm-service)",
+    "methods_count": 8
+  },
+  {
+    "title": "Number",
+    "path": "adm-service → Number",
+    "url": "/Number/[action]",
+    "description": "Number API endpoint (adm-service)",
+    "methods_count": 2
+  },
+  {
+    "title": "Oked",
+    "path": "adm-service → Oked",
+    "url": "/Oked/[action]",
+    "description": "Oked API endpoint (adm-service)",
+    "methods_count": 7
+  },
+  {
+    "title": "OrganizationActivityType",
+    "path": "adm-service → OrganizationActivityType",
+    "url": "/OrganizationActivityType/[action]",
+    "description": "OrganizationActivityType API endpoint (adm-service)",
+    "methods_count": 7
+  },
+  {
+    "title": "OrganizationalClassification",
+    "path": "adm-service → OrganizationalClassification",
+    "url": "/OrganizationalClassification/[action]",
+    "description": "OrganizationalClassification API endpoint (adm-service)",
+    "methods_count": 7
+  },
+  {
+    "title": "OrganizationalStructure",
+    "path": "adm-service → OrganizationalStructure",
+    "url": "/OrganizationalStructure/[action]",
+    "description": "OrganizationalStructure API endpoint (adm-service)",
+    "methods_count": 69
+  },
+  {
+    "title": "Organization",
+    "path": "adm-service → Organization",
+    "url": "/Organization/[action]",
+    "description": "Organization API endpoint (adm-service)",
+    "methods_count": 30
+  },
+  {
+    "title": "OrganizationHeaderInfo",
+    "path": "adm-service → OrganizationHeaderInfo",
+    "url": "/OrganizationHeaderInfo/[action]",
+    "description": "OrganizationHeaderInfo API endpoint (adm-service)",
+    "methods_count": 7
+  },
+  {
+    "title": "OrganizationSettlementAccount",
+    "path": "adm-service → OrganizationSettlementAccount",
+    "url": "/OrganizationSettlementAccount/[action]",
+    "description": "OrganizationSettlementAccount API endpoint (adm-service)",
+    "methods_count": 13
+  },
+  {
+    "title": "OrganizationSign",
+    "path": "adm-service → OrganizationSign",
+    "url": "/OrganizationSign/[action]",
+    "description": "OrganizationSign API endpoint (adm-service)",
+    "methods_count": 6
+  },
+  {
+    "title": "OrganizationType",
+    "path": "adm-service → OrganizationType",
+    "url": "/OrganizationType/[action]",
+    "description": "OrganizationType API endpoint (adm-service)",
+    "methods_count": 6
+  },
+  {
+    "title": "Region",
+    "path": "adm-service → Region",
+    "url": "/Region/[action]",
+    "description": "Region API endpoint (adm-service)",
+    "methods_count": 8
+  },
+  {
+    "title": "RegulatoryDocument",
+    "path": "adm-service → RegulatoryDocument",
+    "url": "/RegulatoryDocument/[action]",
+    "description": "RegulatoryDocument API endpoint (adm-service)",
+    "methods_count": 9
+  },
+  {
+    "title": "SettlementAccountProperty",
+    "path": "adm-service → SettlementAccountProperty",
+    "url": "/SettlementAccountProperty/[action]",
+    "description": "SettlementAccountProperty API endpoint (adm-service)",
+    "methods_count": 6
+  },
+  {
+    "title": "SettlementAccountSetting",
+    "path": "adm-service → SettlementAccountSetting",
+    "url": "/SettlementAccountSetting/[action]",
+    "description": "SettlementAccountSetting API endpoint (adm-service)",
+    "methods_count": 6
+  },
+  {
+    "title": "StructOrgHeaderInfo",
+    "path": "adm-service → StructOrgHeaderInfo",
+    "url": "/StructOrgHeaderInfo/[action]",
+    "description": "StructOrgHeaderInfo API endpoint (adm-service)",
+    "methods_count": 7
+  },
+  {
+    "title": "SysteamType",
+    "path": "adm-service → SysteamType",
+    "url": "/Systeam/[action]",
+    "description": "SysteamType API endpoint (adm-service)",
+    "methods_count": 5
+  },
+  {
+    "title": "UnitOfMeasure",
+    "path": "adm-service → UnitOfMeasure",
+    "url": "/UnitOfMeasure/[action]",
+    "description": "UnitOfMeasure API endpoint (adm-service)",
+    "methods_count": 7
+  },
+  {
+    "title": "OrganizationForAsbo",
+    "path": "adm-service → OrganizationForAsbo",
+    "url": "/organizationforasbo/[action]",
+    "description": "OrganizationForAsbo API endpoint (adm-service)",
+    "methods_count": 2
+  },
+  {
+    "title": "ProviderBinding",
+    "path": "adm-service → ProviderBinding",
+    "url": "/ProviderBinding/[action]",
+    "description": "ProviderBinding API endpoint (adm-service)",
+    "methods_count": 3
+  },
+  {
+    "title": "Account",
+    "path": "adm-service → Account",
+    "url": "/Account/[action]",
+    "description": "Account API endpoint (adm-service)",
+    "methods_count": 9
+  },
+  {
+    "title": "AppMessage",
+    "path": "adm-service → AppMessage",
+    "url": "/AppMessage/[action]",
+    "description": "AppMessage API endpoint (adm-service)",
+    "methods_count": 7
+  },
+  {
+    "title": "DocumentBlock",
+    "path": "adm-service → DocumentBlock",
+    "url": "/DocumentBlock/[action]",
+    "description": "DocumentBlock API endpoint (adm-service)",
+    "methods_count": 6
+  },
+  {
+    "title": "Role",
+    "path": "adm-service → Role",
+    "url": "/Role/[action]",
+    "description": "Role API endpoint (adm-service)",
+    "methods_count": 9
+  },
+  {
+    "title": "TableFileConfig",
+    "path": "adm-service → TableFileConfig",
+    "url": "/TableFileConfig/[action]",
+    "description": "TableFileConfig API endpoint (adm-service)",
+    "methods_count": 8
+  },
+  {
+    "title": "User",
+    "path": "adm-service → User",
+    "url": "/User/[action]",
+    "description": "User API endpoint (adm-service)",
+    "methods_count": 18
+  },
+  {
+    "title": "UserIncomeUnc",
+    "path": "adm-service → UserIncomeUnc",
+    "url": "/UserIncomeUnc/[action]",
+    "description": "UserIncomeUnc API endpoint (adm-service)",
+    "methods_count": 6
+  },
+  {
+    "title": "Health",
+    "path": "asset-report-service → Health",
+    "url": "/Health",
+    "description": "Health API endpoint (asset-report-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "Report",
+    "path": "asset-report-service → Report",
+    "url": "/Report/[action]",
+    "description": "Report API endpoint (asset-report-service)",
+    "methods_count": 13
+  },
+  {
+    "title": "Values",
+    "path": "asset-report-service → Values",
+    "url": "/Values/[action]",
+    "description": "Values API endpoint (asset-report-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "Health",
+    "path": "asset-service → Health",
+    "url": "/Health",
+    "description": "Health API endpoint (asset-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "Health",
+    "path": "asset-service → Health",
+    "url": "/Health",
+    "description": "Health API endpoint (asset-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "Manual",
+    "path": "asset-service → Manual",
+    "url": "/Manual/[action]",
+    "description": "Manual API endpoint (asset-service)",
+    "methods_count": 2
+  },
+  {
+    "title": "Inventory",
+    "path": "asset-service → Inventory",
+    "url": "/Inventory/[action]",
+    "description": "Inventory API endpoint (asset-service)",
+    "methods_count": 27
+  },
+  {
+    "title": "InventoryOrder",
+    "path": "asset-service → InventoryOrder",
+    "url": "/InventoryOrder/[action]",
+    "description": "InventoryOrder API endpoint (asset-service)",
+    "methods_count": 11
+  },
+  {
+    "title": "PermanentAssetAgeing",
+    "path": "asset-service → PermanentAssetAgeing",
+    "url": "/PermanentAssetAgeing/[action]",
+    "description": "PermanentAssetAgeing API endpoint (asset-service)",
+    "methods_count": 9
+  },
+  {
+    "title": "PermanentAssetIntake",
+    "path": "asset-service → PermanentAssetIntake",
+    "url": "/PermanentAssetIntake/[action]",
+    "description": "PermanentAssetIntake API endpoint (asset-service)",
+    "methods_count": 11
+  },
+  {
+    "title": "PermanentAssetMove",
+    "path": "asset-service → PermanentAssetMove",
+    "url": "/PermanentAssetMove/[action]",
+    "description": "PermanentAssetMove API endpoint (asset-service)",
+    "methods_count": 10
+  },
+  {
+    "title": "PermanentAssetReappraisal",
+    "path": "asset-service → PermanentAssetReappraisal",
+    "url": "/PermanentAssetReappraisal/[action]",
+    "description": "PermanentAssetReappraisal API endpoint (asset-service)",
+    "methods_count": 8
+  },
+  {
+    "title": "PermanentAssetRetirement",
+    "path": "asset-service → PermanentAssetRetirement",
+    "url": "/PermanentAssetRetirement/[action]",
+    "description": "PermanentAssetRetirement API endpoint (asset-service)",
+    "methods_count": 19
+  },
+  {
+    "title": "Report",
+    "path": "asset-service → Report",
+    "url": "/Report/[action]",
+    "description": "Report API endpoint (asset-service)",
+    "methods_count": 3
+  },
+  {
+    "title": "RestsByPermanentAsset",
+    "path": "asset-service → RestsByPermanentAsset",
+    "url": "/RestByPermanentAsset/[action]",
+    "description": "RestsByPermanentAsset API endpoint (asset-service)",
+    "methods_count": 20
+  },
+  {
+    "title": "PermanentAsset",
+    "path": "asset-service → PermanentAsset",
+    "url": "/PermanentAsset/[action]",
+    "description": "PermanentAsset API endpoint (asset-service)",
+    "methods_count": 9
+  },
+  {
+    "title": "PermanentAssetAgeingRate",
+    "path": "asset-service → PermanentAssetAgeingRate",
+    "url": "/PermanentAssetAgeingRate/[action]",
+    "description": "PermanentAssetAgeingRate API endpoint (asset-service)",
+    "methods_count": 7
+  },
+  {
+    "title": "PermanentAssetGroup",
+    "path": "asset-service → PermanentAssetGroup",
+    "url": "/PermanentAssetGroup/[action]",
+    "description": "PermanentAssetGroup API endpoint (asset-service)",
+    "methods_count": 7
+  },
+  {
+    "title": "PermanentAssetReappraisalIndex",
+    "path": "asset-service → PermanentAssetReappraisalIndex",
+    "url": "/PermanentAssetReappraisalIndex/[action]",
+    "description": "PermanentAssetReappraisalIndex API endpoint (asset-service)",
+    "methods_count": 7
+  },
+  {
+    "title": "PermanentAssetSubGroup",
+    "path": "asset-service → PermanentAssetSubGroup",
+    "url": "/PermanentAssetSubGroup/[action]",
+    "description": "PermanentAssetSubGroup API endpoint (asset-service)",
+    "methods_count": 7
+  },
+  {
+    "title": "DocumentHistory",
+    "path": "audit-service → DocumentHistory",
+    "url": "/DocumentHistory/[action]",
+    "description": "DocumentHistory API endpoint (audit-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "Health",
+    "path": "audit-service → Health",
+    "url": "/Health",
+    "description": "Health API endpoint (audit-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "DocumentReceive",
+    "path": "bank-integration-service → DocumentReceive",
+    "url": "/DocumentReceive/[action]",
+    "description": "DocumentReceive API endpoint (bank-integration-service)",
+    "methods_count": 2
+  },
+  {
+    "title": "DocumentSend",
+    "path": "bank-integration-service → DocumentSend",
+    "url": "/DocumentSend/[action]",
+    "description": "DocumentSend API endpoint (bank-integration-service)",
+    "methods_count": 2
+  },
+  {
+    "title": "Health",
+    "path": "bank-integration-service → Health",
+    "url": "/Health",
+    "description": "Health API endpoint (bank-integration-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "PayrollPlasticCardSheet",
+    "path": "bank-integration-service → PayrollPlasticCardSheet",
+    "url": "/PayrollPlasticCardSheet",
+    "description": "PayrollPlasticCardSheet API endpoint (bank-integration-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "DepositedMoney",
+    "path": "cash-service → DepositedMoney",
+    "url": "/DepositedMoney/[action]",
+    "description": "DepositedMoney API endpoint (cash-service)",
+    "methods_count": 10
+  },
+  {
+    "title": "Health",
+    "path": "cash-service → Health",
+    "url": "/Health",
+    "description": "Health API endpoint (cash-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "IncomeCashOrder",
+    "path": "cash-service → IncomeCashOrder",
+    "url": "/IncomeCashOrder/[action]",
+    "description": "IncomeCashOrder API endpoint (cash-service)",
+    "methods_count": 12
+  },
+  {
+    "title": "OutcomeCashOrder",
+    "path": "cash-service → OutcomeCashOrder",
+    "url": "/OutcomeCashOrder/[action]",
+    "description": "OutcomeCashOrder API endpoint (cash-service)",
+    "methods_count": 12
+  },
+  {
+    "title": "Report",
+    "path": "cash-service → Report",
+    "url": "/Report/[action]",
+    "description": "Report API endpoint (cash-service)",
+    "methods_count": 4
+  },
+  {
+    "title": "Health",
+    "path": "child-report-service → Health",
+    "url": "/Health",
+    "description": "Health API endpoint (child-report-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "Integration",
+    "path": "child-report-service → Integration",
+    "url": "/Integration/[action]",
+    "description": "Integration API endpoint (child-report-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "Report",
+    "path": "child-report-service → Report",
+    "url": "/Report/[action]",
+    "description": "Report API endpoint (child-report-service)",
+    "methods_count": 4
+  },
+  {
+    "title": "Health",
+    "path": "child-service → Health",
+    "url": "/Health",
+    "description": "Health API endpoint (child-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "Health",
+    "path": "child-service → Health",
+    "url": "/Health",
+    "description": "Health API endpoint (child-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "Manual",
+    "path": "child-service → Manual",
+    "url": "/Manual/[action]",
+    "description": "Manual API endpoint (child-service)",
+    "methods_count": 6
+  },
+  {
+    "title": "NewManual",
+    "path": "child-service → NewManual",
+    "url": "/New/Manual/[action]",
+    "description": "NewManual API endpoint (child-service)",
+    "methods_count": 6
+  },
+  {
+    "title": "ChildCome",
+    "path": "child-service → ChildCome",
+    "url": "/ChildCome/[action]",
+    "description": "ChildCome API endpoint (child-service)",
+    "methods_count": 10
+  },
+  {
+    "title": "ChildLeave",
+    "path": "child-service → ChildLeave",
+    "url": "/ChildLeave/[action]",
+    "description": "ChildLeave API endpoint (child-service)",
+    "methods_count": 9
+  },
+  {
+    "title": "ChildMissedDay",
+    "path": "child-service → ChildMissedDay",
+    "url": "/ChildMissedDay/[action]",
+    "description": "ChildMissedDay API endpoint (child-service)",
+    "methods_count": 11
+  },
+  {
+    "title": "ChildMovement",
+    "path": "child-service → ChildMovement",
+    "url": "/ChildMovement/[action]",
+    "description": "ChildMovement API endpoint (child-service)",
+    "methods_count": 9
+  },
+  {
+    "title": "ChildTimesheet",
+    "path": "child-service → ChildTimesheet",
+    "url": "/ChildTimesheet/[action]",
+    "description": "ChildTimesheet API endpoint (child-service)",
+    "methods_count": 11
+  },
+  {
+    "title": "Child",
+    "path": "child-service → Child",
+    "url": "/Child/[action]",
+    "description": "Child API endpoint (child-service)",
+    "methods_count": 11
+  },
+  {
+    "title": "ChildPerson",
+    "path": "child-service → ChildPerson",
+    "url": "/ChildPerson/[action]",
+    "description": "ChildPerson API endpoint (child-service)",
+    "methods_count": 12
+  },
+  {
+    "title": "TrainingGroup",
+    "path": "child-service → TrainingGroup",
+    "url": "/TrainingGroup/[action]",
+    "description": "TrainingGroup API endpoint (child-service)",
+    "methods_count": 7
+  },
+  {
+    "title": "ChildPaymentDiscount",
+    "path": "child-service → ChildPaymentDiscount",
+    "url": "/ChildPaymentDiscount/[action]",
+    "description": "ChildPaymentDiscount API endpoint (child-service)",
+    "methods_count": 7
+  },
+  {
+    "title": "ChildPrice",
+    "path": "child-service → ChildPrice",
+    "url": "/ChildPrice/[action]",
+    "description": "ChildPrice API endpoint (child-service)",
+    "methods_count": 7
+  },
+  {
+    "title": "ChildManage",
+    "path": "child-service → ChildManage",
+    "url": "/ChildManage/[action]",
+    "description": "ChildManage API endpoint (child-service)",
+    "methods_count": 5
+  },
+  {
+    "title": "BankDocumentHistory",
+    "path": "cmn-service → BankDocumentHistory",
+    "url": "/BankDocumentHistory/[action]",
+    "description": "BankDocumentHistory API endpoint (cmn-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "DmbatDocumentHistory",
+    "path": "cmn-service → DmbatDocumentHistory",
+    "url": "/DmbatDocumentHistory/[action]",
+    "description": "DmbatDocumentHistory API endpoint (cmn-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "DocumentChangeLog",
+    "path": "cmn-service → DocumentChangeLog",
+    "url": "/DocumentChangeLog/[action]",
+    "description": "DocumentChangeLog API endpoint (cmn-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "Health",
+    "path": "cmn-service → Health",
+    "url": "/Health",
+    "description": "Health API endpoint (cmn-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "InfoChangeLog",
+    "path": "cmn-service → InfoChangeLog",
+    "url": "/InfoChangeLog/[action]",
+    "description": "InfoChangeLog API endpoint (cmn-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "Manual",
+    "path": "cmn-service → Manual",
+    "url": "/Manual/[action]",
+    "description": "Manual API endpoint (cmn-service)",
+    "methods_count": 9
+  },
+  {
+    "title": "MibDocumentHistory",
+    "path": "cmn-service → MibDocumentHistory",
+    "url": "/MibDocumentHistory/[action]",
+    "description": "MibDocumentHistory API endpoint (cmn-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "Report",
+    "path": "cmn-service → Report",
+    "url": "/Report/[action]",
+    "description": "Report API endpoint (cmn-service)",
+    "methods_count": 2
+  },
+  {
+    "title": "BankDocumentStat",
+    "path": "dashboard-service → BankDocumentStat",
+    "url": "/{lang}/BankDocumentStat/[action]",
+    "description": "BankDocumentStat API endpoint (dashboard-service)",
+    "methods_count": 5
+  },
+  {
+    "title": "BankIndicator",
+    "path": "dashboard-service → BankIndicator",
+    "url": "/{lang}/BankIndicator/[action]",
+    "description": "BankIndicator API endpoint (dashboard-service)",
+    "methods_count": 6
+  },
+  {
+    "title": "BudgetIndicator",
+    "path": "dashboard-service → BudgetIndicator",
+    "url": "/{lang}/BudgetIndicator/[action]",
+    "description": "BudgetIndicator API endpoint (dashboard-service)",
+    "methods_count": 6
+  },
+  {
+    "title": "BudgetStat",
+    "path": "dashboard-service → BudgetStat",
+    "url": "/{lang}/BudgetStat/[action]",
+    "description": "BudgetStat API endpoint (dashboard-service)",
+    "methods_count": 5
+  },
+  {
+    "title": "EmployeeManageStat",
+    "path": "dashboard-service → EmployeeManageStat",
+    "url": "/{lang}/EmployeeManageStat/[action]",
+    "description": "EmployeeManageStat API endpoint (dashboard-service)",
+    "methods_count": 5
+  },
+  {
+    "title": "EmployeeStat",
+    "path": "dashboard-service → EmployeeStat",
+    "url": "/{lang}/EmployeeStat/[action]",
+    "description": "EmployeeStat API endpoint (dashboard-service)",
+    "methods_count": 4
+  },
+  {
+    "title": "Health",
+    "path": "dashboard-service → Health",
+    "url": "/Health/[action]",
+    "description": "Health API endpoint (dashboard-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "InventoryHoldingStat",
+    "path": "dashboard-service → InventoryHoldingStat",
+    "url": "/{lang}/InventoryHoldingStat/[action]",
+    "description": "InventoryHoldingStat API endpoint (dashboard-service)",
+    "methods_count": 4
+  },
+  {
+    "title": "Manual",
+    "path": "dashboard-service → Manual",
+    "url": "/{lang}/Manual/[action]",
+    "description": "Manual API endpoint (dashboard-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "Organization",
+    "path": "dashboard-service → Organization",
+    "url": "/{lang}/Organization/[action]",
+    "description": "Organization API endpoint (dashboard-service)",
+    "methods_count": 4
+  },
+  {
+    "title": "PermanetAssetStat",
+    "path": "dashboard-service → PermanetAssetStat",
+    "url": "/{lang}/PermanetAssetStat/[action]",
+    "description": "PermanetAssetStat API endpoint (dashboard-service)",
+    "methods_count": 5
+  },
+  {
+    "title": "PersonalStat",
+    "path": "dashboard-service → PersonalStat",
+    "url": "/{lang}/PersonalStat/[action]",
+    "description": "PersonalStat API endpoint (dashboard-service)",
+    "methods_count": 9
+  },
+  {
+    "title": "PersonStat",
+    "path": "dashboard-service → PersonStat",
+    "url": "/{lang}/PersonStat/[action]",
+    "description": "PersonStat API endpoint (dashboard-service)",
+    "methods_count": 5
+  },
+  {
+    "title": "SalaryBudgetStat",
+    "path": "dashboard-service → SalaryBudgetStat",
+    "url": "/{lang}/SalaryBudgetStat/[action]",
+    "description": "SalaryBudgetStat API endpoint (dashboard-service)",
+    "methods_count": 5
+  },
+  {
+    "title": "SalaryDetail",
+    "path": "dashboard-service → SalaryDetail",
+    "url": "/{lang}/SalaryDetail/[action]",
+    "description": "SalaryDetail API endpoint (dashboard-service)",
+    "methods_count": 6
+  },
+  {
+    "title": "SalaryStat",
+    "path": "dashboard-service → SalaryStat",
+    "url": "/{lang}/SalaryStat/[action]",
+    "description": "SalaryStat API endpoint (dashboard-service)",
+    "methods_count": 5
+  },
+  {
+    "title": "Staffing",
+    "path": "dashboard-service → Staffing",
+    "url": "/{lang}/Staffing/[action]",
+    "description": "Staffing API endpoint (dashboard-service)",
+    "methods_count": 8
+  },
+  {
+    "title": "TarifficationStat",
+    "path": "dashboard-service → TarifficationStat",
+    "url": "/{lang}/TarifficationStat/[action]",
+    "description": "TarifficationStat API endpoint (dashboard-service)",
+    "methods_count": 5
+  },
+  {
+    "title": "TeacherHourStat",
+    "path": "dashboard-service → TeacherHourStat",
+    "url": "/{lang}/TeacherHourStat/[action]",
+    "description": "TeacherHourStat API endpoint (dashboard-service)",
+    "methods_count": 5
+  },
+  {
+    "title": "Xarid",
+    "path": "dashboard-service → Xarid",
+    "url": "/{lang}/Xarid/[action]",
+    "description": "Xarid API endpoint (dashboard-service)",
+    "methods_count": 5
+  },
+  {
+    "title": "Default",
+    "path": "dashboard-service → Default",
+    "url": "/Default",
+    "description": "Default API endpoint (dashboard-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "Health",
+    "path": "dashboard-service → Health",
+    "url": "/Health",
+    "description": "Health API endpoint (dashboard-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "Health",
+    "path": "edu-report-service → Health",
+    "url": "/Health",
+    "description": "Health API endpoint (edu-report-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "Report",
+    "path": "edu-report-service → Report",
+    "url": "/Report/[action]",
+    "description": "Report API endpoint (edu-report-service)",
+    "methods_count": 4
+  },
+  {
+    "title": "Report",
+    "path": "edu-report-service → Report",
+    "url": "/v-1.0/Report/[action]",
+    "description": "Report API endpoint (edu-report-service)",
+    "methods_count": 3
+  },
+  {
+    "title": "Health",
+    "path": "edu-service → Health",
+    "url": "/Health",
+    "description": "Health API endpoint (edu-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "Health",
+    "path": "edu-service → Health",
+    "url": "/Health",
+    "description": "Health API endpoint (edu-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "Manual",
+    "path": "edu-service → Manual",
+    "url": "/Manual/[action]",
+    "description": "Manual API endpoint (edu-service)",
+    "methods_count": 12
+  },
+  {
+    "title": "ContractInvoice",
+    "path": "edu-service → ContractInvoice",
+    "url": "/ContractInvoice/[action]",
+    "description": "ContractInvoice API endpoint (edu-service)",
+    "methods_count": 11
+  },
+  {
+    "title": "ContractOfScholarship",
+    "path": "edu-service → ContractOfScholarship",
+    "url": "/ContractOfScholarship/[action]",
+    "description": "ContractOfScholarship API endpoint (edu-service)",
+    "methods_count": 12
+  },
+  {
+    "title": "EduTempCalcKind",
+    "path": "edu-service → EduTempCalcKind",
+    "url": "/EduTempCalcKind/[action]",
+    "description": "EduTempCalcKind API endpoint (edu-service)",
+    "methods_count": 12
+  },
+  {
+    "title": "ScholarshipPenalty",
+    "path": "edu-service → ScholarshipPenalty",
+    "url": "/ScholarshipPenalty/[action]",
+    "description": "ScholarshipPenalty API endpoint (edu-service)",
+    "methods_count": 9
+  },
+  {
+    "title": "StudentAdmissionOrder",
+    "path": "edu-service → StudentAdmissionOrder",
+    "url": "/StudentAdmissionOrder/[action]",
+    "description": "StudentAdmissionOrder API endpoint (edu-service)",
+    "methods_count": 9
+  },
+  {
+    "title": "StudentCalc",
+    "path": "edu-service → StudentCalc",
+    "url": "/StudentCalc/[action]",
+    "description": "StudentCalc API endpoint (edu-service)",
+    "methods_count": 14
+  },
+  {
+    "title": "StudentFixingTransaction",
+    "path": "edu-service → StudentFixingTransaction",
+    "url": "/StudentFixingTransaction/[action]",
+    "description": "StudentFixingTransaction API endpoint (edu-service)",
+    "methods_count": 8
+  },
+  {
+    "title": "StudentLeave",
+    "path": "edu-service → StudentLeave",
+    "url": "/StudentLeave/[action]",
+    "description": "StudentLeave API endpoint (edu-service)",
+    "methods_count": 10
+  },
+  {
+    "title": "StudentMovement",
+    "path": "edu-service → StudentMovement",
+    "url": "/StudentMovement/[action]",
+    "description": "StudentMovement API endpoint (edu-service)",
+    "methods_count": 9
+  },
+  {
+    "title": "StudentPayrollPlasticCardSheet",
+    "path": "edu-service → StudentPayrollPlasticCardSheet",
+    "url": "/StudentPayrollPlasticCardSheet/[action]",
+    "description": "StudentPayrollPlasticCardSheet API endpoint (edu-service)",
+    "methods_count": 22
+  },
+  {
+    "title": "StudentPayrollSheet",
+    "path": "edu-service → StudentPayrollSheet",
+    "url": "/StudentPayrollSheet/[action]",
+    "description": "StudentPayrollSheet API endpoint (edu-service)",
+    "methods_count": 15
+  },
+  {
+    "title": "EduSpeciality",
+    "path": "edu-service → EduSpeciality",
+    "url": "/EduSpeciality/[action]",
+    "description": "EduSpeciality API endpoint (edu-service)",
+    "methods_count": 9
+  },
+  {
+    "title": "Faculty",
+    "path": "edu-service → Faculty",
+    "url": "/Faculty/[action]",
+    "description": "Faculty API endpoint (edu-service)",
+    "methods_count": 10
+  },
+  {
+    "title": "StudentPerson",
+    "path": "edu-service → StudentPerson",
+    "url": "/StudentPerson/[action]",
+    "description": "StudentPerson API endpoint (edu-service)",
+    "methods_count": 8
+  },
+  {
+    "title": "Student",
+    "path": "edu-service → Student",
+    "url": "/Student/[action]",
+    "description": "Student API endpoint (edu-service)",
+    "methods_count": 12
+  },
+  {
+    "title": "EduArea",
+    "path": "edu-service → EduArea",
+    "url": "/EduArea/[action]",
+    "description": "EduArea API endpoint (edu-service)",
+    "methods_count": 7
+  },
+  {
+    "title": "EduSpecialityClassifier",
+    "path": "edu-service → EduSpecialityClassifier",
+    "url": "/EduSpecialityClassifier/[action]",
+    "description": "EduSpecialityClassifier API endpoint (edu-service)",
+    "methods_count": 9
+  },
+  {
+    "title": "EduYear",
+    "path": "edu-service → EduYear",
+    "url": "/EduYear/[action]",
+    "description": "EduYear API endpoint (edu-service)",
+    "methods_count": 7
+  },
+  {
+    "title": "BillingEdu",
+    "path": "edu-service → BillingEdu",
+    "url": "/BillingEdu/[action]",
+    "description": "BillingEdu API endpoint (edu-service)",
+    "methods_count": 12
+  },
+  {
+    "title": "Manual",
+    "path": "edu-service → Manual",
+    "url": "/old/Manual/[action]",
+    "description": "Manual API endpoint (edu-service)",
+    "methods_count": 12
+  },
+  {
+    "title": "StudentManage",
+    "path": "edu-service → StudentManage",
+    "url": "/StudentManage/[action]",
+    "description": "StudentManage API endpoint (edu-service)",
+    "methods_count": 4
+  },
+  {
+    "title": "ContractInvoice",
+    "path": "edu-service → ContractInvoice",
+    "url": "/old/ContractInvoice/[action]",
+    "description": "ContractInvoice API endpoint (edu-service)",
+    "methods_count": 11
+  },
+  {
+    "title": "ScholarshipPenalty",
+    "path": "edu-service → ScholarshipPenalty",
+    "url": "/old/ScholarshipPenalty/[action]",
+    "description": "ScholarshipPenalty API endpoint (edu-service)",
+    "methods_count": 9
+  },
+  {
+    "title": "StudentAdmissionOrder",
+    "path": "edu-service → StudentAdmissionOrder",
+    "url": "/old/StudentAdmissionOrder/[action]",
+    "description": "StudentAdmissionOrder API endpoint (edu-service)",
+    "methods_count": 9
+  },
+  {
+    "title": "StudentCalc",
+    "path": "edu-service → StudentCalc",
+    "url": "/old/StudentCalc/[action]",
+    "description": "StudentCalc API endpoint (edu-service)",
+    "methods_count": 14
+  },
+  {
+    "title": "StudentFixingTransaction",
+    "path": "edu-service → StudentFixingTransaction",
+    "url": "/old/StudentFixingTransaction/[action]",
+    "description": "StudentFixingTransaction API endpoint (edu-service)",
+    "methods_count": 8
+  },
+  {
+    "title": "StudentLeave",
+    "path": "edu-service → StudentLeave",
+    "url": "/old/StudentLeave/[action]",
+    "description": "StudentLeave API endpoint (edu-service)",
+    "methods_count": 10
+  },
+  {
+    "title": "StudentMovement",
+    "path": "edu-service → StudentMovement",
+    "url": "/old/StudentMovement/[action]",
+    "description": "StudentMovement API endpoint (edu-service)",
+    "methods_count": 9
+  },
+  {
+    "title": "StudentPayrollPlasticCardSheet",
+    "path": "edu-service → StudentPayrollPlasticCardSheet",
+    "url": "/old/StudentPayrollPlasticCardSheet/[action]",
+    "description": "StudentPayrollPlasticCardSheet API endpoint (edu-service)",
+    "methods_count": 20
+  },
+  {
+    "title": "StudentPayrollSheet",
+    "path": "edu-service → StudentPayrollSheet",
+    "url": "/old/StudentPayrollSheet/[action]",
+    "description": "StudentPayrollSheet API endpoint (edu-service)",
+    "methods_count": 15
+  },
+  {
+    "title": "EduSpeciality",
+    "path": "edu-service → EduSpeciality",
+    "url": "/old/EduSpeciality/[action]",
+    "description": "EduSpeciality API endpoint (edu-service)",
+    "methods_count": 9
+  },
+  {
+    "title": "Faculty",
+    "path": "edu-service → Faculty",
+    "url": "/old/Faculty/[action]",
+    "description": "Faculty API endpoint (edu-service)",
+    "methods_count": 10
+  },
+  {
+    "title": "StudentPerson",
+    "path": "edu-service → StudentPerson",
+    "url": "/old/StudentPerson/[action]",
+    "description": "StudentPerson API endpoint (edu-service)",
+    "methods_count": 8
+  },
+  {
+    "title": "Student",
+    "path": "edu-service → Student",
+    "url": "/old/Student/[action]",
+    "description": "Student API endpoint (edu-service)",
+    "methods_count": 12
+  },
+  {
+    "title": "EduArea",
+    "path": "edu-service → EduArea",
+    "url": "/old/EduArea/[action]",
+    "description": "EduArea API endpoint (edu-service)",
+    "methods_count": 7
+  },
+  {
+    "title": "EduSpecialityClassifier",
+    "path": "edu-service → EduSpecialityClassifier",
+    "url": "/old/EduSpecialityClassifier/[action]",
+    "description": "EduSpecialityClassifier API endpoint (edu-service)",
+    "methods_count": 9
+  },
+  {
+    "title": "EduYear",
+    "path": "edu-service → EduYear",
+    "url": "/old/EduYear/[action]",
+    "description": "EduYear API endpoint (edu-service)",
+    "methods_count": 7
+  },
+  {
+    "title": "StudentManage",
+    "path": "edu-service → StudentManage",
+    "url": "/old/StudentManage/[action]",
+    "description": "StudentManage API endpoint (edu-service)",
+    "methods_count": 4
+  },
+  {
+    "title": "Health",
+    "path": "ereport-services → Health",
+    "url": "/Health",
+    "description": "Health API endpoint (ereport-services)",
+    "methods_count": 1
+  },
+  {
+    "title": "Health",
+    "path": "ereport-services → Health",
+    "url": "/Health",
+    "description": "Health API endpoint (ereport-services)",
+    "methods_count": 1
+  },
+  {
+    "title": "Manual",
+    "path": "ereport-services → Manual",
+    "url": "/Manual/[action]",
+    "description": "Manual API endpoint (ereport-services)",
+    "methods_count": 12
+  },
+  {
+    "title": "Report",
+    "path": "ereport-services → Report",
+    "url": "/Report/[action]",
+    "description": "Report API endpoint (ereport-services)",
+    "methods_count": 16
+  },
+  {
+    "title": "BudgetProgramCard",
+    "path": "ereport-services → BudgetProgramCard",
+    "url": "/BudgetProgramCard/[action]",
+    "description": "BudgetProgramCard API endpoint (ereport-services)",
+    "methods_count": 17
+  },
+  {
+    "title": "BudgetProgram",
+    "path": "ereport-services → BudgetProgram",
+    "url": "/BudgetProgram/[action]",
+    "description": "BudgetProgram API endpoint (ereport-services)",
+    "methods_count": 9
+  },
+  {
+    "title": "Indicator",
+    "path": "ereport-services → Indicator",
+    "url": "/Indicator/[action]",
+    "description": "Indicator API endpoint (ereport-services)",
+    "methods_count": 11
+  },
+  {
+    "title": "IndicatorPosition",
+    "path": "ereport-services → IndicatorPosition",
+    "url": "/IndicatorPosition/[action]",
+    "description": "IndicatorPosition API endpoint (ereport-services)",
+    "methods_count": 9
+  },
+  {
+    "title": "IndicatorReceive",
+    "path": "ereport-services → IndicatorReceive",
+    "url": "/IndicatorReceive/[action]",
+    "description": "IndicatorReceive API endpoint (ereport-services)",
+    "methods_count": 8
+  },
+  {
+    "title": "OldIndicator",
+    "path": "ereport-services → OldIndicator",
+    "url": "/OldIndicator/[action]",
+    "description": "OldIndicator API endpoint (ereport-services)",
+    "methods_count": 13
+  },
+  {
+    "title": "BudgetRequestCalc",
+    "path": "ereport-services → BudgetRequestCalc",
+    "url": "/BudgetRequestCalc/[action]",
+    "description": "BudgetRequestCalc API endpoint (ereport-services)",
+    "methods_count": 20
+  },
+  {
+    "title": "BudgetRequest",
+    "path": "ereport-services → BudgetRequest",
+    "url": "/BudgetRequest/[action]",
+    "description": "BudgetRequest API endpoint (ereport-services)",
+    "methods_count": 9
+  },
+  {
+    "title": "Forma1",
+    "path": "ereport-services → Forma1",
+    "url": "/Forma1/[action]",
+    "description": "Forma1 API endpoint (ereport-services)",
+    "methods_count": 29
+  },
+  {
+    "title": "Forma1Total",
+    "path": "ereport-services → Forma1Total",
+    "url": "/Forma1Total/[action]",
+    "description": "Forma1Total API endpoint (ereport-services)",
+    "methods_count": 16
+  },
+  {
+    "title": "Forma2",
+    "path": "ereport-services → Forma2",
+    "url": "/Forma2/[action]",
+    "description": "Forma2 API endpoint (ereport-services)",
+    "methods_count": 30
+  },
+  {
+    "title": "Forma2Total",
+    "path": "ereport-services → Forma2Total",
+    "url": "/Forma2Total/[action]",
+    "description": "Forma2Total API endpoint (ereport-services)",
+    "methods_count": 18
+  },
+  {
+    "title": "Forma5",
+    "path": "ereport-services → Forma5",
+    "url": "/Forma5/[action]",
+    "description": "Forma5 API endpoint (ereport-services)",
+    "methods_count": 31
+  },
+  {
+    "title": "Forma5Total",
+    "path": "ereport-services → Forma5Total",
+    "url": "/Forma5Total/[action]",
+    "description": "Forma5Total API endpoint (ereport-services)",
+    "methods_count": 19
+  },
+  {
+    "title": "FormaAnaliz",
+    "path": "ereport-services → FormaAnaliz",
+    "url": "/FormaAnaliz/[action]",
+    "description": "FormaAnaliz API endpoint (ereport-services)",
+    "methods_count": 17
+  },
+  {
+    "title": "FormaDkByAccount",
+    "path": "ereport-services → FormaDkByAccount",
+    "url": "/FormaDkByAccount/[action]",
+    "description": "FormaDkByAccount API endpoint (ereport-services)",
+    "methods_count": 19
+  },
+  {
+    "title": "FormaDk",
+    "path": "ereport-services → FormaDk",
+    "url": "/FormaDk/[action]",
+    "description": "FormaDk API endpoint (ereport-services)",
+    "methods_count": 18
+  },
+  {
+    "title": "FormaDkTotal",
+    "path": "ereport-services → FormaDkTotal",
+    "url": "/FormaDkTotal/[action]",
+    "description": "FormaDkTotal API endpoint (ereport-services)",
+    "methods_count": 17
+  },
+  {
+    "title": "FormaFinRes",
+    "path": "ereport-services → FormaFinRes",
+    "url": "/FormaFinRes/[action]",
+    "description": "FormaFinRes API endpoint (ereport-services)",
+    "methods_count": 27
+  },
+  {
+    "title": "FormaFinResTotal",
+    "path": "ereport-services → FormaFinResTotal",
+    "url": "/FormaFinResTotal/[action]",
+    "description": "FormaFinResTotal API endpoint (ereport-services)",
+    "methods_count": 17
+  },
+  {
+    "title": "FormaRj",
+    "path": "ereport-services → FormaRj",
+    "url": "/FormaRj/[action]",
+    "description": "FormaRj API endpoint (ereport-services)",
+    "methods_count": 27
+  },
+  {
+    "title": "FormaRjTotal",
+    "path": "ereport-services → FormaRjTotal",
+    "url": "/FormaRjTotal/[action]",
+    "description": "FormaRjTotal API endpoint (ereport-services)",
+    "methods_count": 18
+  },
+  {
+    "title": "FormaSet",
+    "path": "ereport-services → FormaSet",
+    "url": "/FormaSet/[action]",
+    "description": "FormaSet API endpoint (ereport-services)",
+    "methods_count": 32
+  },
+  {
+    "title": "FormaSetTotal",
+    "path": "ereport-services → FormaSetTotal",
+    "url": "/FormaSetTotal/[action]",
+    "description": "FormaSetTotal API endpoint (ereport-services)",
+    "methods_count": 17
+  },
+  {
+    "title": "BudgetProgramType",
+    "path": "ereport-services → BudgetProgramType",
+    "url": "/BudgetProgramType/[action]",
+    "description": "BudgetProgramType API endpoint (ereport-services)",
+    "methods_count": 9
+  },
+  {
+    "title": "BudgetSector",
+    "path": "ereport-services → BudgetSector",
+    "url": "/BudgetSector/[action]",
+    "description": "BudgetSector API endpoint (ereport-services)",
+    "methods_count": 7
+  },
+  {
+    "title": "BrCoef",
+    "path": "ereport-services → BrCoef",
+    "url": "/BrCoef/[action]",
+    "description": "BrCoef API endpoint (ereport-services)",
+    "methods_count": 7
+  },
+  {
+    "title": "BudgetRequestEvent",
+    "path": "ereport-services → BudgetRequestEvent",
+    "url": "/BudgetRequestEvent/[action]",
+    "description": "BudgetRequestEvent API endpoint (ereport-services)",
+    "methods_count": 6
+  },
+  {
+    "title": "Event",
+    "path": "ereport-services → Event",
+    "url": "/Event/[action]",
+    "description": "Event API endpoint (ereport-services)",
+    "methods_count": 6
+  },
+  {
+    "title": "Forma1Position",
+    "path": "ereport-services → Forma1Position",
+    "url": "/Forma1Position/[action]",
+    "description": "Forma1Position API endpoint (ereport-services)",
+    "methods_count": 7
+  },
+  {
+    "title": "Forma2PositionCanEdit",
+    "path": "ereport-services → Forma2PositionCanEdit",
+    "url": "/Forma2PositionCanEdit/[action]",
+    "description": "Forma2PositionCanEdit API endpoint (ereport-services)",
+    "methods_count": 9
+  },
+  {
+    "title": "Forma5Position",
+    "path": "ereport-services → Forma5Position",
+    "url": "/Forma5Position/[action]",
+    "description": "Forma5Position API endpoint (ereport-services)",
+    "methods_count": 7
+  },
+  {
+    "title": "FormaDkPositionCanEdit",
+    "path": "ereport-services → FormaDkPositionCanEdit",
+    "url": "/FormaDkPositionCanEdit/[action]",
+    "description": "FormaDkPositionCanEdit API endpoint (ereport-services)",
+    "methods_count": 10
+  },
+  {
+    "title": "FormaDkPosition",
+    "path": "ereport-services → FormaDkPosition",
+    "url": "/FormaDkPosition/[action]",
+    "description": "FormaDkPosition API endpoint (ereport-services)",
+    "methods_count": 7
+  },
+  {
+    "title": "FormaSetApp",
+    "path": "ereport-services → FormaSetApp",
+    "url": "/FormaSetApp/[action]",
+    "description": "FormaSetApp API endpoint (ereport-services)",
+    "methods_count": 8
+  },
+  {
+    "title": "FormaSetCanEdit",
+    "path": "ereport-services → FormaSetCanEdit",
+    "url": "/FormaSetCanEdit/[action]",
+    "description": "FormaSetCanEdit API endpoint (ereport-services)",
+    "methods_count": 8
+  },
+  {
+    "title": "FormaSetCommon",
+    "path": "ereport-services → FormaSetCommon",
+    "url": "/FormaSetCommon/[action]",
+    "description": "FormaSetCommon API endpoint (ereport-services)",
+    "methods_count": 7
+  },
+  {
+    "title": "Ministry",
+    "path": "ereport-services → Ministry",
+    "url": "/Ministry/[action]",
+    "description": "Ministry API endpoint (ereport-services)",
+    "methods_count": 6
+  },
+  {
+    "title": "RjPosition",
+    "path": "ereport-services → RjPosition",
+    "url": "/RjPosition/[action]",
+    "description": "RjPosition API endpoint (ereport-services)",
+    "methods_count": 7
+  },
+  {
+    "title": "SetCategoryType",
+    "path": "ereport-services → SetCategoryType",
+    "url": "/SetCategoryType/[action]",
+    "description": "SetCategoryType API endpoint (ereport-services)",
+    "methods_count": 8
+  },
+  {
+    "title": "Integration",
+    "path": "ereport-services → Integration",
+    "url": "/Integration/[action]",
+    "description": "Integration API endpoint (ereport-services)",
+    "methods_count": 3
+  },
+  {
+    "title": "Health",
+    "path": "finance-report-service → Health",
+    "url": "/Health",
+    "description": "Health API endpoint (finance-report-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "Integration",
+    "path": "finance-report-service → Integration",
+    "url": "/Integration/[action]",
+    "description": "Integration API endpoint (finance-report-service)",
+    "methods_count": 2
+  },
+  {
+    "title": "Report",
+    "path": "finance-report-service → Report",
+    "url": "/Report/[action]",
+    "description": "Report API endpoint (finance-report-service)",
+    "methods_count": 23
+  },
+  {
+    "title": "Health",
+    "path": "finance-service → Health",
+    "url": "/Health",
+    "description": "Health API endpoint (finance-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "ChangeFinYear",
+    "path": "finance-service → ChangeFinYear",
+    "url": "/ChangeFinYear/[action]",
+    "description": "ChangeFinYear API endpoint (finance-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "Health",
+    "path": "finance-service → Health",
+    "url": "/Health",
+    "description": "Health API endpoint (finance-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "Manual",
+    "path": "finance-service → Manual",
+    "url": "/Manual/[action]",
+    "description": "Manual API endpoint (finance-service)",
+    "methods_count": 19
+  },
+  {
+    "title": "Performance",
+    "path": "finance-service → Performance",
+    "url": "/Performance/[action]",
+    "description": "Performance API endpoint (finance-service)",
+    "methods_count": 6
+  },
+  {
+    "title": "AdministrativeProtocol",
+    "path": "finance-service → AdministrativeProtocol",
+    "url": "/AdministrativeProtocol/[action]",
+    "description": "AdministrativeProtocol API endpoint (finance-service)",
+    "methods_count": 8
+  },
+  {
+    "title": "Auction",
+    "path": "finance-service → Auction",
+    "url": "/Auction/[action]",
+    "description": "Auction API endpoint (finance-service)",
+    "methods_count": 22
+  },
+  {
+    "title": "Budget",
+    "path": "finance-service → Budget",
+    "url": "/Budget/[action]",
+    "description": "Budget API endpoint (finance-service)",
+    "methods_count": 25
+  },
+  {
+    "title": "BudgetRegistery",
+    "path": "finance-service → BudgetRegistery",
+    "url": "/BudgetRegistery/[action]",
+    "description": "BudgetRegistery API endpoint (finance-service)",
+    "methods_count": 24
+  },
+  {
+    "title": "BudgetTotal",
+    "path": "finance-service → BudgetTotal",
+    "url": "/BudgetTotal/[action]",
+    "description": "BudgetTotal API endpoint (finance-service)",
+    "methods_count": 25
+  },
+  {
+    "title": "Cheque",
+    "path": "finance-service → Cheque",
+    "url": "/Cheque/[action]",
+    "description": "Cheque API endpoint (finance-service)",
+    "methods_count": 14
+  },
+  {
+    "title": "ChequeWarrant",
+    "path": "finance-service → ChequeWarrant",
+    "url": "/ChequeWarrant/[action]",
+    "description": "ChequeWarrant API endpoint (finance-service)",
+    "methods_count": 17
+  },
+  {
+    "title": "Contract",
+    "path": "finance-service → Contract",
+    "url": "/Contract/[action]",
+    "description": "Contract API endpoint (finance-service)",
+    "methods_count": 24
+  },
+  {
+    "title": "CurrencyBuy",
+    "path": "finance-service → CurrencyBuy",
+    "url": "/CurrencyBuy/[action]",
+    "description": "CurrencyBuy API endpoint (finance-service)",
+    "methods_count": 16
+  },
+  {
+    "title": "CurrencyReappraisal",
+    "path": "finance-service → CurrencyReappraisal",
+    "url": "/CurrencyReappraisal/[action]",
+    "description": "CurrencyReappraisal API endpoint (finance-service)",
+    "methods_count": 9
+  },
+  {
+    "title": "CurrencySale",
+    "path": "finance-service → CurrencySale",
+    "url": "/CurrencySale/[action]",
+    "description": "CurrencySale API endpoint (finance-service)",
+    "methods_count": 13
+  },
+  {
+    "title": "ExpenseReport",
+    "path": "finance-service → ExpenseReport",
+    "url": "/ExpenseReport/[action]",
+    "description": "ExpenseReport API endpoint (finance-service)",
+    "methods_count": 11
+  },
+  {
+    "title": "IncomeCalculation",
+    "path": "finance-service → IncomeCalculation",
+    "url": "/IncomeCalculation/[action]",
+    "description": "IncomeCalculation API endpoint (finance-service)",
+    "methods_count": 13
+  },
+  {
+    "title": "InPayment",
+    "path": "finance-service → InPayment",
+    "url": "/InPayment/[action]",
+    "description": "InPayment API endpoint (finance-service)",
+    "methods_count": 18
+  },
+  {
+    "title": "Invoice",
+    "path": "finance-service → Invoice",
+    "url": "/InvoiceDocument/[action]",
+    "description": "Invoice API endpoint (finance-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "MonthlyAllocation",
+    "path": "finance-service → MonthlyAllocation",
+    "url": "/MonthlyAllocation/[action]",
+    "description": "MonthlyAllocation API endpoint (finance-service)",
+    "methods_count": 13
+  },
+  {
+    "title": "PaymentCurrency",
+    "path": "finance-service → PaymentCurrency",
+    "url": "/PaymentCurrency/[action]",
+    "description": "PaymentCurrency API endpoint (finance-service)",
+    "methods_count": 17
+  },
+  {
+    "title": "PaymentForecast",
+    "path": "finance-service → PaymentForecast",
+    "url": "/PaymentForecast/[action]",
+    "description": "PaymentForecast API endpoint (finance-service)",
+    "methods_count": 17
+  },
+  {
+    "title": "PaymentOrder",
+    "path": "finance-service → PaymentOrder",
+    "url": "/PaymentOrder/[action]",
+    "description": "PaymentOrder API endpoint (finance-service)",
+    "methods_count": 37
+  },
+  {
+    "title": "PaymentRegistry",
+    "path": "finance-service → PaymentRegistry",
+    "url": "/PaymentRegistry/[action]",
+    "description": "PaymentRegistry API endpoint (finance-service)",
+    "methods_count": 20
+  },
+  {
+    "title": "ProcurementPlan",
+    "path": "finance-service → ProcurementPlan",
+    "url": "/ProcurementPlan/[action]",
+    "description": "ProcurementPlan API endpoint (finance-service)",
+    "methods_count": 11
+  },
+  {
+    "title": "RestsByAccount",
+    "path": "finance-service → RestsByAccount",
+    "url": "/RestsByAccount/[action]",
+    "description": "RestsByAccount API endpoint (finance-service)",
+    "methods_count": 16
+  },
+  {
+    "title": "RestsByContractor",
+    "path": "finance-service → RestsByContractor",
+    "url": "/RestsByContractor/[action]",
+    "description": "RestsByContractor API endpoint (finance-service)",
+    "methods_count": 8
+  },
+  {
+    "title": "RestsByEmployee",
+    "path": "finance-service → RestsByEmployee",
+    "url": "/RestsByEmployee/[action]",
+    "description": "RestsByEmployee API endpoint (finance-service)",
+    "methods_count": 8
+  },
+  {
+    "title": "RestsBySettlementAccount",
+    "path": "finance-service → RestsBySettlementAccount",
+    "url": "/RestsBySettlementAccount/[action]",
+    "description": "RestsBySettlementAccount API endpoint (finance-service)",
+    "methods_count": 10
+  },
+  {
+    "title": "ReturnIncome",
+    "path": "finance-service → ReturnIncome",
+    "url": "/ReturnIncome/[action]",
+    "description": "ReturnIncome API endpoint (finance-service)",
+    "methods_count": 15
+  },
+  {
+    "title": "WriteoffCostService",
+    "path": "finance-service → WriteoffCostService",
+    "url": "/WriteoffCostService/[action]",
+    "description": "WriteoffCostService API endpoint (finance-service)",
+    "methods_count": 8
+  },
+  {
+    "title": "WriteoffService",
+    "path": "finance-service → WriteoffService",
+    "url": "/WriteoffService/[action]",
+    "description": "WriteoffService API endpoint (finance-service)",
+    "methods_count": 10
+  },
+  {
+    "title": "ErpRejectedDocument",
+    "path": "finance-service → ErpRejectedDocument",
+    "url": "/ErpRejectedDocument/[action]",
+    "description": "ErpRejectedDocument API endpoint (finance-service)",
+    "methods_count": 16
+  },
+  {
+    "title": "Contractor",
+    "path": "finance-service → Contractor",
+    "url": "/Contractor/[action]",
+    "description": "Contractor API endpoint (finance-service)",
+    "methods_count": 12
+  },
+  {
+    "title": "ContractorSettlementAccount",
+    "path": "finance-service → ContractorSettlementAccount",
+    "url": "/ContractorSettlementAccount/[action]",
+    "description": "ContractorSettlementAccount API endpoint (finance-service)",
+    "methods_count": 9
+  },
+  {
+    "title": "IncomeSettlementAccount",
+    "path": "finance-service → IncomeSettlementAccount",
+    "url": "/IncomeSettlementAccount/[action]",
+    "description": "IncomeSettlementAccount API endpoint (finance-service)",
+    "methods_count": 8
+  },
+  {
+    "title": "InfoContractorExcept",
+    "path": "finance-service → InfoContractorExcept",
+    "url": "/InfoContractorExcept/[action]",
+    "description": "InfoContractorExcept API endpoint (finance-service)",
+    "methods_count": 7
+  },
+  {
+    "title": "ItemOfExpense",
+    "path": "finance-service → ItemOfExpense",
+    "url": "/ItemOfExpense/[action]",
+    "description": "ItemOfExpense API endpoint (finance-service)",
+    "methods_count": 9
+  },
+  {
+    "title": "MoneyMeansMovement",
+    "path": "finance-service → MoneyMeansMovement",
+    "url": "/MoneyMeansMovement/[action]",
+    "description": "MoneyMeansMovement API endpoint (finance-service)",
+    "methods_count": 7
+  },
+  {
+    "title": "OperDate",
+    "path": "finance-service → OperDate",
+    "url": "/OperDate/[action]",
+    "description": "OperDate API endpoint (finance-service)",
+    "methods_count": 7
+  },
+  {
+    "title": "OutOfBalansBranch",
+    "path": "finance-service → OutOfBalansBranch",
+    "url": "/OutOfBalansBranch/[action]",
+    "description": "OutOfBalansBranch API endpoint (finance-service)",
+    "methods_count": 0
+  },
+  {
+    "title": "DmbatIncomeCalculation",
+    "path": "finance-service → DmbatIncomeCalculation",
+    "url": "/DmbatIncomeCalculation/[action]",
+    "description": "DmbatIncomeCalculation API endpoint (finance-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "Internal",
+    "path": "finance-service → Internal",
+    "url": "/Internal/[action]",
+    "description": "Internal API endpoint (finance-service)",
+    "methods_count": 2
+  },
+  {
+    "title": "SoliqHelper",
+    "path": "finance-service → SoliqHelper",
+    "url": "/SoliqHelper/[action]",
+    "description": "SoliqHelper API endpoint (finance-service)",
+    "methods_count": 2
+  },
+  {
+    "title": "UzasboHelper",
+    "path": "finance-service → UzasboHelper",
+    "url": "/UzasboHelper/[action]",
+    "description": "UzasboHelper API endpoint (finance-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "Health",
+    "path": "hrm-report-service → Health",
+    "url": "/Health",
+    "description": "Health API endpoint (hrm-report-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "Report",
+    "path": "hrm-report-service → Report",
+    "url": "/Report/[action]",
+    "description": "Report API endpoint (hrm-report-service)",
+    "methods_count": 3
+  },
+  {
+    "title": "Health",
+    "path": "hrm-service → Health",
+    "url": "/Health",
+    "description": "Health API endpoint (hrm-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "Health",
+    "path": "hrm-service → Health",
+    "url": "/Health",
+    "description": "Health API endpoint (hrm-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "Manual",
+    "path": "hrm-service → Manual",
+    "url": "/Manual/[action]",
+    "description": "Manual API endpoint (hrm-service)",
+    "methods_count": 16
+  },
+  {
+    "title": "AppointEmployee",
+    "path": "hrm-service → AppointEmployee",
+    "url": "/[Controller]/[action]",
+    "description": "AppointEmployee API endpoint (hrm-service)",
+    "methods_count": 12
+  },
+  {
+    "title": "EmployeeApplication",
+    "path": "hrm-service → EmployeeApplication",
+    "url": "/EmployeeApplication/[action]",
+    "description": "EmployeeApplication API endpoint (hrm-service)",
+    "methods_count": 14
+  },
+  {
+    "title": "EmployeeLayoff",
+    "path": "hrm-service → EmployeeLayoff",
+    "url": "/[Controller]/[action]",
+    "description": "EmployeeLayoff API endpoint (hrm-service)",
+    "methods_count": 8
+  },
+  {
+    "title": "EmployeeLeaveOrder",
+    "path": "hrm-service → EmployeeLeaveOrder",
+    "url": "/[Controller]/[action]",
+    "description": "EmployeeLeaveOrder API endpoint (hrm-service)",
+    "methods_count": 14
+  },
+  {
+    "title": "EmployeeSendTrain",
+    "path": "hrm-service → EmployeeSendTrain",
+    "url": "/[Controller]/[action]",
+    "description": "EmployeeSendTrain API endpoint (hrm-service)",
+    "methods_count": 13
+  },
+  {
+    "title": "EmployeeSickLeave",
+    "path": "hrm-service → EmployeeSickLeave",
+    "url": "/[Controller]/[action]",
+    "description": "EmployeeSickLeave API endpoint (hrm-service)",
+    "methods_count": 19
+  },
+  {
+    "title": "ManagementCertificate",
+    "path": "hrm-service → ManagementCertificate",
+    "url": "/[Controller]/[action]",
+    "description": "ManagementCertificate API endpoint (hrm-service)",
+    "methods_count": 2
+  },
+  {
+    "title": "MassPlannedCalculation",
+    "path": "hrm-service → MassPlannedCalculation",
+    "url": "/[Controller]/[action]",
+    "description": "MassPlannedCalculation API endpoint (hrm-service)",
+    "methods_count": 9
+  },
+  {
+    "title": "OrderToSendBusinessTrip",
+    "path": "hrm-service → OrderToSendBusinessTrip",
+    "url": "/[Controller]/[action]",
+    "description": "OrderToSendBusinessTrip API endpoint (hrm-service)",
+    "methods_count": 10
+  },
+  {
+    "title": "PlannedCalculation",
+    "path": "hrm-service → PlannedCalculation",
+    "url": "/[Controller]/[action]",
+    "description": "PlannedCalculation API endpoint (hrm-service)",
+    "methods_count": 15
+  },
+  {
+    "title": "PositionSubstitution",
+    "path": "hrm-service → PositionSubstitution",
+    "url": "/[Controller]/[action]",
+    "description": "PositionSubstitution API endpoint (hrm-service)",
+    "methods_count": 9
+  },
+  {
+    "title": "RecallLeave",
+    "path": "hrm-service → RecallLeave",
+    "url": "/[Controller]/[action]",
+    "description": "RecallLeave API endpoint (hrm-service)",
+    "methods_count": 9
+  },
+  {
+    "title": "TaxBenefit",
+    "path": "hrm-service → TaxBenefit",
+    "url": "/[Controller]/[action]",
+    "description": "TaxBenefit API endpoint (hrm-service)",
+    "methods_count": 9
+  },
+  {
+    "title": "TempCalcKind",
+    "path": "hrm-service → TempCalcKind",
+    "url": "/[Controller]/[action]",
+    "description": "TempCalcKind API endpoint (hrm-service)",
+    "methods_count": 18
+  },
+  {
+    "title": "TimeSheet",
+    "path": "hrm-service → TimeSheet",
+    "url": "/[Controller]/[action]",
+    "description": "TimeSheet API endpoint (hrm-service)",
+    "methods_count": 25
+  },
+  {
+    "title": "TimeSheetEdu",
+    "path": "hrm-service → TimeSheetEdu",
+    "url": "/[Controller]/[action]",
+    "description": "TimeSheetEdu API endpoint (hrm-service)",
+    "methods_count": 21
+  },
+  {
+    "title": "TypicalOrgStructure",
+    "path": "hrm-service → TypicalOrgStructure",
+    "url": "/[Controller]/[action]",
+    "description": "TypicalOrgStructure API endpoint (hrm-service)",
+    "methods_count": 21
+  },
+  {
+    "title": "WorkDayOff",
+    "path": "hrm-service → WorkDayOff",
+    "url": "/[Controller]/[action]",
+    "description": "WorkDayOff API endpoint (hrm-service)",
+    "methods_count": 9
+  },
+  {
+    "title": "Department",
+    "path": "hrm-service → Department",
+    "url": "/[Controller]/[action]",
+    "description": "Department API endpoint (hrm-service)",
+    "methods_count": 10
+  },
+  {
+    "title": "EducationCategory",
+    "path": "hrm-service → EducationCategory",
+    "url": "/[Controller]/[action]",
+    "description": "EducationCategory API endpoint (hrm-service)",
+    "methods_count": 4
+  },
+  {
+    "title": "Employee",
+    "path": "hrm-service → Employee",
+    "url": "/[Controller]/[action]",
+    "description": "Employee API endpoint (hrm-service)",
+    "methods_count": 16
+  },
+  {
+    "title": "KinderGartenManagementCertificate",
+    "path": "hrm-service → KinderGartenManagementCertificate",
+    "url": "/[Controller]/[action]",
+    "description": "KinderGartenManagementCertificate API endpoint (hrm-service)",
+    "methods_count": 2
+  },
+  {
+    "title": "MedicalCategory",
+    "path": "hrm-service → MedicalCategory",
+    "url": "/[Controller]/[action]",
+    "description": "MedicalCategory API endpoint (hrm-service)",
+    "methods_count": 6
+  },
+  {
+    "title": "MedicalCertificate",
+    "path": "hrm-service → MedicalCertificate",
+    "url": "/[Controller]/[action]",
+    "description": "MedicalCertificate API endpoint (hrm-service)",
+    "methods_count": 7
+  },
+  {
+    "title": "MoliyachiNotification",
+    "path": "hrm-service → MoliyachiNotification",
+    "url": "/[Controller]/[action]",
+    "description": "MoliyachiNotification API endpoint (hrm-service)",
+    "methods_count": 4
+  },
+  {
+    "title": "Person",
+    "path": "hrm-service → Person",
+    "url": "/[Controller]/[action]",
+    "description": "Person API endpoint (hrm-service)",
+    "methods_count": 8
+  },
+  {
+    "title": "TravelCounty",
+    "path": "hrm-service → TravelCounty",
+    "url": "/[Controller]/[action]",
+    "description": "TravelCounty API endpoint (hrm-service)",
+    "methods_count": 3
+  },
+  {
+    "title": "BasicRateType",
+    "path": "hrm-service → BasicRateType",
+    "url": "/[Controller]/[action]",
+    "description": "BasicRateType API endpoint (hrm-service)",
+    "methods_count": 7
+  },
+  {
+    "title": "EmployeeTurnikateWarning",
+    "path": "hrm-service → EmployeeTurnikateWarning",
+    "url": "/[Controller]/[action]",
+    "description": "EmployeeTurnikateWarning API endpoint (hrm-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "FixedMinimumValue",
+    "path": "hrm-service → FixedMinimumValue",
+    "url": "/[Controller]/[action]",
+    "description": "FixedMinimumValue API endpoint (hrm-service)",
+    "methods_count": 8
+  },
+  {
+    "title": "MedicalCategoryType",
+    "path": "hrm-service → MedicalCategoryType",
+    "url": "/[Controller]/[action]",
+    "description": "MedicalCategoryType API endpoint (hrm-service)",
+    "methods_count": 4
+  },
+  {
+    "title": "MedicalSpecialtyType",
+    "path": "hrm-service → MedicalSpecialtyType",
+    "url": "/[Controller]/[action]",
+    "description": "MedicalSpecialtyType API endpoint (hrm-service)",
+    "methods_count": 4
+  },
+  {
+    "title": "PositionClassification",
+    "path": "hrm-service → PositionClassification",
+    "url": "/[Controller]/[action]",
+    "description": "PositionClassification API endpoint (hrm-service)",
+    "methods_count": 7
+  },
+  {
+    "title": "Position",
+    "path": "hrm-service → Position",
+    "url": "/[Controller]/[action]",
+    "description": "Position API endpoint (hrm-service)",
+    "methods_count": 13
+  },
+  {
+    "title": "PositionExpertise",
+    "path": "hrm-service → PositionExpertise",
+    "url": "/[Controller]/[action]",
+    "description": "PositionExpertise API endpoint (hrm-service)",
+    "methods_count": 7
+  },
+  {
+    "title": "PositionGroup",
+    "path": "hrm-service → PositionGroup",
+    "url": "/[Controller]/[action]",
+    "description": "PositionGroup API endpoint (hrm-service)",
+    "methods_count": 7
+  },
+  {
+    "title": "SchoolSubject",
+    "path": "hrm-service → SchoolSubject",
+    "url": "/[Controller]/[action]",
+    "description": "SchoolSubject API endpoint (hrm-service)",
+    "methods_count": 7
+  },
+  {
+    "title": "SchoolSubjectGroup",
+    "path": "hrm-service → SchoolSubjectGroup",
+    "url": "/[Controller]/[action]",
+    "description": "SchoolSubjectGroup API endpoint (hrm-service)",
+    "methods_count": 7
+  },
+  {
+    "title": "StaffTypeBasicTariff",
+    "path": "hrm-service → StaffTypeBasicTariff",
+    "url": "/[Controller]/[action]",
+    "description": "StaffTypeBasicTariff API endpoint (hrm-service)",
+    "methods_count": 7
+  },
+  {
+    "title": "StructureDepartment",
+    "path": "hrm-service → StructureDepartment",
+    "url": "/[Controller]/[action]",
+    "description": "StructureDepartment API endpoint (hrm-service)",
+    "methods_count": 7
+  },
+  {
+    "title": "StructurePositionGroup",
+    "path": "hrm-service → StructurePositionGroup",
+    "url": "/[Controller]/[action]",
+    "description": "StructurePositionGroup API endpoint (hrm-service)",
+    "methods_count": 7
+  },
+  {
+    "title": "StructurePositionSpecialty",
+    "path": "hrm-service → StructurePositionSpecialty",
+    "url": "/[Controller]/[action]",
+    "description": "StructurePositionSpecialty API endpoint (hrm-service)",
+    "methods_count": 7
+  },
+  {
+    "title": "TariffScaleCoef",
+    "path": "hrm-service → TariffScaleCoef",
+    "url": "/[Controller]/[action]",
+    "description": "TariffScaleCoef API endpoint (hrm-service)",
+    "methods_count": 8
+  },
+  {
+    "title": "TariffScale",
+    "path": "hrm-service → TariffScale",
+    "url": "/[Controller]/[action]",
+    "description": "TariffScale API endpoint (hrm-service)",
+    "methods_count": 9
+  },
+  {
+    "title": "TaxBenefitType",
+    "path": "hrm-service → TaxBenefitType",
+    "url": "/[Controller]/[action]",
+    "description": "TaxBenefitType API endpoint (hrm-service)",
+    "methods_count": 7
+  },
+  {
+    "title": "TurnstileData",
+    "path": "hrm-service → TurnstileData",
+    "url": "/[Controller]/[action]",
+    "description": "TurnstileData API endpoint (hrm-service)",
+    "methods_count": 6
+  },
+  {
+    "title": "WorkSchedule",
+    "path": "hrm-service → WorkSchedule",
+    "url": "/[Controller]/[action]",
+    "description": "WorkSchedule API endpoint (hrm-service)",
+    "methods_count": 8
+  },
+  {
+    "title": "AccPlanCalculationKind",
+    "path": "hrm-service → AccPlanCalculationKind",
+    "url": "/[Controller]/[action]",
+    "description": "AccPlanCalculationKind API endpoint (hrm-service)",
+    "methods_count": 5
+  },
+  {
+    "title": "EmployeeManage",
+    "path": "hrm-service → EmployeeManage",
+    "url": "/[Controller]/[action]",
+    "description": "EmployeeManage API endpoint (hrm-service)",
+    "methods_count": 6
+  },
+  {
+    "title": "TypicalStructManage",
+    "path": "hrm-service → TypicalStructManage",
+    "url": "/[Controller]/[action]",
+    "description": "TypicalStructManage API endpoint (hrm-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "Account",
+    "path": "idm-service → Account",
+    "url": "/Account/[action]",
+    "description": "Account API endpoint (idm-service)",
+    "methods_count": 22
+  },
+  {
+    "title": "Health",
+    "path": "idm-service → Health",
+    "url": "/Health",
+    "description": "Health API endpoint (idm-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "Organization",
+    "path": "idm-service → Organization",
+    "url": "/Organization/[action]",
+    "description": "Organization API endpoint (idm-service)",
+    "methods_count": 7
+  },
+  {
+    "title": "Performance",
+    "path": "idm-service → Performance",
+    "url": "/Performance/[action]",
+    "description": "Performance API endpoint (idm-service)",
+    "methods_count": 6
+  },
+  {
+    "title": "User",
+    "path": "idm-service → User",
+    "url": "/User/[action]",
+    "description": "User API endpoint (idm-service)",
+    "methods_count": 10
+  },
+  {
+    "title": "UserLog",
+    "path": "idm-service → UserLog",
+    "url": "/UserLog/[action]",
+    "description": "UserLog API endpoint (idm-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "UserOrganization",
+    "path": "idm-service → UserOrganization",
+    "url": "/UserOrganization/[action]",
+    "description": "UserOrganization API endpoint (idm-service)",
+    "methods_count": 3
+  },
+  {
+    "title": "GovermentAssets",
+    "path": "integration-service → GovermentAssets",
+    "url": "/GovermentAssets/[action]",
+    "description": "GovermentAssets API endpoint (integration-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "Health",
+    "path": "integration-service → Health",
+    "url": "/Health",
+    "description": "Health API endpoint (integration-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "Ihma",
+    "path": "integration-service → Ihma",
+    "url": "/Ihma/[action]",
+    "description": "Ihma API endpoint (integration-service)",
+    "methods_count": 11
+  },
+  {
+    "title": "Manual",
+    "path": "integration-service → Manual",
+    "url": "/Manual/[action]",
+    "description": "Manual API endpoint (integration-service)",
+    "methods_count": 22
+  },
+  {
+    "title": "PassportImv",
+    "path": "integration-service → PassportImv",
+    "url": "/PassportImv/[action]",
+    "description": "PassportImv API endpoint (integration-service)",
+    "methods_count": 24
+  },
+  {
+    "title": "ZpUzasbo",
+    "path": "integration-service → ZpUzasbo",
+    "url": "/ZpUzasbo/[action]",
+    "description": "ZpUzasbo API endpoint (integration-service)",
+    "methods_count": 0
+  },
+  {
+    "title": "AppointQualCategory",
+    "path": "integration-service → AppointQualCategory",
+    "url": "/AppointQualCategory/[action]",
+    "description": "AppointQualCategory API endpoint (integration-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "BillingSalaryCalc",
+    "path": "integration-service → BillingSalaryCalc",
+    "url": "/BillingSalaryCalc/[action]",
+    "description": "BillingSalaryCalc API endpoint (integration-service)",
+    "methods_count": 4
+  },
+  {
+    "title": "CultureMusicTarifficationTitle",
+    "path": "integration-service → CultureMusicTarifficationTitle",
+    "url": "/CultureMusicTarifficationTitle/[action]",
+    "description": "CultureMusicTarifficationTitle API endpoint (integration-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "CurriculumOrgSchGrade",
+    "path": "integration-service → CurriculumOrgSchGrade",
+    "url": "/CurriculumOrgSchGrade/[action]",
+    "description": "CurriculumOrgSchGrade API endpoint (integration-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "EduStudyCertificate",
+    "path": "integration-service → EduStudyCertificate",
+    "url": "/old/EduStudyCertificate/[action]",
+    "description": "EduStudyCertificate API endpoint (integration-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "HeadOrgSchoolGrade",
+    "path": "integration-service → HeadOrgSchoolGrade",
+    "url": "/HeadOrgSchoolGrade/[action]",
+    "description": "HeadOrgSchoolGrade API endpoint (integration-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "KindergardenTarifficationTitle",
+    "path": "integration-service → KindergardenTarifficationTitle",
+    "url": "/KindergardenTarifficationTitle/[action]",
+    "description": "KindergardenTarifficationTitle API endpoint (integration-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "OrgSchoolParameter",
+    "path": "integration-service → OrgSchoolParameter",
+    "url": "/OrgSchoolParameter/[action]",
+    "description": "OrgSchoolParameter API endpoint (integration-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "SportTarifficationTitle",
+    "path": "integration-service → SportTarifficationTitle",
+    "url": "/SportTarifficationTitle/[action]",
+    "description": "SportTarifficationTitle API endpoint (integration-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "TarifficationTitle",
+    "path": "integration-service → TarifficationTitle",
+    "url": "/TarifficationTitle/[action]",
+    "description": "TarifficationTitle API endpoint (integration-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "InventoryHolding",
+    "path": "integration-service → InventoryHolding",
+    "url": "/InventoryHolding/[action]",
+    "description": "InventoryHolding API endpoint (integration-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "PermanentAsset",
+    "path": "integration-service → PermanentAsset",
+    "url": "/PermanentAsset/[action]",
+    "description": "PermanentAsset API endpoint (integration-service)",
+    "methods_count": 2
+  },
+  {
+    "title": "MoliyachiNotification",
+    "path": "integration-service → MoliyachiNotification",
+    "url": "/MoliyachiNotification/[action]",
+    "description": "MoliyachiNotification API endpoint (integration-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "WorkSchedule",
+    "path": "integration-service → WorkSchedule",
+    "url": "/WorkSchedule/[action]",
+    "description": "WorkSchedule API endpoint (integration-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "BankDocument",
+    "path": "integration-service → BankDocument",
+    "url": "/BankDocument/[action]",
+    "description": "BankDocument API endpoint (integration-service)",
+    "methods_count": 2
+  },
+  {
+    "title": "DavAvtivBankDocument",
+    "path": "integration-service → DavAvtivBankDocument",
+    "url": "/DavAvtivBankDocument/[action]",
+    "description": "DavAvtivBankDocument API endpoint (integration-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "InspectionBankDocument",
+    "path": "integration-service → InspectionBankDocument",
+    "url": "/InspectionBankDocument/[action]",
+    "description": "InspectionBankDocument API endpoint (integration-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "TreasInfo",
+    "path": "integration-service → TreasInfo",
+    "url": "/TreasInfo/[action]",
+    "description": "TreasInfo API endpoint (integration-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "GovermentAssets",
+    "path": "integration-service → GovermentAssets",
+    "url": "/new/GovermentAssets/[action]",
+    "description": "GovermentAssets API endpoint (integration-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "Ihma",
+    "path": "integration-service → Ihma",
+    "url": "/new/Ihma/[action]",
+    "description": "Ihma API endpoint (integration-service)",
+    "methods_count": 11
+  },
+  {
+    "title": "Manual",
+    "path": "integration-service → Manual",
+    "url": "/new/Manual/[action]",
+    "description": "Manual API endpoint (integration-service)",
+    "methods_count": 22
+  },
+  {
+    "title": "PassportImv",
+    "path": "integration-service → PassportImv",
+    "url": "/new/PassportImv/[action]",
+    "description": "PassportImv API endpoint (integration-service)",
+    "methods_count": 20
+  },
+  {
+    "title": "ZpUzasbo",
+    "path": "integration-service → ZpUzasbo",
+    "url": "/new/ZpUzasbo/[action]",
+    "description": "ZpUzasbo API endpoint (integration-service)",
+    "methods_count": 0
+  },
+  {
+    "title": "ChildPayment",
+    "path": "integration-service → ChildPayment",
+    "url": "/ChildPayment/[action]",
+    "description": "ChildPayment API endpoint (integration-service)",
+    "methods_count": 5
+  },
+  {
+    "title": "Mib",
+    "path": "integration-service → Mib",
+    "url": "/Mib/[action]",
+    "description": "Mib API endpoint (integration-service)",
+    "methods_count": 2
+  },
+  {
+    "title": "Mvd",
+    "path": "integration-service → Mvd",
+    "url": "/Mvd/[action]",
+    "description": "Mvd API endpoint (integration-service)",
+    "methods_count": 8
+  },
+  {
+    "title": "GetOrganizationAccountInfo",
+    "path": "integration-service → GetOrganizationAccountInfo",
+    "url": "/GetOrganizationAccountInfo/[action]",
+    "description": "GetOrganizationAccountInfo API endpoint (integration-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "AppointQualCategory",
+    "path": "integration-service → AppointQualCategory",
+    "url": "/new/AppointQualCategory/[action]",
+    "description": "AppointQualCategory API endpoint (integration-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "BillingSalaryCalc",
+    "path": "integration-service → BillingSalaryCalc",
+    "url": "/new/BillingSalaryCalc/[action]",
+    "description": "BillingSalaryCalc API endpoint (integration-service)",
+    "methods_count": 2
+  },
+  {
+    "title": "CultureMusicTarifficationTitle",
+    "path": "integration-service → CultureMusicTarifficationTitle",
+    "url": "/new/CultureMusicTarifficationTitle/[action]",
+    "description": "CultureMusicTarifficationTitle API endpoint (integration-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "CurriculumOrgSchGrade",
+    "path": "integration-service → CurriculumOrgSchGrade",
+    "url": "/new/CurriculumOrgSchGrade/[action]",
+    "description": "CurriculumOrgSchGrade API endpoint (integration-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "HeadOrgSchoolGrade",
+    "path": "integration-service → HeadOrgSchoolGrade",
+    "url": "/new/HeadOrgSchoolGrade/[action]",
+    "description": "HeadOrgSchoolGrade API endpoint (integration-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "OrgSchoolParameter",
+    "path": "integration-service → OrgSchoolParameter",
+    "url": "/new/OrgSchoolParameter/[action]",
+    "description": "OrgSchoolParameter API endpoint (integration-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "SportTarifficationTitle",
+    "path": "integration-service → SportTarifficationTitle",
+    "url": "/new/SportTarifficationTitle/[action]",
+    "description": "SportTarifficationTitle API endpoint (integration-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "TarifficationTitle",
+    "path": "integration-service → TarifficationTitle",
+    "url": "/new/TarifficationTitle/[action]",
+    "description": "TarifficationTitle API endpoint (integration-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "InventoryHolding",
+    "path": "integration-service → InventoryHolding",
+    "url": "/new/InventoryHolding/[action]",
+    "description": "InventoryHolding API endpoint (integration-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "PermanentAsset",
+    "path": "integration-service → PermanentAsset",
+    "url": "/new/PermanentAsset/[action]",
+    "description": "PermanentAsset API endpoint (integration-service)",
+    "methods_count": 2
+  },
+  {
+    "title": "WorkSchedule",
+    "path": "integration-service → WorkSchedule",
+    "url": "/new/WorkSchedule/[action]",
+    "description": "WorkSchedule API endpoint (integration-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "BankDocument",
+    "path": "integration-service → BankDocument",
+    "url": "/new/BankDocument/[action]",
+    "description": "BankDocument API endpoint (integration-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "DavAvtivBankDocument",
+    "path": "integration-service → DavAvtivBankDocument",
+    "url": "/new/DavAvtivBankDocument/[action]",
+    "description": "DavAvtivBankDocument API endpoint (integration-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "InspectionBankDocument",
+    "path": "integration-service → InspectionBankDocument",
+    "url": "/new/InspectionBankDocument/[action]",
+    "description": "InspectionBankDocument API endpoint (integration-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "Email",
+    "path": "msg-service → Email",
+    "url": "/Email/[action]",
+    "description": "Email API endpoint (msg-service)",
+    "methods_count": 2
+  },
+  {
+    "title": "Health",
+    "path": "msg-service → Health",
+    "url": "/Health",
+    "description": "Health API endpoint (msg-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "SMS",
+    "path": "msg-service → SMS",
+    "url": "/SMS/[action]",
+    "description": "SMS API endpoint (msg-service)",
+    "methods_count": 2
+  },
+  {
+    "title": "Health",
+    "path": "multicast-service → Health",
+    "url": "/Health",
+    "description": "Health API endpoint (multicast-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "Turnikate",
+    "path": "multicast-service → Turnikate",
+    "url": "/Turnikate/[action]",
+    "description": "Turnikate API endpoint (multicast-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "TreasInfo",
+    "path": "multicast-service → TreasInfo",
+    "url": "/new/TreasInfo/[action]",
+    "description": "TreasInfo API endpoint (multicast-service)",
+    "methods_count": 17
+  },
+  {
+    "title": "GatewayImv",
+    "path": "multicast-service → GatewayImv",
+    "url": "/GatewayImv/[action]",
+    "description": "GatewayImv API endpoint (multicast-service)",
+    "methods_count": 8
+  },
+  {
+    "title": "GovermentAssets",
+    "path": "multicast-service → GovermentAssets",
+    "url": "/GovermentAssets/[action]",
+    "description": "GovermentAssets API endpoint (multicast-service)",
+    "methods_count": 11
+  },
+  {
+    "title": "MinistryOfInternalAffairs",
+    "path": "multicast-service → MinistryOfInternalAffairs",
+    "url": "/MinistryOfInternalAffairs/[action]",
+    "description": "MinistryOfInternalAffairs API endpoint (multicast-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "MoliyachiNotification",
+    "path": "multicast-service → MoliyachiNotification",
+    "url": "/new/MoliyachiNotification/[action]",
+    "description": "MoliyachiNotification API endpoint (multicast-service)",
+    "methods_count": 2
+  },
+  {
+    "title": "ProsecutorDepartment",
+    "path": "multicast-service → ProsecutorDepartment",
+    "url": "/ProsecutorDepartment/[action]",
+    "description": "ProsecutorDepartment API endpoint (multicast-service)",
+    "methods_count": 9
+  },
+  {
+    "title": "StudentContractInfo",
+    "path": "multicast-service → StudentContractInfo",
+    "url": "/Integration/[action]",
+    "description": "StudentContractInfo API endpoint (multicast-service)",
+    "methods_count": 2
+  },
+  {
+    "title": "Yammt",
+    "path": "multicast-service → Yammt",
+    "url": "/Yammt/[action]",
+    "description": "Yammt API endpoint (multicast-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "Health",
+    "path": "otd-services → Health",
+    "url": "/Health",
+    "description": "Health API endpoint (otd-services)",
+    "methods_count": 1
+  },
+  {
+    "title": "CalculatingTaxis",
+    "path": "otd-services → CalculatingTaxis",
+    "url": "/CalculatingTaxis/[action]",
+    "description": "CalculatingTaxis API endpoint (otd-services)",
+    "methods_count": 10
+  },
+  {
+    "title": "ClosingTransaction",
+    "path": "otd-services → ClosingTransaction",
+    "url": "/ClosingTransaction/[action]",
+    "description": "ClosingTransaction API endpoint (otd-services)",
+    "methods_count": 11
+  },
+  {
+    "title": "FixingTransaction",
+    "path": "otd-services → FixingTransaction",
+    "url": "/FixingTransaction/[action]",
+    "description": "FixingTransaction API endpoint (otd-services)",
+    "methods_count": 12
+  },
+  {
+    "title": "PayrollLease",
+    "path": "otd-services → PayrollLease",
+    "url": "/PayrollLease/[action]",
+    "description": "PayrollLease API endpoint (otd-services)",
+    "methods_count": 10
+  },
+  {
+    "title": "PayrollParentPayment",
+    "path": "otd-services → PayrollParentPayment",
+    "url": "/PayrollParentPayment/[action]",
+    "description": "PayrollParentPayment API endpoint (otd-services)",
+    "methods_count": 10
+  },
+  {
+    "title": "DashboardBudget",
+    "path": "salary-report-service → DashboardBudget",
+    "url": "/DashboardBudget/[action]",
+    "description": "DashboardBudget API endpoint (salary-report-service)",
+    "methods_count": 10
+  },
+  {
+    "title": "Dashboard",
+    "path": "salary-report-service → Dashboard",
+    "url": "/Dashboard/[action]",
+    "description": "Dashboard API endpoint (salary-report-service)",
+    "methods_count": 14
+  },
+  {
+    "title": "Health",
+    "path": "salary-report-service → Health",
+    "url": "/Health",
+    "description": "Health API endpoint (salary-report-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "Report",
+    "path": "salary-report-service → Report",
+    "url": "/Report/[action]",
+    "description": "Report API endpoint (salary-report-service)",
+    "methods_count": 29
+  },
+  {
+    "title": "ReportVacancyTurnOver",
+    "path": "salary-report-service → ReportVacancyTurnOver",
+    "url": "/ReportVacancyTurnOver/[action]",
+    "description": "ReportVacancyTurnOver API endpoint (salary-report-service)",
+    "methods_count": 6
+  },
+  {
+    "title": "SalaryReport",
+    "path": "salary-report-service → SalaryReport",
+    "url": "/SalaryReport/[action]",
+    "description": "SalaryReport API endpoint (salary-report-service)",
+    "methods_count": 2
+  },
+  {
+    "title": "SportTarifficationReport",
+    "path": "salary-report-service → SportTarifficationReport",
+    "url": "/SportTariffication/[action]",
+    "description": "SportTarifficationReport API endpoint (salary-report-service)",
+    "methods_count": 2
+  },
+  {
+    "title": "TarifficationReport",
+    "path": "salary-report-service → TarifficationReport",
+    "url": "/Tariffication/[action]",
+    "description": "TarifficationReport API endpoint (salary-report-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "DashboardBudget",
+    "path": "salary-report-service → DashboardBudget",
+    "url": "/DashboardBudget/[action]",
+    "description": "DashboardBudget API endpoint (salary-report-service)",
+    "methods_count": 10
+  },
+  {
+    "title": "Dashboard",
+    "path": "salary-report-service → Dashboard",
+    "url": "/Dashboard/[action]",
+    "description": "Dashboard API endpoint (salary-report-service)",
+    "methods_count": 14
+  },
+  {
+    "title": "Mib",
+    "path": "salary-report-service → Mib",
+    "url": "/Mib/[action]",
+    "description": "Mib API endpoint (salary-report-service)",
+    "methods_count": 5
+  },
+  {
+    "title": "Report",
+    "path": "salary-report-service → Report",
+    "url": "/Report/[action]",
+    "description": "Report API endpoint (salary-report-service)",
+    "methods_count": 34
+  },
+  {
+    "title": "ReportVacancyTurnOver",
+    "path": "salary-report-service → ReportVacancyTurnOver",
+    "url": "/ReportVacancyTurnOver/[action]",
+    "description": "ReportVacancyTurnOver API endpoint (salary-report-service)",
+    "methods_count": 6
+  },
+  {
+    "title": "SalaryReport",
+    "path": "salary-report-service → SalaryReport",
+    "url": "/SalaryReport/[action]",
+    "description": "SalaryReport API endpoint (salary-report-service)",
+    "methods_count": 2
+  },
+  {
+    "title": "SportTarifficationReport",
+    "path": "salary-report-service → SportTarifficationReport",
+    "url": "/SportTariffication/[action]",
+    "description": "SportTarifficationReport API endpoint (salary-report-service)",
+    "methods_count": 2
+  },
+  {
+    "title": "TarifficationReport",
+    "path": "salary-report-service → TarifficationReport",
+    "url": "/Tariffication/[action]",
+    "description": "TarifficationReport API endpoint (salary-report-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "Health",
+    "path": "salary-service → Health",
+    "url": "/Health",
+    "description": "Health API endpoint (salary-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "Health",
+    "path": "salary-service → Health",
+    "url": "/Health",
+    "description": "Health API endpoint (salary-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "Manual",
+    "path": "salary-service → Manual",
+    "url": "/Manual/[action]",
+    "description": "Manual API endpoint (salary-service)",
+    "methods_count": 29
+  },
+  {
+    "title": "Performance",
+    "path": "salary-service → Performance",
+    "url": "/Performance/[action]",
+    "description": "Performance API endpoint (salary-service)",
+    "methods_count": 6
+  },
+  {
+    "title": "AppointEmployeeSalary",
+    "path": "salary-service → AppointEmployeeSalary",
+    "url": "/AppointEmployeeSalary/[action]",
+    "description": "AppointEmployeeSalary API endpoint (salary-service)",
+    "methods_count": 13
+  },
+  {
+    "title": "AppointQualCategory",
+    "path": "salary-service → AppointQualCategory",
+    "url": "/AppointQualCategory/[action]",
+    "description": "AppointQualCategory API endpoint (salary-service)",
+    "methods_count": 7
+  },
+  {
+    "title": "AverageSalaryControl",
+    "path": "salary-service → AverageSalaryControl",
+    "url": "/AverageSalaryControl/[action]",
+    "description": "AverageSalaryControl API endpoint (salary-service)",
+    "methods_count": 13
+  },
+  {
+    "title": "CalcLeavePay",
+    "path": "salary-service → CalcLeavePay",
+    "url": "/CalcLeavePay/[action]",
+    "description": "CalcLeavePay API endpoint (salary-service)",
+    "methods_count": 18
+  },
+  {
+    "title": "CalcSendTrain",
+    "path": "salary-service → CalcSendTrain",
+    "url": "/CalcSendTrain/[action]",
+    "description": "CalcSendTrain API endpoint (salary-service)",
+    "methods_count": 11
+  },
+  {
+    "title": "CalculationKindSwitch",
+    "path": "salary-service → CalculationKindSwitch",
+    "url": "/CalculationKindSwitch/[action]",
+    "description": "CalculationKindSwitch API endpoint (salary-service)",
+    "methods_count": 11
+  },
+  {
+    "title": "ChangeDocumentStatus",
+    "path": "salary-service → ChangeDocumentStatus",
+    "url": "/ChangeDocumentStatus/[action]",
+    "description": "ChangeDocumentStatus API endpoint (salary-service)",
+    "methods_count": 7
+  },
+  {
+    "title": "ChangeOrgSettlementAccount",
+    "path": "salary-service → ChangeOrgSettlementAccount",
+    "url": "/ChangeOrgSettlementAccount/[action]",
+    "description": "ChangeOrgSettlementAccount API endpoint (salary-service)",
+    "methods_count": 9
+  },
+  {
+    "title": "ChargesFromSalary",
+    "path": "salary-service → ChargesFromSalary",
+    "url": "/ChargesFromSalary/[action]",
+    "description": "ChargesFromSalary API endpoint (salary-service)",
+    "methods_count": 10
+  },
+  {
+    "title": "ChatBox",
+    "path": "salary-service → ChatBox",
+    "url": "/ChatBox/[action]",
+    "description": "ChatBox API endpoint (salary-service)",
+    "methods_count": 13
+  },
+  {
+    "title": "CheckSalary",
+    "path": "salary-service → CheckSalary",
+    "url": "/CheckSalary/[action]",
+    "description": "CheckSalary API endpoint (salary-service)",
+    "methods_count": 10
+  },
+  {
+    "title": "CultureMusicTarifficationTitle",
+    "path": "salary-service → CultureMusicTarifficationTitle",
+    "url": "/CultureMusicTarifficationTitle/[action]",
+    "description": "CultureMusicTarifficationTitle API endpoint (salary-service)",
+    "methods_count": 7
+  },
+  {
+    "title": "Curriculum",
+    "path": "salary-service → Curriculum",
+    "url": "/Curriculum/[action]",
+    "description": "Curriculum API endpoint (salary-service)",
+    "methods_count": 4
+  },
+  {
+    "title": "CurriculumOrgSchGrade",
+    "path": "salary-service → CurriculumOrgSchGrade",
+    "url": "/CurriculumOrgSchGrade/[action]",
+    "description": "CurriculumOrgSchGrade API endpoint (salary-service)",
+    "methods_count": 7
+  },
+  {
+    "title": "EduStudyCertificate",
+    "path": "salary-service → EduStudyCertificate",
+    "url": "/EduStudyCertificate/[action]",
+    "description": "EduStudyCertificate API endpoint (salary-service)",
+    "methods_count": 5
+  },
+  {
+    "title": "EmployeeProfit",
+    "path": "salary-service → EmployeeProfit",
+    "url": "/EmployeeProfit/[action]",
+    "description": "EmployeeProfit API endpoint (salary-service)",
+    "methods_count": 12
+  },
+  {
+    "title": "HeadOrgSchoolGrade",
+    "path": "salary-service → HeadOrgSchoolGrade",
+    "url": "/HeadOrgSchoolGrade/[action]",
+    "description": "HeadOrgSchoolGrade API endpoint (salary-service)",
+    "methods_count": 4
+  },
+  {
+    "title": "HourlyPay",
+    "path": "salary-service → HourlyPay",
+    "url": "/HourlyPay/[action]",
+    "description": "HourlyPay API endpoint (salary-service)",
+    "methods_count": 9
+  },
+  {
+    "title": "IncomeInKind",
+    "path": "salary-service → IncomeInKind",
+    "url": "/IncomeInKind/[action]",
+    "description": "IncomeInKind API endpoint (salary-service)",
+    "methods_count": 10
+  },
+  {
+    "title": "IncomeTaxRegistry",
+    "path": "salary-service → IncomeTaxRegistry",
+    "url": "/IncomeTaxRegistry/[action]",
+    "description": "IncomeTaxRegistry API endpoint (salary-service)",
+    "methods_count": 18
+  },
+  {
+    "title": "IndexationOfSalary",
+    "path": "salary-service → IndexationOfSalary",
+    "url": "/IndexationOfSalary/[action]",
+    "description": "IndexationOfSalary API endpoint (salary-service)",
+    "methods_count": 17
+  },
+  {
+    "title": "InpsRegistry",
+    "path": "salary-service → InpsRegistry",
+    "url": "/InpsRegistry/[action]",
+    "description": "InpsRegistry API endpoint (salary-service)",
+    "methods_count": 24
+  },
+  {
+    "title": "KindergardenTarifficationTitle",
+    "path": "salary-service → KindergardenTarifficationTitle",
+    "url": "/KindergardenTarifficationTitle/[action]",
+    "description": "KindergardenTarifficationTitle API endpoint (salary-service)",
+    "methods_count": 5
+  },
+  {
+    "title": "LimitCalculationKind",
+    "path": "salary-service → LimitCalculationKind",
+    "url": "/LimitCalculationKind/[action]",
+    "description": "LimitCalculationKind API endpoint (salary-service)",
+    "methods_count": 9
+  },
+  {
+    "title": "MandatoryCalcExclusion",
+    "path": "salary-service → MandatoryCalcExclusion",
+    "url": "/MandatoryCalcExclusion/[action]",
+    "description": "MandatoryCalcExclusion API endpoint (salary-service)",
+    "methods_count": 9
+  },
+  {
+    "title": "OrgSchoolParameter",
+    "path": "salary-service → OrgSchoolParameter",
+    "url": "/OrgSchoolParameter/[action]",
+    "description": "OrgSchoolParameter API endpoint (salary-service)",
+    "methods_count": 4
+  },
+  {
+    "title": "PayrollPlasticCardSheet",
+    "path": "salary-service → PayrollPlasticCardSheet",
+    "url": "/PayrollPlasticCardSheet/[action]",
+    "description": "PayrollPlasticCardSheet API endpoint (salary-service)",
+    "methods_count": 77
+  },
+  {
+    "title": "PayrollSalary",
+    "path": "salary-service → PayrollSalary",
+    "url": "/PayrollSalary/[action]",
+    "description": "PayrollSalary API endpoint (salary-service)",
+    "methods_count": 11
+  },
+  {
+    "title": "PayrollSheet",
+    "path": "salary-service → PayrollSheet",
+    "url": "/PayrollSheet/[action]",
+    "description": "PayrollSheet API endpoint (salary-service)",
+    "methods_count": 24
+  },
+  {
+    "title": "PayrollSheetDeduction",
+    "path": "salary-service → PayrollSheetDeduction",
+    "url": "/PayrollSheetDeduction/[action]",
+    "description": "PayrollSheetDeduction API endpoint (salary-service)",
+    "methods_count": 14
+  },
+  {
+    "title": "PlanExecution",
+    "path": "salary-service → PlanExecution",
+    "url": "/PlanExecution/[action]",
+    "description": "PlanExecution API endpoint (salary-service)",
+    "methods_count": 11
+  },
+  {
+    "title": "PlasticCardRequest",
+    "path": "salary-service → PlasticCardRequest",
+    "url": "/PlasticCardRequest/[action]",
+    "description": "PlasticCardRequest API endpoint (salary-service)",
+    "methods_count": 11
+  },
+  {
+    "title": "PreferentialOrganization",
+    "path": "salary-service → PreferentialOrganization",
+    "url": "/PreferentialOrganization/[action]",
+    "description": "PreferentialOrganization API endpoint (salary-service)",
+    "methods_count": 9
+  },
+  {
+    "title": "RecalcOfSalary",
+    "path": "salary-service → RecalcOfSalary",
+    "url": "/RecalcOfSalary/[action]",
+    "description": "RecalcOfSalary API endpoint (salary-service)",
+    "methods_count": 10
+  },
+  {
+    "title": "RequestReceivingCash",
+    "path": "salary-service → RequestReceivingCash",
+    "url": "/RequestReceivingCash/[action]",
+    "description": "RequestReceivingCash API endpoint (salary-service)",
+    "methods_count": 41
+  },
+  {
+    "title": "SalaryCalc",
+    "path": "salary-service → SalaryCalc",
+    "url": "/SalaryCalc/[action]",
+    "description": "SalaryCalc API endpoint (salary-service)",
+    "methods_count": 24
+  },
+  {
+    "title": "SalaryCalcRiskControl",
+    "path": "salary-service → SalaryCalcRiskControl",
+    "url": "/SalaryCalcRiskControl/[action]",
+    "description": "SalaryCalcRiskControl API endpoint (salary-service)",
+    "methods_count": 2
+  },
+  {
+    "title": "SchoolHourlyPayRate",
+    "path": "salary-service → SchoolHourlyPayRate",
+    "url": "/SchoolHourlyPayRate/[action]",
+    "description": "SchoolHourlyPayRate API endpoint (salary-service)",
+    "methods_count": 8
+  },
+  {
+    "title": "SportTariffication",
+    "path": "salary-service → SportTariffication",
+    "url": "/SportTariffication/[action]",
+    "description": "SportTariffication API endpoint (salary-service)",
+    "methods_count": 22
+  },
+  {
+    "title": "SportTarifficationTitle",
+    "path": "salary-service → SportTarifficationTitle",
+    "url": "/SportTarifficationTitle/[action]",
+    "description": "SportTarifficationTitle API endpoint (salary-service)",
+    "methods_count": 8
+  },
+  {
+    "title": "Staffing",
+    "path": "salary-service → Staffing",
+    "url": "/Staffing/[action]",
+    "description": "Staffing API endpoint (salary-service)",
+    "methods_count": 71
+  },
+  {
+    "title": "StaffingForm15",
+    "path": "salary-service → StaffingForm15",
+    "url": "/StaffingForm15/[action]",
+    "description": "StaffingForm15 API endpoint (salary-service)",
+    "methods_count": 23
+  },
+  {
+    "title": "StaffingForm15Registery",
+    "path": "salary-service → StaffingForm15Registery",
+    "url": "/StaffingForm15Registery/[action]",
+    "description": "StaffingForm15Registery API endpoint (salary-service)",
+    "methods_count": 19
+  },
+  {
+    "title": "StaffingForm15Total",
+    "path": "salary-service → StaffingForm15Total",
+    "url": "/StaffingForm15Total/[action]",
+    "description": "StaffingForm15Total API endpoint (salary-service)",
+    "methods_count": 25
+  },
+  {
+    "title": "StaffingForm4",
+    "path": "salary-service → StaffingForm4",
+    "url": "/StaffingForm4/[action]",
+    "description": "StaffingForm4 API endpoint (salary-service)",
+    "methods_count": 12
+  },
+  {
+    "title": "StaffingForm5",
+    "path": "salary-service → StaffingForm5",
+    "url": "/StaffingForm5/[action]",
+    "description": "StaffingForm5 API endpoint (salary-service)",
+    "methods_count": 14
+  },
+  {
+    "title": "StaffingPositionReplacement",
+    "path": "salary-service → StaffingPositionReplacement",
+    "url": "/StaffingPositionReplacement/[action]",
+    "description": "StaffingPositionReplacement API endpoint (salary-service)",
+    "methods_count": 11
+  },
+  {
+    "title": "StaffingRegistery",
+    "path": "salary-service → StaffingRegistery",
+    "url": "/StaffingRegistery/[action]",
+    "description": "StaffingRegistery API endpoint (salary-service)",
+    "methods_count": 20
+  },
+  {
+    "title": "StaffingTemplate",
+    "path": "salary-service → StaffingTemplate",
+    "url": "/StaffingTemplate/[action]",
+    "description": "StaffingTemplate API endpoint (salary-service)",
+    "methods_count": 10
+  },
+  {
+    "title": "StaffingTotal",
+    "path": "salary-service → StaffingTotal",
+    "url": "/StaffingTotal/[action]",
+    "description": "StaffingTotal API endpoint (salary-service)",
+    "methods_count": 26
+  },
+  {
+    "title": "Tariffication",
+    "path": "salary-service → Tariffication",
+    "url": "/Tariffication/[action]",
+    "description": "Tariffication API endpoint (salary-service)",
+    "methods_count": 27
+  },
+  {
+    "title": "TarifficationTitle",
+    "path": "salary-service → TarifficationTitle",
+    "url": "/TarifficationTitle/[action]",
+    "description": "TarifficationTitle API endpoint (salary-service)",
+    "methods_count": 16
+  },
+  {
+    "title": "TaxRate",
+    "path": "salary-service → TaxRate",
+    "url": "/TaxRate/[action]",
+    "description": "TaxRate API endpoint (salary-service)",
+    "methods_count": 9
+  },
+  {
+    "title": "TeacherHour",
+    "path": "salary-service → TeacherHour",
+    "url": "/TeacherHour/[action]",
+    "description": "TeacherHour API endpoint (salary-service)",
+    "methods_count": 15
+  },
+  {
+    "title": "ConstantValue",
+    "path": "salary-service → ConstantValue",
+    "url": "/ConstantValue/[action]",
+    "description": "ConstantValue API endpoint (salary-service)",
+    "methods_count": 7
+  },
+  {
+    "title": "HlCalculationKindTransaction",
+    "path": "salary-service → HlCalculationKindTransaction",
+    "url": "/HlCalculationKindTransaction/[action]",
+    "description": "HlCalculationKindTransaction API endpoint (salary-service)",
+    "methods_count": 7
+  },
+  {
+    "title": "PaymentTransferAccount",
+    "path": "salary-service → PaymentTransferAccount",
+    "url": "/PaymentTransferAccount/[action]",
+    "description": "PaymentTransferAccount API endpoint (salary-service)",
+    "methods_count": 10
+  },
+  {
+    "title": "SportGroup",
+    "path": "salary-service → SportGroup",
+    "url": "/SportGroup/[action]",
+    "description": "SportGroup API endpoint (salary-service)",
+    "methods_count": 3
+  },
+  {
+    "title": "AllowanceByOrganization",
+    "path": "salary-service → AllowanceByOrganization",
+    "url": "/AllowanceByOrganization/[action]",
+    "description": "AllowanceByOrganization API endpoint (salary-service)",
+    "methods_count": 10
+  },
+  {
+    "title": "ArgosOrganizationTemp",
+    "path": "salary-service → ArgosOrganizationTemp",
+    "url": "/ArgosOrganizationTemp/[action]",
+    "description": "ArgosOrganizationTemp API endpoint (salary-service)",
+    "methods_count": 8
+  },
+  {
+    "title": "CalculationKind",
+    "path": "salary-service → CalculationKind",
+    "url": "/CalculationKind/[action]",
+    "description": "CalculationKind API endpoint (salary-service)",
+    "methods_count": 43
+  },
+  {
+    "title": "CurriculumType",
+    "path": "salary-service → CurriculumType",
+    "url": "/CurriculumType/[action]",
+    "description": "CurriculumType API endpoint (salary-service)",
+    "methods_count": 3
+  },
+  {
+    "title": "LevelCode",
+    "path": "salary-service → LevelCode",
+    "url": "/LevelCode/[action]",
+    "description": "LevelCode API endpoint (salary-service)",
+    "methods_count": 7
+  },
+  {
+    "title": "QualificationCategory",
+    "path": "salary-service → QualificationCategory",
+    "url": "/QualificationCategory/[action]",
+    "description": "QualificationCategory API endpoint (salary-service)",
+    "methods_count": 8
+  },
+  {
+    "title": "SchoolGroupContingent",
+    "path": "salary-service → SchoolGroupContingent",
+    "url": "/SchoolGroupContingent/[action]",
+    "description": "SchoolGroupContingent API endpoint (salary-service)",
+    "methods_count": 7
+  },
+  {
+    "title": "SchoolingShift",
+    "path": "salary-service → SchoolingShift",
+    "url": "/SchoolingShift/[action]",
+    "description": "SchoolingShift API endpoint (salary-service)",
+    "methods_count": 3
+  },
+  {
+    "title": "SchoolType",
+    "path": "salary-service → SchoolType",
+    "url": "/SchoolType/[action]",
+    "description": "SchoolType API endpoint (salary-service)",
+    "methods_count": 3
+  },
+  {
+    "title": "SourceCode",
+    "path": "salary-service → SourceCode",
+    "url": "/SourceCode/[action]",
+    "description": "SourceCode API endpoint (salary-service)",
+    "methods_count": 7
+  },
+  {
+    "title": "SportLevel",
+    "path": "salary-service → SportLevel",
+    "url": "/SportLevel/[action]",
+    "description": "SportLevel API endpoint (salary-service)",
+    "methods_count": 4
+  },
+  {
+    "title": "SportTypeClassifier",
+    "path": "salary-service → SportTypeClassifier",
+    "url": "/SportTypeClassifier/[action]",
+    "description": "SportTypeClassifier API endpoint (salary-service)",
+    "methods_count": 4
+  },
+  {
+    "title": "StaffingIndicator",
+    "path": "salary-service → StaffingIndicator",
+    "url": "/StaffingIndicator/[action]",
+    "description": "StaffingIndicator API endpoint (salary-service)",
+    "methods_count": 7
+  },
+  {
+    "title": "TaxBreakSettlementAccount",
+    "path": "salary-service → TaxBreakSettlementAccount",
+    "url": "/TaxBreakSettlementAccount/[action]",
+    "description": "TaxBreakSettlementAccount API endpoint (salary-service)",
+    "methods_count": 8
+  },
+  {
+    "title": "TaxBreakType",
+    "path": "salary-service → TaxBreakType",
+    "url": "/TaxBreakType/[action]",
+    "description": "TaxBreakType API endpoint (salary-service)",
+    "methods_count": 9
+  },
+  {
+    "title": "TaxCodeIncomeType",
+    "path": "salary-service → TaxCodeIncomeType",
+    "url": "/TaxCodeIncomeType/[action]",
+    "description": "TaxCodeIncomeType API endpoint (salary-service)",
+    "methods_count": 7
+  },
+  {
+    "title": "ExternalInpsRegistry",
+    "path": "salary-service → ExternalInpsRegistry",
+    "url": "/ExternalInpsRegistry/[action]",
+    "description": "ExternalInpsRegistry API endpoint (salary-service)",
+    "methods_count": 2
+  },
+  {
+    "title": "ExternalPayrollPlasticCardSheet",
+    "path": "salary-service → ExternalPayrollPlasticCardSheet",
+    "url": "/ExternalPayrollPlasticCardSheet/[action]",
+    "description": "ExternalPayrollPlasticCardSheet API endpoint (salary-service)",
+    "methods_count": 2
+  },
+  {
+    "title": "ExternalPayrollSheet",
+    "path": "salary-service → ExternalPayrollSheet",
+    "url": "/ExternalPayrollSheet/[action]",
+    "description": "ExternalPayrollSheet API endpoint (salary-service)",
+    "methods_count": 2
+  },
+  {
+    "title": "ExternalRequestReceivingCash",
+    "path": "salary-service → ExternalRequestReceivingCash",
+    "url": "/ExternalRequestReceivingCash/[action]",
+    "description": "ExternalRequestReceivingCash API endpoint (salary-service)",
+    "methods_count": 2
+  },
+  {
+    "title": "Health",
+    "path": "scheduler-service → Health",
+    "url": "/Health",
+    "description": "Health API endpoint (scheduler-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "Health",
+    "path": "staff-service → Health",
+    "url": "/Health",
+    "description": "Health API endpoint (staff-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "Health",
+    "path": "staff-service → Health",
+    "url": "/Health",
+    "description": "Health API endpoint (staff-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "Manual",
+    "path": "staff-service → Manual",
+    "url": "/Manual/[action]",
+    "description": "Manual API endpoint (staff-service)",
+    "methods_count": 2
+  },
+  {
+    "title": "Performance",
+    "path": "staff-service → Performance",
+    "url": "/Performance/[action]",
+    "description": "Performance API endpoint (staff-service)",
+    "methods_count": 6
+  },
+  {
+    "title": "StaffingPositionReplacement",
+    "path": "staff-service → StaffingPositionReplacement",
+    "url": "/StaffingPositionReplacement/[action]",
+    "description": "StaffingPositionReplacement API endpoint (staff-service)",
+    "methods_count": 15
+  },
+  {
+    "title": "Health",
+    "path": "tmz-report-service → Health",
+    "url": "/Health",
+    "description": "Health API endpoint (tmz-report-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "Report",
+    "path": "tmz-report-service → Report",
+    "url": "/Report/[action]",
+    "description": "Report API endpoint (tmz-report-service)",
+    "methods_count": 6
+  },
+  {
+    "title": "Integration",
+    "path": "tmz-report-service → Integration",
+    "url": "/Integration/[action]",
+    "description": "Integration API endpoint (tmz-report-service)",
+    "methods_count": 2
+  },
+  {
+    "title": "Health",
+    "path": "tmz-service → Health",
+    "url": "/Health",
+    "description": "Health API endpoint (tmz-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "Health",
+    "path": "tmz-service → Health",
+    "url": "/Health",
+    "description": "Health API endpoint (tmz-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "Manual",
+    "path": "tmz-service → Manual",
+    "url": "/Manual/[action]",
+    "description": "Manual API endpoint (tmz-service)",
+    "methods_count": 5
+  },
+  {
+    "title": "DrugIntake",
+    "path": "tmz-service → DrugIntake",
+    "url": "/DrugIntake/[action]",
+    "description": "DrugIntake API endpoint (tmz-service)",
+    "methods_count": 10
+  },
+  {
+    "title": "DrugMove",
+    "path": "tmz-service → DrugMove",
+    "url": "/DrugMove/[action]",
+    "description": "DrugMove API endpoint (tmz-service)",
+    "methods_count": 10
+  },
+  {
+    "title": "DrugRetirement",
+    "path": "tmz-service → DrugRetirement",
+    "url": "/DrugRetirement/[action]",
+    "description": "DrugRetirement API endpoint (tmz-service)",
+    "methods_count": 11
+  },
+  {
+    "title": "FoodStuffIntake",
+    "path": "tmz-service → FoodStuffIntake",
+    "url": "/FoodStuffIntake/[action]",
+    "description": "FoodStuffIntake API endpoint (tmz-service)",
+    "methods_count": 10
+  },
+  {
+    "title": "FoodStuffMove",
+    "path": "tmz-service → FoodStuffMove",
+    "url": "/FoodStuffMove/[action]",
+    "description": "FoodStuffMove API endpoint (tmz-service)",
+    "methods_count": 10
+  },
+  {
+    "title": "FoodStuffRetirement",
+    "path": "tmz-service → FoodStuffRetirement",
+    "url": "/FoodStuffRetirement/[action]",
+    "description": "FoodStuffRetirement API endpoint (tmz-service)",
+    "methods_count": 11
+  },
+  {
+    "title": "GsmIntake",
+    "path": "tmz-service → GsmIntake",
+    "url": "/GsmIntake/[action]",
+    "description": "GsmIntake API endpoint (tmz-service)",
+    "methods_count": 10
+  },
+  {
+    "title": "GsmMove",
+    "path": "tmz-service → GsmMove",
+    "url": "/GsmMove/[action]",
+    "description": "GsmMove API endpoint (tmz-service)",
+    "methods_count": 10
+  },
+  {
+    "title": "GsmRetirement",
+    "path": "tmz-service → GsmRetirement",
+    "url": "/GsmRetirement/[action]",
+    "description": "GsmRetirement API endpoint (tmz-service)",
+    "methods_count": 11
+  },
+  {
+    "title": "IhobRetirement",
+    "path": "tmz-service → IhobRetirement",
+    "url": "/IhobRetirement/[action]",
+    "description": "IhobRetirement API endpoint (tmz-service)",
+    "methods_count": 9
+  },
+  {
+    "title": "InventoryHoldingIntake",
+    "path": "tmz-service → InventoryHoldingIntake",
+    "url": "/InventoryHoldingIntake/[action]",
+    "description": "InventoryHoldingIntake API endpoint (tmz-service)",
+    "methods_count": 11
+  },
+  {
+    "title": "InventoryHoldingMove",
+    "path": "tmz-service → InventoryHoldingMove",
+    "url": "/InventoryHoldingMove/[action]",
+    "description": "InventoryHoldingMove API endpoint (tmz-service)",
+    "methods_count": 10
+  },
+  {
+    "title": "InventoryHoldingRetirement",
+    "path": "tmz-service → InventoryHoldingRetirement",
+    "url": "/InventoryHoldingRetirement/[action]",
+    "description": "InventoryHoldingRetirement API endpoint (tmz-service)",
+    "methods_count": 11
+  },
+  {
+    "title": "PermanentAssetQr",
+    "path": "tmz-service → PermanentAssetQr",
+    "url": "/PermanentAssetQr/[action]",
+    "description": "PermanentAssetQr API endpoint (tmz-service)",
+    "methods_count": 10
+  },
+  {
+    "title": "RestByInventoryHolding",
+    "path": "tmz-service → RestByInventoryHolding",
+    "url": "/RestByInventoryHolding/[action]",
+    "description": "RestByInventoryHolding API endpoint (tmz-service)",
+    "methods_count": 15
+  },
+  {
+    "title": "Warrant",
+    "path": "tmz-service → Warrant",
+    "url": "/Warrant/[action]",
+    "description": "Warrant API endpoint (tmz-service)",
+    "methods_count": 18
+  },
+  {
+    "title": "InventoryHolding",
+    "path": "tmz-service → InventoryHolding",
+    "url": "/InventoryHolding/[action]",
+    "description": "InventoryHolding API endpoint (tmz-service)",
+    "methods_count": 7
+  },
+  {
+    "title": "Integartion",
+    "path": "tmz-service → Integartion",
+    "url": "/Integartion/[action]",
+    "description": "Integartion API endpoint (tmz-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "DocumentReceive",
+    "path": "treas-integration-service → DocumentReceive",
+    "url": "/DocumentReceive/[action]",
+    "description": "DocumentReceive API endpoint (treas-integration-service)",
+    "methods_count": 6
+  },
+  {
+    "title": "DocumentSend",
+    "path": "treas-integration-service → DocumentSend",
+    "url": "/DocumentSend/[action]",
+    "description": "DocumentSend API endpoint (treas-integration-service)",
+    "methods_count": 11
+  },
+  {
+    "title": "Health",
+    "path": "treas-integration-service → Health",
+    "url": "/Health",
+    "description": "Health API endpoint (treas-integration-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "Health",
+    "path": "treas-service → Health",
+    "url": "/Health",
+    "description": "Health API endpoint (treas-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "Manual",
+    "path": "treas-service → Manual",
+    "url": "/Manual/[action]",
+    "description": "Manual API endpoint (treas-service)",
+    "methods_count": 42
+  },
+  {
+    "title": "IncomeDocument",
+    "path": "treas-service → IncomeDocument",
+    "url": "/IncomeDocument/[action]",
+    "description": "IncomeDocument API endpoint (treas-service)",
+    "methods_count": 3
+  },
+  {
+    "title": "IncomeSplitBudget",
+    "path": "treas-service → IncomeSplitBudget",
+    "url": "/IncomeSplitBudget/[action]",
+    "description": "IncomeSplitBudget API endpoint (treas-service)",
+    "methods_count": 2
+  },
+  {
+    "title": "IncomeSplitFund",
+    "path": "treas-service → IncomeSplitFund",
+    "url": "/IncomeSplitFund/[action]",
+    "description": "IncomeSplitFund API endpoint (treas-service)",
+    "methods_count": 2
+  },
+  {
+    "title": "Invoice",
+    "path": "treas-service → Invoice",
+    "url": "/InvoiceDocument/[action]",
+    "description": "Invoice API endpoint (treas-service)",
+    "methods_count": 4
+  },
+  {
+    "title": "Enkt",
+    "path": "treas-service → Enkt",
+    "url": "/Enkt/[action]",
+    "description": "Enkt API endpoint (treas-service)",
+    "methods_count": 7
+  },
+  {
+    "title": "EnktPropertiesValue",
+    "path": "treas-service → EnktPropertiesValue",
+    "url": "/EnktPropertiesValue/[action]",
+    "description": "EnktPropertiesValue API endpoint (treas-service)",
+    "methods_count": 7
+  },
+  {
+    "title": "EnktProperty",
+    "path": "treas-service → EnktProperty",
+    "url": "/EnktProperty/[action]",
+    "description": "EnktProperty API endpoint (treas-service)",
+    "methods_count": 5
+  },
+  {
+    "title": "Cheque",
+    "path": "treas-service → Cheque",
+    "url": "/Cheque/[action]",
+    "description": "Cheque API endpoint (treas-service)",
+    "methods_count": 3
+  },
+  {
+    "title": "EnergoIncome",
+    "path": "treas-service → EnergoIncome",
+    "url": "/EnergoIncome/[action]",
+    "description": "EnergoIncome API endpoint (treas-service)",
+    "methods_count": 4
+  },
+  {
+    "title": "EnergoIncomeGener",
+    "path": "treas-service → EnergoIncomeGener",
+    "url": "/EnergoIncomeGener/[action]",
+    "description": "EnergoIncomeGener API endpoint (treas-service)",
+    "methods_count": 3
+  },
+  {
+    "title": "EnergoOtchis",
+    "path": "treas-service → EnergoOtchis",
+    "url": "/EnergoOtchis/[action]",
+    "description": "EnergoOtchis API endpoint (treas-service)",
+    "methods_count": 3
+  },
+  {
+    "title": "EnergoPaydoc",
+    "path": "treas-service → EnergoPaydoc",
+    "url": "/EnergoPaydoc/[action]",
+    "description": "EnergoPaydoc API endpoint (treas-service)",
+    "methods_count": 4
+  },
+  {
+    "title": "KafkaIn",
+    "path": "treas-service → KafkaIn",
+    "url": "/KafkaIn/[action]",
+    "description": "KafkaIn API endpoint (treas-service)",
+    "methods_count": 2
+  },
+  {
+    "title": "KafkaLog",
+    "path": "treas-service → KafkaLog",
+    "url": "/KafkaLog/[action]",
+    "description": "KafkaLog API endpoint (treas-service)",
+    "methods_count": 2
+  },
+  {
+    "title": "KafkaOut",
+    "path": "treas-service → KafkaOut",
+    "url": "/KafkaOut/[action]",
+    "description": "KafkaOut API endpoint (treas-service)",
+    "methods_count": 2
+  },
+  {
+    "title": "MibExecutionOrgSheet",
+    "path": "treas-service → MibExecutionOrgSheet",
+    "url": "/MibExecutionOrgSheet/[action]",
+    "description": "MibExecutionOrgSheet API endpoint (treas-service)",
+    "methods_count": 1
+  },
+  {
+    "title": "TreasBudget",
+    "path": "treas-service → TreasBudget",
+    "url": "/TreasBudget/[action]",
+    "description": "TreasBudget API endpoint (treas-service)",
+    "methods_count": 2
+  }
+]

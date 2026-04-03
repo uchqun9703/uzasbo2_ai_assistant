@@ -1,0 +1,29 @@
+[
+  {
+    "error_message": "File topilmadi.",
+    "file_path": "services/edu-report-service/src/libs/Uzasbo2.Services.EduReport.BizLayer/Report/Concrete/ReportService.cs",
+    "line_number": 73,
+    "condition": "template is null",
+    "service_name": "edu-report-service",
+    "document_type": "report",
+    "class_name": "ReportService"
+  },
+  {
+    "error_message": "File topilmadi.",
+    "file_path": "services/edu-report-service/src/libs/Uzasbo2.Services.EduReport.BizLayer/Report/Concrete/ReportService.cs",
+    "line_number": 186,
+    "condition": "template is null",
+    "service_name": "edu-report-service",
+    "document_type": "report",
+    "class_name": "ReportService"
+  },
+  {
+    "error_message": "File topilmadi.",
+    "file_path": "services/edu-report-service/src/libs/Uzasbo2.Services.EduReport.BizLayer/Report/Concrete/ReportService.cs",
+    "line_number": 344,
+    "condition": "template is null",
+    "service_name": "edu-report-service",
+    "document_type": "report",
+    "class_name": "ReportService"
+  }
+]

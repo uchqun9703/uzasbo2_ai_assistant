@@ -1,0 +1,407 @@
+[
+  {
+    "error_message": "Запись не может быть удален",
+    "file_path": "services/multicast-service/src/libs/Uzasbo2.Services.Multicast.BizLayer/BaseEntityService`8.cs",
+    "line_number": 85,
+    "condition": "IsValid",
+    "service_name": "multicast-service",
+    "document_type": "baseentity`8",
+    "class_name": "BaseEntityService"
+  },
+  {
+    "error_message": "Xatolik:",
+    "file_path": "services/multicast-service/src/libs/Uzasbo2.Services.Multicast.BizLayer/Integration/GovermentAssets/Concrete/GovermentAssetsService.cs",
+    "line_number": 126,
+    "condition": "",
+    "service_name": "multicast-service",
+    "document_type": "govermentassets",
+    "class_name": "GovermentAssetsService"
+  },
+  {
+    "error_message": "Invoice tizimidan xatolik: [...]",
+    "file_path": "services/multicast-service/src/libs/Uzasbo2.Services.Multicast.BizLayer/Integration/GovermentAssets/Concrete/GovermentAssetsService.cs",
+    "line_number": 135,
+    "condition": "",
+    "service_name": "multicast-service",
+    "document_type": "govermentassets",
+    "class_name": "GovermentAssetsService"
+  },
+  {
+    "error_message": "Tashkilot argos tizimidan topilmadi !",
+    "file_path": "services/multicast-service/src/libs/Uzasbo2.Services.Multicast.BizLayer/Integration/GovermentAssets/Concrete/GovermentAssetsService.cs",
+    "line_number": 223,
+    "condition": "!hasArgos",
+    "service_name": "multicast-service",
+    "document_type": "govermentassets",
+    "class_name": "GovermentAssetsService"
+  },
+  {
+    "error_message": "Xatolik:",
+    "file_path": "services/multicast-service/src/libs/Uzasbo2.Services.Multicast.BizLayer/Integration/GovermentAssets/Concrete/GovermentAssetsService.cs",
+    "line_number": 274,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "multicast-service",
+    "document_type": "govermentassets",
+    "class_name": "GovermentAssetsService"
+  },
+  {
+    "error_message": "Invoice tizimidan xatolik: [...]",
+    "file_path": "services/multicast-service/src/libs/Uzasbo2.Services.Multicast.BizLayer/Integration/GovermentAssets/Concrete/GovermentAssetsService.cs",
+    "line_number": 283,
+    "condition": "",
+    "service_name": "multicast-service",
+    "document_type": "govermentassets",
+    "class_name": "GovermentAssetsService"
+  },
+  {
+    "error_message": "Ruxsat etilmagan Shaxsiy hisob raqam : Неверный номер лицевого счета",
+    "file_path": "services/multicast-service/src/libs/Uzasbo2.Services.Multicast.BizLayer/Integration/MinistryOfInternalAffairs/Concrete/MinistryOfInternalAffairsService.cs",
+    "line_number": 26,
+    "condition": "string.IsNullOrEmpty(dto.SettlementAccountCode",
+    "service_name": "multicast-service",
+    "document_type": "ministryofinternalaffairs",
+    "class_name": "MinistryOfInternalAffairsService"
+  },
+  {
+    "error_message": "Организация с ИНН [...] не найдена или не активна.",
+    "file_path": "services/multicast-service/src/libs/Uzasbo2.Services.Multicast.BizLayer/Integration/ProsecutorDepartment/Concrete/ProsecutorDepartmentService.cs",
+    "line_number": 77,
+    "condition": "result is null",
+    "service_name": "multicast-service",
+    "document_type": "prosecutordepartment",
+    "class_name": "ProsecutorDepartmentService"
+  },
+  {
+    "error_message": "Организация с ИНН [...] не найдена или не активна.",
+    "file_path": "services/multicast-service/src/libs/Uzasbo2.Services.Multicast.BizLayer/Integration/ProsecutorDepartment/Concrete/ProsecutorDepartmentService.cs",
+    "line_number": 119,
+    "condition": "org is null",
+    "service_name": "multicast-service",
+    "document_type": "prosecutordepartment",
+    "class_name": "ProsecutorDepartmentService"
+  },
+  {
+    "error_message": "Организация с ИНН [...] не найдена или не активна.",
+    "file_path": "services/multicast-service/src/libs/Uzasbo2.Services.Multicast.BizLayer/Integration/ProsecutorDepartment/Concrete/ProsecutorDepartmentService.cs",
+    "line_number": 165,
+    "condition": "org is null",
+    "service_name": "multicast-service",
+    "document_type": "prosecutordepartment",
+    "class_name": "ProsecutorDepartmentService"
+  },
+  {
+    "error_message": "Организация с ИНН [...] не найдена или не активна.",
+    "file_path": "services/multicast-service/src/libs/Uzasbo2.Services.Multicast.BizLayer/Integration/ProsecutorDepartment/Concrete/ProsecutorDepartmentService.cs",
+    "line_number": 199,
+    "condition": "org is null",
+    "service_name": "multicast-service",
+    "document_type": "prosecutordepartment",
+    "class_name": "ProsecutorDepartmentService"
+  },
+  {
+    "error_message": "Организация с ИНН [...] не найдена или не активна.",
+    "file_path": "services/multicast-service/src/libs/Uzasbo2.Services.Multicast.BizLayer/Integration/ProsecutorDepartment/Concrete/ProsecutorDepartmentService.cs",
+    "line_number": 247,
+    "condition": "org is null",
+    "service_name": "multicast-service",
+    "document_type": "prosecutordepartment",
+    "class_name": "ProsecutorDepartmentService"
+  },
+  {
+    "error_message": "Организация с ИНН [...] не найдена или не активна.",
+    "file_path": "services/multicast-service/src/libs/Uzasbo2.Services.Multicast.BizLayer/Integration/ProsecutorDepartment/Concrete/ProsecutorDepartmentService.cs",
+    "line_number": 291,
+    "condition": "org is null",
+    "service_name": "multicast-service",
+    "document_type": "prosecutordepartment",
+    "class_name": "ProsecutorDepartmentService"
+  },
+  {
+    "error_message": "Организация с ИНН [...] не найдена или не активна.",
+    "file_path": "services/multicast-service/src/libs/Uzasbo2.Services.Multicast.BizLayer/Integration/ProsecutorDepartment/Concrete/ProsecutorDepartmentService.cs",
+    "line_number": 337,
+    "condition": "org is null",
+    "service_name": "multicast-service",
+    "document_type": "prosecutordepartment",
+    "class_name": "ProsecutorDepartmentService"
+  },
+  {
+    "error_message": "Организация с ИНН [...] не найдена или не активна.",
+    "file_path": "services/multicast-service/src/libs/Uzasbo2.Services.Multicast.BizLayer/Integration/ProsecutorDepartment/Concrete/ProsecutorDepartmentService.cs",
+    "line_number": 385,
+    "condition": "org is null",
+    "service_name": "multicast-service",
+    "document_type": "prosecutordepartment",
+    "class_name": "ProsecutorDepartmentService"
+  },
+  {
+    "error_message": "Организация с ИНН [...] не найдена или не активна.",
+    "file_path": "services/multicast-service/src/libs/Uzasbo2.Services.Multicast.BizLayer/Integration/ProsecutorDepartment/Concrete/ProsecutorDepartmentService.cs",
+    "line_number": 416,
+    "condition": "org is null",
+    "service_name": "multicast-service",
+    "document_type": "prosecutordepartment",
+    "class_name": "ProsecutorDepartmentService"
+  },
+  {
+    "error_message": "[...] bo'yicha talaba topilmadi",
+    "file_path": "services/multicast-service/src/libs/Uzasbo2.Services.Multicast.BizLayer/Integration/StudentContractInfo/Concrete/StudentContractInfoService.cs",
+    "line_number": 29,
+    "condition": "res == null",
+    "service_name": "multicast-service",
+    "document_type": "studentcontractinfo",
+    "class_name": "StudentContractInfoService"
+  },
+  {
+    "error_message": "Ma'lumot topilmadi !!!",
+    "file_path": "services/multicast-service/src/libs/Uzasbo2.Services.Multicast.BizLayer/Integration/StudentContractInfo/Concrete/StudentContractInfoService.cs",
+    "line_number": 51,
+    "condition": "contractInvoice == null",
+    "service_name": "multicast-service",
+    "document_type": "studentcontractinfo",
+    "class_name": "StudentContractInfoService"
+  },
+  {
+    "error_message": "[...] ЖШШИР бўйича талаба топилмади",
+    "file_path": "services/multicast-service/src/libs/Uzasbo2.Services.Multicast.BizLayer/Integration/StudentContractInfo/Concrete/StudentContractInfoService.cs",
+    "line_number": 99,
+    "condition": "person is null",
+    "service_name": "multicast-service",
+    "document_type": "studentcontractinfo",
+    "class_name": "StudentContractInfoService"
+  },
+  {
+    "error_message": "Ma'lumot topilmadi !!!",
+    "file_path": "services/multicast-service/src/libs/Uzasbo2.Services.Multicast.BizLayer/ManualServices/Concrete/ManualService.cs",
+    "line_number": 179,
+    "condition": "data_result is null",
+    "service_name": "multicast-service",
+    "document_type": "manual",
+    "class_name": "ManualService"
+  },
+  {
+    "error_message": "ShGʼH koʼchirmalarining maʼlumotini 30 kalendar kunigacha bo'lgan muddatni olish mumkin !!!",
+    "file_path": "services/multicast-service/src/libs/Uzasbo2.Services.Multicast.BizLayer/ManualServices/Concrete/ManualService.cs",
+    "line_number": 337,
+    "condition": "Math.Abs((options.StartDate - options.EndDate).Days) >= 30",
+    "service_name": "multicast-service",
+    "document_type": "manual",
+    "class_name": "ManualService"
+  },
+  {
+    "error_message": "Ҳисоб рақамнинг касса харажати субсчети танланмаган / Субсчёт кассовых расходов Лицевого счёта не выбран",
+    "file_path": "services/multicast-service/src/libs/Uzasbo2.Services.Multicast.BizLayer/ManualServices/Concrete/ManualService.cs",
+    "line_number": 353,
+    "condition": "!orgset.CashSubAccId.HasValue",
+    "service_name": "multicast-service",
+    "document_type": "manual",
+    "class_name": "ManualService"
+  },
+  {
+    "error_message": "Ma'lumot topilmadi !!!",
+    "file_path": "services/multicast-service/src/libs/Uzasbo2.Services.Multicast.BizLayer/ManualServices/Concrete/ManualService.cs",
+    "line_number": 539,
+    "condition": "",
+    "service_name": "multicast-service",
+    "document_type": "manual",
+    "class_name": "ManualService"
+  },
+  {
+    "error_message": "Ma'lumot topilmadi !!!",
+    "file_path": "services/multicast-service/src/libs/Uzasbo2.Services.Multicast.BizLayer/ManualServices/Concrete/ManualService.cs",
+    "line_number": 564,
+    "condition": "",
+    "service_name": "multicast-service",
+    "document_type": "manual",
+    "class_name": "ManualService"
+  },
+  {
+    "error_message": "Ma'lumot topilmadi !!!",
+    "file_path": "services/multicast-service/src/libs/Uzasbo2.Services.Multicast.BizLayer/ManualServices/Concrete/ManualService.cs",
+    "line_number": 596,
+    "condition": "",
+    "service_name": "multicast-service",
+    "document_type": "manual",
+    "class_name": "ManualService"
+  },
+  {
+    "error_message": "Ma'lumot topilmadi !!!",
+    "file_path": "services/multicast-service/src/libs/Uzasbo2.Services.Multicast.BizLayer/ManualServices/Concrete/ManualService.cs",
+    "line_number": 796,
+    "condition": "Inn.Length != 9 || NumberUtility.CheckINNAlgorithm(Inn).Error != null",
+    "service_name": "multicast-service",
+    "document_type": "manual",
+    "class_name": "ManualService"
+  },
+  {
+    "error_message": "Tashkilot topilmadi !!!",
+    "file_path": "services/multicast-service/src/libs/Uzasbo2.Services.Multicast.BizLayer/ManualServices/Concrete/ManualService.cs",
+    "line_number": 857,
+    "condition": "org == null",
+    "service_name": "multicast-service",
+    "document_type": "manual",
+    "class_name": "ManualService"
+  },
+  {
+    "error_message": "Dmbat tizimiga yuborilgan hujjat Hujjat topilmadi",
+    "file_path": "services/multicast-service/src/libs/Uzasbo2.Services.Multicast.BizLayer/ManualServices/Concrete/ManualService.cs",
+    "line_number": 1126,
+    "condition": "sendDoc == null",
+    "service_name": "multicast-service",
+    "document_type": "manual",
+    "class_name": "ManualService"
+  },
+  {
+    "error_message": "Hujjat topilmadi.",
+    "file_path": "services/multicast-service/src/libs/Uzasbo2.Services.Multicast.BizLayer/ManualServices/Concrete/ManualService.cs",
+    "line_number": 1134,
+    "condition": "ent == null",
+    "service_name": "multicast-service",
+    "document_type": "manual",
+    "class_name": "ManualService"
+  },
+  {
+    "error_message": "Hujjatga hali PDF fayl biriktirilmagan.",
+    "file_path": "services/multicast-service/src/libs/Uzasbo2.Services.Multicast.BizLayer/ManualServices/Concrete/ManualService.cs",
+    "line_number": 1140,
+    "condition": "string.IsNullOrEmpty(ent.PdfFileId) || string.IsNullOrEmpty(ent.PdfFileName)",
+    "service_name": "multicast-service",
+    "document_type": "manual",
+    "class_name": "ManualService"
+  },
+  {
+    "error_message": "PDF fayl topilmadi.",
+    "file_path": "services/multicast-service/src/libs/Uzasbo2.Services.Multicast.BizLayer/ManualServices/Concrete/ManualService.cs",
+    "line_number": 1150,
+    "condition": "file?.GetStream() == null",
+    "service_name": "multicast-service",
+    "document_type": "manual",
+    "class_name": "ManualService"
+  },
+  {
+    "error_message": "Dmbat tizimiga yuborilgan hujjat Hujjat topilmadi",
+    "file_path": "services/multicast-service/src/libs/Uzasbo2.Services.Multicast.BizLayer/ManualServices/Concrete/ManualService.cs",
+    "line_number": 1167,
+    "condition": "sendDoc == null",
+    "service_name": "multicast-service",
+    "document_type": "manual",
+    "class_name": "ManualService"
+  },
+  {
+    "error_message": "Hujjat topilmadi.",
+    "file_path": "services/multicast-service/src/libs/Uzasbo2.Services.Multicast.BizLayer/ManualServices/Concrete/ManualService.cs",
+    "line_number": 1175,
+    "condition": "ent == null",
+    "service_name": "multicast-service",
+    "document_type": "manual",
+    "class_name": "ManualService"
+  },
+  {
+    "error_message": "Hujjatga hali PDF fayl biriktirilmagan.",
+    "file_path": "services/multicast-service/src/libs/Uzasbo2.Services.Multicast.BizLayer/ManualServices/Concrete/ManualService.cs",
+    "line_number": 1181,
+    "condition": "string.IsNullOrEmpty(ent.PdfFileName)",
+    "service_name": "multicast-service",
+    "document_type": "manual",
+    "class_name": "ManualService"
+  },
+  {
+    "error_message": "PDF fayl topilmadi.",
+    "file_path": "services/multicast-service/src/libs/Uzasbo2.Services.Multicast.BizLayer/ManualServices/Concrete/ManualService.cs",
+    "line_number": 1189,
+    "condition": "file?.GetStream() == null",
+    "service_name": "multicast-service",
+    "document_type": "manual",
+    "class_name": "ManualService"
+  },
+  {
+    "error_message": "Dmbat tizimiga yuborilgan hujjat topilmadi",
+    "file_path": "services/multicast-service/src/libs/Uzasbo2.Services.Multicast.BizLayer/ManualServices/Concrete/ManualService.cs",
+    "line_number": 1206,
+    "condition": "sendDoc == null",
+    "service_name": "multicast-service",
+    "document_type": "manual",
+    "class_name": "ManualService"
+  },
+  {
+    "error_message": "Hujjat topilmadi.",
+    "file_path": "services/multicast-service/src/libs/Uzasbo2.Services.Multicast.BizLayer/ManualServices/Concrete/ManualService.cs",
+    "line_number": 1214,
+    "condition": "ent == null",
+    "service_name": "multicast-service",
+    "document_type": "manual",
+    "class_name": "ManualService"
+  },
+  {
+    "error_message": "Hujjatga hali PDF fayl biriktirilmagan.",
+    "file_path": "services/multicast-service/src/libs/Uzasbo2.Services.Multicast.BizLayer/ManualServices/Concrete/ManualService.cs",
+    "line_number": 1220,
+    "condition": "string.IsNullOrEmpty(ent.PdfFileName)",
+    "service_name": "multicast-service",
+    "document_type": "manual",
+    "class_name": "ManualService"
+  },
+  {
+    "error_message": "PDF fayl topilmadi.",
+    "file_path": "services/multicast-service/src/libs/Uzasbo2.Services.Multicast.BizLayer/ManualServices/Concrete/ManualService.cs",
+    "line_number": 1229,
+    "condition": "file?.GetStream() == null",
+    "service_name": "multicast-service",
+    "document_type": "manual",
+    "class_name": "ManualService"
+  },
+  {
+    "error_message": "Ruxsat eltilgan eng ko'p ma'lumot 200 ta",
+    "file_path": "services/multicast-service/src/libs/Uzasbo2.Services.Multicast.BizLayer/ManualServices/Concrete/ManualService.cs",
+    "line_number": 1244,
+    "condition": "",
+    "service_name": "multicast-service",
+    "document_type": "manual",
+    "class_name": "ManualService"
+  },
+  {
+    "error_message": "Ruxsat eltilgan eng ko'p ma'lumot 200 ta",
+    "file_path": "services/multicast-service/src/libs/Uzasbo2.Services.Multicast.BizLayer/ManualServices/Concrete/ManualService.cs",
+    "line_number": 1255,
+    "condition": "filter.PageSize > 200",
+    "service_name": "multicast-service",
+    "document_type": "manual",
+    "class_name": "ManualService"
+  },
+  {
+    "error_message": "Запись с этим кодом ([...]) уже существует.",
+    "file_path": "services/multicast-service/src/libs/Uzasbo2.Services.Multicast.DataLayer.Repository/Repositories/Info/Enkt/Concrete/EnktRepository.cs",
+    "line_number": 36,
+    "condition": "",
+    "service_name": "multicast-service",
+    "document_type": "enkt",
+    "class_name": "EnktRepository"
+  },
+  {
+    "error_message": "Запись не найдено",
+    "file_path": "services/multicast-service/src/shared/Uzasbo2.Services.Multicast.Shared.BizLayer/OperCodeServices/Concrete/OperCodeService.cs",
+    "line_number": 30,
+    "condition": "dto == null",
+    "service_name": "multicast-service",
+    "document_type": "opercode",
+    "class_name": "OperCodeService"
+  },
+  {
+    "error_message": "Запись не найдено",
+    "file_path": "services/multicast-service/src/shared/Uzasbo2.Services.Multicast.Shared.BizLayer/OperCodeServices/Concrete/OperCodeService.cs",
+    "line_number": 43,
+    "condition": "dto == null",
+    "service_name": "multicast-service",
+    "document_type": "opercode",
+    "class_name": "OperCodeService"
+  },
+  {
+    "error_message": "L/S topilmadi. Id:",
+    "file_path": "services/multicast-service/src/shared/Uzasbo2.Services.Multicast.Shared.BizLayer/Sys/Budget/Concrete/TreasBudgetService.cs",
+    "line_number": 41,
+    "condition": "orgSettlementAccount == null",
+    "service_name": "multicast-service",
+    "document_type": "treasbudget",
+    "class_name": "TreasBudgetService"
+  }
+]

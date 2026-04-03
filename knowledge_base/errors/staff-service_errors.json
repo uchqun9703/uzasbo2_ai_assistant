@@ -1,0 +1,542 @@
+[
+  {
+    "error_message": "Tashkilotga struktura biriktirilmagan !",
+    "file_path": "services/staff-service/src/libs/Uzasbo2.Services.Staff.BizLayer/Doc/StaffingPositionReplacementServices/Concrete/StaffingPositionReplacementService.cs",
+    "line_number": 98,
+    "condition": "!orgStructureId.HasValue",
+    "service_name": "staff-service",
+    "document_type": "staffingpositionreplacement",
+    "class_name": "StaffingPositionReplacementService"
+  },
+  {
+    "error_message": "Tashkilot hisob raqami topilmadi !",
+    "file_path": "services/staff-service/src/libs/Uzasbo2.Services.Staff.BizLayer/Doc/StaffingPositionReplacementServices/Concrete/StaffingPositionReplacementService.cs",
+    "line_number": 103,
+    "condition": "orgSettlementAccount == null",
+    "service_name": "staff-service",
+    "document_type": "staffingpositionreplacement",
+    "class_name": "StaffingPositionReplacementService"
+  },
+  {
+    "error_message": "Tashkilot hisob raqami aktiv emas !",
+    "file_path": "services/staff-service/src/libs/Uzasbo2.Services.Staff.BizLayer/Doc/StaffingPositionReplacementServices/Concrete/StaffingPositionReplacementService.cs",
+    "line_number": 108,
+    "condition": "orgSettlementAccount.StateId == StateIdConst.PASSIVE",
+    "service_name": "staff-service",
+    "document_type": "staffingpositionreplacement",
+    "class_name": "StaffingPositionReplacementService"
+  },
+  {
+    "error_message": "Ташкилотда бу ШҒХ билан [...] штат топилмади !",
+    "file_path": "services/staff-service/src/libs/Uzasbo2.Services.Staff.BizLayer/Doc/StaffingPositionReplacementServices/Concrete/StaffingPositionReplacementService.cs",
+    "line_number": 128,
+    "condition": "staffing == null",
+    "service_name": "staff-service",
+    "document_type": "staffingpositionreplacement",
+    "class_name": "StaffingPositionReplacementService"
+  },
+  {
+    "error_message": "Ушбу ҳужжат фақат G структуралар учун !",
+    "file_path": "services/staff-service/src/libs/Uzasbo2.Services.Staff.BizLayer/Doc/StaffingPositionReplacementServices/Concrete/StaffingPositionReplacementService.cs",
+    "line_number": 137,
+    "condition": "!isGClass",
+    "service_name": "staff-service",
+    "document_type": "staffingpositionreplacement",
+    "class_name": "StaffingPositionReplacementService"
+  },
+  {
+    "error_message": "100105",
+    "file_path": "services/staff-service/src/libs/Uzasbo2.Services.Staff.BizLayer/Doc/StaffingPositionReplacementServices/Concrete/StaffingPositionReplacementService.cs",
+    "line_number": 199,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, StatusIdConst.MODIFIED)",
+    "service_name": "staff-service",
+    "document_type": "staffingpositionreplacement",
+    "class_name": "StaffingPositionReplacementService"
+  },
+  {
+    "error_message": "Hujjat topilmadi",
+    "file_path": "services/staff-service/src/libs/Uzasbo2.Services.Staff.BizLayer/Doc/StaffingPositionReplacementServices/Concrete/StaffingPositionReplacementService.cs",
+    "line_number": 293,
+    "condition": "doc == null",
+    "service_name": "staff-service",
+    "document_type": "staffingpositionreplacement",
+    "class_name": "StaffingPositionReplacementService"
+  },
+  {
+    "error_message": "100105",
+    "file_path": "services/staff-service/src/libs/Uzasbo2.Services.Staff.BizLayer/Doc/StaffingPositionReplacementServices/Concrete/StaffingPositionReplacementService.cs",
+    "line_number": 299,
+    "condition": "!StatusIdConst.CanApplyStatus(doc.StatusId, StatusIdConst.MODIFIED)",
+    "service_name": "staff-service",
+    "document_type": "staffingpositionreplacement",
+    "class_name": "StaffingPositionReplacementService"
+  },
+  {
+    "error_message": "Hujjat topilmadi",
+    "file_path": "services/staff-service/src/libs/Uzasbo2.Services.Staff.BizLayer/Doc/StaffingPositionReplacementServices/Concrete/StaffingPositionReplacementService.cs",
+    "line_number": 360,
+    "condition": "doc == null",
+    "service_name": "staff-service",
+    "document_type": "staffingpositionreplacement",
+    "class_name": "StaffingPositionReplacementService"
+  },
+  {
+    "error_message": "100105",
+    "file_path": "services/staff-service/src/libs/Uzasbo2.Services.Staff.BizLayer/Doc/StaffingPositionReplacementServices/Concrete/StaffingPositionReplacementService.cs",
+    "line_number": 366,
+    "condition": "!StatusIdConst.CanApplyStatus(doc.StatusId, StatusIdConst.MODIFIED)",
+    "service_name": "staff-service",
+    "document_type": "staffingpositionreplacement",
+    "class_name": "StaffingPositionReplacementService"
+  },
+  {
+    "error_message": "100105",
+    "file_path": "services/staff-service/src/libs/Uzasbo2.Services.Staff.BizLayer/Doc/StaffingPositionReplacementServices/Concrete/StaffingPositionReplacementService.cs",
+    "line_number": 429,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, dto.StatusId)",
+    "service_name": "staff-service",
+    "document_type": "staffingpositionreplacement",
+    "class_name": "StaffingPositionReplacementService"
+  },
+  {
+    "error_message": "Hujjat topilmadi !",
+    "file_path": "services/staff-service/src/libs/Uzasbo2.Services.Staff.BizLayer/Doc/StaffingPositionReplacementServices/Concrete/StaffingPositionReplacementService.cs",
+    "line_number": 441,
+    "condition": "staffingForm == null",
+    "service_name": "staff-service",
+    "document_type": "staffingpositionreplacement",
+    "class_name": "StaffingPositionReplacementService"
+  },
+  {
+    "error_message": "Hujjat topilmadi",
+    "file_path": "services/staff-service/src/libs/Uzasbo2.Services.Staff.BizLayer/Doc/StaffingPositionReplacementServices/Concrete/StaffingPositionReplacementService.cs",
+    "line_number": 634,
+    "condition": "doc == null",
+    "service_name": "staff-service",
+    "document_type": "staffingpositionreplacement",
+    "class_name": "StaffingPositionReplacementService"
+  },
+  {
+    "error_message": "Қўшилётган лавозимлар бўш бўлиши мумкин эмас !",
+    "file_path": "services/staff-service/src/libs/Uzasbo2.Services.Staff.BizLayer/Doc/StaffingPositionReplacementServices/Concrete/StaffingPositionReplacementService.cs",
+    "line_number": 666,
+    "condition": "debitTable.Count() == 0",
+    "service_name": "staff-service",
+    "document_type": "staffingpositionreplacement",
+    "class_name": "StaffingPositionReplacementService"
+  },
+  {
+    "error_message": "Олиб ташланётган лавозимлар бўш бўлиши мумкин эмас !",
+    "file_path": "services/staff-service/src/libs/Uzasbo2.Services.Staff.BizLayer/Doc/StaffingPositionReplacementServices/Concrete/StaffingPositionReplacementService.cs",
+    "line_number": 672,
+    "condition": "creditTable.Count() == 0",
+    "service_name": "staff-service",
+    "document_type": "staffingpositionreplacement",
+    "class_name": "StaffingPositionReplacementService"
+  },
+  {
+    "error_message": "[...] бўлим [...] лавозимда вакант штат бирлиги етарли эмас!. Вакант штатлар сони:[...]",
+    "file_path": "services/staff-service/src/libs/Uzasbo2.Services.Staff.BizLayer/Doc/StaffingPositionReplacementServices/Concrete/StaffingPositionReplacementService.cs",
+    "line_number": 696,
+    "condition": "item.Quantity > vacantQuantity",
+    "service_name": "staff-service",
+    "document_type": "staffingpositionreplacement",
+    "class_name": "StaffingPositionReplacementService"
+  },
+  {
+    "error_message": "[...] бўлим [...] лавозимда вакант топилмади!",
+    "file_path": "services/staff-service/src/libs/Uzasbo2.Services.Staff.BizLayer/Doc/StaffingPositionReplacementServices/Concrete/StaffingPositionReplacementService.cs",
+    "line_number": 702,
+    "condition": "",
+    "service_name": "staff-service",
+    "document_type": "staffingpositionreplacement",
+    "class_name": "StaffingPositionReplacementService"
+  },
+  {
+    "error_message": "ўзгарган лавозимнинг штатлар сон вакант лавозимдан ошиб кетган!",
+    "file_path": "services/staff-service/src/libs/Uzasbo2.Services.Staff.BizLayer/Doc/StaffingPositionReplacementServices/Concrete/StaffingPositionReplacementService.cs",
+    "line_number": 709,
+    "condition": "debitTable.Sum(x => x.Quantity) > creditTable.Sum(x => x.Quantity)",
+    "service_name": "staff-service",
+    "document_type": "staffingpositionreplacement",
+    "class_name": "StaffingPositionReplacementService"
+  },
+  {
+    "error_message": "ўзгарган лавозимнинг суммаси вакант лавозимдан ошиб кетган!",
+    "file_path": "services/staff-service/src/libs/Uzasbo2.Services.Staff.BizLayer/Doc/StaffingPositionReplacementServices/Concrete/StaffingPositionReplacementService.cs",
+    "line_number": 714,
+    "condition": "NumberUtility.Round(debitTable.Sum(x => x.Fot) / 100, 0) * 100 > NumberUtility.Round(creditTable.Sum(x => x.Fot) / 100, 0) * 100",
+    "service_name": "staff-service",
+    "document_type": "staffingpositionreplacement",
+    "class_name": "StaffingPositionReplacementService"
+  },
+  {
+    "error_message": "100105",
+    "file_path": "services/staff-service/src/libs/Uzasbo2.Services.Staff.BizLayer/Doc/StaffingPositionReplacementServices/Concrete/StaffingPositionReplacementService.cs",
+    "line_number": 726,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, dto.StatusId)",
+    "service_name": "staff-service",
+    "document_type": "staffingpositionreplacement",
+    "class_name": "StaffingPositionReplacementService"
+  },
+  {
+    "error_message": "100105",
+    "file_path": "services/staff-service/src/libs/Uzasbo2.Services.Staff.BizLayer/Doc/StaffingPositionReplacementServices/Concrete/StaffingPositionReplacementService.cs",
+    "line_number": 758,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, dto.StatusId)",
+    "service_name": "staff-service",
+    "document_type": "staffingpositionreplacement",
+    "class_name": "StaffingPositionReplacementService"
+  },
+  {
+    "error_message": "Ойлик ҳисоби ҳужжати мавжудлиги сабабли бекор қилиш мумкин эмас ! Ид [...]",
+    "file_path": "services/staff-service/src/libs/Uzasbo2.Services.Staff.BizLayer/Doc/StaffingPositionReplacementServices/Concrete/StaffingPositionReplacementService.cs",
+    "line_number": 767,
+    "condition": "hasSalaryCalc != null",
+    "service_name": "staff-service",
+    "document_type": "staffingpositionreplacement",
+    "class_name": "StaffingPositionReplacementService"
+  },
+  {
+    "error_message": "Ҳужжат топилмади !",
+    "file_path": "services/staff-service/src/libs/Uzasbo2.Services.Staff.BizLayer/Doc/StaffingPositionReplacementServices/Concrete/StaffingPositionReplacementService.cs",
+    "line_number": 840,
+    "condition": "dto == null",
+    "service_name": "staff-service",
+    "document_type": "staffingpositionreplacement",
+    "class_name": "StaffingPositionReplacementService"
+  },
+  {
+    "error_message": "Ro'yhatga olingan shtatlar jadvali topilmadi !",
+    "file_path": "services/staff-service/src/libs/Uzasbo2.Services.Staff.BizLayer/Doc/StaffingPositionReplacementServices/Concrete/StaffingPositionReplacementService.cs",
+    "line_number": 906,
+    "condition": "hasMainStaffing == null",
+    "service_name": "staff-service",
+    "document_type": "staffingpositionreplacement",
+    "class_name": "StaffingPositionReplacementService"
+  },
+  {
+    "error_message": "100109",
+    "file_path": "services/staff-service/src/libs/Uzasbo2.Services.Staff.BizLayer/Doc/StaffingPositionReplacementServices/Concrete/StaffingPositionReplacementService.cs",
+    "line_number": 915,
+    "condition": "!StatusIdConst.CanModifyStatus.Contains(entity.StatusId)",
+    "service_name": "staff-service",
+    "document_type": "staffingpositionreplacement",
+    "class_name": "StaffingPositionReplacementService"
+  },
+  {
+    "error_message": "100110",
+    "file_path": "services/staff-service/src/libs/Uzasbo2.Services.Staff.BizLayer/Doc/StaffingPositionReplacementServices/Concrete/StaffingPositionReplacementService.cs",
+    "line_number": 919,
+    "condition": "await query.ByDocNumber(dto.DocNumber).AnyAsync(x => x.DocOn.Year == dto.DocOn.Year, cancellationToken: cancellationToken)",
+    "service_name": "staff-service",
+    "document_type": "staffingpositionreplacement",
+    "class_name": "StaffingPositionReplacementService"
+  },
+  {
+    "error_message": "Файл номида ой хато киритилган ! Намуна : 01.01.2025 ***",
+    "file_path": "services/staff-service/src/libs/Uzasbo2.Services.Staff.BizLayer/ManualServices/Concrete/ManualService.cs",
+    "line_number": 56,
+    "condition": "!DateTime.TryParseExact(monthString, \"dd.MM.yyyy\", CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime Month)",
+    "service_name": "staff-service",
+    "document_type": "manual",
+    "class_name": "ManualService"
+  },
+  {
+    "error_message": "Ушбу ой учун ойлик ҳисоби юкланган !",
+    "file_path": "services/staff-service/src/libs/Uzasbo2.Services.Staff.BizLayer/ManualServices/Concrete/ManualService.cs",
+    "line_number": 63,
+    "condition": "hasMonthlyData",
+    "service_name": "staff-service",
+    "document_type": "manual",
+    "class_name": "ManualService"
+  },
+  {
+    "error_message": "[...] hodim lavozimi kiritilmagan",
+    "file_path": "services/staff-service/src/libs/Uzasbo2.Services.Staff.BizLayer/ManualServices/Concrete/ManualService.cs",
+    "line_number": 100,
+    "condition": "worksheet[currentIndex, 5].Value == null",
+    "service_name": "staff-service",
+    "document_type": "manual",
+    "class_name": "ManualService"
+  },
+  {
+    "error_message": "Malaka toifasi hujjati topilmadi! Ҳодим: [...]",
+    "file_path": "services/staff-service/src/shared/Uzasbo2.Services.Staff.Shared.BizLayer/SharedAppointQualCategoryService/Concrete/SharedAppointQualCategoryService.cs",
+    "line_number": 116,
+    "condition": "",
+    "service_name": "staff-service",
+    "document_type": "sharedappointqualcategory",
+    "class_name": "SharedAppointQualCategoryService"
+  },
+  {
+    "error_message": "Malaka toifasi hujjati topilmadi! Ҳодим: [...]",
+    "file_path": "services/staff-service/src/shared/Uzasbo2.Services.Staff.Shared.BizLayer/SharedAppointQualCategoryService/Concrete/SharedAppointQualCategoryService.cs",
+    "line_number": 126,
+    "condition": "result == null",
+    "service_name": "staff-service",
+    "document_type": "sharedappointqualcategory",
+    "class_name": "SharedAppointQualCategoryService"
+  },
+  {
+    "error_message": "Тоифа Узасбо тизимидан топилмади. Илтимос тизим админига мурожат қилинг! id: [...]",
+    "file_path": "services/staff-service/src/shared/Uzasbo2.Services.Staff.Shared.BizLayer/SharedAppointQualCategoryService/Concrete/SharedAppointQualCategoryService.cs",
+    "line_number": 133,
+    "condition": "qualificationCategoryByExternalDataCode == null",
+    "service_name": "staff-service",
+    "document_type": "sharedappointqualcategory",
+    "class_name": "SharedAppointQualCategoryService"
+  },
+  {
+    "error_message": "Malaka toifasi hujjati topilmadi! Ҳодим: [...]",
+    "file_path": "services/staff-service/src/shared/Uzasbo2.Services.Staff.Shared.BizLayer/SharedAppointQualCategoryService/Concrete/SharedAppointQualCategoryService.cs",
+    "line_number": 161,
+    "condition": "result == null",
+    "service_name": "staff-service",
+    "document_type": "sharedappointqualcategory",
+    "class_name": "SharedAppointQualCategoryService"
+  },
+  {
+    "error_message": "Malaka toifasi hujjati topilmadi! Ҳодим: [...]",
+    "file_path": "services/staff-service/src/shared/Uzasbo2.Services.Staff.Shared.BizLayer/SharedAppointQualCategoryService/Concrete/SharedAppointQualCategoryService.cs",
+    "line_number": 174,
+    "condition": "result == null",
+    "service_name": "staff-service",
+    "document_type": "sharedappointqualcategory",
+    "class_name": "SharedAppointQualCategoryService"
+  },
+  {
+    "error_message": "Malaka toifasi hujjati topilmadi! Ҳодим: [...]",
+    "file_path": "services/staff-service/src/shared/Uzasbo2.Services.Staff.Shared.BizLayer/SharedAppointQualCategoryService/Concrete/SharedAppointQualCategoryService.cs",
+    "line_number": 187,
+    "condition": "result == null",
+    "service_name": "staff-service",
+    "document_type": "sharedappointqualcategory",
+    "class_name": "SharedAppointQualCategoryService"
+  },
+  {
+    "error_message": "Malaka toifasi hujjati topilmadi! Ҳодим: [...]",
+    "file_path": "services/staff-service/src/shared/Uzasbo2.Services.Staff.Shared.BizLayer/SharedAppointQualCategoryService/Concrete/SharedAppointQualCategoryService.cs",
+    "line_number": 200,
+    "condition": "result == null",
+    "service_name": "staff-service",
+    "document_type": "sharedappointqualcategory",
+    "class_name": "SharedAppointQualCategoryService"
+  },
+  {
+    "error_message": "Malaka toifasi hujjati topilmadi! Ҳодим: [...]",
+    "file_path": "services/staff-service/src/shared/Uzasbo2.Services.Staff.Shared.BizLayer/SharedAppointQualCategoryService/Concrete/SharedAppointQualCategoryService.cs",
+    "line_number": 213,
+    "condition": "result == null",
+    "service_name": "staff-service",
+    "document_type": "sharedappointqualcategory",
+    "class_name": "SharedAppointQualCategoryService"
+  },
+  {
+    "error_message": "Malaka toifasi hujjati topilmadi! Ҳодим: [...]",
+    "file_path": "services/staff-service/src/shared/Uzasbo2.Services.Staff.Shared.BizLayer/SharedAppointQualCategoryService/Concrete/SharedAppointQualCategoryService.cs",
+    "line_number": 228,
+    "condition": "result == null",
+    "service_name": "staff-service",
+    "document_type": "sharedappointqualcategory",
+    "class_name": "SharedAppointQualCategoryService"
+  },
+  {
+    "error_message": "Malaka toifasi hujjati topilmadi! Ҳодим: [...]",
+    "file_path": "services/staff-service/src/shared/Uzasbo2.Services.Staff.Shared.BizLayer/SharedAppointQualCategoryService/Concrete/SharedAppointQualCategoryService.cs",
+    "line_number": 242,
+    "condition": "result == null",
+    "service_name": "staff-service",
+    "document_type": "sharedappointqualcategory",
+    "class_name": "SharedAppointQualCategoryService"
+  },
+  {
+    "error_message": "Malaka toifasi hujjati topilmadi! Ҳодим: [...]",
+    "file_path": "services/staff-service/src/shared/Uzasbo2.Services.Staff.Shared.BizLayer/SharedAppointQualCategoryService/Concrete/SharedAppointQualCategoryService.cs",
+    "line_number": 256,
+    "condition": "result == null",
+    "service_name": "staff-service",
+    "document_type": "sharedappointqualcategory",
+    "class_name": "SharedAppointQualCategoryService"
+  },
+  {
+    "error_message": "Malaka toifasi hujjati topilmadi! Ҳодим: [...]",
+    "file_path": "services/staff-service/src/shared/Uzasbo2.Services.Staff.Shared.BizLayer/SharedAppointQualCategoryService/Concrete/SharedAppointQualCategoryService.cs",
+    "line_number": 270,
+    "condition": "result == null",
+    "service_name": "staff-service",
+    "document_type": "sharedappointqualcategory",
+    "class_name": "SharedAppointQualCategoryService"
+  },
+  {
+    "error_message": "Malaka toifasi hujjati topilmadi! Ҳодим: [...]",
+    "file_path": "services/staff-service/src/shared/Uzasbo2.Services.Staff.Shared.BizLayer/SharedAppointQualCategoryService/Concrete/SharedAppointQualCategoryService.cs",
+    "line_number": 276,
+    "condition": "",
+    "service_name": "staff-service",
+    "document_type": "sharedappointqualcategory",
+    "class_name": "SharedAppointQualCategoryService"
+  },
+  {
+    "error_message": "Тоифа Узасбо тизимидан топилмади. Илтимос тизим админига мурожат қилинг! id: [...]",
+    "file_path": "services/staff-service/src/shared/Uzasbo2.Services.Staff.Shared.BizLayer/SharedAppointQualCategoryService/Concrete/SharedAppointQualCategoryService.cs",
+    "line_number": 284,
+    "condition": "qualificationCategoryByExternalDataCode == null",
+    "service_name": "staff-service",
+    "document_type": "sharedappointqualcategory",
+    "class_name": "SharedAppointQualCategoryService"
+  },
+  {
+    "error_message": "Malaka toifasi hujjati topilmadi! Ҳодим: [...]",
+    "file_path": "services/staff-service/src/shared/Uzasbo2.Services.Staff.Shared.BizLayer/SharedAppointQualCategoryService/Concrete/SharedAppointQualCategoryService.cs",
+    "line_number": 390,
+    "condition": "",
+    "service_name": "staff-service",
+    "document_type": "sharedappointqualcategory",
+    "class_name": "SharedAppointQualCategoryService"
+  },
+  {
+    "error_message": "Malaka toifasi hujjati topilmadi! Ҳодим: [...]",
+    "file_path": "services/staff-service/src/shared/Uzasbo2.Services.Staff.Shared.BizLayer/SharedAppointQualCategoryService/Concrete/SharedAppointQualCategoryService.cs",
+    "line_number": 400,
+    "condition": "result == null",
+    "service_name": "staff-service",
+    "document_type": "sharedappointqualcategory",
+    "class_name": "SharedAppointQualCategoryService"
+  },
+  {
+    "error_message": "Тоифа Узасбо тизимидан топилмади. Илтимос тизим админига мурожат қилинг! id: [...]",
+    "file_path": "services/staff-service/src/shared/Uzasbo2.Services.Staff.Shared.BizLayer/SharedAppointQualCategoryService/Concrete/SharedAppointQualCategoryService.cs",
+    "line_number": 407,
+    "condition": "qualificationCategoryByExternalDataCode == null",
+    "service_name": "staff-service",
+    "document_type": "sharedappointqualcategory",
+    "class_name": "SharedAppointQualCategoryService"
+  },
+  {
+    "error_message": "Malaka toifasi hujjati topilmadi! Ҳодим: [...]",
+    "file_path": "services/staff-service/src/shared/Uzasbo2.Services.Staff.Shared.BizLayer/SharedAppointQualCategoryService/Concrete/SharedAppointQualCategoryService.cs",
+    "line_number": 435,
+    "condition": "result == null",
+    "service_name": "staff-service",
+    "document_type": "sharedappointqualcategory",
+    "class_name": "SharedAppointQualCategoryService"
+  },
+  {
+    "error_message": "Malaka toifasi hujjati topilmadi! Ҳодим: [...]",
+    "file_path": "services/staff-service/src/shared/Uzasbo2.Services.Staff.Shared.BizLayer/SharedAppointQualCategoryService/Concrete/SharedAppointQualCategoryService.cs",
+    "line_number": 449,
+    "condition": "result == null",
+    "service_name": "staff-service",
+    "document_type": "sharedappointqualcategory",
+    "class_name": "SharedAppointQualCategoryService"
+  },
+  {
+    "error_message": "Malaka toifasi hujjati topilmadi! Ҳодим: [...]",
+    "file_path": "services/staff-service/src/shared/Uzasbo2.Services.Staff.Shared.BizLayer/SharedAppointQualCategoryService/Concrete/SharedAppointQualCategoryService.cs",
+    "line_number": 462,
+    "condition": "result == null",
+    "service_name": "staff-service",
+    "document_type": "sharedappointqualcategory",
+    "class_name": "SharedAppointQualCategoryService"
+  },
+  {
+    "error_message": "Malaka toifasi hujjati topilmadi! Ҳодим: [...]",
+    "file_path": "services/staff-service/src/shared/Uzasbo2.Services.Staff.Shared.BizLayer/SharedAppointQualCategoryService/Concrete/SharedAppointQualCategoryService.cs",
+    "line_number": 475,
+    "condition": "result == null",
+    "service_name": "staff-service",
+    "document_type": "sharedappointqualcategory",
+    "class_name": "SharedAppointQualCategoryService"
+  },
+  {
+    "error_message": "Malaka toifasi hujjati topilmadi! Ҳодим: [...]",
+    "file_path": "services/staff-service/src/shared/Uzasbo2.Services.Staff.Shared.BizLayer/SharedAppointQualCategoryService/Concrete/SharedAppointQualCategoryService.cs",
+    "line_number": 488,
+    "condition": "result == null",
+    "service_name": "staff-service",
+    "document_type": "sharedappointqualcategory",
+    "class_name": "SharedAppointQualCategoryService"
+  },
+  {
+    "error_message": "Malaka toifasi hujjati topilmadi! Ҳодим: [...]",
+    "file_path": "services/staff-service/src/shared/Uzasbo2.Services.Staff.Shared.BizLayer/SharedAppointQualCategoryService/Concrete/SharedAppointQualCategoryService.cs",
+    "line_number": 503,
+    "condition": "result == null",
+    "service_name": "staff-service",
+    "document_type": "sharedappointqualcategory",
+    "class_name": "SharedAppointQualCategoryService"
+  },
+  {
+    "error_message": "Malaka toifasi hujjati topilmadi! Ҳодим: [...]",
+    "file_path": "services/staff-service/src/shared/Uzasbo2.Services.Staff.Shared.BizLayer/SharedAppointQualCategoryService/Concrete/SharedAppointQualCategoryService.cs",
+    "line_number": 517,
+    "condition": "result == null",
+    "service_name": "staff-service",
+    "document_type": "sharedappointqualcategory",
+    "class_name": "SharedAppointQualCategoryService"
+  },
+  {
+    "error_message": "Malaka toifasi hujjati topilmadi! Ҳодим: [...]",
+    "file_path": "services/staff-service/src/shared/Uzasbo2.Services.Staff.Shared.BizLayer/SharedAppointQualCategoryService/Concrete/SharedAppointQualCategoryService.cs",
+    "line_number": 531,
+    "condition": "result == null",
+    "service_name": "staff-service",
+    "document_type": "sharedappointqualcategory",
+    "class_name": "SharedAppointQualCategoryService"
+  },
+  {
+    "error_message": "Malaka toifasi hujjati topilmadi! Ҳодим: [...]",
+    "file_path": "services/staff-service/src/shared/Uzasbo2.Services.Staff.Shared.BizLayer/SharedAppointQualCategoryService/Concrete/SharedAppointQualCategoryService.cs",
+    "line_number": 545,
+    "condition": "result == null",
+    "service_name": "staff-service",
+    "document_type": "sharedappointqualcategory",
+    "class_name": "SharedAppointQualCategoryService"
+  },
+  {
+    "error_message": "Malaka toifasi hujjati topilmadi! Ҳодим: [...]",
+    "file_path": "services/staff-service/src/shared/Uzasbo2.Services.Staff.Shared.BizLayer/SharedAppointQualCategoryService/Concrete/SharedAppointQualCategoryService.cs",
+    "line_number": 551,
+    "condition": "",
+    "service_name": "staff-service",
+    "document_type": "sharedappointqualcategory",
+    "class_name": "SharedAppointQualCategoryService"
+  },
+  {
+    "error_message": "Тоифа Узасбо тизимидан топилмади. Илтимос тизим админига мурожат қилинг! id: [...]",
+    "file_path": "services/staff-service/src/shared/Uzasbo2.Services.Staff.Shared.BizLayer/SharedAppointQualCategoryService/Concrete/SharedAppointQualCategoryService.cs",
+    "line_number": 559,
+    "condition": "qualificationCategoryByExternalDataCode == null",
+    "service_name": "staff-service",
+    "document_type": "sharedappointqualcategory",
+    "class_name": "SharedAppointQualCategoryService"
+  },
+  {
+    "error_message": "Ходим [...] учун [...] устама олдин бириктитилмаган бекор қила олмайсиз.",
+    "file_path": "services/staff-service/src/shared/Uzasbo2.Services.Staff.Shared.DataLayer.Repository/AccPlanCalculationKind/Concrete/AccPlanCalculationKindRepository.cs",
+    "line_number": 263,
+    "condition": "",
+    "service_name": "staff-service",
+    "document_type": "accplancalculationkind",
+    "class_name": "AccPlanCalculationKindRepository"
+  },
+  {
+    "error_message": "Ходим [...] учун [...] устама олдин бириктитилмаган бекор қила олмайсиз.",
+    "file_path": "services/staff-service/src/shared/Uzasbo2.Services.Staff.Shared.DataLayer.Repository/AccPlanCalculationKind/Concrete/AccPlanCalculationKindRepository.cs",
+    "line_number": 375,
+    "condition": "",
+    "service_name": "staff-service",
+    "document_type": "accplancalculationkind",
+    "class_name": "AccPlanCalculationKindRepository"
+  },
+  {
+    "error_message": "ЭРП тизимидан хатолик:[...] тизим иш фаолиятида емас!, StatusCode: [...]",
+    "file_path": "services/staff-service/Uzasbo2.Integration.Erp/Services/ErpMaktabInfo/ErpMaktabService.cs",
+    "line_number": 320,
+    "condition": "response.IsSuccessStatusCode",
+    "service_name": "staff-service",
+    "document_type": "erpmaktab",
+    "class_name": "ErpMaktabService"
+  }
+]

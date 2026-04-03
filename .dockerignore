@@ -1,0 +1,40 @@
+# ============================================================
+# Docker build da e'tiborga olinmaydigan fayllar
+# Bu fayllar konteynerga ko'chirilmaydi (hajm tejash)
+# ============================================================
+
+# Python cache va virtual environment
+__pycache__
+*.pyc
+*.pyo
+venv/
+.venv/
+env/
+
+# IDE fayllar
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Git
+.git/
+.gitignore
+
+# Docker
+docker-compose.yml
+Dockerfile
+
+# Muhit sozlamalari (maxfiy ma'lumotlar!)
+.env
+
+# Loglar (konteyner ichida yaratiladi)
+logs/
+
+# Testlar
+tests/
+*.test.py
+
+# Hujjatlar
+*.md
+!knowledge_base/**/*.md

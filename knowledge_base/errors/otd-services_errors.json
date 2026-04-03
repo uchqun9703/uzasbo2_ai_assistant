@@ -1,0 +1,1100 @@
+[
+  {
+    "error_message": "ШҒХ топилмади. | ЛС не найден",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/CalculatingTaxisServices/Concrete/CalculatingTaxisService.cs",
+    "line_number": 78,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "calculatingtaxis",
+    "class_name": "CalculatingTaxisService"
+  },
+  {
+    "error_message": "Ҳужжатни ўзгартира олмайсиз.| Нет доступа",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/CalculatingTaxisServices/Concrete/CalculatingTaxisService.cs",
+    "line_number": 152,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "calculatingtaxis",
+    "class_name": "CalculatingTaxisService"
+  },
+  {
+    "error_message": "Ҳужжатни ўчира олмайсиз.| Нет доступа",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/CalculatingTaxisServices/Concrete/CalculatingTaxisService.cs",
+    "line_number": 254,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "calculatingtaxis",
+    "class_name": "CalculatingTaxisService"
+  },
+  {
+    "error_message": "Таҳрирлаш мумкин эмас / Невозможно редактировать",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/CalculatingTaxisServices/Concrete/CalculatingTaxisService.cs",
+    "line_number": 297,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "calculatingtaxis",
+    "class_name": "CalculatingTaxisService"
+  },
+  {
+    "error_message": "Ҳужжат номери нотўғри киритилган. | Номер документа введен неправильно. [...]",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/CalculatingTaxisServices/Concrete/CalculatingTaxisService.cs",
+    "line_number": 301,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "calculatingtaxis",
+    "class_name": "CalculatingTaxisService"
+  },
+  {
+    "error_message": "Бу [...] номерли ҳужжат олдин яратилган. | Документ с этим кодом [...] уже существует",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/CalculatingTaxisServices/Concrete/CalculatingTaxisService.cs",
+    "line_number": 304,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "calculatingtaxis",
+    "class_name": "CalculatingTaxisService"
+  },
+  {
+    "error_message": "Счет не найден",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/CalculatingTaxisServices/Concrete/CalculatingTaxisService.cs",
+    "line_number": 312,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "calculatingtaxis",
+    "class_name": "CalculatingTaxisService"
+  },
+  {
+    "error_message": "ШҒХ топилмади. | ЛС не найден",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/CalculatingTaxisServices/Concrete/CalculatingTaxisService.cs",
+    "line_number": 360,
+    "condition": "orgSettlementAccount == null",
+    "service_name": "otd-services",
+    "document_type": "calculatingtaxis",
+    "class_name": "CalculatingTaxisService"
+  },
+  {
+    "error_message": "Ҳужжатни ўзгартира олмайсиз.| Нет доступа",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/CalculatingTaxisServices/Concrete/CalculatingTaxisService.cs",
+    "line_number": 518,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, StatusIdConst.MODIFIED)",
+    "service_name": "otd-services",
+    "document_type": "calculatingtaxis",
+    "class_name": "CalculatingTaxisService"
+  },
+  {
+    "error_message": "Ҳужжатни ўчира олмайсиз.| Нет доступа",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/CalculatingTaxisServices/Concrete/CalculatingTaxisService.cs",
+    "line_number": 542,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, dto.StatusId)",
+    "service_name": "otd-services",
+    "document_type": "calculatingtaxis",
+    "class_name": "CalculatingTaxisService"
+  },
+  {
+    "error_message": "Таҳрирлаш мумкин эмас / Невозможно редактировать",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/CalculatingTaxisServices/Concrete/CalculatingTaxisService.cs",
+    "line_number": 558,
+    "condition": "!StatusIdConst.CanModifyStatus.Contains(entity.StatusId)",
+    "service_name": "otd-services",
+    "document_type": "calculatingtaxis",
+    "class_name": "CalculatingTaxisService"
+  },
+  {
+    "error_message": "Ҳужжат номери нотўғри киритилган. | Номер документа введен неправильно. [...]",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/CalculatingTaxisServices/Concrete/CalculatingTaxisService.cs",
+    "line_number": 562,
+    "condition": "!CheckModelUtil.IsNumber(dto.DocNumber)",
+    "service_name": "otd-services",
+    "document_type": "calculatingtaxis",
+    "class_name": "CalculatingTaxisService"
+  },
+  {
+    "error_message": "Бу [...] номерли ҳужжат олдин яратилган. | Документ с этим кодом [...] уже существует",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/CalculatingTaxisServices/Concrete/CalculatingTaxisService.cs",
+    "line_number": 565,
+    "condition": "await query.ByDocNumber(dto.DocNumber).AnyAsync(cancellationToken: cancellationToken)",
+    "service_name": "otd-services",
+    "document_type": "calculatingtaxis",
+    "class_name": "CalculatingTaxisService"
+  },
+  {
+    "error_message": "Счет не найден",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/CalculatingTaxisServices/Concrete/CalculatingTaxisService.cs",
+    "line_number": 573,
+    "condition": "itemOfExpense == null",
+    "service_name": "otd-services",
+    "document_type": "calculatingtaxis",
+    "class_name": "CalculatingTaxisService"
+  },
+  {
+    "error_message": "Ҳужжатни ўзгартира олмайсиз.| Нет доступа",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/ClosingTransactionServices/Concrete/ClosingTransactionService.cs",
+    "line_number": 137,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "closingtransaction",
+    "class_name": "ClosingTransactionService"
+  },
+  {
+    "error_message": "Noto'g'ri sana tanlandi !!!",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/ClosingTransactionServices/Concrete/ClosingTransactionService.cs",
+    "line_number": 170,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "closingtransaction",
+    "class_name": "ClosingTransactionService"
+  },
+  {
+    "error_message": "Ҳужжатни ўчира олмайсиз.| Нет доступа",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/ClosingTransactionServices/Concrete/ClosingTransactionService.cs",
+    "line_number": 262,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "closingtransaction",
+    "class_name": "ClosingTransactionService"
+  },
+  {
+    "error_message": "Таҳрирлаш мумкин эмас / Невозможно редактировать",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/ClosingTransactionServices/Concrete/ClosingTransactionService.cs",
+    "line_number": 304,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "closingtransaction",
+    "class_name": "ClosingTransactionService"
+  },
+  {
+    "error_message": "Бу [...] номерли ҳужжат олдин яратилган. | Документ с этим кодом [...] уже существует",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/ClosingTransactionServices/Concrete/ClosingTransactionService.cs",
+    "line_number": 308,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "closingtransaction",
+    "class_name": "ClosingTransactionService"
+  },
+  {
+    "error_message": "Доc Сум 0 дан катта бўлиши керак.| Общая сумма должна быть больше 0. [...]",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/ClosingTransactionServices/Concrete/ClosingTransactionService.cs",
+    "line_number": 311,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "closingtransaction",
+    "class_name": "ClosingTransactionService"
+  },
+  {
+    "error_message": "Noto'g'ri sana tanlandi !!!",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/ClosingTransactionServices/Concrete/ClosingTransactionService.cs",
+    "line_number": 314,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "closingtransaction",
+    "class_name": "ClosingTransactionService"
+  },
+  {
+    "error_message": "Noto'g'ri sana tanlandi !!!",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/ClosingTransactionServices/Concrete/ClosingTransactionService.cs",
+    "line_number": 467,
+    "condition": "!(closingtransaction.DocOn.Month == 12 && closingtransaction.DocOn.Day == 31)",
+    "service_name": "otd-services",
+    "document_type": "closingtransaction",
+    "class_name": "ClosingTransactionService"
+  },
+  {
+    "error_message": "Ҳужжатни ўзгартира олмайсиз.| Нет доступа",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/ClosingTransactionServices/Concrete/ClosingTransactionService.cs",
+    "line_number": 590,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, StatusIdConst.MODIFIED)",
+    "service_name": "otd-services",
+    "document_type": "closingtransaction",
+    "class_name": "ClosingTransactionService"
+  },
+  {
+    "error_message": "Ҳужжатни ўчира олмайсиз.| Нет доступа",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/ClosingTransactionServices/Concrete/ClosingTransactionService.cs",
+    "line_number": 614,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, dto.StatusId)",
+    "service_name": "otd-services",
+    "document_type": "closingtransaction",
+    "class_name": "ClosingTransactionService"
+  },
+  {
+    "error_message": "Таҳрирлаш мумкин эмас / Невозможно редактировать",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/ClosingTransactionServices/Concrete/ClosingTransactionService.cs",
+    "line_number": 646,
+    "condition": "!StatusIdConst.CanModifyStatus.Contains(entity.StatusId)",
+    "service_name": "otd-services",
+    "document_type": "closingtransaction",
+    "class_name": "ClosingTransactionService"
+  },
+  {
+    "error_message": "Бу [...] номерли ҳужжат олдин яратилган. | Документ с этим кодом [...] уже существует",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/ClosingTransactionServices/Concrete/ClosingTransactionService.cs",
+    "line_number": 650,
+    "condition": "!CheckModelUtil.IsNumber(dto.DocNumber)",
+    "service_name": "otd-services",
+    "document_type": "closingtransaction",
+    "class_name": "ClosingTransactionService"
+  },
+  {
+    "error_message": "Доc Сум 0 дан катта бўлиши керак.| Общая сумма должна быть больше 0. [...]",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/ClosingTransactionServices/Concrete/ClosingTransactionService.cs",
+    "line_number": 653,
+    "condition": "dto.DocSum == 0",
+    "service_name": "otd-services",
+    "document_type": "closingtransaction",
+    "class_name": "ClosingTransactionService"
+  },
+  {
+    "error_message": "Noto'g'ri sana tanlandi !!!",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/ClosingTransactionServices/Concrete/ClosingTransactionService.cs",
+    "line_number": 656,
+    "condition": "!(dto.DocOn.Month == 12 && dto.DocOn.Day == 31)",
+    "service_name": "otd-services",
+    "document_type": "closingtransaction",
+    "class_name": "ClosingTransactionService"
+  },
+  {
+    "error_message": "Ҳужжатни ўзгартира олмайсиз.| Нет доступа",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/FixingTransactionServices/Concrete/FixingTransactionService.cs",
+    "line_number": 156,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionService"
+  },
+  {
+    "error_message": "Бу ҳужжатни тасдиқлаш мумкин емас.",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/FixingTransactionServices/Concrete/FixingTransactionService.cs",
+    "line_number": 187,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionService"
+  },
+  {
+    "error_message": "Исправительная проводка для ТМЗ не доступна.",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/FixingTransactionServices/Concrete/FixingTransactionService.cs",
+    "line_number": 190,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionService"
+  },
+  {
+    "error_message": "Ҳам Дебет ҳам Кредит томонда иқтисодий тасниф коди (Статья) кўрсатиладиган субсчетни танлаб ([...]([...]) - [...]([...]) тузатиш проводкасини бериш мумкин эмас. Невозможно дать исправительную проводку, в которой и в Дебете и в Кредите выбирается Статья расходов ([...]([...] - [...]([...])",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/FixingTransactionServices/Concrete/FixingTransactionService.cs",
+    "line_number": 193,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionService"
+  },
+  {
+    "error_message": "[...] - субсчетни танлаб, тузатиш проводка бериш мумкинмас.|| Давая исправительные проводки не возможно выбрать субсчёт - [...]",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/FixingTransactionServices/Concrete/FixingTransactionService.cs",
+    "line_number": 215,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionService"
+  },
+  {
+    "error_message": "Cr Субсчет не найдено",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/FixingTransactionServices/Concrete/FixingTransactionService.cs",
+    "line_number": 230,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionService"
+  },
+  {
+    "error_message": "000000 субсчет ни танлаб, тузатиш проводка бериш мумкинмас.",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/FixingTransactionServices/Concrete/FixingTransactionService.cs",
+    "line_number": 235,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionService"
+  },
+  {
+    "error_message": "Db L/Sh не найдено",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/FixingTransactionServices/Concrete/FixingTransactionService.cs",
+    "line_number": 246,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionService"
+  },
+  {
+    "error_message": "Марказлаштирилган молия-бухгалтерия хизматида касса харажати субсчётларини танлаб тузатиш проводка бериш мумкин эмас.",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/FixingTransactionServices/Concrete/FixingTransactionService.cs",
+    "line_number": 252,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionService"
+  },
+  {
+    "error_message": "Db L/Sh не найдено",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/FixingTransactionServices/Concrete/FixingTransactionService.cs",
+    "line_number": 268,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionService"
+  },
+  {
+    "error_message": "Марказлаштирилган молия-бухгалтерия хизматида касса харажати субсчётларини танлаб тузатиш проводка бериш мумкин эмас.",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/FixingTransactionServices/Concrete/FixingTransactionService.cs",
+    "line_number": 274,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionService"
+  },
+  {
+    "error_message": "Ҳужжатни ўчира олмайсиз.| Нет доступа",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/FixingTransactionServices/Concrete/FixingTransactionService.cs",
+    "line_number": 359,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionService"
+  },
+  {
+    "error_message": "Таҳрирлаш мумкин эмас / Невозможно редактировать",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/FixingTransactionServices/Concrete/FixingTransactionService.cs",
+    "line_number": 456,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionService"
+  },
+  {
+    "error_message": "Ҳужжат номери нотўғри киритилган. | Номер документа введен неправильно. [...]",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/FixingTransactionServices/Concrete/FixingTransactionService.cs",
+    "line_number": 460,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionService"
+  },
+  {
+    "error_message": "Документ с этим кодом [...] уже существует",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/FixingTransactionServices/Concrete/FixingTransactionService.cs",
+    "line_number": 463,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionService"
+  },
+  {
+    "error_message": "Доc Сум 0 дан катта бўлиши керак.| Общая сумма должна быть больше 0. [...]",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/FixingTransactionServices/Concrete/FixingTransactionService.cs",
+    "line_number": 466,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionService"
+  },
+  {
+    "error_message": "Db Субсчет не найдено",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/FixingTransactionServices/Concrete/FixingTransactionService.cs",
+    "line_number": 478,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionService"
+  },
+  {
+    "error_message": "000000 субсчет ни танлаб, тузатиш проводка бериш мумкинмас.",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/FixingTransactionServices/Concrete/FixingTransactionService.cs",
+    "line_number": 483,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionService"
+  },
+  {
+    "error_message": "Db L/Sh не найдено",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/FixingTransactionServices/Concrete/FixingTransactionService.cs",
+    "line_number": 494,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionService"
+  },
+  {
+    "error_message": "Марказлаштирилган молия-бухгалтерия хизматида касса харажати субсчётларини танлаб тузатиш проводка бериш мумкин эмас.",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/FixingTransactionServices/Concrete/FixingTransactionService.cs",
+    "line_number": 500,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionService"
+  },
+  {
+    "error_message": "Молия вазирлигининг 19.12.2020 йилдаги №NC41032364 хатига асосан I-II гуруҳлар бўйича ҳақиқий харажатлар учун тузатиш проводкаларини беришга тақиқ қўйилган",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/FixingTransactionServices/Concrete/FixingTransactionService.cs",
+    "line_number": 512,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionService"
+  },
+  {
+    "error_message": "В субконте не может быть ТМЗ",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/FixingTransactionServices/Concrete/FixingTransactionService.cs",
+    "line_number": 523,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionService"
+  },
+  {
+    "error_message": "Cr Субсчет не найдено",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/FixingTransactionServices/Concrete/FixingTransactionService.cs",
+    "line_number": 531,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionService"
+  },
+  {
+    "error_message": "000000 субсчет ни танлаб, тузатиш проводка бериш мумкинмас.",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/FixingTransactionServices/Concrete/FixingTransactionService.cs",
+    "line_number": 536,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionService"
+  },
+  {
+    "error_message": "[...] субсчет ни танлаб, тузатиш проводка бериш мумкинмас.",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/FixingTransactionServices/Concrete/FixingTransactionService.cs",
+    "line_number": 542,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionService"
+  },
+  {
+    "error_message": "Db L/Sh не найдено",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/FixingTransactionServices/Concrete/FixingTransactionService.cs",
+    "line_number": 553,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionService"
+  },
+  {
+    "error_message": "Марказлаштирилган молия-бухгалтерия хизматида касса харажати субсчётларини танлаб тузатиш проводка бериш мумкин эмас.",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/FixingTransactionServices/Concrete/FixingTransactionService.cs",
+    "line_number": 559,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionService"
+  },
+  {
+    "error_message": "Молия вазирлигининг 19.12.2020 йилдаги №NC41032364 хатига асосан I-II гуруҳлар бўйича ҳақиқий харажатлар учун тузатиш проводкаларини беришга тақиқ қўйилган",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/FixingTransactionServices/Concrete/FixingTransactionService.cs",
+    "line_number": 569,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionService"
+  },
+  {
+    "error_message": "В субконте не может быть ТМЗ",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/FixingTransactionServices/Concrete/FixingTransactionService.cs",
+    "line_number": 580,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionService"
+  },
+  {
+    "error_message": "Бу ҳужжатни тасдиқлаш мумкин емас.",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/FixingTransactionServices/Concrete/FixingTransactionService.cs",
+    "line_number": 710,
+    "condition": "!StatusIdConst.CanApplyStatus(entity.StatusId, StatusIdConst.ACCEPTED)",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionService"
+  },
+  {
+    "error_message": "Исправительная проводка для ТМЗ не доступна.",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/FixingTransactionServices/Concrete/FixingTransactionService.cs",
+    "line_number": 713,
+    "condition": "entity.SubAccDb.AccountPlan.AccountTypeGroupId == 4 || entity.SubAccCr.AccountPlan.AccountTypeGroupId == 4",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionService"
+  },
+  {
+    "error_message": "Ҳам Дебет ҳам Кредит томонда иқтисодий тасниф коди (Статья) кўрсатиладиган субсчетни танлаб ([...]([...]) - [...]([...]) тузатиш проводкасини бериш мумкин эмас. Невозможно дать исправительную проводку, в которой и в Дебете и в Кредите выбирается Статья расходов ([...]([...] - [...]([...])",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/FixingTransactionServices/Concrete/FixingTransactionService.cs",
+    "line_number": 716,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionService"
+  },
+  {
+    "error_message": "[...] - субсчетни танлаб, тузатиш проводка бериш мумкинмас.|| Давая исправительные проводки не возможно выбрать субсчёт - [...]",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/FixingTransactionServices/Concrete/FixingTransactionService.cs",
+    "line_number": 738,
+    "condition": "(notAllowedAccountPlanOldCode.Contains(entity.SubAccDb.AccountPlan.OldCode",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionService"
+  },
+  {
+    "error_message": "Cr Субсчет не найдено",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/FixingTransactionServices/Concrete/FixingTransactionService.cs",
+    "line_number": 753,
+    "condition": "crSubAccountPlan is null",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionService"
+  },
+  {
+    "error_message": "000000 субсчет ни танлаб, тузатиш проводка бериш мумкинмас.",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/FixingTransactionServices/Concrete/FixingTransactionService.cs",
+    "line_number": 758,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionService"
+  },
+  {
+    "error_message": "Db L/Sh не найдено",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/FixingTransactionServices/Concrete/FixingTransactionService.cs",
+    "line_number": 769,
+    "condition": "orgSettlementAccount is null",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionService"
+  },
+  {
+    "error_message": "Марказлаштирилган молия-бухгалтерия хизматида касса харажати субсчётларини танлаб тузатиш проводка бериш мумкин эмас.",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/FixingTransactionServices/Concrete/FixingTransactionService.cs",
+    "line_number": 775,
+    "condition": "orgSettlementAccount.CashSubAccId.HasValue && orgSettlementAccount.CashSubAccId.Value == crSubAccountPlan.Id",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionService"
+  },
+  {
+    "error_message": "Db L/Sh не найдено",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/FixingTransactionServices/Concrete/FixingTransactionService.cs",
+    "line_number": 791,
+    "condition": "orgSettlementAccount is null",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionService"
+  },
+  {
+    "error_message": "Марказлаштирилган молия-бухгалтерия хизматида касса харажати субсчётларини танлаб тузатиш проводка бериш мумкин эмас.",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/FixingTransactionServices/Concrete/FixingTransactionService.cs",
+    "line_number": 797,
+    "condition": "orgSettlementAccount.CashSubAccId.HasValue && orgSettlementAccount.CashSubAccId.Value == dbSubAccountPlan.Id",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionService"
+  },
+  {
+    "error_message": "Ҳужжатни ўзгартира олмайсиз.| Нет доступа",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/FixingTransactionServices/Concrete/FixingTransactionService.cs",
+    "line_number": 884,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, StatusIdConst.MODIFIED)",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionService"
+  },
+  {
+    "error_message": "Ҳужжатни ўчира олмайсиз.| Нет доступа",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/FixingTransactionServices/Concrete/FixingTransactionService.cs",
+    "line_number": 908,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, dto.StatusId)",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionService"
+  },
+  {
+    "error_message": "Таҳрирлаш мумкин эмас / Невозможно редактировать",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/FixingTransactionServices/Concrete/FixingTransactionService.cs",
+    "line_number": 995,
+    "condition": "!StatusIdConst.CanModifyStatus.Contains(entity.StatusId)",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionService"
+  },
+  {
+    "error_message": "Ҳужжат номери нотўғри киритилган. | Номер документа введен неправильно. [...]",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/FixingTransactionServices/Concrete/FixingTransactionService.cs",
+    "line_number": 999,
+    "condition": "!CheckModelUtil.IsNumber(dto.DocNumber)",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionService"
+  },
+  {
+    "error_message": "Документ с этим кодом [...] уже существует",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/FixingTransactionServices/Concrete/FixingTransactionService.cs",
+    "line_number": 1002,
+    "condition": "await query.ByDocNumber(dto.DocNumber, _authService.CurrentOrganizationId).AnyAsync(a => a.DocOn.Year == dto.DocOn.Year, cancellationToken: cancellationToken)",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionService"
+  },
+  {
+    "error_message": "Доc Сум 0 дан катта бўлиши керак.| Общая сумма должна быть больше 0. [...]",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/FixingTransactionServices/Concrete/FixingTransactionService.cs",
+    "line_number": 1005,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionService"
+  },
+  {
+    "error_message": "Db Субсчет не найдено",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/FixingTransactionServices/Concrete/FixingTransactionService.cs",
+    "line_number": 1017,
+    "condition": "dbSubAccountPlan is null",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionService"
+  },
+  {
+    "error_message": "000000 субсчет ни танлаб, тузатиш проводка бериш мумкинмас.",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/FixingTransactionServices/Concrete/FixingTransactionService.cs",
+    "line_number": 1022,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionService"
+  },
+  {
+    "error_message": "Db L/Sh не найдено",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/FixingTransactionServices/Concrete/FixingTransactionService.cs",
+    "line_number": 1033,
+    "condition": "orgSettlementAccount is null",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionService"
+  },
+  {
+    "error_message": "Марказлаштирилган молия-бухгалтерия хизматида касса харажати субсчётларини танлаб тузатиш проводка бериш мумкин эмас.",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/FixingTransactionServices/Concrete/FixingTransactionService.cs",
+    "line_number": 1039,
+    "condition": "orgSettlementAccount.CashSubAccId.HasValue && orgSettlementAccount.CashSubAccId.Value == dbSubAccountPlan.Id",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionService"
+  },
+  {
+    "error_message": "Молия вазирлигининг 19.12.2020 йилдаги №NC41032364 хатига асосан I-II гуруҳлар бўйича ҳақиқий харажатлар учун тузатиш проводкаларини беришга тақиқ қўйилган",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/FixingTransactionServices/Concrete/FixingTransactionService.cs",
+    "line_number": 1051,
+    "condition": "check",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionService"
+  },
+  {
+    "error_message": "В субконте не может быть ТМЗ",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/FixingTransactionServices/Concrete/FixingTransactionService.cs",
+    "line_number": 1062,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionService"
+  },
+  {
+    "error_message": "Cr Субсчет не найдено",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/FixingTransactionServices/Concrete/FixingTransactionService.cs",
+    "line_number": 1070,
+    "condition": "crSubAccountPlan is null",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionService"
+  },
+  {
+    "error_message": "000000 субсчет ни танлаб, тузатиш проводка бериш мумкинмас.",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/FixingTransactionServices/Concrete/FixingTransactionService.cs",
+    "line_number": 1075,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionService"
+  },
+  {
+    "error_message": "[...] субсчет ни танлаб, тузатиш проводка бериш мумкинмас.",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/FixingTransactionServices/Concrete/FixingTransactionService.cs",
+    "line_number": 1081,
+    "condition": "(AccountPlanIdConst.OLD_CODE__156.Contains(dbSubAccountPlan.AccountPlanId) && !AccountPlanIdConst.OLD_CODE__156.Contains(crSubAccountPlan.AccountPlanId)) || (!AccountPlanIdConst.OLD_CODE__156.Contains...",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionService"
+  },
+  {
+    "error_message": "Db L/Sh не найдено",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/FixingTransactionServices/Concrete/FixingTransactionService.cs",
+    "line_number": 1092,
+    "condition": "orgSettlementAccount is null",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionService"
+  },
+  {
+    "error_message": "Марказлаштирилган молия-бухгалтерия хизматида касса харажати субсчётларини танлаб тузатиш проводка бериш мумкин эмас.",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/FixingTransactionServices/Concrete/FixingTransactionService.cs",
+    "line_number": 1098,
+    "condition": "orgSettlementAccount.CashSubAccId.HasValue && orgSettlementAccount.CashSubAccId.Value == crSubAccountPlan.Id",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionService"
+  },
+  {
+    "error_message": "Молия вазирлигининг 19.12.2020 йилдаги №NC41032364 хатига асосан I-II гуруҳлар бўйича ҳақиқий харажатлар учун тузатиш проводкаларини беришга тақиқ қўйилган",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/FixingTransactionServices/Concrete/FixingTransactionService.cs",
+    "line_number": 1108,
+    "condition": "check",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionService"
+  },
+  {
+    "error_message": "В субконте не может быть ТМЗ",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/FixingTransactionServices/Concrete/FixingTransactionService.cs",
+    "line_number": 1119,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/PayrollLeaseServices/Concrete/PayrollLeaseService.cs",
+    "line_number": 133,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "payrolllease",
+    "class_name": "PayrollLeaseService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/PayrollLeaseServices/Concrete/PayrollLeaseService.cs",
+    "line_number": 370,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "payrolllease",
+    "class_name": "PayrollLeaseService"
+  },
+  {
+    "error_message": "Таҳрирлаш мумкин эмас / Невозможно редактировать",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/PayrollLeaseServices/Concrete/PayrollLeaseService.cs",
+    "line_number": 412,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "payrolllease",
+    "class_name": "PayrollLeaseService"
+  },
+  {
+    "error_message": "Ҳужжат номери нотўғри киритилган. | Номер документа введен неправильно. [...]",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/PayrollLeaseServices/Concrete/PayrollLeaseService.cs",
+    "line_number": 416,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "payrolllease",
+    "class_name": "PayrollLeaseService"
+  },
+  {
+    "error_message": "Бу [...] номерли ҳужжат олдин яратилган. | Документ с этим кодом [...] уже существует",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/PayrollLeaseServices/Concrete/PayrollLeaseService.cs",
+    "line_number": 419,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "payrolllease",
+    "class_name": "PayrollLeaseService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/PayrollLeaseServices/Concrete/PayrollLeaseService.cs",
+    "line_number": 738,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, StatusIdConst.MODIFIED)",
+    "service_name": "otd-services",
+    "document_type": "payrolllease",
+    "class_name": "PayrollLeaseService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/PayrollLeaseServices/Concrete/PayrollLeaseService.cs",
+    "line_number": 762,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, dto.StatusId)",
+    "service_name": "otd-services",
+    "document_type": "payrolllease",
+    "class_name": "PayrollLeaseService"
+  },
+  {
+    "error_message": "Таҳрирлаш мумкин эмас / Невозможно редактировать",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/PayrollLeaseServices/Concrete/PayrollLeaseService.cs",
+    "line_number": 796,
+    "condition": "!StatusIdConst.CanModifyStatus.Contains(entity.StatusId)",
+    "service_name": "otd-services",
+    "document_type": "payrolllease",
+    "class_name": "PayrollLeaseService"
+  },
+  {
+    "error_message": "Ҳужжат номери нотўғри киритилган. | Номер документа введен неправильно. [...]",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/PayrollLeaseServices/Concrete/PayrollLeaseService.cs",
+    "line_number": 800,
+    "condition": "!CheckModelUtil.IsNumber(dto.DocNumber)",
+    "service_name": "otd-services",
+    "document_type": "payrolllease",
+    "class_name": "PayrollLeaseService"
+  },
+  {
+    "error_message": "Бу [...] номерли ҳужжат олдин яратилган. | Документ с этим кодом [...] уже существует",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/PayrollLeaseServices/Concrete/PayrollLeaseService.cs",
+    "line_number": 803,
+    "condition": "await query.ByDocNumber(dto.DocNumber,dto.DocOn.Year).AnyAsync(cancellationToken: cancellationToken)",
+    "service_name": "otd-services",
+    "document_type": "payrolllease",
+    "class_name": "PayrollLeaseService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/PayrollParentPaymentServices/Concrete/PayrollParentPaymentService.cs",
+    "line_number": 123,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "payrollparentpayment",
+    "class_name": "PayrollParentPaymentService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/PayrollParentPaymentServices/Concrete/PayrollParentPaymentService.cs",
+    "line_number": 223,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "payrollparentpayment",
+    "class_name": "PayrollParentPaymentService"
+  },
+  {
+    "error_message": "Таҳрирлаш мумкин эмас / Невозможно редактировать",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/PayrollParentPaymentServices/Concrete/PayrollParentPaymentService.cs",
+    "line_number": 265,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "payrollparentpayment",
+    "class_name": "PayrollParentPaymentService"
+  },
+  {
+    "error_message": "Ҳужжат номери нотўғри киритилган. | Номер документа введен неправильно. [...]",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/PayrollParentPaymentServices/Concrete/PayrollParentPaymentService.cs",
+    "line_number": 269,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "payrollparentpayment",
+    "class_name": "PayrollParentPaymentService"
+  },
+  {
+    "error_message": "Бу [...] номерли ҳужжат олдин яратилган. | Документ с этим кодом [...] уже существует",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/PayrollParentPaymentServices/Concrete/PayrollParentPaymentService.cs",
+    "line_number": 272,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "payrollparentpayment",
+    "class_name": "PayrollParentPaymentService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/PayrollParentPaymentServices/Concrete/PayrollParentPaymentService.cs",
+    "line_number": 448,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, StatusIdConst.MODIFIED)",
+    "service_name": "otd-services",
+    "document_type": "payrollparentpayment",
+    "class_name": "PayrollParentPaymentService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/PayrollParentPaymentServices/Concrete/PayrollParentPaymentService.cs",
+    "line_number": 472,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, dto.StatusId)",
+    "service_name": "otd-services",
+    "document_type": "payrollparentpayment",
+    "class_name": "PayrollParentPaymentService"
+  },
+  {
+    "error_message": "Таҳрирлаш мумкин эмас / Невозможно редактировать",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/PayrollParentPaymentServices/Concrete/PayrollParentPaymentService.cs",
+    "line_number": 505,
+    "condition": "!StatusIdConst.CanModifyStatus.Contains(entity.StatusId)",
+    "service_name": "otd-services",
+    "document_type": "payrollparentpayment",
+    "class_name": "PayrollParentPaymentService"
+  },
+  {
+    "error_message": "Ҳужжат номери нотўғри киритилган. | Номер документа введен неправильно. [...]",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/PayrollParentPaymentServices/Concrete/PayrollParentPaymentService.cs",
+    "line_number": 509,
+    "condition": "!CheckModelUtil.IsNumber(dto.DocNumber)",
+    "service_name": "otd-services",
+    "document_type": "payrollparentpayment",
+    "class_name": "PayrollParentPaymentService"
+  },
+  {
+    "error_message": "Бу [...] номерли ҳужжат олдин яратилган. | Документ с этим кодом [...] уже существует",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.BizLayer/Doc/PayrollParentPaymentServices/Concrete/PayrollParentPaymentService.cs",
+    "line_number": 512,
+    "condition": "await query.ByDocNumber(dto.DocNumber).AnyAsync(cancellationToken: cancellationToken)",
+    "service_name": "otd-services",
+    "document_type": "payrollparentpayment",
+    "class_name": "PayrollParentPaymentService"
+  },
+  {
+    "error_message": "Ma'lumot topilmadi [...] yoki [...]",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.DataLayer.Repository/Doc/ClosingTransaction/Concrete/ClosingTransactionRepository.cs",
+    "line_number": 63,
+    "condition": "dbSettAccount == null || crSettAccount == null",
+    "service_name": "otd-services",
+    "document_type": "closingtransaction",
+    "class_name": "ClosingTransactionRepository"
+  },
+  {
+    "error_message": "L/s  turlari  [...] va [...] noto'g'ri tanlangan.",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.DataLayer.Repository/Doc/ClosingTransaction/Concrete/ClosingTransactionRepository.cs",
+    "line_number": 66,
+    "condition": "crSettAccount.OrgActivityTypeId != dbSettAccount.OrgActivityTypeId",
+    "service_name": "otd-services",
+    "document_type": "closingtransaction",
+    "class_name": "ClosingTransactionRepository"
+  },
+  {
+    "error_message": "Ma'lumot topilmadi [...] yoki [...]",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.DataLayer.Repository/Doc/ClosingTransaction/Concrete/ClosingTransactionRepository.cs",
+    "line_number": 95,
+    "condition": "dbSettAccount == null || crSettAccount == null",
+    "service_name": "otd-services",
+    "document_type": "closingtransaction",
+    "class_name": "ClosingTransactionRepository"
+  },
+  {
+    "error_message": "L/s  turlari  [...] va [...] noto'g'ri tanlangan.",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.DataLayer.Repository/Doc/ClosingTransaction/Concrete/ClosingTransactionRepository.cs",
+    "line_number": 98,
+    "condition": "crSettAccount.OrgActivityTypeId != dbSettAccount.OrgActivityTypeId",
+    "service_name": "otd-services",
+    "document_type": "closingtransaction",
+    "class_name": "ClosingTransactionRepository"
+  },
+  {
+    "error_message": "Ñòàòüÿ íå íàéäåí",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.DataLayer.Repository/Doc/ClosingTransaction/Concrete/ClosingTransactionRepository.cs",
+    "line_number": 130,
+    "condition": "itemOfExpense == null",
+    "service_name": "otd-services",
+    "document_type": "closingtransaction",
+    "class_name": "ClosingTransactionRepository"
+  },
+  {
+    "error_message": "Ôóíêöèîíàëüíàÿ ñòàòüÿ ðàñõîäîâ íå íàéäåí",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.DataLayer.Repository/Doc/ClosingTransaction/Concrete/ClosingTransactionRepository.cs",
+    "line_number": 197,
+    "condition": "orgSettlementAccount == null",
+    "service_name": "otd-services",
+    "document_type": "closingtransaction",
+    "class_name": "ClosingTransactionRepository"
+  },
+  {
+    "error_message": "Ñòàòüÿ íå íàéäåí",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.DataLayer.Repository/Doc/ClosingTransaction/Concrete/ClosingTransactionRepository.cs",
+    "line_number": 245,
+    "condition": "itemOfExpense == null",
+    "service_name": "otd-services",
+    "document_type": "closingtransaction",
+    "class_name": "ClosingTransactionRepository"
+  },
+  {
+    "error_message": "Ôóíêöèîíàëüíàÿ ñòàòüÿ ðàñõîäîâ íå íàéäåí",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.DataLayer.Repository/Doc/ClosingTransaction/Concrete/ClosingTransactionRepository.cs",
+    "line_number": 312,
+    "condition": "orgSettlementAccount == null",
+    "service_name": "otd-services",
+    "document_type": "closingtransaction",
+    "class_name": "ClosingTransactionRepository"
+  },
+  {
+    "error_message": "Ma'lumot topilmadi [...] yoki [...]",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.DataLayer.Repository/Doc/FixingTransaction/Concrete/FixingTransactionRepository.cs",
+    "line_number": 90,
+    "condition": "dbSettAccount == null || crSettAccount == null",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionRepository"
+  },
+  {
+    "error_message": "L/s  turlari  [...] va [...] noto'g'ri tanlangan.",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.DataLayer.Repository/Doc/FixingTransaction/Concrete/FixingTransactionRepository.cs",
+    "line_number": 92,
+    "condition": "crSettAccount.OrgActivityTypeId != dbSettAccount.OrgActivityTypeId",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionRepository"
+  },
+  {
+    "error_message": "175 субсчет учун фақат битта талаба ва битта тўлов тури бойича тузатиш ўтказмалари бериш мумкин.",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.DataLayer.Repository/Doc/FixingTransaction/Concrete/FixingTransactionRepository.cs",
+    "line_number": 123,
+    "condition": "subaccdb && subacccr && (entity.SubCountCr1ValueId != entity.SubCountDb1ValueId || entity.SubCountCr2ValueId != entity.SubCountDb2ValueId)",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionRepository"
+  },
+  {
+    "error_message": "175 субсчет учун 31.12.2023 санадан бошқа саналарга тузатиш ўтказмалари бериш мумкин емас.",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.DataLayer.Repository/Doc/FixingTransaction/Concrete/FixingTransactionRepository.cs",
+    "line_number": 126,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionRepository"
+  },
+  {
+    "error_message": "Ma'lumot topilmadi [...] yoki [...]",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.DataLayer.Repository/Doc/FixingTransaction/Concrete/FixingTransactionRepository.cs",
+    "line_number": 141,
+    "condition": "dbSettAccount == null || crSettAccount == null",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionRepository"
+  },
+  {
+    "error_message": "L/s  turlari  [...] va [...] noto'g'ri tanlangan.",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.DataLayer.Repository/Doc/FixingTransaction/Concrete/FixingTransactionRepository.cs",
+    "line_number": 143,
+    "condition": "crSettAccount.OrgActivityTypeId != dbSettAccount.OrgActivityTypeId",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionRepository"
+  },
+  {
+    "error_message": "175 субсчет учун фақат битта талаба ва битта тўлов тури бойича тузатиш ўтказмалари бериш мумкин.",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.DataLayer.Repository/Doc/FixingTransaction/Concrete/FixingTransactionRepository.cs",
+    "line_number": 174,
+    "condition": "subaccdb && subacccr && (entity.SubCountCr1ValueId != entity.SubCountDb1ValueId || entity.SubCountCr2ValueId != entity.SubCountDb2ValueId)",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionRepository"
+  },
+  {
+    "error_message": "175 субсчет учун 31.12.2023 санадан бошқа саналарга тузатиш ўтказмалари бериш мумкин емас.",
+    "file_path": "services/otd-services/src/libs/Uzasbo2.Services.Otd.DataLayer.Repository/Doc/FixingTransaction/Concrete/FixingTransactionRepository.cs",
+    "line_number": 177,
+    "condition": "",
+    "service_name": "otd-services",
+    "document_type": "fixingtransaction",
+    "class_name": "FixingTransactionRepository"
+  }
+]

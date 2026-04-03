@@ -1,0 +1,11 @@
+[
+  {
+    "error_message": "[...]",
+    "file_path": "services/dashboard-service/libs/core/Uzasbo2.Dashboard.Core/HttpClient/HttpClientService/HttpClientService.cs",
+    "line_number": 165,
+    "condition": "",
+    "service_name": "dashboard-service",
+    "document_type": "httpclient",
+    "class_name": "HttpClientService"
+  }
+]

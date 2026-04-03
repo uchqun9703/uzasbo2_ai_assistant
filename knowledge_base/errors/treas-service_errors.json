@@ -1,0 +1,713 @@
+[
+  {
+    "error_message": "Запись не может быть удален",
+    "file_path": "services/treas-service/src/libs/Uzasbo2.Services.Treas.BizLayer/BaseEntityService`8.cs",
+    "line_number": 85,
+    "condition": "IsValid",
+    "service_name": "treas-service",
+    "document_type": "baseentity`8",
+    "class_name": "BaseEntityService"
+  },
+  {
+    "error_message": "Hujjat turi xato...",
+    "file_path": "services/treas-service/src/libs/Uzasbo2.Services.Treas.BizLayer/Doc/BankDocumentMQService/Madaniyat/IntegrationMQMadService.cs",
+    "line_number": 44,
+    "condition": "",
+    "service_name": "treas-service",
+    "document_type": "integrationmqmad",
+    "class_name": "IntegrationMQMadService"
+  },
+  {
+    "error_message": "Виписка маълумоти топилмади... TreasId : [...]",
+    "file_path": "services/treas-service/src/libs/Uzasbo2.Services.Treas.BizLayer/Doc/BankDocumentMQService/Madaniyat/IntegrationMQMadService.cs",
+    "line_number": 105,
+    "condition": "sysConfig != null && sysConfig.StateId == 1",
+    "service_name": "treas-service",
+    "document_type": "integrationmqmad",
+    "class_name": "IntegrationMQMadService"
+  },
+  {
+    "error_message": "ContractRegistration маълумоти топилмади... TreasId : [...]",
+    "file_path": "services/treas-service/src/libs/Uzasbo2.Services.Treas.BizLayer/Doc/BankDocumentMQService/Madaniyat/IntegrationMQMadService.cs",
+    "line_number": 169,
+    "condition": "sysConfig != null && sysConfig.StateId == 1",
+    "service_name": "treas-service",
+    "document_type": "integrationmqmad",
+    "class_name": "IntegrationMQMadService"
+  },
+  {
+    "error_message": "TreasBudget маълумоти топилмади... TreasId : [...]",
+    "file_path": "services/treas-service/src/libs/Uzasbo2.Services.Treas.BizLayer/Doc/BankDocumentMQService/Madaniyat/IntegrationMQMadService.cs",
+    "line_number": 260,
+    "condition": "sysConfig != null && sysConfig.StateId == 1",
+    "service_name": "treas-service",
+    "document_type": "integrationmqmad",
+    "class_name": "IntegrationMQMadService"
+  },
+  {
+    "error_message": "TreasCheque маълумоти топилмади... TreasId : [...]",
+    "file_path": "services/treas-service/src/libs/Uzasbo2.Services.Treas.BizLayer/Doc/BankDocumentMQService/Madaniyat/IntegrationMQMadService.cs",
+    "line_number": 338,
+    "condition": "sysConfig != null && sysConfig.StateId == 1",
+    "service_name": "treas-service",
+    "document_type": "integrationmqmad",
+    "class_name": "IntegrationMQMadService"
+  },
+  {
+    "error_message": "Hujjat turi xato...",
+    "file_path": "services/treas-service/src/libs/Uzasbo2.Services.Treas.BizLayer/Doc/BankDocumentMQService/Mvd/IntegrationMQMvdService.cs",
+    "line_number": 43,
+    "condition": "",
+    "service_name": "treas-service",
+    "document_type": "integrationmqmvd",
+    "class_name": "IntegrationMQMvdService"
+  },
+  {
+    "error_message": "Виписка маълумоти топилмади... TreasId : [...]",
+    "file_path": "services/treas-service/src/libs/Uzasbo2.Services.Treas.BizLayer/Doc/BankDocumentMQService/Mvd/IntegrationMQMvdService.cs",
+    "line_number": 109,
+    "condition": "sysConfig != null && sysConfig.StateId == 1",
+    "service_name": "treas-service",
+    "document_type": "integrationmqmvd",
+    "class_name": "IntegrationMQMvdService"
+  },
+  {
+    "error_message": "ContractRegistration маълумоти топилмади... TreasId : [...]",
+    "file_path": "services/treas-service/src/libs/Uzasbo2.Services.Treas.BizLayer/Doc/BankDocumentMQService/Mvd/IntegrationMQMvdService.cs",
+    "line_number": 173,
+    "condition": "sysConfig != null && sysConfig.StateId == 1",
+    "service_name": "treas-service",
+    "document_type": "integrationmqmvd",
+    "class_name": "IntegrationMQMvdService"
+  },
+  {
+    "error_message": "TreasBudget маълумоти топилмади... TreasId : [...]",
+    "file_path": "services/treas-service/src/libs/Uzasbo2.Services.Treas.BizLayer/Doc/BankDocumentMQService/Mvd/IntegrationMQMvdService.cs",
+    "line_number": 263,
+    "condition": "sysConfig != null && sysConfig.StateId == 1",
+    "service_name": "treas-service",
+    "document_type": "integrationmqmvd",
+    "class_name": "IntegrationMQMvdService"
+  },
+  {
+    "error_message": "TreasCheque маълумоти топилмади... TreasId : [...]",
+    "file_path": "services/treas-service/src/libs/Uzasbo2.Services.Treas.BizLayer/Doc/BankDocumentMQService/Mvd/IntegrationMQMvdService.cs",
+    "line_number": 341,
+    "condition": "sysConfig != null && sysConfig.StateId == 1",
+    "service_name": "treas-service",
+    "document_type": "integrationmqmvd",
+    "class_name": "IntegrationMQMvdService"
+  },
+  {
+    "error_message": "Invoice not found",
+    "file_path": "services/treas-service/src/libs/Uzasbo2.Services.Treas.BizLayer/Doc/InvoiceService/Concrete/InvoiceService.cs",
+    "line_number": 52,
+    "condition": "entity == null",
+    "service_name": "treas-service",
+    "document_type": "invoice",
+    "class_name": "InvoiceService"
+  },
+  {
+    "error_message": "Информация не найдена.| Ma'lumot topilmadi.",
+    "file_path": "services/treas-service/src/libs/Uzasbo2.Services.Treas.BizLayer/Info/ItemOfExpenseListForENKTService/Concrete/ItemOfExpenseListForENKTService.cs",
+    "line_number": 359,
+    "condition": "",
+    "service_name": "treas-service",
+    "document_type": "itemofexpenselistforenkt",
+    "class_name": "ItemOfExpenseListForENKTService"
+  },
+  {
+    "error_message": "PRINT_BANKDOCUMENT_LIST dan null natija qaytdi!",
+    "file_path": "services/treas-service/src/libs/Uzasbo2.Services.Treas.BizLayer/ManualServices/Concrete/ManualService.cs",
+    "line_number": 95,
+    "condition": "",
+    "service_name": "treas-service",
+    "document_type": "manual",
+    "class_name": "ManualService"
+  },
+  {
+    "error_message": "Ҳисоб рақам топилмади.",
+    "file_path": "services/treas-service/src/libs/Uzasbo2.Services.Treas.BizLayer/ManualServices/Concrete/ManualService.cs",
+    "line_number": 278,
+    "condition": "",
+    "service_name": "treas-service",
+    "document_type": "manual",
+    "class_name": "ManualService"
+  },
+  {
+    "error_message": "Ҳисоб рақамнинг касса харажати субсчети танланмаган / Субсчёт кассовых расходов Лицевого счёта не выбран",
+    "file_path": "services/treas-service/src/libs/Uzasbo2.Services.Treas.BizLayer/ManualServices/Concrete/ManualService.cs",
+    "line_number": 283,
+    "condition": "",
+    "service_name": "treas-service",
+    "document_type": "manual",
+    "class_name": "ManualService"
+  },
+  {
+    "error_message": "Ma'lumot topilmadi !!!",
+    "file_path": "services/treas-service/src/libs/Uzasbo2.Services.Treas.BizLayer/ManualServices/Concrete/ManualService.cs",
+    "line_number": 505,
+    "condition": "",
+    "service_name": "treas-service",
+    "document_type": "manual",
+    "class_name": "ManualService"
+  },
+  {
+    "error_message": "Ma'lumot topilmadi !!!",
+    "file_path": "services/treas-service/src/libs/Uzasbo2.Services.Treas.BizLayer/ManualServices/Concrete/ManualService.cs",
+    "line_number": 530,
+    "condition": "",
+    "service_name": "treas-service",
+    "document_type": "manual",
+    "class_name": "ManualService"
+  },
+  {
+    "error_message": "Ma'lumot topilmadi !!!",
+    "file_path": "services/treas-service/src/libs/Uzasbo2.Services.Treas.BizLayer/ManualServices/Concrete/ManualService.cs",
+    "line_number": 564,
+    "condition": "",
+    "service_name": "treas-service",
+    "document_type": "manual",
+    "class_name": "ManualService"
+  },
+  {
+    "error_message": "Ҳисоб рақам топилмади.",
+    "file_path": "services/treas-service/src/libs/Uzasbo2.Services.Treas.BizLayer/ManualServices/Concrete/ManualService.cs",
+    "line_number": 1091,
+    "condition": "orgset is null",
+    "service_name": "treas-service",
+    "document_type": "manual",
+    "class_name": "ManualService"
+  },
+  {
+    "error_message": "Ҳисоб рақамнинг касса харажати субсчети танланмаган / Субсчёт кассовых расходов Лицевого счёта не выбран",
+    "file_path": "services/treas-service/src/libs/Uzasbo2.Services.Treas.BizLayer/ManualServices/Concrete/ManualService.cs",
+    "line_number": 1096,
+    "condition": "!orgset.CashSubAccId.HasValue",
+    "service_name": "treas-service",
+    "document_type": "manual",
+    "class_name": "ManualService"
+  },
+  {
+    "error_message": "Ma'lumot topilmadi !!!",
+    "file_path": "services/treas-service/src/libs/Uzasbo2.Services.Treas.BizLayer/ManualServices/Concrete/ManualService.cs",
+    "line_number": 1299,
+    "condition": "",
+    "service_name": "treas-service",
+    "document_type": "manual",
+    "class_name": "ManualService"
+  },
+  {
+    "error_message": "Ma'lumot topilmadi !!!",
+    "file_path": "services/treas-service/src/libs/Uzasbo2.Services.Treas.BizLayer/ManualServices/Concrete/ManualService.cs",
+    "line_number": 1324,
+    "condition": "",
+    "service_name": "treas-service",
+    "document_type": "manual",
+    "class_name": "ManualService"
+  },
+  {
+    "error_message": "Ma'lumot topilmadi !!!",
+    "file_path": "services/treas-service/src/libs/Uzasbo2.Services.Treas.BizLayer/ManualServices/Concrete/ManualService.cs",
+    "line_number": 1357,
+    "condition": "",
+    "service_name": "treas-service",
+    "document_type": "manual",
+    "class_name": "ManualService"
+  },
+  {
+    "error_message": "PRINT_BANKDOCUMENT_LIST dan null natija qaytdi!",
+    "file_path": "services/treas-service/src/libs/Uzasbo2.Services.Treas.BizLayer/ManualServices/Concrete/ManualService.cs",
+    "line_number": 1370,
+    "condition": "resultasync == null",
+    "service_name": "treas-service",
+    "document_type": "manual",
+    "class_name": "ManualService"
+  },
+  {
+    "error_message": "PRINT_BANKDOCUMENT_LIST dan null natija qaytdi!",
+    "file_path": "services/treas-service/src/libs/Uzasbo2.Services.Treas.BizLayer/ManualServices/Concrete/ManualService.cs",
+    "line_number": 1433,
+    "condition": "resultasync == null",
+    "service_name": "treas-service",
+    "document_type": "manual",
+    "class_name": "ManualService"
+  },
+  {
+    "error_message": "Noto'g'ri key!",
+    "file_path": "services/treas-service/src/libs/Uzasbo2.Services.Treas.BizLayer/ManualServices/Concrete/ManualService.cs",
+    "line_number": 1595,
+    "condition": "parts.Length != 2",
+    "service_name": "treas-service",
+    "document_type": "manual",
+    "class_name": "ManualService"
+  },
+  {
+    "error_message": "Fayl topilmadi.",
+    "file_path": "services/treas-service/src/libs/Uzasbo2.Services.Treas.BizLayer/ManualServices/Concrete/ManualService.cs",
+    "line_number": 1609,
+    "condition": "file == null",
+    "service_name": "treas-service",
+    "document_type": "manual",
+    "class_name": "ManualService"
+  },
+  {
+    "error_message": "Информация не найдена.| Ma'lumot topilmadi.",
+    "file_path": "services/treas-service/src/libs/Uzasbo2.Services.Treas.BizLayer/Sys/ChequeServices/Concrete/ChequeService.cs",
+    "line_number": 180,
+    "condition": "",
+    "service_name": "treas-service",
+    "document_type": "cheque",
+    "class_name": "ChequeService"
+  },
+  {
+    "error_message": "Информация не найдена.| Ma'lumot topilmadi.",
+    "file_path": "services/treas-service/src/libs/Uzasbo2.Services.Treas.BizLayer/Sys/ChequeServices/Concrete/ChequeService.cs",
+    "line_number": 309,
+    "condition": "",
+    "service_name": "treas-service",
+    "document_type": "cheque",
+    "class_name": "ChequeService"
+  },
+  {
+    "error_message": "Файл не найден. | Филе топилмади.",
+    "file_path": "services/treas-service/src/libs/Uzasbo2.Services.Treas.BizLayer/Sys/EnergoIncomeGenerServices/Concrete/EnergoIncomeGenerService.cs",
+    "line_number": 115,
+    "condition": "",
+    "service_name": "treas-service",
+    "document_type": "energoincomegener",
+    "class_name": "EnergoIncomeGenerService"
+  },
+  {
+    "error_message": "Файл не найден. | Филе топилмади.",
+    "file_path": "services/treas-service/src/libs/Uzasbo2.Services.Treas.BizLayer/Sys/EnergoIncomeGenerServices/Concrete/EnergoIncomeGenerService.cs",
+    "line_number": 299,
+    "condition": "template == null",
+    "service_name": "treas-service",
+    "document_type": "energoincomegener",
+    "class_name": "EnergoIncomeGenerService"
+  },
+  {
+    "error_message": "Файл не найден. | Филе топилмади.",
+    "file_path": "services/treas-service/src/libs/Uzasbo2.Services.Treas.BizLayer/Sys/EnergoIncomes/Concrete/EnergoIncomeService.cs",
+    "line_number": 115,
+    "condition": "",
+    "service_name": "treas-service",
+    "document_type": "energoincome",
+    "class_name": "EnergoIncomeService"
+  },
+  {
+    "error_message": "Файл не найден. | Филе топилмади.",
+    "file_path": "services/treas-service/src/libs/Uzasbo2.Services.Treas.BizLayer/Sys/EnergoIncomes/Concrete/EnergoIncomeService.cs",
+    "line_number": 323,
+    "condition": "template == null",
+    "service_name": "treas-service",
+    "document_type": "energoincome",
+    "class_name": "EnergoIncomeService"
+  },
+  {
+    "error_message": "Файл не найден. | Филе топилмади.",
+    "file_path": "services/treas-service/src/libs/Uzasbo2.Services.Treas.BizLayer/Sys/EnergoOtchisServices/Concrete/EnergoOtchisService.cs",
+    "line_number": 110,
+    "condition": "",
+    "service_name": "treas-service",
+    "document_type": "energootchis",
+    "class_name": "EnergoOtchisService"
+  },
+  {
+    "error_message": "Файл не найден. | Филе топилмади.",
+    "file_path": "services/treas-service/src/libs/Uzasbo2.Services.Treas.BizLayer/Sys/EnergoOtchisServices/Concrete/EnergoOtchisService.cs",
+    "line_number": 328,
+    "condition": "template == null",
+    "service_name": "treas-service",
+    "document_type": "energootchis",
+    "class_name": "EnergoOtchisService"
+  },
+  {
+    "error_message": "Файл не найден. | Филе топилмади.",
+    "file_path": "services/treas-service/src/libs/Uzasbo2.Services.Treas.BizLayer/Sys/EnergoPaydocServices/Concrete/EnergoPaydocService.cs",
+    "line_number": 84,
+    "condition": "template == null",
+    "service_name": "treas-service",
+    "document_type": "energopaydoc",
+    "class_name": "EnergoPaydocService"
+  },
+  {
+    "error_message": "Файл не найден. | Филе топилмади.",
+    "file_path": "services/treas-service/src/libs/Uzasbo2.Services.Treas.BizLayer/Sys/EnergoPaydocServices/Concrete/EnergoPaydocService.cs",
+    "line_number": 166,
+    "condition": "template == null",
+    "service_name": "treas-service",
+    "document_type": "energopaydoc",
+    "class_name": "EnergoPaydocService"
+  },
+  {
+    "error_message": "Запись с этим кодом ([...]) уже существует.",
+    "file_path": "services/treas-service/src/libs/Uzasbo2.Services.Treas.DataLayer.Repository/Repositories/Info/Enkt/Concrete/EnktRepository.cs",
+    "line_number": 36,
+    "condition": "",
+    "service_name": "treas-service",
+    "document_type": "enkt",
+    "class_name": "EnktRepository"
+  },
+  {
+    "error_message": "Запись с этим кодом ([...]) уже существует.",
+    "file_path": "services/treas-service/src/libs/Uzasbo2.Services.Treas.DataLayer.Repository/Repositories/Info/EnktProperty/Concrete/EnktPropertyRepository.cs",
+    "line_number": 36,
+    "condition": "",
+    "service_name": "treas-service",
+    "document_type": "enktproperty",
+    "class_name": "EnktPropertyRepository"
+  },
+  {
+    "error_message": "Запись с этим кодом ([...]) уже существует.",
+    "file_path": "services/treas-service/src/libs/Uzasbo2.Services.Treas.DataLayer.Repository/Repositories/Info/EnktPropertyValues/Concrete/EnktPropertiesValueRepository.cs",
+    "line_number": 36,
+    "condition": "",
+    "service_name": "treas-service",
+    "document_type": "enktpropertiesvalue",
+    "class_name": "EnktPropertiesValueRepository"
+  },
+  {
+    "error_message": "Запись не найдено",
+    "file_path": "services/treas-service/src/shared/Uzasbo2.Services.Treas.Shared.BizLayer/OperCodeServices/Concrete/OperCodeService.cs",
+    "line_number": 30,
+    "condition": "dto == null",
+    "service_name": "treas-service",
+    "document_type": "opercode",
+    "class_name": "OperCodeService"
+  },
+  {
+    "error_message": "Запись не найдено",
+    "file_path": "services/treas-service/src/shared/Uzasbo2.Services.Treas.Shared.BizLayer/OperCodeServices/Concrete/OperCodeService.cs",
+    "line_number": 43,
+    "condition": "dto == null",
+    "service_name": "treas-service",
+    "document_type": "opercode",
+    "class_name": "OperCodeService"
+  },
+  {
+    "error_message": "L/S topilmadi. Id:",
+    "file_path": "services/treas-service/src/shared/Uzasbo2.Services.Treas.Shared.BizLayer/Sys/Budget/Concrete/TreasBudgetService.cs",
+    "line_number": 52,
+    "condition": "orgSettlementAccount == null",
+    "service_name": "treas-service",
+    "document_type": "treasbudget",
+    "class_name": "TreasBudgetService"
+  },
+  {
+    "error_message": "Kod: [...], Xato: [...]",
+    "file_path": "services/treas-service/Uzasbo2.Integration.Mvd/Services/IntegrationMadService.cs",
+    "line_number": 41,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "treas-service",
+    "document_type": "integrationmad",
+    "class_name": "IntegrationMadService"
+  },
+  {
+    "error_message": "[...] serverga ulanib bo‘lmadi: [...]",
+    "file_path": "services/treas-service/Uzasbo2.Integration.Mvd/Services/IntegrationMadService.cs",
+    "line_number": 47,
+    "condition": "",
+    "service_name": "treas-service",
+    "document_type": "integrationmad",
+    "class_name": "IntegrationMadService"
+  },
+  {
+    "error_message": "Код:",
+    "file_path": "services/treas-service/Uzasbo2.Integration.Mvd/Services/IntegrationMadService.cs",
+    "line_number": 66,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "treas-service",
+    "document_type": "integrationmad",
+    "class_name": "IntegrationMadService"
+  },
+  {
+    "error_message": "[...] {ex.InnerException?.Message ??",
+    "file_path": "services/treas-service/Uzasbo2.Integration.Mvd/Services/IntegrationMadService.cs",
+    "line_number": 70,
+    "condition": "",
+    "service_name": "treas-service",
+    "document_type": "integrationmad",
+    "class_name": "IntegrationMadService"
+  },
+  {
+    "error_message": "[...] serverga bog'lanib bo'lmayapti... [...]",
+    "file_path": "services/treas-service/Uzasbo2.Integration.Mvd/Services/IntegrationMadService.cs",
+    "line_number": 77,
+    "condition": "",
+    "service_name": "treas-service",
+    "document_type": "integrationmad",
+    "class_name": "IntegrationMadService"
+  },
+  {
+    "error_message": "Код:",
+    "file_path": "services/treas-service/Uzasbo2.Integration.Mvd/Services/IntegrationMadService.cs",
+    "line_number": 94,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "treas-service",
+    "document_type": "integrationmad",
+    "class_name": "IntegrationMadService"
+  },
+  {
+    "error_message": "[...] {ex.InnerException?.Message ??",
+    "file_path": "services/treas-service/Uzasbo2.Integration.Mvd/Services/IntegrationMadService.cs",
+    "line_number": 98,
+    "condition": "",
+    "service_name": "treas-service",
+    "document_type": "integrationmad",
+    "class_name": "IntegrationMadService"
+  },
+  {
+    "error_message": "[...] serverga bog'lanib bo'lmayapti... [...]",
+    "file_path": "services/treas-service/Uzasbo2.Integration.Mvd/Services/IntegrationMadService.cs",
+    "line_number": 105,
+    "condition": "",
+    "service_name": "treas-service",
+    "document_type": "integrationmad",
+    "class_name": "IntegrationMadService"
+  },
+  {
+    "error_message": "Код:",
+    "file_path": "services/treas-service/Uzasbo2.Integration.Mvd/Services/IntegrationMadService.cs",
+    "line_number": 122,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "treas-service",
+    "document_type": "integrationmad",
+    "class_name": "IntegrationMadService"
+  },
+  {
+    "error_message": "[...] {ex.InnerException?.Message ??",
+    "file_path": "services/treas-service/Uzasbo2.Integration.Mvd/Services/IntegrationMadService.cs",
+    "line_number": 126,
+    "condition": "",
+    "service_name": "treas-service",
+    "document_type": "integrationmad",
+    "class_name": "IntegrationMadService"
+  },
+  {
+    "error_message": "[...] serverga bog'lanib bo'lmayapti... [...]",
+    "file_path": "services/treas-service/Uzasbo2.Integration.Mvd/Services/IntegrationMadService.cs",
+    "line_number": 133,
+    "condition": "",
+    "service_name": "treas-service",
+    "document_type": "integrationmad",
+    "class_name": "IntegrationMadService"
+  },
+  {
+    "error_message": "Код:",
+    "file_path": "services/treas-service/Uzasbo2.Integration.Mvd/Services/IntegrationMadService.cs",
+    "line_number": 151,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "treas-service",
+    "document_type": "integrationmad",
+    "class_name": "IntegrationMadService"
+  },
+  {
+    "error_message": "[...] {ex.InnerException?.Message ??",
+    "file_path": "services/treas-service/Uzasbo2.Integration.Mvd/Services/IntegrationMadService.cs",
+    "line_number": 155,
+    "condition": "",
+    "service_name": "treas-service",
+    "document_type": "integrationmad",
+    "class_name": "IntegrationMadService"
+  },
+  {
+    "error_message": "[...] serverga bog'lanib bo'lmayapti... [...]",
+    "file_path": "services/treas-service/Uzasbo2.Integration.Mvd/Services/IntegrationMadService.cs",
+    "line_number": 162,
+    "condition": "",
+    "service_name": "treas-service",
+    "document_type": "integrationmad",
+    "class_name": "IntegrationMadService"
+  },
+  {
+    "error_message": "Код:",
+    "file_path": "services/treas-service/Uzasbo2.Integration.Mvd/Services/IntegrationMadService.cs",
+    "line_number": 179,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "treas-service",
+    "document_type": "integrationmad",
+    "class_name": "IntegrationMadService"
+  },
+  {
+    "error_message": "[...] {ex.InnerException?.Message ??",
+    "file_path": "services/treas-service/Uzasbo2.Integration.Mvd/Services/IntegrationMadService.cs",
+    "line_number": 183,
+    "condition": "",
+    "service_name": "treas-service",
+    "document_type": "integrationmad",
+    "class_name": "IntegrationMadService"
+  },
+  {
+    "error_message": "[...] serverga bog'lanib bo'lmayapti... [...]",
+    "file_path": "services/treas-service/Uzasbo2.Integration.Mvd/Services/IntegrationMadService.cs",
+    "line_number": 190,
+    "condition": "",
+    "service_name": "treas-service",
+    "document_type": "integrationmad",
+    "class_name": "IntegrationMadService"
+  },
+  {
+    "error_message": "Код:",
+    "file_path": "services/treas-service/Uzasbo2.Integration.Mvd/Services/IntegrationMvdService.cs",
+    "line_number": 41,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "treas-service",
+    "document_type": "integrationmvd",
+    "class_name": "IntegrationMvdService"
+  },
+  {
+    "error_message": "[...] {ex.InnerException?.Message ??",
+    "file_path": "services/treas-service/Uzasbo2.Integration.Mvd/Services/IntegrationMvdService.cs",
+    "line_number": 45,
+    "condition": "",
+    "service_name": "treas-service",
+    "document_type": "integrationmvd",
+    "class_name": "IntegrationMvdService"
+  },
+  {
+    "error_message": "[...] serverga bog'lanib bo'lmayapti... [...]",
+    "file_path": "services/treas-service/Uzasbo2.Integration.Mvd/Services/IntegrationMvdService.cs",
+    "line_number": 52,
+    "condition": "",
+    "service_name": "treas-service",
+    "document_type": "integrationmvd",
+    "class_name": "IntegrationMvdService"
+  },
+  {
+    "error_message": "Код:",
+    "file_path": "services/treas-service/Uzasbo2.Integration.Mvd/Services/IntegrationMvdService.cs",
+    "line_number": 72,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "treas-service",
+    "document_type": "integrationmvd",
+    "class_name": "IntegrationMvdService"
+  },
+  {
+    "error_message": "[...] {ex.InnerException?.Message ??",
+    "file_path": "services/treas-service/Uzasbo2.Integration.Mvd/Services/IntegrationMvdService.cs",
+    "line_number": 76,
+    "condition": "",
+    "service_name": "treas-service",
+    "document_type": "integrationmvd",
+    "class_name": "IntegrationMvdService"
+  },
+  {
+    "error_message": "[...] serverga bog'lanib bo'lmayapti... [...]",
+    "file_path": "services/treas-service/Uzasbo2.Integration.Mvd/Services/IntegrationMvdService.cs",
+    "line_number": 83,
+    "condition": "",
+    "service_name": "treas-service",
+    "document_type": "integrationmvd",
+    "class_name": "IntegrationMvdService"
+  },
+  {
+    "error_message": "Код:",
+    "file_path": "services/treas-service/Uzasbo2.Integration.Mvd/Services/IntegrationMvdService.cs",
+    "line_number": 100,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "treas-service",
+    "document_type": "integrationmvd",
+    "class_name": "IntegrationMvdService"
+  },
+  {
+    "error_message": "[...] {ex.InnerException?.Message ??",
+    "file_path": "services/treas-service/Uzasbo2.Integration.Mvd/Services/IntegrationMvdService.cs",
+    "line_number": 104,
+    "condition": "",
+    "service_name": "treas-service",
+    "document_type": "integrationmvd",
+    "class_name": "IntegrationMvdService"
+  },
+  {
+    "error_message": "[...] serverga bog'lanib bo'lmayapti... [...]",
+    "file_path": "services/treas-service/Uzasbo2.Integration.Mvd/Services/IntegrationMvdService.cs",
+    "line_number": 111,
+    "condition": "",
+    "service_name": "treas-service",
+    "document_type": "integrationmvd",
+    "class_name": "IntegrationMvdService"
+  },
+  {
+    "error_message": "Код:",
+    "file_path": "services/treas-service/Uzasbo2.Integration.Mvd/Services/IntegrationMvdService.cs",
+    "line_number": 128,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "treas-service",
+    "document_type": "integrationmvd",
+    "class_name": "IntegrationMvdService"
+  },
+  {
+    "error_message": "[...] {ex.InnerException?.Message ??",
+    "file_path": "services/treas-service/Uzasbo2.Integration.Mvd/Services/IntegrationMvdService.cs",
+    "line_number": 132,
+    "condition": "",
+    "service_name": "treas-service",
+    "document_type": "integrationmvd",
+    "class_name": "IntegrationMvdService"
+  },
+  {
+    "error_message": "[...] serverga bog'lanib bo'lmayapti... [...]",
+    "file_path": "services/treas-service/Uzasbo2.Integration.Mvd/Services/IntegrationMvdService.cs",
+    "line_number": 139,
+    "condition": "",
+    "service_name": "treas-service",
+    "document_type": "integrationmvd",
+    "class_name": "IntegrationMvdService"
+  },
+  {
+    "error_message": "Код:",
+    "file_path": "services/treas-service/Uzasbo2.Integration.Mvd/Services/IntegrationMvdService.cs",
+    "line_number": 157,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "treas-service",
+    "document_type": "integrationmvd",
+    "class_name": "IntegrationMvdService"
+  },
+  {
+    "error_message": "[...] {ex.InnerException?.Message ??",
+    "file_path": "services/treas-service/Uzasbo2.Integration.Mvd/Services/IntegrationMvdService.cs",
+    "line_number": 161,
+    "condition": "",
+    "service_name": "treas-service",
+    "document_type": "integrationmvd",
+    "class_name": "IntegrationMvdService"
+  },
+  {
+    "error_message": "[...] serverga bog'lanib bo'lmayapti... [...]",
+    "file_path": "services/treas-service/Uzasbo2.Integration.Mvd/Services/IntegrationMvdService.cs",
+    "line_number": 168,
+    "condition": "",
+    "service_name": "treas-service",
+    "document_type": "integrationmvd",
+    "class_name": "IntegrationMvdService"
+  },
+  {
+    "error_message": "Код:",
+    "file_path": "services/treas-service/Uzasbo2.Integration.Mvd/Services/IntegrationMvdService.cs",
+    "line_number": 185,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "treas-service",
+    "document_type": "integrationmvd",
+    "class_name": "IntegrationMvdService"
+  },
+  {
+    "error_message": "[...] {ex.InnerException?.Message ??",
+    "file_path": "services/treas-service/Uzasbo2.Integration.Mvd/Services/IntegrationMvdService.cs",
+    "line_number": 189,
+    "condition": "",
+    "service_name": "treas-service",
+    "document_type": "integrationmvd",
+    "class_name": "IntegrationMvdService"
+  },
+  {
+    "error_message": "[...] serverga bog'lanib bo'lmayapti... [...]",
+    "file_path": "services/treas-service/Uzasbo2.Integration.Mvd/Services/IntegrationMvdService.cs",
+    "line_number": 196,
+    "condition": "",
+    "service_name": "treas-service",
+    "document_type": "integrationmvd",
+    "class_name": "IntegrationMvdService"
+  }
+]

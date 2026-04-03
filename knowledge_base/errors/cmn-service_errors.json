@@ -1,0 +1,47 @@
+[
+  {
+    "error_message": "Нет доступа. [...]",
+    "file_path": "services/cmn-service/src/shared/Uzasbo2.Services.Cmn.Shared.BizLayer/BaseInfoService.cs",
+    "line_number": 184,
+    "condition": "IsValid",
+    "service_name": "cmn-service",
+    "document_type": "baseinfo",
+    "class_name": "BaseInfoHlService"
+  },
+  {
+    "error_message": "Нет доступа. [...]",
+    "file_path": "services/cmn-service/src/shared/Uzasbo2.Services.Cmn.Shared.BizLayer/BaseInfoService.cs",
+    "line_number": 209,
+    "condition": "IsValid",
+    "service_name": "cmn-service",
+    "document_type": "baseinfo",
+    "class_name": "BaseInfoHlService"
+  },
+  {
+    "error_message": "Запись не может быть удален",
+    "file_path": "services/cmn-service/src/shared/Uzasbo2.Services.Cmn.Shared.BizLayer/Abstractions/BaseEntityService`8.cs",
+    "line_number": 85,
+    "condition": "IsValid",
+    "service_name": "cmn-service",
+    "document_type": "baseentity`8",
+    "class_name": "BaseEntityService"
+  },
+  {
+    "error_message": "Çàïèñü íå ìîæåò áûòü óäàëåí: [...]",
+    "file_path": "services/cmn-service/src/shared/Uzasbo2.Services.Cmn.Shared.BizLayer/DocumentFileServices/Concrete/DocumentFileService.cs",
+    "line_number": 72,
+    "condition": "IsValid",
+    "service_name": "cmn-service",
+    "document_type": "documentfile",
+    "class_name": "DocumentFileService"
+  },
+  {
+    "error_message": "Çàïèñü íå ìîæåò áûòü óäàëåí: [...]",
+    "file_path": "services/cmn-service/src/shared/Uzasbo2.Services.Cmn.Shared.BizLayer/DocumentFileServices/Concrete/DocumentFileService.cs",
+    "line_number": 87,
+    "condition": "IsValid",
+    "service_name": "cmn-service",
+    "document_type": "documentfile",
+    "class_name": "DocumentFileService"
+  }
+]

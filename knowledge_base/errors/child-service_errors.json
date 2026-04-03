@@ -1,0 +1,2396 @@
+[
+  {
+    "error_message": "Қуйдаги боллар сизнинг ташкилотингизга тегишли, болалар қисмидан текшириб кўринг ёки ҳужжатдан ушбу болларни ўчириб юборинг. {string.Join(",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildComeServices/Concrete/ChildComeService.cs",
+    "line_number": 328,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childcome",
+    "class_name": "ChildComeService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildComeServices/Concrete/ChildComeService.cs",
+    "line_number": 332,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childcome",
+    "class_name": "ChildComeService"
+  },
+  {
+    "error_message": "Гуруҳ топилмади / Группа не найдена",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildComeServices/Concrete/ChildComeService.cs",
+    "line_number": 338,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childcome",
+    "class_name": "ChildComeService"
+  },
+  {
+    "error_message": "[...] аввал қабул қилинган /",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildComeServices/Concrete/ChildComeService.cs",
+    "line_number": 353,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childcome",
+    "class_name": "ChildComeService"
+  },
+  {
+    "error_message": "Танланган ҳужжат асосида табел яратилган № [...] [...] / Создан табель на основе документа № [...] [...]",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildComeServices/Concrete/ChildComeService.cs",
+    "line_number": 366,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childcome",
+    "class_name": "ChildComeService"
+  },
+  {
+    "error_message": "Танланган ҳужжат асосида табел яратилган № [...] [...]. Болалар: {string.Join(",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildComeServices/Concrete/ChildComeService.cs",
+    "line_number": 387,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childcome",
+    "class_name": "ChildComeService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildComeServices/Concrete/ChildComeService.cs",
+    "line_number": 461,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childcome",
+    "class_name": "ChildComeService"
+  },
+  {
+    "error_message": "Танланган ҳужжат асосида табел яратилган № [...] [...]. Болалар: {string.Join(",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildComeServices/Concrete/ChildComeService.cs",
+    "line_number": 481,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childcome",
+    "class_name": "ChildComeService"
+  },
+  {
+    "error_message": "Танланган ҳужжат асосида 'Болаларни гуруҳлараро кўчиши' яратилган № [...] [...]. Болалар: {string.Join(",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildComeServices/Concrete/ChildComeService.cs",
+    "line_number": 501,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childcome",
+    "class_name": "ChildComeService"
+  },
+  {
+    "error_message": "Танланган ҳужжат асосида 'Болани муассасадан чиқариш' яратилган № [...] [...]. Болалар: {string.Join(",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildComeServices/Concrete/ChildComeService.cs",
+    "line_number": 521,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childcome",
+    "class_name": "ChildComeService"
+  },
+  {
+    "error_message": "Танланган ҳужжат асосида 'Муассасада бўлмаган кунлар маълумотномаси' яратилган № [...] [...]. Болалар: {string.Join(",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildComeServices/Concrete/ChildComeService.cs",
+    "line_number": 542,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childcome",
+    "class_name": "ChildComeService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildComeServices/Concrete/ChildComeService.cs",
+    "line_number": 571,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childcome",
+    "class_name": "ChildComeService"
+  },
+  {
+    "error_message": "Таҳрирлаш мумкин эмас / Невозможно редактировать",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildComeServices/Concrete/ChildComeService.cs",
+    "line_number": 614,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childcome",
+    "class_name": "ChildComeService"
+  },
+  {
+    "error_message": "Бу рақамли ҳужжат ([...]) яратилган / Документ с этим  ([...]) номером уже создан",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildComeServices/Concrete/ChildComeService.cs",
+    "line_number": 618,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childcome",
+    "class_name": "ChildComeService"
+  },
+  {
+    "error_message": "Илтимос, жадвалга маълумот қўшинг / Пожалуйста, добавьте данные в таблицу",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildComeServices/Concrete/ChildComeService.cs",
+    "line_number": 621,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childcome",
+    "class_name": "ChildComeService"
+  },
+  {
+    "error_message": "Гуруҳ топилмади / Группа не найдена",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildComeServices/Concrete/ChildComeService.cs",
+    "line_number": 627,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childcome",
+    "class_name": "ChildComeService"
+  },
+  {
+    "error_message": "Сиз Академик лицей учун Ижарада танлай олмайсиз. Гуруҳни текширинг / Вы не сможете выбрать 'Аренду жилья' для 'Академический лицей'. Проверьте группу",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildComeServices/Concrete/ChildComeService.cs",
+    "line_number": 634,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childcome",
+    "class_name": "ChildComeService"
+  },
+  {
+    "error_message": "Сиз 'Академик лицей' учун 'Тўловдан озод қилинган' танлай олмайсиз. Гуруҳни текширинг / Вы не сможете выбрать 'Освобожден от уплаты' для 'Академический лицей'. Проверьте группу",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildComeServices/Concrete/ChildComeService.cs",
+    "line_number": 639,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childcome",
+    "class_name": "ChildComeService"
+  },
+  {
+    "error_message": "Сиз 'Бир боладан ортиқ' танлай олмайсиз. Гуруҳни текширинг / Вы не сможете выбрать 'Больше одного ребенка'. Проверьте группу",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildComeServices/Concrete/ChildComeService.cs",
+    "line_number": 649,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childcome",
+    "class_name": "ChildComeService"
+  },
+  {
+    "error_message": "[...] аввал қабул қилинган / [...] раньше принимался принималась. Ҳужжат Id : [...]",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildComeServices/Concrete/ChildComeService.cs",
+    "line_number": 663,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childcome",
+    "class_name": "ChildComeService"
+  },
+  {
+    "error_message": "Musiqa maktablarida bir bolani ([...]) 2 martadan ortiq guruhlarga qabul qilib bo'lmaydi",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildComeServices/Concrete/ChildComeService.cs",
+    "line_number": 685,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childcome",
+    "class_name": "ChildComeService"
+  },
+  {
+    "error_message": "Бир болани 2 марта қўша олмайсиз / Невозможно дважды добавлять одного ребенка.",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildComeServices/Concrete/ChildComeService.cs",
+    "line_number": 690,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childcome",
+    "class_name": "ChildComeService"
+  },
+  {
+    "error_message": "Бола ҳодим бўла олмайди / Ребенок не может быть сотрудником.",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildComeServices/Concrete/ChildComeService.cs",
+    "line_number": 697,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childcome",
+    "class_name": "ChildComeService"
+  },
+  {
+    "error_message": "7 ёшдан катта болалар бу гуруҳга қабул қилинмайди / Ребенок больше 7 лет не может быть принят в группу",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildComeServices/Concrete/ChildComeService.cs",
+    "line_number": 708,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childcome",
+    "class_name": "ChildComeService"
+  },
+  {
+    "error_message": "20 ёшдан катта болалар бу гуруҳга қабул қилинмайди / Ребенок больше 20 лет не может быть принят в группу",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildComeServices/Concrete/ChildComeService.cs",
+    "line_number": 710,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childcome",
+    "class_name": "ChildComeService"
+  },
+  {
+    "error_message": "[...]=null [...] not Created [...] [...] [...]",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildComeServices/Concrete/ChildComeService.cs",
+    "line_number": 809,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childcome",
+    "class_name": "ChildComeService"
+  },
+  {
+    "error_message": "[...]=not null [...] not Created [...] [...] [...]",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildComeServices/Concrete/ChildComeService.cs",
+    "line_number": 843,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childcome",
+    "class_name": "ChildComeService"
+  },
+  {
+    "error_message": "Қуйдаги боллар сизнинг ташкилотингизга тегишли, болалар қисмидан текшириб кўринг ёки ҳужжатдан ушбу болларни ўчириб юборинг. {string.Join(",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildComeServices/Concrete/ChildComeService.cs",
+    "line_number": 870,
+    "condition": "otherChilds.Any()",
+    "service_name": "child-service",
+    "document_type": "childcome",
+    "class_name": "ChildComeService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildComeServices/Concrete/ChildComeService.cs",
+    "line_number": 874,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, dldto.StatusId)",
+    "service_name": "child-service",
+    "document_type": "childcome",
+    "class_name": "ChildComeService"
+  },
+  {
+    "error_message": "Гуруҳ топилмади / Группа не найдена",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildComeServices/Concrete/ChildComeService.cs",
+    "line_number": 880,
+    "condition": "trainingGroup == null",
+    "service_name": "child-service",
+    "document_type": "childcome",
+    "class_name": "ChildComeService"
+  },
+  {
+    "error_message": "[...] аввал қабул қилинган /",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildComeServices/Concrete/ChildComeService.cs",
+    "line_number": 895,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childcome",
+    "class_name": "ChildComeService"
+  },
+  {
+    "error_message": "Танланган ҳужжат асосида табел яратилган № [...] [...] / Создан табель на основе документа № [...] [...]",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildComeServices/Concrete/ChildComeService.cs",
+    "line_number": 908,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childcome",
+    "class_name": "ChildComeService"
+  },
+  {
+    "error_message": "Танланган ҳужжат асосида табел яратилган № [...] [...]. Болалар: {string.Join(",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildComeServices/Concrete/ChildComeService.cs",
+    "line_number": 929,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childcome",
+    "class_name": "ChildComeService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildComeServices/Concrete/ChildComeService.cs",
+    "line_number": 1012,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, statusDto.StatusId)",
+    "service_name": "child-service",
+    "document_type": "childcome",
+    "class_name": "ChildComeService"
+  },
+  {
+    "error_message": "Танланган ҳужжат асосида табел яратилган № [...] [...]. Болалар: {string.Join(",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildComeServices/Concrete/ChildComeService.cs",
+    "line_number": 1032,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childcome",
+    "class_name": "ChildComeService"
+  },
+  {
+    "error_message": "Танланган ҳужжат асосида 'Болаларни гуруҳлараро кўчиши' яратилган № [...] [...]. Болалар: {string.Join(",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildComeServices/Concrete/ChildComeService.cs",
+    "line_number": 1052,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childcome",
+    "class_name": "ChildComeService"
+  },
+  {
+    "error_message": "Танланган ҳужжат асосида 'Болани муассасадан чиқариш' яратилган № [...] [...]. Болалар: {string.Join(",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildComeServices/Concrete/ChildComeService.cs",
+    "line_number": 1072,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childcome",
+    "class_name": "ChildComeService"
+  },
+  {
+    "error_message": "Танланган ҳужжат асосида 'Муассасада бўлмаган кунлар маълумотномаси' яратилган № [...] [...]. Болалар: {string.Join(",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildComeServices/Concrete/ChildComeService.cs",
+    "line_number": 1093,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childcome",
+    "class_name": "ChildComeService"
+  },
+  {
+    "error_message": "[...] not Updated [...]",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildComeServices/Concrete/ChildComeService.cs",
+    "line_number": 1146,
+    "condition": "result is not null && IsValid",
+    "service_name": "child-service",
+    "document_type": "childcome",
+    "class_name": "ChildComeService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildComeServices/Concrete/ChildComeService.cs",
+    "line_number": 1159,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, dto.StatusId)",
+    "service_name": "child-service",
+    "document_type": "childcome",
+    "class_name": "ChildComeService"
+  },
+  {
+    "error_message": "Таҳрирлаш мумкин эмас / Невозможно редактировать",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildComeServices/Concrete/ChildComeService.cs",
+    "line_number": 1328,
+    "condition": "!StatusIdConst.CanModifyStatus.Contains(entity.StatusId)",
+    "service_name": "child-service",
+    "document_type": "childcome",
+    "class_name": "ChildComeService"
+  },
+  {
+    "error_message": "Бу рақамли ҳужжат ([...]) яратилган / Документ с этим  ([...]) номером уже создан",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildComeServices/Concrete/ChildComeService.cs",
+    "line_number": 1332,
+    "condition": "query.ByDocNumber(dto.DocNumber, dto.DocOn.Year).Any()",
+    "service_name": "child-service",
+    "document_type": "childcome",
+    "class_name": "ChildComeService"
+  },
+  {
+    "error_message": "Илтимос, жадвалга маълумот қўшинг / Пожалуйста, добавьте данные в таблицу",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildComeServices/Concrete/ChildComeService.cs",
+    "line_number": 1335,
+    "condition": "dto.Tables == null || dto.Tables.Count == 0",
+    "service_name": "child-service",
+    "document_type": "childcome",
+    "class_name": "ChildComeService"
+  },
+  {
+    "error_message": "Гуруҳ топилмади / Группа не найдена",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildComeServices/Concrete/ChildComeService.cs",
+    "line_number": 1341,
+    "condition": "trainingGroup == null",
+    "service_name": "child-service",
+    "document_type": "childcome",
+    "class_name": "ChildComeService"
+  },
+  {
+    "error_message": "Сиз Академик лицей учун Ижарада танлай олмайсиз. Гуруҳни текширинг / Вы не сможете выбрать 'Аренду жилья' для 'Академический лицей'. Проверьте группу",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildComeServices/Concrete/ChildComeService.cs",
+    "line_number": 1348,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childcome",
+    "class_name": "ChildComeService"
+  },
+  {
+    "error_message": "Сиз 'Академик лицей' учун 'Тўловдан озод қилинган' танлай олмайсиз. Гуруҳни текширинг / Вы не сможете выбрать 'Освобожден от уплаты' для 'Академический лицей'. Проверьте группу",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildComeServices/Concrete/ChildComeService.cs",
+    "line_number": 1353,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childcome",
+    "class_name": "ChildComeService"
+  },
+  {
+    "error_message": "Сиз 'Бир боладан ортиқ' танлай олмайсиз. Гуруҳни текширинг / Вы не сможете выбрать 'Больше одного ребенка'. Проверьте группу",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildComeServices/Concrete/ChildComeService.cs",
+    "line_number": 1363,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childcome",
+    "class_name": "ChildComeService"
+  },
+  {
+    "error_message": "[...] аввал қабул қилинган / [...] раньше принимался принималась. Ҳужжат Id : [...]",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildComeServices/Concrete/ChildComeService.cs",
+    "line_number": 1377,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childcome",
+    "class_name": "ChildComeService"
+  },
+  {
+    "error_message": "Musiqa maktablarida bir bolani ([...]) 2 martadan ortiq guruhlarga qabul qilib bo'lmaydi",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildComeServices/Concrete/ChildComeService.cs",
+    "line_number": 1399,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childcome",
+    "class_name": "ChildComeService"
+  },
+  {
+    "error_message": "Бир болани 2 марта қўша олмайсиз / Невозможно дважды добавлять одного ребенка.",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildComeServices/Concrete/ChildComeService.cs",
+    "line_number": 1403,
+    "condition": "(dto.Tables?.Count ?? 0) != dto.Tables?.Select(a => a.ChildId).Distinct().Count()",
+    "service_name": "child-service",
+    "document_type": "childcome",
+    "class_name": "ChildComeService"
+  },
+  {
+    "error_message": "Бола ҳодим бўла олмайди / Ребенок не может быть сотрудником.",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildComeServices/Concrete/ChildComeService.cs",
+    "line_number": 1410,
+    "condition": "isEmployee",
+    "service_name": "child-service",
+    "document_type": "childcome",
+    "class_name": "ChildComeService"
+  },
+  {
+    "error_message": "7 ёшдан катта болалар бу гуруҳга қабул қилинмайди / Ребенок больше 7 лет не может быть принят в группу",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildComeServices/Concrete/ChildComeService.cs",
+    "line_number": 1421,
+    "condition": "(trainingGroup.ChildGroupTypeId == ChildGroupTypeIdConst.PRE_SCHOOL || trainingGroup.ChildGroupTypeId == ChildGroupTypeIdConst.NURSERY",
+    "service_name": "child-service",
+    "document_type": "childcome",
+    "class_name": "ChildComeService"
+  },
+  {
+    "error_message": "20 ёшдан катта болалар бу гуруҳга қабул қилинмайди / Ребенок больше 20 лет не может быть принят в группу",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildComeServices/Concrete/ChildComeService.cs",
+    "line_number": 1423,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childcome",
+    "class_name": "ChildComeService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildLeaveServices/Concrete/ChildLeaveService.cs",
+    "line_number": 135,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childleave",
+    "class_name": "ChildLeaveService"
+  },
+  {
+    "error_message": "[...] ёки [...] Хужжат асосида табель яратилган. Болалар ФИОси:{string.Join(",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildLeaveServices/Concrete/ChildLeaveService.cs",
+    "line_number": 155,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childleave",
+    "class_name": "ChildLeaveService"
+  },
+  {
+    "error_message": "[...] бола топилмади.! / [...] Ребенок не найден.!",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildLeaveServices/Concrete/ChildLeaveService.cs",
+    "line_number": 173,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childleave",
+    "class_name": "ChildLeaveService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildLeaveServices/Concrete/ChildLeaveService.cs",
+    "line_number": 206,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childleave",
+    "class_name": "ChildLeaveService"
+  },
+  {
+    "error_message": "[...] ёки [...] Хужжат асосида табель яратилган. Болалар ФИОси:{string.Join(",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildLeaveServices/Concrete/ChildLeaveService.cs",
+    "line_number": 244,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childleave",
+    "class_name": "ChildLeaveService"
+  },
+  {
+    "error_message": "[...] бола топилмади.! / [...] Ребенок не найден",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildLeaveServices/Concrete/ChildLeaveService.cs",
+    "line_number": 249,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childleave",
+    "class_name": "ChildLeaveService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildLeaveServices/Concrete/ChildLeaveService.cs",
+    "line_number": 275,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childleave",
+    "class_name": "ChildLeaveService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildLeaveServices/Concrete/ChildLeaveService.cs",
+    "line_number": 317,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childleave",
+    "class_name": "ChildLeaveService"
+  },
+  {
+    "error_message": "Бу [...] рақамли ҳужжат бор / Документ с этим кодом [...] уже существует",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildLeaveServices/Concrete/ChildLeaveService.cs",
+    "line_number": 321,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childleave",
+    "class_name": "ChildLeaveService"
+  },
+  {
+    "error_message": "Бир бола икки маротаба такрорланган / Вы не можете добавить одного ребенка два раза",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildLeaveServices/Concrete/ChildLeaveService.cs",
+    "line_number": 324,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childleave",
+    "class_name": "ChildLeaveService"
+  },
+  {
+    "error_message": "[...] not Created [...] [...] [...]",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildLeaveServices/Concrete/ChildLeaveService.cs",
+    "line_number": 399,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childleave",
+    "class_name": "ChildLeaveService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildLeaveServices/Concrete/ChildLeaveService.cs",
+    "line_number": 415,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, dldto.StatusId)",
+    "service_name": "child-service",
+    "document_type": "childleave",
+    "class_name": "ChildLeaveService"
+  },
+  {
+    "error_message": "[...] ёки [...] Хужжат асосида табель яратилган. Болалар ФИОси:{string.Join(",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildLeaveServices/Concrete/ChildLeaveService.cs",
+    "line_number": 435,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childleave",
+    "class_name": "ChildLeaveService"
+  },
+  {
+    "error_message": "[...] бола топилмади.! / [...] Ребенок не найден.!",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildLeaveServices/Concrete/ChildLeaveService.cs",
+    "line_number": 453,
+    "condition": "childManageDto == null",
+    "service_name": "child-service",
+    "document_type": "childleave",
+    "class_name": "ChildLeaveService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildLeaveServices/Concrete/ChildLeaveService.cs",
+    "line_number": 494,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, statusDto.StatusId)",
+    "service_name": "child-service",
+    "document_type": "childleave",
+    "class_name": "ChildLeaveService"
+  },
+  {
+    "error_message": "[...] ёки [...] Хужжат асосида табель яратилган. Болалар ФИОси:{string.Join(",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildLeaveServices/Concrete/ChildLeaveService.cs",
+    "line_number": 533,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childleave",
+    "class_name": "ChildLeaveService"
+  },
+  {
+    "error_message": "[...] бола топилмади.! / [...] Ребенок не найден",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildLeaveServices/Concrete/ChildLeaveService.cs",
+    "line_number": 538,
+    "condition": "entity == null",
+    "service_name": "child-service",
+    "document_type": "childleave",
+    "class_name": "ChildLeaveService"
+  },
+  {
+    "error_message": "[...] not Updated [...] [...] [...]",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildLeaveServices/Concrete/ChildLeaveService.cs",
+    "line_number": 593,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childleave",
+    "class_name": "ChildLeaveService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildLeaveServices/Concrete/ChildLeaveService.cs",
+    "line_number": 606,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, dto.StatusId)",
+    "service_name": "child-service",
+    "document_type": "childleave",
+    "class_name": "ChildLeaveService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildLeaveServices/Concrete/ChildLeaveService.cs",
+    "line_number": 645,
+    "condition": "!StatusIdConst.CanModifyStatus.Contains(entity.StatusId)",
+    "service_name": "child-service",
+    "document_type": "childleave",
+    "class_name": "ChildLeaveService"
+  },
+  {
+    "error_message": "Бу [...] рақамли ҳужжат бор / Документ с этим кодом [...] уже существует",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildLeaveServices/Concrete/ChildLeaveService.cs",
+    "line_number": 649,
+    "condition": "await query.ByDocNumber(dto.DocNumber, dto.DocOn.Year).AnyAsync(cancellationToken: cancellationToken)",
+    "service_name": "child-service",
+    "document_type": "childleave",
+    "class_name": "ChildLeaveService"
+  },
+  {
+    "error_message": "Бир бола икки маротаба такрорланган / Вы не можете добавить одного ребенка два раза",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildLeaveServices/Concrete/ChildLeaveService.cs",
+    "line_number": 652,
+    "condition": "dto.Tables.Select(a => a.ChildManageId).Distinct().Count() != dto.Tables.Select(a => a.ChildManageId).Count()",
+    "service_name": "child-service",
+    "document_type": "childleave",
+    "class_name": "ChildLeaveService"
+  },
+  {
+    "error_message": "[...] not Created [...] [...] [...]",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMissedDayServices/Concrete/ChildMissedDayService.cs",
+    "line_number": 116,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childmissedday",
+    "class_name": "ChildMissedDayService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMissedDayServices/Concrete/ChildMissedDayService.cs",
+    "line_number": 130,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, dldto.StatusId)",
+    "service_name": "child-service",
+    "document_type": "childmissedday",
+    "class_name": "ChildMissedDayService"
+  },
+  {
+    "error_message": "Бу давр учун табель ҳосил қилинган. / Табель за этот период уже составлен",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMissedDayServices/Concrete/ChildMissedDayService.cs",
+    "line_number": 147,
+    "condition": "childTimeSheetCount > 0",
+    "service_name": "child-service",
+    "document_type": "childmissedday",
+    "class_name": "ChildMissedDayService"
+  },
+  {
+    "error_message": "Бу давр учун табель ҳосил қилинган. / Табель за этот период уже составлен",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMissedDayServices/Concrete/ChildMissedDayService.cs",
+    "line_number": 160,
+    "condition": "childTimeSheetCount > 0",
+    "service_name": "child-service",
+    "document_type": "childmissedday",
+    "class_name": "ChildMissedDayService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMissedDayServices/Concrete/ChildMissedDayService.cs",
+    "line_number": 172,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, dldto.StatusId)",
+    "service_name": "child-service",
+    "document_type": "childmissedday",
+    "class_name": "ChildMissedDayService"
+  },
+  {
+    "error_message": "Бу давр учун табель ҳосил қилинган. / Табель за этот период уже составлен",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMissedDayServices/Concrete/ChildMissedDayService.cs",
+    "line_number": 189,
+    "condition": "childTimeSheetCount",
+    "service_name": "child-service",
+    "document_type": "childmissedday",
+    "class_name": "ChildMissedDayService"
+  },
+  {
+    "error_message": "Бу давр учун табель ҳосил қилинган. / Табель за этот период уже составлен",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMissedDayServices/Concrete/ChildMissedDayService.cs",
+    "line_number": 202,
+    "condition": "childTimeSheetCount",
+    "service_name": "child-service",
+    "document_type": "childmissedday",
+    "class_name": "ChildMissedDayService"
+  },
+  {
+    "error_message": "[...] not Updated [...] [...] [...]",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMissedDayServices/Concrete/ChildMissedDayService.cs",
+    "line_number": 236,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childmissedday",
+    "class_name": "ChildMissedDayService"
+  },
+  {
+    "error_message": "Ҳужжат тасдиқланмаган / Документ не проведен",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMissedDayServices/Concrete/ChildMissedDayService.cs",
+    "line_number": 253,
+    "condition": "ent.StatusId != StatusIdConst.ACCEPTED",
+    "service_name": "child-service",
+    "document_type": "childmissedday",
+    "class_name": "ChildMissedDayService"
+  },
+  {
+    "error_message": "Сиз рўйхатга олиш идентификаторини барча гуруҳ ёки ташкилот учун танлай олмайсиз / Вы не можете выбрать идентификатор записи для всех групп или для всей организации",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMissedDayServices/Concrete/ChildMissedDayService.cs",
+    "line_number": 260,
+    "condition": "dto.TableId.HasValue",
+    "service_name": "child-service",
+    "document_type": "childmissedday",
+    "class_name": "ChildMissedDayService"
+  },
+  {
+    "error_message": "Сиз бошланиш санасидан олдинги санани танлай олмайсиз. Бошланиш санаси:[...] / Вы не можете выбрать дату, меньшую, чем начало даты. Дата начало: [...]",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMissedDayServices/Concrete/ChildMissedDayService.cs",
+    "line_number": 263,
+    "condition": "ent.StartOn.Value > dto.EndOn",
+    "service_name": "child-service",
+    "document_type": "childmissedday",
+    "class_name": "ChildMissedDayService"
+  },
+  {
+    "error_message": "Сиз тугаш санасидан кейинги санани танлай олмайсиз. Тугаш санаси:[...] / Вы не можете выбрать дату, превышающую конец даты. Дата конец: [...]",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMissedDayServices/Concrete/ChildMissedDayService.cs",
+    "line_number": 266,
+    "condition": "ent.EndOn < dto.EndOn",
+    "service_name": "child-service",
+    "document_type": "childmissedday",
+    "class_name": "ChildMissedDayService"
+  },
+  {
+    "error_message": "Бу Id:[...] лик хужжат мавжуд эмас / В документе нет записи с Id: [...]",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMissedDayServices/Concrete/ChildMissedDayService.cs",
+    "line_number": 272,
+    "condition": "!ent.Tables.Select(a => a.Id).Contains(dto.TableId.Value)",
+    "service_name": "child-service",
+    "document_type": "childmissedday",
+    "class_name": "ChildMissedDayService"
+  },
+  {
+    "error_message": "Сиз бошланиш санасидан олдинги санани танлай олмайсиз. Бошланиш санаси: [...]/ Вы не можете выбрать дату, меньшую, чем начало даты. Дата начало: [...]",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMissedDayServices/Concrete/ChildMissedDayService.cs",
+    "line_number": 278,
+    "condition": "table.StartOn > dto.EndOn",
+    "service_name": "child-service",
+    "document_type": "childmissedday",
+    "class_name": "ChildMissedDayService"
+  },
+  {
+    "error_message": "Сиз тугаш санасидан кейинги санани танлай олмайсиз. Тугаш санаси:[...] / Вы не можете выбрать дату, превышающую конец даты. Дата конец: [...]",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMissedDayServices/Concrete/ChildMissedDayService.cs",
+    "line_number": 281,
+    "condition": "table.EndOn < dto.EndOn",
+    "service_name": "child-service",
+    "document_type": "childmissedday",
+    "class_name": "ChildMissedDayService"
+  },
+  {
+    "error_message": "Бу давр учун табель ҳосил қилинган. / Табель за этот период уже составлен",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMissedDayServices/Concrete/ChildMissedDayService.cs",
+    "line_number": 312,
+    "condition": "childTimesheet > 0",
+    "service_name": "child-service",
+    "document_type": "childmissedday",
+    "class_name": "ChildMissedDayService"
+  },
+  {
+    "error_message": "Бу давр учун табель ҳосил қилинган. / Табель за этот период уже составлен",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMissedDayServices/Concrete/ChildMissedDayService.cs",
+    "line_number": 326,
+    "condition": "childTimesheet > 0",
+    "service_name": "child-service",
+    "document_type": "childmissedday",
+    "class_name": "ChildMissedDayService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMissedDayServices/Concrete/ChildMissedDayService.cs",
+    "line_number": 355,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, dto.StatusId)",
+    "service_name": "child-service",
+    "document_type": "childmissedday",
+    "class_name": "ChildMissedDayService"
+  },
+  {
+    "error_message": "Бошланиш санаси тугаш санасидан катта бўла олмайди. [...] > [...] / Дата начало не может быть больше чем даты окончания. [...] > [...]",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMissedDayServices/Concrete/ChildMissedDayService.cs",
+    "line_number": 366,
+    "condition": "dto.StartOn > dto.EndOn",
+    "service_name": "child-service",
+    "document_type": "childmissedday",
+    "class_name": "ChildMissedDayService"
+  },
+  {
+    "error_message": "Гурух топилмади. Id: [...] /",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMissedDayServices/Concrete/ChildMissedDayService.cs",
+    "line_number": 375,
+    "condition": "trainingGroup == null",
+    "service_name": "child-service",
+    "document_type": "childmissedday",
+    "class_name": "ChildMissedDayService"
+  },
+  {
+    "error_message": "Гурух топилмади. Id: [...] /",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMissedDayServices/Concrete/ChildMissedDayService.cs",
+    "line_number": 384,
+    "condition": "workScheduleKindId == null",
+    "service_name": "child-service",
+    "document_type": "childmissedday",
+    "class_name": "ChildMissedDayService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMissedDayServices/Concrete/ChildMissedDayService.cs",
+    "line_number": 439,
+    "condition": "!StatusIdConst.CanModifyStatus.Contains(entity.StatusId)",
+    "service_name": "child-service",
+    "document_type": "childmissedday",
+    "class_name": "ChildMissedDayService"
+  },
+  {
+    "error_message": "Бу [...] рақамли ҳужжат бор / Документ с этим кодом [...] уже существует",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMissedDayServices/Concrete/ChildMissedDayService.cs",
+    "line_number": 443,
+    "condition": "await query.ByDocNumber(dto.DocNumber, dto.DocOn.Year).AnyAsync(cancellationToken: cancellationToken)",
+    "service_name": "child-service",
+    "document_type": "childmissedday",
+    "class_name": "ChildMissedDayService"
+  },
+  {
+    "error_message": "Барча болалар учун тугмасига байроқча қўйилса, барча гуруҳ учун тугмасига қўйа олмайсиз / Если выбрано для всех, невозможно выбрать для всей группы",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMissedDayServices/Concrete/ChildMissedDayService.cs",
+    "line_number": 446,
+    "condition": "dto.ForAllChild && dto.ForAllGroup",
+    "service_name": "child-service",
+    "document_type": "childmissedday",
+    "class_name": "ChildMissedDayService"
+  },
+  {
+    "error_message": "'Барча гуруҳ учун' тугмаси танлангани учун, илтимос гуруҳни танланг / Пожалуйста выберите группу выбрано 'Для всей группы'",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMissedDayServices/Concrete/ChildMissedDayService.cs",
+    "line_number": 449,
+    "condition": "dto.ForAllGroup && !dto.TrainingGroupId.HasValue",
+    "service_name": "child-service",
+    "document_type": "childmissedday",
+    "class_name": "ChildMissedDayService"
+  },
+  {
+    "error_message": "Бошланиш санаси ва тугаш санасини танланг / Выберите дату начало и дату окончания",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMissedDayServices/Concrete/ChildMissedDayService.cs",
+    "line_number": 454,
+    "condition": "dto.StartOn == null || dto.EndOn == null",
+    "service_name": "child-service",
+    "document_type": "childmissedday",
+    "class_name": "ChildMissedDayService"
+  },
+  {
+    "error_message": "Бошланиш санаси тугаш санасидан катта бўла олмайди. [...] > [...] / Дата начало не может быть больше чем даты окончания [...] > [...]",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMissedDayServices/Concrete/ChildMissedDayService.cs",
+    "line_number": 456,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childmissedday",
+    "class_name": "ChildMissedDayService"
+  },
+  {
+    "error_message": "Илтимос жадвалга маълумот қўшинг / Пожалуйста, добавьте данные в таблицу",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMissedDayServices/Concrete/ChildMissedDayService.cs",
+    "line_number": 462,
+    "condition": "dto.Tables == null || dto.Tables.Count == 0",
+    "service_name": "child-service",
+    "document_type": "childmissedday",
+    "class_name": "ChildMissedDayService"
+  },
+  {
+    "error_message": "Гурух топилмади. Id: [...] / Группа Id: [...] не найдена",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMissedDayServices/Concrete/ChildMissedDayService.cs",
+    "line_number": 472,
+    "condition": "trainingGroup == null",
+    "service_name": "child-service",
+    "document_type": "childmissedday",
+    "class_name": "ChildMissedDayService"
+  },
+  {
+    "error_message": "Бошланиш санаси тугаш санасидан катта бўла олмайди. [...] > [...] / Дата начало не может быть больше чем даты окончания. [...] > [...]",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMissedDayServices/Concrete/ChildMissedDayService.cs",
+    "line_number": 490,
+    "condition": "table.StartOn > table.EndOn",
+    "service_name": "child-service",
+    "document_type": "childmissedday",
+    "class_name": "ChildMissedDayService"
+  },
+  {
+    "error_message": "Бола топилмади! ([...]) / Ребенок не найден ([...])",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMissedDayServices/Concrete/ChildMissedDayService.cs",
+    "line_number": 495,
+    "condition": "!children.ContainsKey(table.ChildManageId)",
+    "service_name": "child-service",
+    "document_type": "childmissedday",
+    "class_name": "ChildMissedDayService"
+  },
+  {
+    "error_message": "Бу саналар учун хужжат ҳосил қилинган. Санани текширинг / Для этих дат уже создан документ. Проверьте дату",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMissedDayServices/Concrete/ChildMissedDayService.cs",
+    "line_number": 527,
+    "condition": "childMissedDays > 0",
+    "service_name": "child-service",
+    "document_type": "childmissedday",
+    "class_name": "ChildMissedDayService"
+  },
+  {
+    "error_message": "Бу саналар ҳамда гуруҳ  учун хужжат ҳосил қилинган. Сана ва гуруҳни текширинг / Для этих дат и для этой группы уже создан документ. Проверьте дату и группу new",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMissedDayServices/Concrete/ChildMissedDayService.cs",
+    "line_number": 546,
+    "condition": "childMissedDays > 0",
+    "service_name": "child-service",
+    "document_type": "childmissedday",
+    "class_name": "ChildMissedDayService"
+  },
+  {
+    "error_message": "Ушбу бола учун хужжат ҳосил қилинган / Для этого ребёнка был создан документ",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMissedDayServices/Concrete/ChildMissedDayService.cs",
+    "line_number": 579,
+    "condition": "await childMissedDays.AnyAsync(cancellationToken: cancellationToken) && (await childMissedDays.CountAsync(cancellationToken: cancellationToken)) > 0",
+    "service_name": "child-service",
+    "document_type": "childmissedday",
+    "class_name": "ChildMissedDayService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMovementServices/Concrete/ChildMovementService.cs",
+    "line_number": 135,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childmovement",
+    "class_name": "ChildMovementService"
+  },
+  {
+    "error_message": "Хужжат асосида табель яратилган  № [...] от [...]. Болалар ФИОси: {string.Join(",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMovementServices/Concrete/ChildMovementService.cs",
+    "line_number": 155,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childmovement",
+    "class_name": "ChildMovementService"
+  },
+  {
+    "error_message": "ChildManageId =",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMovementServices/Concrete/ChildMovementService.cs",
+    "line_number": 177,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childmovement",
+    "class_name": "ChildMovementService"
+  },
+  {
+    "error_message": "[...] бола топилмади.! / [...] Ребенок не найден",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMovementServices/Concrete/ChildMovementService.cs",
+    "line_number": 183,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childmovement",
+    "class_name": "ChildMovementService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMovementServices/Concrete/ChildMovementService.cs",
+    "line_number": 260,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childmovement",
+    "class_name": "ChildMovementService"
+  },
+  {
+    "error_message": "Бу ҳужжат орқали гуруҳлараро кўчиши ҳужжати мавжуд.Ҳужжат Ид: [...]",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMovementServices/Concrete/ChildMovementService.cs",
+    "line_number": 276,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childmovement",
+    "class_name": "ChildMovementService"
+  },
+  {
+    "error_message": "[...] бола топилмади.! / [...] Ребенок не найден",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMovementServices/Concrete/ChildMovementService.cs",
+    "line_number": 290,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childmovement",
+    "class_name": "ChildMovementService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMovementServices/Concrete/ChildMovementService.cs",
+    "line_number": 315,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childmovement",
+    "class_name": "ChildMovementService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMovementServices/Concrete/ChildMovementService.cs",
+    "line_number": 357,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childmovement",
+    "class_name": "ChildMovementService"
+  },
+  {
+    "error_message": "Бу [...] рақамли ҳужжат бор / Документ с этим кодом [...] уже существует",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMovementServices/Concrete/ChildMovementService.cs",
+    "line_number": 361,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childmovement",
+    "class_name": "ChildMovementService"
+  },
+  {
+    "error_message": "Илтимос жадвалга маълумот қўшинг / Пожалуйста, добавьте данные в таблицу",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMovementServices/Concrete/ChildMovementService.cs",
+    "line_number": 364,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childmovement",
+    "class_name": "ChildMovementService"
+  },
+  {
+    "error_message": "Бир бола икки маротаба такрорланган / Вы не можете добавить одного ребенка два раза",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMovementServices/Concrete/ChildMovementService.cs",
+    "line_number": 367,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childmovement",
+    "class_name": "ChildMovementService"
+  },
+  {
+    "error_message": "Гуруҳ топилмади / Группа не найдено",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMovementServices/Concrete/ChildMovementService.cs",
+    "line_number": 373,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childmovement",
+    "class_name": "ChildMovementService"
+  },
+  {
+    "error_message": "Сиз 'Академик лицей' учун 'Ижарада' танлай олмайсиз. Гуруҳни текширинг / Вы не можете выбрать 'Арендует жилье' для не 'Академического лицея'. Проверьте группу",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMovementServices/Concrete/ChildMovementService.cs",
+    "line_number": 380,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childmovement",
+    "class_name": "ChildMovementService"
+  },
+  {
+    "error_message": "Сиз 'Академик лицей' учун 'Тўловдан озод қилинган' танлай олмайсиз. Гуруҳни текширинг / Вы не можете выбрать 'Освобожден от платы' для 'Академического лицея'. Проверьте группу",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMovementServices/Concrete/ChildMovementService.cs",
+    "line_number": 385,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childmovement",
+    "class_name": "ChildMovementService"
+  },
+  {
+    "error_message": "Сиз 'Бир боладан ортиқ' танлай олмайсиз. Гуруҳни текширинг / Вы не можете выбрать 'Более одного ребёнка'. Проверьте группу",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMovementServices/Concrete/ChildMovementService.cs",
+    "line_number": 394,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childmovement",
+    "class_name": "ChildMovementService"
+  },
+  {
+    "error_message": "[...] [...] [...]",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMovementServices/Concrete/ChildMovementService.cs",
+    "line_number": 466,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childmovement",
+    "class_name": "ChildMovementService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMovementServices/Concrete/ChildMovementService.cs",
+    "line_number": 482,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, dldto.StatusId)",
+    "service_name": "child-service",
+    "document_type": "childmovement",
+    "class_name": "ChildMovementService"
+  },
+  {
+    "error_message": "Хужжат асосида табель яратилган  № [...] от [...]. Болалар ФИОси: {string.Join(",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMovementServices/Concrete/ChildMovementService.cs",
+    "line_number": 502,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childmovement",
+    "class_name": "ChildMovementService"
+  },
+  {
+    "error_message": "ChildManageId =",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMovementServices/Concrete/ChildMovementService.cs",
+    "line_number": 524,
+    "condition": "childManageDto == null",
+    "service_name": "child-service",
+    "document_type": "childmovement",
+    "class_name": "ChildMovementService"
+  },
+  {
+    "error_message": "[...] бола топилмади.! / [...] Ребенок не найден",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMovementServices/Concrete/ChildMovementService.cs",
+    "line_number": 530,
+    "condition": "childMovmentDto == null",
+    "service_name": "child-service",
+    "document_type": "childmovement",
+    "class_name": "ChildMovementService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMovementServices/Concrete/ChildMovementService.cs",
+    "line_number": 616,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, statusDto.StatusId)",
+    "service_name": "child-service",
+    "document_type": "childmovement",
+    "class_name": "ChildMovementService"
+  },
+  {
+    "error_message": "Бу ҳужжат орқали гуруҳлараро кўчиши ҳужжати мавжуд.Ҳужжат Ид: [...]",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMovementServices/Concrete/ChildMovementService.cs",
+    "line_number": 633,
+    "condition": "childManage is not null && (childManage.EndDocId.HasValue && childManage.EndOn.HasValue && childManage.EndTableId.HasValue && !childManage.IsDelete)",
+    "service_name": "child-service",
+    "document_type": "childmovement",
+    "class_name": "ChildMovementService"
+  },
+  {
+    "error_message": "[...] бола топилмади.! / [...] Ребенок не найден",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMovementServices/Concrete/ChildMovementService.cs",
+    "line_number": 647,
+    "condition": "childManageDto == null",
+    "service_name": "child-service",
+    "document_type": "childmovement",
+    "class_name": "ChildMovementService"
+  },
+  {
+    "error_message": "[...] [...] [...]",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMovementServices/Concrete/ChildMovementService.cs",
+    "line_number": 702,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childmovement",
+    "class_name": "ChildMovementService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMovementServices/Concrete/ChildMovementService.cs",
+    "line_number": 716,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, dto.StatusId)",
+    "service_name": "child-service",
+    "document_type": "childmovement",
+    "class_name": "ChildMovementService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMovementServices/Concrete/ChildMovementService.cs",
+    "line_number": 755,
+    "condition": "!StatusIdConst.CanModifyStatus.Contains(entity.StatusId)",
+    "service_name": "child-service",
+    "document_type": "childmovement",
+    "class_name": "ChildMovementService"
+  },
+  {
+    "error_message": "Бу [...] рақамли ҳужжат бор / Документ с этим кодом [...] уже существует",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMovementServices/Concrete/ChildMovementService.cs",
+    "line_number": 759,
+    "condition": "await query.ByDocNumber(dto.DocNumber, dto.DocOn.Year).AnyAsync(cancellationToken: cancellationToken)",
+    "service_name": "child-service",
+    "document_type": "childmovement",
+    "class_name": "ChildMovementService"
+  },
+  {
+    "error_message": "Илтимос жадвалга маълумот қўшинг / Пожалуйста, добавьте данные в таблицу",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMovementServices/Concrete/ChildMovementService.cs",
+    "line_number": 762,
+    "condition": "dto.Tables == null || dto.Tables.Count == 0",
+    "service_name": "child-service",
+    "document_type": "childmovement",
+    "class_name": "ChildMovementService"
+  },
+  {
+    "error_message": "Бир бола икки маротаба такрорланган / Вы не можете добавить одного ребенка два раза",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMovementServices/Concrete/ChildMovementService.cs",
+    "line_number": 765,
+    "condition": "dto.Tables.Select(a => a.OldChildManageId).Distinct().Count() != dto.Tables.Select(a => a.OldChildManageId).Count()",
+    "service_name": "child-service",
+    "document_type": "childmovement",
+    "class_name": "ChildMovementService"
+  },
+  {
+    "error_message": "Гуруҳ топилмади / Группа не найдено",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMovementServices/Concrete/ChildMovementService.cs",
+    "line_number": 771,
+    "condition": "trainingGroup == null",
+    "service_name": "child-service",
+    "document_type": "childmovement",
+    "class_name": "ChildMovementService"
+  },
+  {
+    "error_message": "Сиз 'Академик лицей' учун 'Ижарада' танлай олмайсиз. Гуруҳни текширинг / Вы не можете выбрать 'Арендует жилье' для не 'Академического лицея'. Проверьте группу",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMovementServices/Concrete/ChildMovementService.cs",
+    "line_number": 778,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childmovement",
+    "class_name": "ChildMovementService"
+  },
+  {
+    "error_message": "Сиз 'Академик лицей' учун 'Тўловдан озод қилинган' танлай олмайсиз. Гуруҳни текширинг / Вы не можете выбрать 'Освобожден от платы' для 'Академического лицея'. Проверьте группу",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMovementServices/Concrete/ChildMovementService.cs",
+    "line_number": 783,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childmovement",
+    "class_name": "ChildMovementService"
+  },
+  {
+    "error_message": "Сиз 'Бир боладан ортиқ' танлай олмайсиз. Гуруҳни текширинг / Вы не можете выбрать 'Более одного ребёнка'. Проверьте группу",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildMovementServices/Concrete/ChildMovementService.cs",
+    "line_number": 792,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childmovement",
+    "class_name": "ChildMovementService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildTimesheetServices/Concrete/ChildTimesheetService.cs",
+    "line_number": 229,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childtimesheet",
+    "class_name": "ChildTimesheetService"
+  },
+  {
+    "error_message": "Филе топилмади.",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildTimesheetServices/Concrete/ChildTimesheetService.cs",
+    "line_number": 251,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childtimesheet",
+    "class_name": "ChildTimesheetService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildTimesheetServices/Concrete/ChildTimesheetService.cs",
+    "line_number": 462,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childtimesheet",
+    "class_name": "ChildTimesheetService"
+  },
+  {
+    "error_message": "Бу [...] рақамли ҳужжат бор / Документ с этим кодом [...] уже существует",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildTimesheetServices/Concrete/ChildTimesheetService.cs",
+    "line_number": 466,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childtimesheet",
+    "class_name": "ChildTimesheetService"
+  },
+  {
+    "error_message": "Илтимос, жадвалга маълумот қўшинг / Пожалуйста, добавьте данные в таблицу",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildTimesheetServices/Concrete/ChildTimesheetService.cs",
+    "line_number": 469,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childtimesheet",
+    "class_name": "ChildTimesheetService"
+  },
+  {
+    "error_message": "ШҒҲ ни текширинг Id: [...] / Провеьте ЛС. Id: [...]",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildTimesheetServices/Concrete/ChildTimesheetService.cs",
+    "line_number": 475,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childtimesheet",
+    "class_name": "ChildTimesheetService"
+  },
+  {
+    "error_message": "Нотўғри субсчет танланган. Счет {string.Join(",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildTimesheetServices/Concrete/ChildTimesheetService.cs",
+    "line_number": 477,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childtimesheet",
+    "class_name": "ChildTimesheetService"
+  },
+  {
+    "error_message": "Болаларнинг кечроқ сана билан кўчиши билан боғлиқ хужжат мавжуд / Имеются документы перемещения детей с более поздней датой",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildTimesheetServices/Concrete/ChildTimesheetService.cs",
+    "line_number": 485,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childtimesheet",
+    "class_name": "ChildTimesheetService"
+  },
+  {
+    "error_message": "Аввал ўтган ой учун тузилган табелларни Провести тугмаси ёрдамида тасдиқлаб олинг / Сначала проведите табеля за прошлый месяц с помощью кнопки",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildTimesheetServices/Concrete/ChildTimesheetService.cs",
+    "line_number": 495,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childtimesheet",
+    "class_name": "ChildTimesheetService"
+  },
+  {
+    "error_message": "Кейинги ойларда болаларнинг давомат ҳисоби бўйича табеллар тузилган / В последующих месяцах составлены табели учета посещаемости детей",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildTimesheetServices/Concrete/ChildTimesheetService.cs",
+    "line_number": 504,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childtimesheet",
+    "class_name": "ChildTimesheetService"
+  },
+  {
+    "error_message": "Олдиндан толов табели яратилган / Предварительный табель уже создан",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildTimesheetServices/Concrete/ChildTimesheetService.cs",
+    "line_number": 513,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childtimesheet",
+    "class_name": "ChildTimesheetService"
+  },
+  {
+    "error_message": "Якуний толов табели яратилган / Окончательный табель уже создан",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildTimesheetServices/Concrete/ChildTimesheetService.cs",
+    "line_number": 522,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childtimesheet",
+    "class_name": "ChildTimesheetService"
+  },
+  {
+    "error_message": "ШҒХ текширинг / Проверьте ЛС",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildTimesheetServices/Concrete/ChildTimesheetService.cs",
+    "line_number": 533,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childtimesheet",
+    "class_name": "ChildTimesheetService"
+  },
+  {
+    "error_message": "кредит субсчет текширинг / Проверьте кредит субсчет",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildTimesheetServices/Concrete/ChildTimesheetService.cs",
+    "line_number": 539,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childtimesheet",
+    "class_name": "ChildTimesheetService"
+  },
+  {
+    "error_message": "ШҒХ ва кредит субсчет мос эмас / ЛС и кредит субсчет не подходит",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildTimesheetServices/Concrete/ChildTimesheetService.cs",
+    "line_number": 561,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childtimesheet",
+    "class_name": "ChildTimesheetService"
+  },
+  {
+    "error_message": "Guruh topilmadi. Id: [...]",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildTimesheetServices/Concrete/ChildTimesheetService.cs",
+    "line_number": 568,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childtimesheet",
+    "class_name": "ChildTimesheetService"
+  },
+  {
+    "error_message": "Бола 2 ёшдан кичик. ФИО: [...] / Ребенку меньше 2 лет. ФИО : [...]",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildTimesheetServices/Concrete/ChildTimesheetService.cs",
+    "line_number": 579,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childtimesheet",
+    "class_name": "ChildTimesheetService"
+  },
+  {
+    "error_message": "Жадвални тўлдириш имконияти йўқ. Илтимос аввал жадвални тозаланг / Невозможно заполнить документ. Пожалуйста, сначала очистите таблицу",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildTimesheetServices/Concrete/ChildTimesheetService.cs",
+    "line_number": 597,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childtimesheet",
+    "class_name": "ChildTimesheetService"
+  },
+  {
+    "error_message": "Id: [...] Гуруҳ  топилмади / Группа не найдено. Id: [...]",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildTimesheetServices/Concrete/ChildTimesheetService.cs",
+    "line_number": 623,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childtimesheet",
+    "class_name": "ChildTimesheetService"
+  },
+  {
+    "error_message": "Ташкилот учун МФЙ танланмаган / Для организации не выбрано СГМ",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildTimesheetServices/Concrete/ChildTimesheetService.cs",
+    "line_number": 951,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childtimesheet",
+    "class_name": "ChildTimesheetService"
+  },
+  {
+    "error_message": "Сиз танлаган група ёки давр оралигида боллар топилмади, илтимос група ва давр оралиғини қайта текширинг.",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildTimesheetServices/Concrete/ChildTimesheetService.cs",
+    "line_number": 997,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childtimesheet",
+    "class_name": "ChildTimesheetService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildTimesheetServices/Concrete/ChildTimesheetService.cs",
+    "line_number": 1034,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childtimesheet",
+    "class_name": "ChildTimesheetService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildTimesheetServices/Concrete/ChildTimesheetService.cs",
+    "line_number": 1268,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, dto.StatusId)",
+    "service_name": "child-service",
+    "document_type": "childtimesheet",
+    "class_name": "ChildTimesheetService"
+  },
+  {
+    "error_message": "Жадвални тўлдириш имконияти йўқ. Илтимос аввал жадвални тозаланг / Невозможно заполнить документ. Пожалуйста, сначала очистите таблицу",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildTimesheetServices/Concrete/ChildTimesheetService.cs",
+    "line_number": 1283,
+    "condition": "entityDto.Tables.Count > 0",
+    "service_name": "child-service",
+    "document_type": "childtimesheet",
+    "class_name": "ChildTimesheetService"
+  },
+  {
+    "error_message": "Id: [...] Гуруҳ  топилмади / Группа не найдено. Id: [...]",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildTimesheetServices/Concrete/ChildTimesheetService.cs",
+    "line_number": 1309,
+    "condition": "workScheduleKindId == null",
+    "service_name": "child-service",
+    "document_type": "childtimesheet",
+    "class_name": "ChildTimesheetService"
+  },
+  {
+    "error_message": "Ташкилот учун МФЙ танланмаган / Для организации не выбрано СГМ",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildTimesheetServices/Concrete/ChildTimesheetService.cs",
+    "line_number": 1642,
+    "condition": "mfy == null",
+    "service_name": "child-service",
+    "document_type": "childtimesheet",
+    "class_name": "ChildTimesheetService"
+  },
+  {
+    "error_message": "Сиз танлаган група ёки давр оралигида боллар топилмади, илтимос група ва давр оралиғини қайта текширинг.",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildTimesheetServices/Concrete/ChildTimesheetService.cs",
+    "line_number": 1688,
+    "condition": "dto.Tables == null || dto.Tables.Count == 0",
+    "service_name": "child-service",
+    "document_type": "childtimesheet",
+    "class_name": "ChildTimesheetService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildTimesheetServices/Concrete/ChildTimesheetService.cs",
+    "line_number": 1724,
+    "condition": "!StatusIdConst.CanModifyStatus.Contains(ent.StatusId)",
+    "service_name": "child-service",
+    "document_type": "childtimesheet",
+    "class_name": "ChildTimesheetService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildTimesheetServices/Concrete/ChildTimesheetService.cs",
+    "line_number": 1780,
+    "condition": "!StatusIdConst.CanModifyStatus.Contains(entity.StatusId)",
+    "service_name": "child-service",
+    "document_type": "childtimesheet",
+    "class_name": "ChildTimesheetService"
+  },
+  {
+    "error_message": "Бу [...] рақамли ҳужжат бор / Документ с этим кодом [...] уже существует",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildTimesheetServices/Concrete/ChildTimesheetService.cs",
+    "line_number": 1784,
+    "condition": "await query.ByDocNumber(dto.DocNumber, dto.DocOn.Year).AnyAsync(cancellationToken: cancellationToken)",
+    "service_name": "child-service",
+    "document_type": "childtimesheet",
+    "class_name": "ChildTimesheetService"
+  },
+  {
+    "error_message": "Илтимос, жадвалга маълумот қўшинг / Пожалуйста, добавьте данные в таблицу",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildTimesheetServices/Concrete/ChildTimesheetService.cs",
+    "line_number": 1787,
+    "condition": "dto.Tables == null || dto.Tables.Count == 0",
+    "service_name": "child-service",
+    "document_type": "childtimesheet",
+    "class_name": "ChildTimesheetService"
+  },
+  {
+    "error_message": "ШҒҲ ни текширинг Id: [...] / Провеьте ЛС. Id: [...]",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildTimesheetServices/Concrete/ChildTimesheetService.cs",
+    "line_number": 1793,
+    "condition": "string.IsNullOrEmpty(orgSettlementAccount)",
+    "service_name": "child-service",
+    "document_type": "childtimesheet",
+    "class_name": "ChildTimesheetService"
+  },
+  {
+    "error_message": "Нотўғри субсчет танланган. Счет {string.Join(",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildTimesheetServices/Concrete/ChildTimesheetService.cs",
+    "line_number": 1795,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childtimesheet",
+    "class_name": "ChildTimesheetService"
+  },
+  {
+    "error_message": "Болаларнинг кечроқ сана билан кўчиши билан боғлиқ хужжат мавжуд / Имеются документы перемещения детей с более поздней датой",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildTimesheetServices/Concrete/ChildTimesheetService.cs",
+    "line_number": 1803,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childtimesheet",
+    "class_name": "ChildTimesheetService"
+  },
+  {
+    "error_message": "Аввал ўтган ой учун тузилган табелларни Провести тугмаси ёрдамида тасдиқлаб олинг / Сначала проведите табеля за прошлый месяц с помощью кнопки",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildTimesheetServices/Concrete/ChildTimesheetService.cs",
+    "line_number": 1813,
+    "condition": "childTimeSheet > 0",
+    "service_name": "child-service",
+    "document_type": "childtimesheet",
+    "class_name": "ChildTimesheetService"
+  },
+  {
+    "error_message": "Кейинги ойларда болаларнинг давомат ҳисоби бўйича табеллар тузилган / В последующих месяцах составлены табели учета посещаемости детей",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildTimesheetServices/Concrete/ChildTimesheetService.cs",
+    "line_number": 1822,
+    "condition": "childTimeSheet > 0",
+    "service_name": "child-service",
+    "document_type": "childtimesheet",
+    "class_name": "ChildTimesheetService"
+  },
+  {
+    "error_message": "Олдиндан толов табели яратилган / Предварительный табель уже создан",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildTimesheetServices/Concrete/ChildTimesheetService.cs",
+    "line_number": 1831,
+    "condition": "childTimeSheet > 0",
+    "service_name": "child-service",
+    "document_type": "childtimesheet",
+    "class_name": "ChildTimesheetService"
+  },
+  {
+    "error_message": "Якуний толов табели яратилган / Окончательный табель уже создан",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildTimesheetServices/Concrete/ChildTimesheetService.cs",
+    "line_number": 1840,
+    "condition": "childTimeSheet > 0",
+    "service_name": "child-service",
+    "document_type": "childtimesheet",
+    "class_name": "ChildTimesheetService"
+  },
+  {
+    "error_message": "ШҒХ текширинг / Проверьте ЛС",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildTimesheetServices/Concrete/ChildTimesheetService.cs",
+    "line_number": 1851,
+    "condition": "string.IsNullOrEmpty(orgSettlementAccountCode) || orgSettlementAccountCode.Length < 4",
+    "service_name": "child-service",
+    "document_type": "childtimesheet",
+    "class_name": "ChildTimesheetService"
+  },
+  {
+    "error_message": "кредит субсчет текширинг / Проверьте кредит субсчет",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildTimesheetServices/Concrete/ChildTimesheetService.cs",
+    "line_number": 1857,
+    "condition": "crSubAcc == null",
+    "service_name": "child-service",
+    "document_type": "childtimesheet",
+    "class_name": "ChildTimesheetService"
+  },
+  {
+    "error_message": "ШҒХ ва кредит субсчет мос эмас / ЛС и кредит субсчет не подходит",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildTimesheetServices/Concrete/ChildTimesheetService.cs",
+    "line_number": 1879,
+    "condition": "!accId.HasValue || crSubAcc.AccountPlanId != accId",
+    "service_name": "child-service",
+    "document_type": "childtimesheet",
+    "class_name": "ChildTimesheetService"
+  },
+  {
+    "error_message": "Guruh topilmadi. Id: [...]",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildTimesheetServices/Concrete/ChildTimesheetService.cs",
+    "line_number": 1886,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childtimesheet",
+    "class_name": "ChildTimesheetService"
+  },
+  {
+    "error_message": "Бола 2 ёшдан кичик. ФИО: [...] / Ребенку меньше 2 лет. ФИО : [...]",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildTimesheetServices/Concrete/ChildTimesheetService.cs",
+    "line_number": 1897,
+    "condition": "child.ChildPerson.BirthOn.AddYears(2) > dto.DocOn",
+    "service_name": "child-service",
+    "document_type": "childtimesheet",
+    "class_name": "ChildTimesheetService"
+  },
+  {
+    "error_message": "Филе топилмади.",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Doc/ChildTimesheetServices/Concrete/ChildTimesheetService.cs",
+    "line_number": 1939,
+    "condition": "template is null",
+    "service_name": "child-service",
+    "document_type": "childtimesheet",
+    "class_name": "ChildTimesheetService"
+  },
+  {
+    "error_message": "(Hujjat raqam, Hujjat seriya, tug'ilgan sana) yoki Pinfl  orqali qidirish imkoni bor.",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/HL/ChildPersonServices/Concrete/ChildPersonService.cs",
+    "line_number": 51,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childperson",
+    "class_name": "ChildPersonService"
+  },
+  {
+    "error_message": "[...] топилмади / [...] не найден",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/HL/ChildPersonServices/Concrete/ChildPersonService.cs",
+    "line_number": 73,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childperson",
+    "class_name": "ChildPersonService"
+  },
+  {
+    "error_message": "Киритилган маълумот бўйича маълумот топилмади !",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/HL/ChildPersonServices/Concrete/ChildPersonService.cs",
+    "line_number": 107,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childperson",
+    "class_name": "ChildPersonService"
+  },
+  {
+    "error_message": "ГСП тизимидан маълумот топилмади !",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/HL/ChildPersonServices/Concrete/ChildPersonService.cs",
+    "line_number": 252,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childperson",
+    "class_name": "ChildPersonService"
+  },
+  {
+    "error_message": "ГСП тизимидан маълумот хато келди !",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/HL/ChildPersonServices/Concrete/ChildPersonService.cs",
+    "line_number": 257,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childperson",
+    "class_name": "ChildPersonService"
+  },
+  {
+    "error_message": "ГСП тизимидан маълумот топилмади !",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/HL/ChildPersonServices/Concrete/ChildPersonService.cs",
+    "line_number": 288,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childperson",
+    "class_name": "ChildPersonService"
+  },
+  {
+    "error_message": "ГСП тизимидан маълумот хато келди !",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/HL/ChildPersonServices/Concrete/ChildPersonService.cs",
+    "line_number": 294,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childperson",
+    "class_name": "ChildPersonService"
+  },
+  {
+    "error_message": "Ушбу идга эга ЧилдПерсон мавжуд эмас: [...]",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/HL/ChildPersonServices/Concrete/ChildPersonService.cs",
+    "line_number": 436,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childperson",
+    "class_name": "ChildPersonService"
+  },
+  {
+    "error_message": "Ушбу ПИНФЛга эга бошқа ЧилдПерсон мавжуд: [...]",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/HL/ChildPersonServices/Concrete/ChildPersonService.cs",
+    "line_number": 443,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childperson",
+    "class_name": "ChildPersonService"
+  },
+  {
+    "error_message": "Child Person bo'yicha o'zgartirish faqat adimlar orqali amalga oshiriladi.",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/HL/ChildPersonServices/Concrete/ChildPersonService.cs",
+    "line_number": 459,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childperson",
+    "class_name": "ChildPersonService"
+  },
+  {
+    "error_message": "Бу [...] пинфл қуйдаги болага боғланган.",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/HL/ChildPersonServices/Concrete/ChildPersonService.cs",
+    "line_number": 519,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childperson",
+    "class_name": "ChildPersonService"
+  },
+  {
+    "error_message": "Ушбу бола ва тизимдаги киритилган бошқа бола маълумотларига мос тушмоқда, адлия тизимидан бола маълумотларини қайта текширинг.",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/HL/ChildPersonServices/Concrete/ChildPersonService.cs",
+    "line_number": 541,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childperson",
+    "class_name": "ChildPersonService"
+  },
+  {
+    "error_message": "Ушбу бола ва тизимдаги киритилган бошқа бола маълумотларига мос тушмоқда, адлия тизимидан бола маълумотларини қайта текширинг.",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/HL/ChildPersonServices/Concrete/ChildPersonService.cs",
+    "line_number": 559,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childperson",
+    "class_name": "ChildPersonService"
+  },
+  {
+    "error_message": "(Hujjat raqam, Hujjat seriya, tug'ilgan sana) yoki Pinfl  orqali qidirish imkoni bor.",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/HL/ChildPersonServices/Concrete/ChildPersonService.cs",
+    "line_number": 574,
+    "condition": "(dto.DocSeria is null || dto.DocNumber is null || dto.BirthOn is null) && (string.IsNullOrEmpty(dto.Pinfl) || dto.Pinfl.Length != 14)",
+    "service_name": "child-service",
+    "document_type": "childperson",
+    "class_name": "ChildPersonService"
+  },
+  {
+    "error_message": "Киритилган маълумот бўйича маълумот топилмади !",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/HL/ChildPersonServices/Concrete/ChildPersonService.cs",
+    "line_number": 617,
+    "condition": "imvGatewayChild == null && imvGatewayChild.ResultCode == 11",
+    "service_name": "child-service",
+    "document_type": "childperson",
+    "class_name": "ChildPersonService"
+  },
+  {
+    "error_message": "ГСП тизимидан маълумот топилмади !",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/HL/ChildPersonServices/Concrete/ChildPersonService.cs",
+    "line_number": 762,
+    "condition": "!imvGatewayChild.IsSuccess",
+    "service_name": "child-service",
+    "document_type": "childperson",
+    "class_name": "ChildPersonService"
+  },
+  {
+    "error_message": "ГСП тизимидан маълумот хато келди !",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/HL/ChildPersonServices/Concrete/ChildPersonService.cs",
+    "line_number": 774,
+    "condition": "String.IsNullOrEmpty(imvGatewayChild.Data.FirstData.birthDate",
+    "service_name": "child-service",
+    "document_type": "childperson",
+    "class_name": "ChildPersonService"
+  },
+  {
+    "error_message": "ГСП тизимидан маълумот топилмади !",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/HL/ChildPersonServices/Concrete/ChildPersonService.cs",
+    "line_number": 805,
+    "condition": "!imvGatewayPersonresult.IsSuccess",
+    "service_name": "child-service",
+    "document_type": "childperson",
+    "class_name": "ChildPersonService"
+  },
+  {
+    "error_message": "ГСП тизимидан маълумот хато келди !",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/HL/ChildPersonServices/Concrete/ChildPersonService.cs",
+    "line_number": 819,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childperson",
+    "class_name": "ChildPersonService"
+  },
+  {
+    "error_message": "[...] топилмади / [...] не найден",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/HL/ChildPersonServices/Concrete/ChildPersonService.cs",
+    "line_number": 965,
+    "condition": "dto == null",
+    "service_name": "child-service",
+    "document_type": "childperson",
+    "class_name": "ChildPersonService"
+  },
+  {
+    "error_message": "Ушбу идга эга ЧилдПерсон мавжуд эмас: [...]",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/HL/ChildPersonServices/Concrete/ChildPersonService.cs",
+    "line_number": 996,
+    "condition": "person is null",
+    "service_name": "child-service",
+    "document_type": "childperson",
+    "class_name": "ChildPersonService"
+  },
+  {
+    "error_message": "Ушбу ПИНФЛга эга бошқа ЧилдПерсон мавжуд: [...]",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/HL/ChildPersonServices/Concrete/ChildPersonService.cs",
+    "line_number": 1003,
+    "condition": "await _repository.AllAsQueryable.AnyAsync(a => a.Pinfl == dto.Pinfl && a.Id != person.Id, cancellationToken: cancellationToken)",
+    "service_name": "child-service",
+    "document_type": "childperson",
+    "class_name": "ChildPersonService"
+  },
+  {
+    "error_message": "Child Person bo'yicha o'zgartirish faqat adimlar orqali amalga oshiriladi.",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/HL/ChildPersonServices/Concrete/ChildPersonService.cs",
+    "line_number": 1019,
+    "condition": "IsValid",
+    "service_name": "child-service",
+    "document_type": "childperson",
+    "class_name": "ChildPersonService"
+  },
+  {
+    "error_message": "Бу [...] пинфл қуйдаги болага боғланган.",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/HL/ChildPersonServices/Concrete/ChildPersonService.cs",
+    "line_number": 1044,
+    "condition": "exsistChild is not null",
+    "service_name": "child-service",
+    "document_type": "childperson",
+    "class_name": "ChildPersonService"
+  },
+  {
+    "error_message": "Ушбу бола ва тизимдаги киритилган бошқа бола маълумотларига мос тушмоқда, адлия тизимидан бола маълумотларини қайта текширинг.",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/HL/ChildPersonServices/Concrete/ChildPersonService.cs",
+    "line_number": 1066,
+    "condition": "duplicatesFullNameBirthDate is not null",
+    "service_name": "child-service",
+    "document_type": "childperson",
+    "class_name": "ChildPersonService"
+  },
+  {
+    "error_message": "Ушбу бола ва тизимдаги киритилган бошқа бола маълумотларига мос тушмоқда, адлия тизимидан бола маълумотларини қайта текширинг.",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/HL/ChildPersonServices/Concrete/ChildPersonService.cs",
+    "line_number": 1084,
+    "condition": "duplicatSeriaNumber is not null",
+    "service_name": "child-service",
+    "document_type": "childperson",
+    "class_name": "ChildPersonService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности [...] [...]",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/HL/ChildServices/Concrete/ChildService.cs",
+    "line_number": 132,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "child",
+    "class_name": "ChildService"
+  },
+  {
+    "error_message": "Бу СТИР ([...]) билан маълумот мавжуд / Запись с этим ИНН ([...]) уже существует.",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/HL/ChildServices/Concrete/ChildService.cs",
+    "line_number": 146,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "child",
+    "class_name": "ChildService"
+  },
+  {
+    "error_message": "Бу амалиёт бажарилиш жараёнда :бошланган вақти [...]",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/HL/ChildServices/Concrete/ChildService.cs",
+    "line_number": 315,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "child",
+    "class_name": "ChildService"
+  },
+  {
+    "error_message": "Сиз Академик лицей учун Ижарада танлай олмайсиз. Гуруҳни текширинг / Вы не сможете выбрать 'Аренду жилья' для 'Академический лицей'. Проверьте группу : [...]",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/HL/ChildServices/Concrete/ChildService.cs",
+    "line_number": 703,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "child",
+    "class_name": "ChildService"
+  },
+  {
+    "error_message": "Сиз 'Академик лицей' учун 'Тўловдан озод қилинган' танлай олмайсиз. Гуруҳни текширинг / Вы не сможете выбрать 'Освобожден от уплаты' для 'Академический лицей'. Проверьте группу: [...]",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/HL/ChildServices/Concrete/ChildService.cs",
+    "line_number": 708,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "child",
+    "class_name": "ChildService"
+  },
+  {
+    "error_message": "Сиз 'Бир боладан ортиқ' танлай олмайсиз. Гуруҳни текширинг / Вы не сможете выбрать 'Больше одного ребенка'. Проверьте группу [...] {string.Join(",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/HL/ChildServices/Concrete/ChildService.cs",
+    "line_number": 717,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "child",
+    "class_name": "ChildService"
+  },
+  {
+    "error_message": "[...] аввал қабул қилинган / [...] раньше принимался принималась",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/HL/ChildServices/Concrete/ChildService.cs",
+    "line_number": 730,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "child",
+    "class_name": "ChildService"
+  },
+  {
+    "error_message": "Бир болани 2 марта қўша олмайсиз / Невозможно дважды добавлять одного ребенка.",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/HL/ChildServices/Concrete/ChildService.cs",
+    "line_number": 734,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "child",
+    "class_name": "ChildService"
+  },
+  {
+    "error_message": "Бола ҳодим бўла олмайди / Ребенок не может быть сотрудником. {string.Join(",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/HL/ChildServices/Concrete/ChildService.cs",
+    "line_number": 741,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "child",
+    "class_name": "ChildService"
+  },
+  {
+    "error_message": "7 ёшдан катта болалар бу гуруҳга қабул қилинмайди / Ребенок больше 7 лет не может быть принят в группу: [...]",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/HL/ChildServices/Concrete/ChildService.cs",
+    "line_number": 747,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "child",
+    "class_name": "ChildService"
+  },
+  {
+    "error_message": "20 ёшдан катта болалар бу гуруҳга қабул қилинмайди / Ребенок больше 20 лет не может быть принят в группу: [...]",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/HL/ChildServices/Concrete/ChildService.cs",
+    "line_number": 750,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "child",
+    "class_name": "ChildService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности [...] [...]",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/HL/ChildServices/Concrete/ChildService.cs",
+    "line_number": 848,
+    "condition": "IsValid",
+    "service_name": "child-service",
+    "document_type": "child",
+    "class_name": "ChildService"
+  },
+  {
+    "error_message": "Бу амалиёт бажарилиш жараёнда :бошланган вақти [...]",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/HL/ChildServices/Concrete/ChildService.cs",
+    "line_number": 1228,
+    "condition": "jobHistory != null && jobHistory.StatusId == StatusIdConst.WAITING",
+    "service_name": "child-service",
+    "document_type": "child",
+    "class_name": "ChildService"
+  },
+  {
+    "error_message": "Бу СТИР ([...]) билан маълумот мавжуд / Запись с этим ИНН ([...]) уже существует.",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/HL/ChildServices/Concrete/ChildService.cs",
+    "line_number": 1433,
+    "condition": "dto.ChildPersonId > 0 && await query.ByChildPerson(dto.ChildPersonId, isIncludePassive: false).AnyAsync(cancellationToken: cancellationToken)",
+    "service_name": "child-service",
+    "document_type": "child",
+    "class_name": "ChildService"
+  },
+  {
+    "error_message": "Сиз Академик лицей учун Ижарада танлай олмайсиз. Гуруҳни текширинг / Вы не сможете выбрать 'Аренду жилья' для 'Академический лицей'. Проверьте группу : [...]",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/HL/ChildServices/Concrete/ChildService.cs",
+    "line_number": 1451,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "child",
+    "class_name": "ChildService"
+  },
+  {
+    "error_message": "Сиз 'Академик лицей' учун 'Тўловдан озод қилинган' танлай олмайсиз. Гуруҳни текширинг / Вы не сможете выбрать 'Освобожден от уплаты' для 'Академический лицей'. Проверьте группу: [...]",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/HL/ChildServices/Concrete/ChildService.cs",
+    "line_number": 1456,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "child",
+    "class_name": "ChildService"
+  },
+  {
+    "error_message": "Сиз 'Бир боладан ортиқ' танлай олмайсиз. Гуруҳни текширинг / Вы не сможете выбрать 'Больше одного ребенка'. Проверьте группу [...] {string.Join(",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/HL/ChildServices/Concrete/ChildService.cs",
+    "line_number": 1465,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "child",
+    "class_name": "ChildService"
+  },
+  {
+    "error_message": "[...] аввал қабул қилинган / [...] раньше принимался принималась",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/HL/ChildServices/Concrete/ChildService.cs",
+    "line_number": 1478,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "child",
+    "class_name": "ChildService"
+  },
+  {
+    "error_message": "Бир болани 2 марта қўша олмайсиз / Невозможно дважды добавлять одного ребенка.",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/HL/ChildServices/Concrete/ChildService.cs",
+    "line_number": 1482,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "child",
+    "class_name": "ChildService"
+  },
+  {
+    "error_message": "Бола ҳодим бўла олмайди / Ребенок не может быть сотрудником. {string.Join(",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/HL/ChildServices/Concrete/ChildService.cs",
+    "line_number": 1489,
+    "condition": "isEmployees.Any()",
+    "service_name": "child-service",
+    "document_type": "child",
+    "class_name": "ChildService"
+  },
+  {
+    "error_message": "7 ёшдан катта болалар бу гуруҳга қабул қилинмайди / Ребенок больше 7 лет не может быть принят в группу: [...]",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/HL/ChildServices/Concrete/ChildService.cs",
+    "line_number": 1495,
+    "condition": "(trainingGroup.ChildGroupTypeId == ChildGroupTypeIdConst.PRE_SCHOOL || trainingGroup.ChildGroupTypeId == ChildGroupTypeIdConst.NURSERY",
+    "service_name": "child-service",
+    "document_type": "child",
+    "class_name": "ChildService"
+  },
+  {
+    "error_message": "20 ёшдан катта болалар бу гуруҳга қабул қилинмайди / Ребенок больше 20 лет не может быть принят в группу: [...]",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/HL/ChildServices/Concrete/ChildService.cs",
+    "line_number": 1498,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "child",
+    "class_name": "ChildService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности [...]",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/HL/TrainingGroupServices/Concrete/TrainingGroupService.cs",
+    "line_number": 78,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "traininggroup",
+    "class_name": "TrainingGroupService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности [...]",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/HL/TrainingGroupServices/Concrete/TrainingGroupService.cs",
+    "line_number": 149,
+    "condition": "IsValid",
+    "service_name": "child-service",
+    "document_type": "traininggroup",
+    "class_name": "TrainingGroupService"
+  },
+  {
+    "error_message": "Сиз бошқа турдаги 'Соат тури' ни  'Мактабгача таълим гуруҳи' учун танлай олмайсиз / Вы не можете выбрать другую 'Тип часов' для 'Дошкольной группы'",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/HL/TrainingGroupServices/Concrete/TrainingGroupService.cs",
+    "line_number": 162,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "traininggroup",
+    "class_name": "TrainingGroupService"
+  },
+  {
+    "error_message": "Сиз бошқа турдаги 'Соат тури' ни  'Мактабгача таълим гуруҳи' учун танлай олмайсиз / Вы не можете выбрать другую 'Тип часов' для 'Дошкольной группы'",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/HL/TrainingGroupServices/Concrete/TrainingGroupService.cs",
+    "line_number": 175,
+    "condition": "dto.ChildGroupTypeId != ChildGroupTypeIdConst.PRE_SCHOOL && dto.ChildHoursTypeId != ChildHoursTypeIdConst._24",
+    "service_name": "child-service",
+    "document_type": "traininggroup",
+    "class_name": "TrainingGroupService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности [...]",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Info/ChildPaymentDiscountServices/Concrete/ChildPaymentDiscountServices.cs",
+    "line_number": 76,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childpaymentdiscounts",
+    "class_name": "ChildPaymentDiscountService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности [...]",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Info/ChildPaymentDiscountServices/Concrete/ChildPaymentDiscountServices.cs",
+    "line_number": 142,
+    "condition": "IsValid",
+    "service_name": "child-service",
+    "document_type": "childpaymentdiscounts",
+    "class_name": "ChildPaymentDiscountService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности [...]",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Info/ChildPriceServices/Concrete/ChildPriceService.cs",
+    "line_number": 79,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childprice",
+    "class_name": "ChildPriceService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности [...]",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Info/ChildPriceServices/Concrete/ChildPriceService.cs",
+    "line_number": 149,
+    "condition": "IsValid",
+    "service_name": "child-service",
+    "document_type": "childprice",
+    "class_name": "ChildPriceService"
+  },
+  {
+    "error_message": "Запись с этим ИНН ([...]) уже существует.",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.BizLayer/Info/ChildPriceServices/Concrete/ChildPriceService.cs",
+    "line_number": 163,
+    "condition": "entity != null",
+    "service_name": "child-service",
+    "document_type": "childprice",
+    "class_name": "ChildPriceService"
+  },
+  {
+    "error_message": "ChildManageId not found ([...])",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.DataLayer.Repository/Doc/ChildLeave/Concrete/ChildLeaveRepository.cs",
+    "line_number": 64,
+    "condition": "!oldChildManage.ContainsKey(table.ChildManageId ?? 0)",
+    "service_name": "child-service",
+    "document_type": "childleave",
+    "class_name": "ChildLeaveRepository"
+  },
+  {
+    "error_message": "ChildManageId not found ([...])",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.DataLayer.Repository/Doc/ChildLeave/Concrete/ChildLeaveRepository.cs",
+    "line_number": 105,
+    "condition": "!oldChildManage.ContainsKey(table.ChildManageId ?? 0)",
+    "service_name": "child-service",
+    "document_type": "childleave",
+    "class_name": "ChildLeaveRepository"
+  },
+  {
+    "error_message": "OldChildManageId not found ([...])",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.DataLayer.Repository/Doc/ChildMovement/Concrete/ChildMovementRepository.cs",
+    "line_number": 64,
+    "condition": "!oldChildManage.ContainsKey(table.OldChildManageId ?? 0)",
+    "service_name": "child-service",
+    "document_type": "childmovement",
+    "class_name": "ChildMovementRepository"
+  },
+  {
+    "error_message": "OldChildManageId not found ([...])",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.DataLayer.Repository/Doc/ChildMovement/Concrete/ChildMovementRepository.cs",
+    "line_number": 105,
+    "condition": "!oldChildManage.ContainsKey(table.OldChildManageId ?? 0)",
+    "service_name": "child-service",
+    "document_type": "childmovement",
+    "class_name": "ChildMovementRepository"
+  },
+  {
+    "error_message": "Запись с этим ИНН ([...]) уже существует.",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.DataLayer.Repository/HL/Child/Concrete/ChildRepository.cs",
+    "line_number": 43,
+    "condition": "entity != null",
+    "service_name": "child-service",
+    "document_type": "child",
+    "class_name": "ChildRepository"
+  },
+  {
+    "error_message": "Запись с этим ИНН ([...]) уже существует.",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.DataLayer.Repository/HL/ChildPerson/Concrete/ChildPersonRepository.cs",
+    "line_number": 30,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childperson",
+    "class_name": "ChildPersonRepository"
+  },
+  {
+    "error_message": "Запись с этим ПИНФЛ ([...]) уже существует.",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.DataLayer.Repository/HL/ChildPerson/Concrete/ChildPersonRepository.cs",
+    "line_number": 33,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childperson",
+    "class_name": "ChildPersonRepository"
+  },
+  {
+    "error_message": "Запись с этим ИНН ([...]) уже существует.",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.DataLayer.Repository/HL/TrainingGroup/Concrete/TrainingGroupRepository.cs",
+    "line_number": 45,
+    "condition": "entity != null",
+    "service_name": "child-service",
+    "document_type": "traininggroup",
+    "class_name": "TrainingGroupRepository"
+  },
+  {
+    "error_message": "Запись с этим ПИНФЛ ([...]) уже существует.",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.DataLayer.Repository/HL/TrainingGroup/Concrete/TrainingGroupRepository.cs",
+    "line_number": 48,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "traininggroup",
+    "class_name": "TrainingGroupRepository"
+  },
+  {
+    "error_message": "Запись с этим ИНН ([...]) уже существует.",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.DataLayer.Repository/Info/ChildPrice/Concrete/ChildPriceRepository.cs",
+    "line_number": 39,
+    "condition": "entity != null",
+    "service_name": "child-service",
+    "document_type": "childprice",
+    "class_name": "ChildPriceRepository"
+  },
+  {
+    "error_message": "Запись не найдено",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.DataLayer.Repository/SYS/ChildManage/Concrete/ChildManageRepository.cs",
+    "line_number": 39,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childmanage",
+    "class_name": "ChildManageRepository"
+  },
+  {
+    "error_message": "Документ заблокирован::",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.DataLayer.Repository/SYS/ChildManage/Concrete/ChildManageRepository.cs",
+    "line_number": 41,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childmanage",
+    "class_name": "ChildManageRepository"
+  },
+  {
+    "error_message": "Дата окончания не может быть меньше даты начала. Дата начала: [...]. Дата окончания: [...]",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.DataLayer.Repository/SYS/ChildManage/Concrete/ChildManageRepository.cs",
+    "line_number": 44,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childmanage",
+    "class_name": "ChildManageRepository"
+  },
+  {
+    "error_message": "Запись не найдено",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.DataLayer.Repository/SYS/ChildManage/Concrete/ChildManageRepository.cs",
+    "line_number": 62,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childmanage",
+    "class_name": "ChildManageRepository"
+  },
+  {
+    "error_message": "Запись не найдено",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.DataLayer.Repository/SYS/ChildManage/Concrete/ChildManageRepository.cs",
+    "line_number": 131,
+    "condition": "entity == null",
+    "service_name": "child-service",
+    "document_type": "childmanage",
+    "class_name": "ChildManageRepository"
+  },
+  {
+    "error_message": "Документ заблокирован::",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.DataLayer.Repository/SYS/ChildManage/Concrete/ChildManageRepository.cs",
+    "line_number": 133,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childmanage",
+    "class_name": "ChildManageRepository"
+  },
+  {
+    "error_message": "Дата окончания не может быть меньше даты начала. Дата начала: [...]. Дата окончания: [...]",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.DataLayer.Repository/SYS/ChildManage/Concrete/ChildManageRepository.cs",
+    "line_number": 136,
+    "condition": "entity != null && entity.StartOn > endOn",
+    "service_name": "child-service",
+    "document_type": "childmanage",
+    "class_name": "ChildManageRepository"
+  },
+  {
+    "error_message": "Запись не найдено",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.DataLayer.Repository/SYS/ChildManage/Concrete/ChildManageRepository.cs",
+    "line_number": 154,
+    "condition": "entity == null",
+    "service_name": "child-service",
+    "document_type": "childmanage",
+    "class_name": "ChildManageRepository"
+  },
+  {
+    "error_message": "[...]+[...]",
+    "file_path": "services/child-service/src/libs/Uzasbo2.Services.Child.DataLayer.Repository/SYS/ChildManage/Concrete/ChildManageRepository.cs",
+    "line_number": 174,
+    "condition": "id != 0",
+    "service_name": "child-service",
+    "document_type": "childmanage",
+    "class_name": "ChildManageRepository"
+  },
+  {
+    "error_message": "Есть незавершенное выполнение документов. Попробуй позже.{jobHistorys.Select(x => x.Table.ShortName +",
+    "file_path": "services/child-service/Uzasbo2.Services.Child.Job.BizLayer/Services/ChildTimesheetJobService.cs",
+    "line_number": 82,
+    "condition": "",
+    "service_name": "child-service",
+    "document_type": "childtimesheetjob",
+    "class_name": "ChildTimesheetJobService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/child-service/Uzasbo2.Shared.BizLayer.Job/Abstractions/DocumentJobService.cs",
+    "line_number": 80,
+    "condition": "!StatusIdConst.CanApplyStatus(entity.StatusId, toStatusId)",
+    "service_name": "child-service",
+    "document_type": "documentjob",
+    "class_name": "DocumentJobService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/child-service/Uzasbo2.Shared.BizLayer.Job/Abstractions/DocumentJobService.cs",
+    "line_number": 175,
+    "condition": "!StatusIdConst.CanApplyStatus(entity.StatusId, toStatusId)",
+    "service_name": "child-service",
+    "document_type": "documentjob",
+    "class_name": "DocumentJobService"
+  }
+]

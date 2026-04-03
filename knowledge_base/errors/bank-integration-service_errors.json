@@ -1,0 +1,83 @@
+[
+  {
+    "error_message": "[...]",
+    "file_path": "services/bank-integration-service/src/libs/Uzasbo2.Services.Bank.Integration.BizLayer/BankSendDocumentIntegrationServices/Concrete/BankSendDocumentIntegrationService.cs",
+    "line_number": 230,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "bank-integration-service",
+    "document_type": "banksenddocumentintegration",
+    "class_name": "BankSendDocumentIntegrationService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "services/bank-integration-service/src/libs/Uzasbo2.Services.Bank.Integration.BizLayer/BankSendDocumentIntegrationServices/Concrete/BankSendDocumentIntegrationService.cs",
+    "line_number": 348,
+    "condition": "",
+    "service_name": "bank-integration-service",
+    "document_type": "banksenddocumentintegration",
+    "class_name": "BankSendDocumentIntegrationService"
+  },
+  {
+    "error_message": "Ответ от банка:",
+    "file_path": "services/bank-integration-service/src/libs/Uzasbo2.Services.Bank.Integration.BizLayer/BankSendDocumentIntegrationServices/Concrete/BankSendDocumentIntegrationService.cs",
+    "line_number": 484,
+    "condition": "",
+    "service_name": "bank-integration-service",
+    "document_type": "banksenddocumentintegration",
+    "class_name": "BankSendDocumentIntegrationService"
+  },
+  {
+    "error_message": "Ответ от банка:",
+    "file_path": "services/bank-integration-service/src/libs/Uzasbo2.Services.Bank.Integration.BizLayer/BankSendDocumentIntegrationServices/Concrete/BankSendDocumentIntegrationService.cs",
+    "line_number": 630,
+    "condition": "",
+    "service_name": "bank-integration-service",
+    "document_type": "banksenddocumentintegration",
+    "class_name": "BankSendDocumentIntegrationService"
+  },
+  {
+    "error_message": "Ответ от банка:",
+    "file_path": "services/bank-integration-service/src/libs/Uzasbo2.Services.Bank.Integration.BizLayer/BankSendDocumentIntegrationServices/Concrete/BankSendDocumentIntegrationService.cs",
+    "line_number": 776,
+    "condition": "",
+    "service_name": "bank-integration-service",
+    "document_type": "banksenddocumentintegration",
+    "class_name": "BankSendDocumentIntegrationService"
+  },
+  {
+    "error_message": "Ответ от банка:",
+    "file_path": "services/bank-integration-service/src/libs/Uzasbo2.Services.Bank.Integration.BizLayer/BankSendDocumentIntegrationServices/Concrete/BankSendDocumentIntegrationService.cs",
+    "line_number": 920,
+    "condition": "",
+    "service_name": "bank-integration-service",
+    "document_type": "banksenddocumentintegration",
+    "class_name": "BankSendDocumentIntegrationService"
+  },
+  {
+    "error_message": "Ответ от банка:",
+    "file_path": "services/bank-integration-service/src/libs/Uzasbo2.Services.Bank.Integration.BizLayer/BankSendDocumentIntegrationServices/Concrete/BankSendDocumentIntegrationService.cs",
+    "line_number": 1063,
+    "condition": "",
+    "service_name": "bank-integration-service",
+    "document_type": "banksenddocumentintegration",
+    "class_name": "BankSendDocumentIntegrationService"
+  },
+  {
+    "error_message": "Банкка мурожаат қилинг. Банкдан хатолик:",
+    "file_path": "services/bank-integration-service/src/libs/Uzasbo2.Services.Bank.Integration.BizLayer/BankSendDocumentIntegrationServices/Concrete/BankSendDocumentIntegrationService.cs",
+    "line_number": 1207,
+    "condition": "",
+    "service_name": "bank-integration-service",
+    "document_type": "banksenddocumentintegration",
+    "class_name": "BankSendDocumentIntegrationService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "services/bank-integration-service/src/libs/Uzasbo2.Services.Bank.Integration.BizLayer/BankSendDocumentIntegrationServices/Concrete/BankSendDocumentIntegrationService.cs",
+    "line_number": 1276,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "bank-integration-service",
+    "document_type": "banksenddocumentintegration",
+    "class_name": "BankSendDocumentIntegrationService"
+  }
+]

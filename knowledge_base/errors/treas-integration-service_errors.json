@@ -1,0 +1,371 @@
+[
+  {
+    "error_message": "По вашему запросу запись не найдено",
+    "file_path": "services/treas-integration-service/src/libs/Uzasbo2.Services.Treas.Integration.BizLayer/Services/Finance/Info/IncomeSettlementAccount/Concrete/IncomeSettlementAccountService.cs",
+    "line_number": 39,
+    "condition": "dto == null",
+    "service_name": "treas-integration-service",
+    "document_type": "incomesettlementaccount",
+    "class_name": "IncomeSettlementAccountService"
+  },
+  {
+    "error_message": "По вашему запросу запись не найдено",
+    "file_path": "services/treas-integration-service/src/libs/Uzasbo2.Services.Treas.Integration.BizLayer/Services/Finance/Info/IncomeSettlementAccount/Concrete/IncomeSettlementAccountService.cs",
+    "line_number": 53,
+    "condition": "dto == null",
+    "service_name": "treas-integration-service",
+    "document_type": "incomesettlementaccount",
+    "class_name": "IncomeSettlementAccountService"
+  },
+  {
+    "error_message": "Ariza topilmadi",
+    "file_path": "services/treas-integration-service/src/libs/Uzasbo2.Services.Treas.Integration.BizLayer/Services/Hrm/Doc/Concrete/EmployeeApplicationService.cs",
+    "line_number": 21,
+    "condition": "application == null",
+    "service_name": "treas-integration-service",
+    "document_type": "employeeapplication",
+    "class_name": "EmployeeApplicationService"
+  },
+  {
+    "error_message": "По вашему запросу запись не найдено",
+    "file_path": "services/treas-integration-service/src/libs/Uzasbo2.Services.Treas.Integration.BizLayer/Services/Treas/Doc/BankDocument/Concrete/BankDocumentService.cs",
+    "line_number": 102,
+    "condition": "",
+    "service_name": "treas-integration-service",
+    "document_type": "bankdocument",
+    "class_name": "BankDocumentService"
+  },
+  {
+    "error_message": "Документ уже проведен",
+    "file_path": "services/treas-integration-service/src/libs/Uzasbo2.Services.Treas.Integration.BizLayer/Services/Treas/Doc/BankDocument/Concrete/BankDocumentService.cs",
+    "line_number": 145,
+    "condition": "!StatusIdConst.CanApplyStatus(entity.StatusId, StatusIdConst.MODIFIED)",
+    "service_name": "treas-integration-service",
+    "document_type": "bankdocument",
+    "class_name": "BankDocumentService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/treas-integration-service/src/libs/Uzasbo2.Services.Treas.Integration.BizLayer/Services/Treas/Doc/BankDocument/Concrete/BankDocumentService.cs",
+    "line_number": 164,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, dto.StatusId)",
+    "service_name": "treas-integration-service",
+    "document_type": "bankdocument",
+    "class_name": "BankDocumentService"
+  },
+  {
+    "error_message": "По вашему запросу запись не найдено",
+    "file_path": "services/treas-integration-service/src/libs/Uzasbo2.Services.Treas.Integration.BizLayer/Services/Treas/Info/TreasOrganization/Concrete/TreasOrganizationService.cs",
+    "line_number": 54,
+    "condition": "dto == null",
+    "service_name": "treas-integration-service",
+    "document_type": "treasorganization",
+    "class_name": "TreasOrganizationService"
+  },
+  {
+    "error_message": "По вашему запросу запись не найдено",
+    "file_path": "services/treas-integration-service/src/libs/Uzasbo2.Services.Treas.Integration.BizLayer/Services/Treas/Info/TreasOrganization/Concrete/TreasOrganizationService.cs",
+    "line_number": 68,
+    "condition": "dto == null",
+    "service_name": "treas-integration-service",
+    "document_type": "treasorganization",
+    "class_name": "TreasOrganizationService"
+  },
+  {
+    "error_message": "По вашему запросу запись не найдено",
+    "file_path": "services/treas-integration-service/src/libs/Uzasbo2.Services.Treas.Integration.BizLayer/Services/Treas/Sys/BalanceBySettlementAccount/Concrete/BalanceBySettlementAccountService.cs",
+    "line_number": 50,
+    "condition": "dto == null",
+    "service_name": "treas-integration-service",
+    "document_type": "balancebysettlementaccount",
+    "class_name": "BalanceBySettlementAccountService"
+  },
+  {
+    "error_message": "По вашему запросу запись не найдено",
+    "file_path": "services/treas-integration-service/src/libs/Uzasbo2.Services.Treas.Integration.BizLayer/Services/Treas/Sys/Cheque/Concrete/ChequeService.cs",
+    "line_number": 54,
+    "condition": "dto == null",
+    "service_name": "treas-integration-service",
+    "document_type": "cheque",
+    "class_name": "ChequeService"
+  },
+  {
+    "error_message": "Shartnoma topilmadi !!!",
+    "file_path": "services/treas-integration-service/src/libs/Uzasbo2.Services.Treas.Integration.BizLayer/Services/Treas/Sys/ContractRegistration/Concrete/ContractRegistrationService.cs",
+    "line_number": 84,
+    "condition": "contract == null",
+    "service_name": "treas-integration-service",
+    "document_type": "contractregistration",
+    "class_name": "ContractRegistrationService"
+  },
+  {
+    "error_message": "По вашему запросу запись не найдено",
+    "file_path": "services/treas-integration-service/src/libs/Uzasbo2.Services.Treas.Integration.BizLayer/Services/Treas/Sys/ContractRegistration/Concrete/ContractRegistrationService.cs",
+    "line_number": 197,
+    "condition": "dto == null",
+    "service_name": "treas-integration-service",
+    "document_type": "contractregistration",
+    "class_name": "ContractRegistrationService"
+  },
+  {
+    "error_message": "Документ уже проведен",
+    "file_path": "services/treas-integration-service/src/libs/Uzasbo2.Services.Treas.Integration.BizLayer/Services/Treas/Sys/ContractRegistration/Concrete/ContractRegistrationService.cs",
+    "line_number": 240,
+    "condition": "",
+    "service_name": "treas-integration-service",
+    "document_type": "contractregistration",
+    "class_name": "ContractRegistrationService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/treas-integration-service/src/libs/Uzasbo2.Services.Treas.Integration.BizLayer/Services/Treas/Sys/ContractRegistration/Concrete/ContractRegistrationService.cs",
+    "line_number": 260,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, dto.StatusId)",
+    "service_name": "treas-integration-service",
+    "document_type": "contractregistration",
+    "class_name": "ContractRegistrationService"
+  },
+  {
+    "error_message": "По вашему запросу запись не найдено",
+    "file_path": "services/treas-integration-service/src/libs/Uzasbo2.Services.Treas.Integration.BizLayer/Services/Treas/Sys/EnergoIncome/Concrete/EnergoIncomeService.cs",
+    "line_number": 52,
+    "condition": "dto == null",
+    "service_name": "treas-integration-service",
+    "document_type": "energoincome",
+    "class_name": "EnergoIncomeService"
+  },
+  {
+    "error_message": "Документ уже проведен",
+    "file_path": "services/treas-integration-service/src/libs/Uzasbo2.Services.Treas.Integration.BizLayer/Services/Treas/Sys/EnergoIncome/Concrete/EnergoIncomeService.cs",
+    "line_number": 95,
+    "condition": "",
+    "service_name": "treas-integration-service",
+    "document_type": "energoincome",
+    "class_name": "EnergoIncomeService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/treas-integration-service/src/libs/Uzasbo2.Services.Treas.Integration.BizLayer/Services/Treas/Sys/EnergoIncome/Concrete/EnergoIncomeService.cs",
+    "line_number": 115,
+    "condition": "",
+    "service_name": "treas-integration-service",
+    "document_type": "energoincome",
+    "class_name": "EnergoIncomeService"
+  },
+  {
+    "error_message": "По вашему запросу запись не найдено",
+    "file_path": "services/treas-integration-service/src/libs/Uzasbo2.Services.Treas.Integration.BizLayer/Services/Treas/Sys/EnergoIncomeGener/Concrete/EnergoIncomeGenerService.cs",
+    "line_number": 49,
+    "condition": "dto == null",
+    "service_name": "treas-integration-service",
+    "document_type": "energoincomegener",
+    "class_name": "EnergoIncomeGenerService"
+  },
+  {
+    "error_message": "Документ уже проведен",
+    "file_path": "services/treas-integration-service/src/libs/Uzasbo2.Services.Treas.Integration.BizLayer/Services/Treas/Sys/EnergoIncomeGener/Concrete/EnergoIncomeGenerService.cs",
+    "line_number": 92,
+    "condition": "",
+    "service_name": "treas-integration-service",
+    "document_type": "energoincomegener",
+    "class_name": "EnergoIncomeGenerService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/treas-integration-service/src/libs/Uzasbo2.Services.Treas.Integration.BizLayer/Services/Treas/Sys/EnergoIncomeGener/Concrete/EnergoIncomeGenerService.cs",
+    "line_number": 112,
+    "condition": "",
+    "service_name": "treas-integration-service",
+    "document_type": "energoincomegener",
+    "class_name": "EnergoIncomeGenerService"
+  },
+  {
+    "error_message": "По вашему запросу запись не найдено",
+    "file_path": "services/treas-integration-service/src/libs/Uzasbo2.Services.Treas.Integration.BizLayer/Services/Treas/Sys/EnergoOtchis/Concrete/EnergoOtchisService.cs",
+    "line_number": 51,
+    "condition": "dto == null",
+    "service_name": "treas-integration-service",
+    "document_type": "energootchis",
+    "class_name": "EnergoOtchisService"
+  },
+  {
+    "error_message": "Документ уже проведен",
+    "file_path": "services/treas-integration-service/src/libs/Uzasbo2.Services.Treas.Integration.BizLayer/Services/Treas/Sys/EnergoOtchis/Concrete/EnergoOtchisService.cs",
+    "line_number": 94,
+    "condition": "",
+    "service_name": "treas-integration-service",
+    "document_type": "energootchis",
+    "class_name": "EnergoOtchisService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/treas-integration-service/src/libs/Uzasbo2.Services.Treas.Integration.BizLayer/Services/Treas/Sys/EnergoOtchis/Concrete/EnergoOtchisService.cs",
+    "line_number": 114,
+    "condition": "",
+    "service_name": "treas-integration-service",
+    "document_type": "energootchis",
+    "class_name": "EnergoOtchisService"
+  },
+  {
+    "error_message": "По вашему запросу запись не найдено",
+    "file_path": "services/treas-integration-service/src/libs/Uzasbo2.Services.Treas.Integration.BizLayer/Services/Treas/Sys/TreasBudget/Concrete/TreasBudgetService.cs",
+    "line_number": 59,
+    "condition": "dto == null",
+    "service_name": "treas-integration-service",
+    "document_type": "treasbudget",
+    "class_name": "TreasBudgetService"
+  },
+  {
+    "error_message": "Документ уже проведен",
+    "file_path": "services/treas-integration-service/src/libs/Uzasbo2.Services.Treas.Integration.BizLayer/Services/Treas/Sys/TreasBudget/Concrete/TreasBudgetService.cs",
+    "line_number": 102,
+    "condition": "!StatusIdConst.CanApplyStatus(entity.StatusId, StatusIdConst.MODIFIED)",
+    "service_name": "treas-integration-service",
+    "document_type": "treasbudget",
+    "class_name": "TreasBudgetService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/treas-integration-service/src/libs/Uzasbo2.Services.Treas.Integration.BizLayer/Services/Treas/Sys/TreasBudget/Concrete/TreasBudgetService.cs",
+    "line_number": 122,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, dto.StatusId)",
+    "service_name": "treas-integration-service",
+    "document_type": "treasbudget",
+    "class_name": "TreasBudgetService"
+  },
+  {
+    "error_message": "Statiya topilmadi !!!",
+    "file_path": "services/treas-integration-service/src/libs/Uzasbo2.Services.Treas.Integration.BizLayer/Services/Treas/Sys/TreasBudget/Concrete/TreasBudgetService.cs",
+    "line_number": 182,
+    "condition": "itemOfExpanse != null",
+    "service_name": "treas-integration-service",
+    "document_type": "treasbudget",
+    "class_name": "TreasBudgetService"
+  },
+  {
+    "error_message": "bazaga saqlashda xatolik yuz berdi",
+    "file_path": "services/treas-integration-service/src/libs/Uzasbo2.Services.Treas.Integration.BizLayer/Services/Treas/Sys/TreasBudget/Concrete/TreasBudgetService.cs",
+    "line_number": 214,
+    "condition": "HasErrors",
+    "service_name": "treas-integration-service",
+    "document_type": "treasbudget",
+    "class_name": "TreasBudgetService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "services/treas-integration-service/src/libs/Uzasbo2.Services.Treas.Integration.BizLayer/TreasSendDocumentIntegrationServices/Concrete/TreasSendDocumentIntegrationService.cs",
+    "line_number": 97,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "treas-integration-service",
+    "document_type": "treassenddocumentintegration",
+    "class_name": "TreasSendDocumentIntegrationService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "services/treas-integration-service/src/libs/Uzasbo2.Services.Treas.Integration.BizLayer/TreasSendDocumentIntegrationServices/Concrete/TreasSendDocumentIntegrationService.cs",
+    "line_number": 176,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "treas-integration-service",
+    "document_type": "treassenddocumentintegration",
+    "class_name": "TreasSendDocumentIntegrationService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "services/treas-integration-service/src/libs/Uzasbo2.Services.Treas.Integration.BizLayer/TreasSendDocumentIntegrationServices/Concrete/TreasSendDocumentIntegrationService.cs",
+    "line_number": 270,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "treas-integration-service",
+    "document_type": "treassenddocumentintegration",
+    "class_name": "TreasSendDocumentIntegrationService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "services/treas-integration-service/src/libs/Uzasbo2.Services.Treas.Integration.BizLayer/TreasSendDocumentIntegrationServices/Concrete/TreasSendDocumentIntegrationService.cs",
+    "line_number": 348,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "treas-integration-service",
+    "document_type": "treassenddocumentintegration",
+    "class_name": "TreasSendDocumentIntegrationService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "services/treas-integration-service/src/libs/Uzasbo2.Services.Treas.Integration.BizLayer/TreasSendDocumentIntegrationServices/Concrete/TreasSendDocumentIntegrationService.cs",
+    "line_number": 422,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "treas-integration-service",
+    "document_type": "treassenddocumentintegration",
+    "class_name": "TreasSendDocumentIntegrationService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "services/treas-integration-service/src/libs/Uzasbo2.Services.Treas.Integration.BizLayer/TreasSendDocumentIntegrationServices/Concrete/TreasSendDocumentIntegrationService.cs",
+    "line_number": 563,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "treas-integration-service",
+    "document_type": "treassenddocumentintegration",
+    "class_name": "TreasSendDocumentIntegrationService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "services/treas-integration-service/src/libs/Uzasbo2.Services.Treas.Integration.BizLayer/TreasSendDocumentIntegrationServices/Concrete/TreasSendDocumentIntegrationService.cs",
+    "line_number": 636,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "treas-integration-service",
+    "document_type": "treassenddocumentintegration",
+    "class_name": "TreasSendDocumentIntegrationService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "services/treas-integration-service/src/libs/Uzasbo2.Services.Treas.Integration.BizLayer/TreasSendDocumentIntegrationServices/Concrete/TreasSendDocumentIntegrationService.cs",
+    "line_number": 704,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "treas-integration-service",
+    "document_type": "treassenddocumentintegration",
+    "class_name": "TreasSendDocumentIntegrationService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "services/treas-integration-service/src/libs/Uzasbo2.Services.Treas.Integration.BizLayer/TreasSendDocumentIntegrationServices/Concrete/TreasSendDocumentIntegrationService.cs",
+    "line_number": 777,
+    "condition": "",
+    "service_name": "treas-integration-service",
+    "document_type": "treassenddocumentintegration",
+    "class_name": "TreasSendDocumentIntegrationService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "services/treas-integration-service/src/libs/Uzasbo2.Services.Treas.Integration.BizLayer/TreasSendDocumentIntegrationServices/Concrete/TreasSendDocumentIntegrationService.cs",
+    "line_number": 942,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "treas-integration-service",
+    "document_type": "treassenddocumentintegration",
+    "class_name": "TreasSendDocumentIntegrationService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "services/treas-integration-service/src/libs/Uzasbo2.Services.Treas.Integration.BizLayer/TreasSendDocumentIntegrationServices/Concrete/TreasSendDocumentIntegrationService.cs",
+    "line_number": 1017,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "treas-integration-service",
+    "document_type": "treassenddocumentintegration",
+    "class_name": "TreasSendDocumentIntegrationService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "services/treas-integration-service/src/libs/Uzasbo2.Services.Treas.Integration.BizLayer/TreasSendDocumentIntegrationServices/Concrete/TreasSendDocumentIntegrationService.cs",
+    "line_number": 1101,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "treas-integration-service",
+    "document_type": "treassenddocumentintegration",
+    "class_name": "TreasSendDocumentIntegrationService"
+  },
+  {
+    "error_message": "Unknown method name",
+    "file_path": "services/treas-integration-service/src/Uzasbo2.Services.Treas.Integration.WebApi/Controller/DocumentReceiveController.cs",
+    "line_number": 240,
+    "condition": "",
+    "service_name": "treas-integration-service",
+    "document_type": "documentreceive",
+    "class_name": "DocumentReceiveController"
+  }
+]

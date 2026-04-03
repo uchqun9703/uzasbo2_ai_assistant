@@ -1,0 +1,3008 @@
+[
+  {
+    "error_message": "[dynamic: resContentString]",
+    "file_path": "libs/core/Uzasbo2.Core/WEBASEIntegrationEImzo/Services/EImzoService.cs",
+    "line_number": 37,
+    "condition": "!res.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "eimzo",
+    "class_name": "EImzoService"
+  },
+  {
+    "error_message": "[dynamic: resContentString]",
+    "file_path": "libs/core/Uzasbo2.Core/WEBASEIntegrationEImzo/Services/EImzoService.cs",
+    "line_number": 48,
+    "condition": "!res.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "eimzo",
+    "class_name": "EImzoService"
+  },
+  {
+    "error_message": "[dynamic: resContentString]",
+    "file_path": "libs/core/Uzasbo2.Core/WEBASEIntegrationEImzo/Services/EImzoService.cs",
+    "line_number": 59,
+    "condition": "!res.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "eimzo",
+    "class_name": "EImzoService"
+  },
+  {
+    "error_message": "[dynamic: resContentString]",
+    "file_path": "libs/core/Uzasbo2.Core/WEBASEIntegrationEImzo/Services/EImzoService.cs",
+    "line_number": 76,
+    "condition": "res.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "eimzo",
+    "class_name": "EImzoService"
+  },
+  {
+    "error_message": "Цифровая подпись недействительна",
+    "file_path": "libs/core/Uzasbo2.Core/WEBASEIntegrationEImzo/Services/EImzoService.cs",
+    "line_number": 96,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "eimzo",
+    "class_name": "EImzoService"
+  },
+  {
+    "error_message": "[dynamic: resContentString]",
+    "file_path": "libs/core/Uzasbo2.Core/WEBASEIntegrationEImzo/Services/EImzoService.cs",
+    "line_number": 101,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "eimzo",
+    "class_name": "EImzoService"
+  },
+  {
+    "error_message": "Ключ принадлежит другой организации. Подписываемый ключ принадлежит к ИНН: [...], должен быть ключ принадлежащей ИНН: [...]",
+    "file_path": "libs/core/Uzasbo2.Core/WEBASEIntegrationEImzo/Services/EImzoService.cs",
+    "line_number": 122,
+    "condition": "dto.Inn != null && result.TimestampedSignerList.LastOrDefault()!.SubjectName.Inn != dto.Inn",
+    "service_name": "unknown",
+    "document_type": "eimzo",
+    "class_name": "EImzoService"
+  },
+  {
+    "error_message": "Электрон рақамли имзо калити билан дастурга кирганда автоматик тарзда ўзи рўйхатдан ўтган фойдаланувчининг логинига кирилади. Ташкилотдаги ўзи рўйхатдан ўтган фойдаланувчининг ЖШШИРи [...] ва ЭРИ калитда кўрсатилган шахснинг ЖШШИРи [...] мос эмас. ЭРИ калити билан дастурга кириш учун ёки ЭРИ калитини алмаштиринг ёки қайта рўйхатдан ўтиб, калитдаги жисмоний шахсга фойдаланувчи яратинг.",
+    "file_path": "libs/core/Uzasbo2.Core/WEBASEIntegrationEImzo/Services/EImzoService.cs",
+    "line_number": 126,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "eimzo",
+    "class_name": "EImzoService"
+  },
+  {
+    "error_message": "Ключ принадлежит другой организации. Подписываемый ключ принадлежит к ПИНФЛ: [...], должен быть ключ принадлежащей ПИНФЛ: [...]",
+    "file_path": "libs/core/Uzasbo2.Core/WEBASEIntegrationEImzo/Services/EImzoService.cs",
+    "line_number": 128,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "eimzo",
+    "class_name": "EImzoService"
+  },
+  {
+    "error_message": "Цифровая подпись недействительна",
+    "file_path": "libs/core/Uzasbo2.Core/WEBASEIntegrationEImzo/Services/EImzoService.cs",
+    "line_number": 132,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "eimzo",
+    "class_name": "EImzoService"
+  },
+  {
+    "error_message": "[dynamic: resContentString]",
+    "file_path": "libs/core/Uzasbo2.Core/WEBASEIntegrationEImzo/Services/EImzoService.cs",
+    "line_number": 137,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "eimzo",
+    "class_name": "EImzoService"
+  },
+  {
+    "error_message": "Ключ принадлежит физ. лицу. должен быть ключ принадлежащей ИНН: [...]",
+    "file_path": "libs/core/Uzasbo2.Core/WEBASEIntegrationEImzo/Services/EImzoService.cs",
+    "line_number": 159,
+    "condition": "result.Pkcs7Info.Signers.LastOrDefault()!.Certificate[0].SubjectInfo.Inn == null && result.Pkcs7Info.Signers.LastOrDefault()!.Certificate[0].SubjectInfo.Pinfl != null",
+    "service_name": "unknown",
+    "document_type": "eimzo",
+    "class_name": "EImzoService"
+  },
+  {
+    "error_message": "Ключ принадлежит другой организации. Подписываемый ключ принадлежит к ИНН: [...], должен быть ключ принадлежащей ИНН: [...]",
+    "file_path": "libs/core/Uzasbo2.Core/WEBASEIntegrationEImzo/Services/EImzoService.cs",
+    "line_number": 161,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "eimzo",
+    "class_name": "EImzoService"
+  },
+  {
+    "error_message": "Электрон рақамли имзо калити билан дастурга кирганда автоматик тарзда ўзи рўйхатдан ўтган фойдаланувчининг логинига кирилади. Ташкилотдаги ўзи рўйхатдан ўтган фойдаланувчининг ЖШШИРи [...] ва ЭРИ калитда кўрсатилган шахснинг ЖШШИРи [...] мос эмас. ЭРИ калити билан дастурга кириш учун ёки ЭРИ калитини алмаштиринг ёки қайта рўйхатдан ўтиб, калитдаги жисмоний шахсга фойдаланувчи яратинг.",
+    "file_path": "libs/core/Uzasbo2.Core/WEBASEIntegrationEImzo/Services/EImzoService.cs",
+    "line_number": 165,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "eimzo",
+    "class_name": "EImzoService"
+  },
+  {
+    "error_message": "Ключ принадлежит другой организации. Подписываемый ключ принадлежит к ПИНФЛ: [...], должен быть ключ принадлежащей ПИНФЛ: [...]",
+    "file_path": "libs/core/Uzasbo2.Core/WEBASEIntegrationEImzo/Services/EImzoService.cs",
+    "line_number": 167,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "eimzo",
+    "class_name": "EImzoService"
+  },
+  {
+    "error_message": "Цифровая подпись недействительна",
+    "file_path": "libs/core/Uzasbo2.Core/WEBASEIntegrationEImzo/Services/EImzoService.cs",
+    "line_number": 171,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "eimzo",
+    "class_name": "EImzoService"
+  },
+  {
+    "error_message": "[dynamic: resContentString]",
+    "file_path": "libs/core/Uzasbo2.Core/WEBASEIntegrationEImzo/Services/EImzoService.cs",
+    "line_number": 176,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "eimzo",
+    "class_name": "EImzoService"
+  },
+  {
+    "error_message": "Ключ принадлежит физ. лицу. должен быть ключ принадлежащей ИНН: [...]",
+    "file_path": "libs/core/Uzasbo2.Core/WEBASEIntegrationEImzo/Services/EImzoService.cs",
+    "line_number": 198,
+    "condition": "result.Pkcs7Info.Signers.LastOrDefault()!.Certificate[0].SubjectInfo.Inn == null && result.Pkcs7Info.Signers.LastOrDefault()!.Certificate[0].SubjectInfo.Pinfl != null",
+    "service_name": "unknown",
+    "document_type": "eimzo",
+    "class_name": "EImzoService"
+  },
+  {
+    "error_message": "Ключ принадлежит другой организации. Подписываемый ключ принадлежит к ИНН: [...], должен быть ключ принадлежащей ИНН: [...]",
+    "file_path": "libs/core/Uzasbo2.Core/WEBASEIntegrationEImzo/Services/EImzoService.cs",
+    "line_number": 200,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "eimzo",
+    "class_name": "EImzoService"
+  },
+  {
+    "error_message": "Электрон рақамли имзо калити билан дастурга кирганда автоматик тарзда ўзи рўйхатдан ўтган фойдаланувчининг логинига кирилади. Ташкилотдаги ўзи рўйхатдан ўтган фойдаланувчининг ЖШШИРи [...] ва ЭРИ калитда кўрсатилган шахснинг ЖШШИРи [...] мос эмас. ЭРИ калити билан дастурга кириш учун ёки ЭРИ калитини алмаштиринг ёки қайта рўйхатдан ўтиб, калитдаги жисмоний шахсга фойдаланувчи яратинг.",
+    "file_path": "libs/core/Uzasbo2.Core/WEBASEIntegrationEImzo/Services/EImzoService.cs",
+    "line_number": 204,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "eimzo",
+    "class_name": "EImzoService"
+  },
+  {
+    "error_message": "Ключ принадлежит другой организации. Подписываемый ключ принадлежит к ПИНФЛ: [...], должен быть ключ принадлежащей ПИНФЛ: [...]",
+    "file_path": "libs/core/Uzasbo2.Core/WEBASEIntegrationEImzo/Services/EImzoService.cs",
+    "line_number": 206,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "eimzo",
+    "class_name": "EImzoService"
+  },
+  {
+    "error_message": "Цифровая подпись недействительна",
+    "file_path": "libs/core/Uzasbo2.Core/WEBASEIntegrationEImzo/Services/EImzoService.cs",
+    "line_number": 210,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "eimzo",
+    "class_name": "EImzoService"
+  },
+  {
+    "error_message": "[dynamic: resContentString]",
+    "file_path": "libs/core/Uzasbo2.Core/WEBASEIntegrationEImzo/Services/EImzoService.cs",
+    "line_number": 215,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "eimzo",
+    "class_name": "EImzoService"
+  },
+  {
+    "error_message": "[dynamic: resContentString]",
+    "file_path": "libs/core/Uzasbo2.Core/WEBASEIntegrationEImzo/Services/EImzoService.cs",
+    "line_number": 235,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "eimzo",
+    "class_name": "EImzoService"
+  },
+  {
+    "error_message": "[dynamic: resContentString]",
+    "file_path": "libs/core/Uzasbo2.Core/WEBASEIntegrationEImzo/Services/EImzoService.cs",
+    "line_number": 255,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "eimzo",
+    "class_name": "EImzoService"
+  },
+  {
+    "error_message": "[dynamic: resContentString]",
+    "file_path": "libs/core/Uzasbo2.Core/WEBASEIntegrationEImzo/Services/EImzoService.cs",
+    "line_number": 277,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "eimzo",
+    "class_name": "EImzoService"
+  },
+  {
+    "error_message": "[dynamic: resContentString]",
+    "file_path": "libs/core/Uzasbo2.Core/WEBASEIntegrationEImzo/Services/EImzoService.cs",
+    "line_number": 312,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "eimzo",
+    "class_name": "EImzoService"
+  },
+  {
+    "error_message": "Цифровая подпись недействительна",
+    "file_path": "libs/core/Uzasbo2.Core/WEBASEIntegrationEImzo/Services/EImzoService.cs",
+    "line_number": 332,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "eimzo",
+    "class_name": "EImzoService"
+  },
+  {
+    "error_message": "[dynamic: resContentString]",
+    "file_path": "libs/core/Uzasbo2.Core/WEBASEIntegrationEImzo/Services/EImzoService.cs",
+    "line_number": 337,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "eimzo",
+    "class_name": "EImzoService"
+  },
+  {
+    "error_message": "[dynamic: resContentString]",
+    "file_path": "libs/core/Uzasbo2.Core/WEBASEIntegrationEImzo/Services/EImzoService.cs",
+    "line_number": 358,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "eimzo",
+    "class_name": "EImzoService"
+  },
+  {
+    "error_message": "[dynamic: resContentString]",
+    "file_path": "libs/core/Uzasbo2.Core/WEBASEIntegrationEImzo/Services/EImzoService.cs",
+    "line_number": 384,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "eimzo",
+    "class_name": "EImzoService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.BillingEdu.uz/Services/BillingSalaryCalc/BillingEduSalaryCalcService.cs",
+    "line_number": 51,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "billingedusalarycalc",
+    "class_name": "BillingEduSalaryCalcService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.BillingEdu.uz/Services/BillingSalaryCalc/BillingEduSalaryCalcService.cs",
+    "line_number": 54,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "billingedusalarycalc",
+    "class_name": "BillingEduSalaryCalcService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Dmbat/Services/DmbatDocumentIntegrationService.cs",
+    "line_number": 43,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "dmbatdocumentintegration",
+    "class_name": "DmbatDocumentIntegrationService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Dmbat/Services/IncomeCalculationService.cs",
+    "line_number": 34,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "incomecalculation",
+    "class_name": "IncomeCalculationService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Dmbat/Services/OperDateExchangeService.cs",
+    "line_number": 36,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "operdateexchange",
+    "class_name": "OperDateExchangeService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Dmbat/Services/OperDateExchangeService.cs",
+    "line_number": 38,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "operdateexchange",
+    "class_name": "OperDateExchangeService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Dmbat/Services/TreaseInfoService.cs",
+    "line_number": 51,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "treaseinfo",
+    "class_name": "TreaseInfoService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Dmbat/Services/TreaseInfoService.cs",
+    "line_number": 53,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "treaseinfo",
+    "class_name": "TreaseInfoService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Dmbat/Services/TreaseInfoService.cs",
+    "line_number": 71,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "treaseinfo",
+    "class_name": "TreaseInfoService"
+  },
+  {
+    "error_message": "[dynamic: error]",
+    "file_path": "libs/core/Uzasbo2.Integration.EduERP/Services/HelperService.cs",
+    "line_number": 48,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "helper",
+    "class_name": "HelperService"
+  },
+  {
+    "error_message": "Маълумот топилмади! Информация не найдена",
+    "file_path": "libs/core/Uzasbo2.Integration.HrMf/Services/HrMfInfo/HrMfSickInfoService.cs",
+    "line_number": 60,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "hrmfsickinfo",
+    "class_name": "HrMfSickInfoService"
+  },
+  {
+    "error_message": "Servisdan noto‘g‘ri formatda javob keldi",
+    "file_path": "libs/core/Uzasbo2.Integration.HrMf/Services/HrMfInfo/HrMfSickInfoService.cs",
+    "line_number": 79,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "hrmfsickinfo",
+    "class_name": "HrMfSickInfoService"
+  },
+  {
+    "error_message": "Текшириш учун маълумот етарли эмас!",
+    "file_path": "libs/core/Uzasbo2.Integration.HrMf/Services/HrMfInfo/HrMfSickInfoService.cs",
+    "line_number": 95,
+    "condition": "string.IsNullOrEmpty(pinfl)",
+    "service_name": "unknown",
+    "document_type": "hrmfsickinfo",
+    "class_name": "HrMfSickInfoService"
+  },
+  {
+    "error_message": "Servis vaqtincha ishlamayapti (503)",
+    "file_path": "libs/core/Uzasbo2.Integration.HrMf/Services/HrMfInfo/HrMfSickInfoService.cs",
+    "line_number": 117,
+    "condition": "response.StatusCode == System.Net.HttpStatusCode.ServiceUnavailable",
+    "service_name": "unknown",
+    "document_type": "hrmfsickinfo",
+    "class_name": "HrMfSickInfoService"
+  },
+  {
+    "error_message": "SSV tizimida ulanishda xatolik yuz berdi: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.HrMf/Services/HrMfInfo/HrMfSickInfoService.cs",
+    "line_number": 121,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "hrmfsickinfo",
+    "class_name": "HrMfSickInfoService"
+  },
+  {
+    "error_message": "Маълумот топилмади!",
+    "file_path": "libs/core/Uzasbo2.Integration.HrMf/Services/HrMfInfo/HrMfSickInfoService.cs",
+    "line_number": 135,
+    "condition": "result == null",
+    "service_name": "unknown",
+    "document_type": "hrmfsickinfo",
+    "class_name": "HrMfSickInfoService"
+  },
+  {
+    "error_message": "JSON parse xatosi",
+    "file_path": "libs/core/Uzasbo2.Integration.HrMf/Services/HrMfInfo/HrMfSickInfoService.cs",
+    "line_number": 145,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "hrmfsickinfo",
+    "class_name": "HrMfSickInfoService"
+  },
+  {
+    "error_message": "Servis bilan bog‘lanishda xatolik",
+    "file_path": "libs/core/Uzasbo2.Integration.HrMf/Services/HrMfInfo/HrMfSickInfoService.cs",
+    "line_number": 153,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "hrmfsickinfo",
+    "class_name": "HrMfSickInfoService"
+  },
+  {
+    "error_message": "Ma'lumot topilmadi! Ma'lumot topilmadi.",
+    "file_path": "libs/core/Uzasbo2.Integration.HrMf/Services/HrMfInfo/HrMfSickInfoService.cs",
+    "line_number": 197,
+    "condition": "result == null",
+    "service_name": "unknown",
+    "document_type": "hrmfsickinfo",
+    "class_name": "HrMfSickInfoService"
+  },
+  {
+    "error_message": "Маълумот топилмади!",
+    "file_path": "libs/core/Uzasbo2.Integration.HrMf/Services/HrMfInfo/HrMfSickInfoService.cs",
+    "line_number": 241,
+    "condition": "result == null",
+    "service_name": "unknown",
+    "document_type": "hrmfsickinfo",
+    "class_name": "HrMfSickInfoService"
+  },
+  {
+    "error_message": "Ma'lumot topilmadi !",
+    "file_path": "libs/core/Uzasbo2.Integration.HrMf/Services/HrMfInfo/HrMfSickInfoService.cs",
+    "line_number": 299,
+    "condition": "result == null",
+    "service_name": "unknown",
+    "document_type": "hrmfsickinfo",
+    "class_name": "HrMfSickInfoService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Invoice/Services/RoamingFacturaService.cs",
+    "line_number": 46,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "roamingfactura",
+    "class_name": "RoamingFacturaService"
+  },
+  {
+    "error_message": "Invoice билан алоқа йўқ!",
+    "file_path": "libs/core/Uzasbo2.Integration.Invoice/Services/RoamingFacturaService.cs",
+    "line_number": 53,
+    "condition": "res == null",
+    "service_name": "unknown",
+    "document_type": "roamingfactura",
+    "class_name": "RoamingFacturaService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Invoice/Services/RoamingFacturaService.cs",
+    "line_number": 72,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "roamingfactura",
+    "class_name": "RoamingFacturaService"
+  },
+  {
+    "error_message": "Invoice билан алоқа йўқ!",
+    "file_path": "libs/core/Uzasbo2.Integration.Invoice/Services/RoamingFacturaService.cs",
+    "line_number": 79,
+    "condition": "res == null",
+    "service_name": "unknown",
+    "document_type": "roamingfactura",
+    "class_name": "RoamingFacturaService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Invoice/Services/RoamingFacturaService.cs",
+    "line_number": 98,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "roamingfactura",
+    "class_name": "RoamingFacturaService"
+  },
+  {
+    "error_message": "Invoice билан алоқа йўқ!",
+    "file_path": "libs/core/Uzasbo2.Integration.Invoice/Services/RoamingFacturaService.cs",
+    "line_number": 105,
+    "condition": "res == null",
+    "service_name": "unknown",
+    "document_type": "roamingfactura",
+    "class_name": "RoamingFacturaService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Invoice/Services/RoamingFacturaService.cs",
+    "line_number": 124,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "roamingfactura",
+    "class_name": "RoamingFacturaService"
+  },
+  {
+    "error_message": "Invoice билан алоқа йўқ!",
+    "file_path": "libs/core/Uzasbo2.Integration.Invoice/Services/RoamingFacturaService.cs",
+    "line_number": 131,
+    "condition": "res == null",
+    "service_name": "unknown",
+    "document_type": "roamingfactura",
+    "class_name": "RoamingFacturaService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Invoice/Services/RoamingFacturaService.cs",
+    "line_number": 150,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "roamingfactura",
+    "class_name": "RoamingFacturaService"
+  },
+  {
+    "error_message": "Invoice билан алоқа йўқ!",
+    "file_path": "libs/core/Uzasbo2.Integration.Invoice/Services/RoamingFacturaService.cs",
+    "line_number": 157,
+    "condition": "res == null",
+    "service_name": "unknown",
+    "document_type": "roamingfactura",
+    "class_name": "RoamingFacturaService"
+  },
+  {
+    "error_message": "MIB тизмида [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.MIB/Services/MibService.cs",
+    "line_number": 48,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "mib",
+    "class_name": "MibService"
+  },
+  {
+    "error_message": "MIB тизмида [...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.MIB/Services/MibService.cs",
+    "line_number": 50,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "mib",
+    "class_name": "MibService"
+  },
+  {
+    "error_message": "MIB тизмида [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.MIB/Services/MibService.cs",
+    "line_number": 56,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "mib",
+    "class_name": "MibService"
+  },
+  {
+    "error_message": "MIB tizimida exception: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.MIB/Services/MibService.cs",
+    "line_number": 94,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "mib",
+    "class_name": "MibService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.RInvoice/Services/FacturaService.cs",
+    "line_number": 55,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "factura",
+    "class_name": "FacturaService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.RInvoice/Services/FacturaService.cs",
+    "line_number": 77,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "factura",
+    "class_name": "FacturaService"
+  },
+  {
+    "error_message": "Ошибка Invoice TaxGAP: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.RInvoice/Services/FacturaService.cs",
+    "line_number": 87,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "factura",
+    "class_name": "FacturaService"
+  },
+  {
+    "error_message": "[...]",
+    "file_path": "libs/core/Uzasbo2.Integration.RInvoice/Services/FacturaService.cs",
+    "line_number": 103,
+    "condition": "errorRes is not null",
+    "service_name": "unknown",
+    "document_type": "factura",
+    "class_name": "FacturaService"
+  },
+  {
+    "error_message": "RInvoice tizmidan ma'lumot topilmadi.",
+    "file_path": "libs/core/Uzasbo2.Integration.RInvoice/Services/FacturaService.cs",
+    "line_number": 105,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "factura",
+    "class_name": "FacturaService"
+  },
+  {
+    "error_message": "[...]",
+    "file_path": "libs/core/Uzasbo2.Integration.RInvoice/Services/FacturaService.cs",
+    "line_number": 116,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "factura",
+    "class_name": "FacturaService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.RInvoice/Services/FacturaService.cs",
+    "line_number": 141,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "factura",
+    "class_name": "FacturaService"
+  },
+  {
+    "error_message": "Davlat Soliq Qo'mitasi bazasidan [...] topilmadi !!!",
+    "file_path": "libs/core/Uzasbo2.Integration.RInvoice/Services/SoliqNetdocContractorService.cs",
+    "line_number": 41,
+    "condition": "contractor.Tin == \"\" || contractor.Tin == null",
+    "service_name": "unknown",
+    "document_type": "soliqnetdoccontractor",
+    "class_name": "SoliqNetdocContractorService"
+  },
+  {
+    "error_message": "invoice.uzasbo.uz тизимида маълумот топилмади! Информация не найдена [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.RInvoice/Services/SoliqNetdocContractorService.cs",
+    "line_number": 45,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "soliqnetdoccontractor",
+    "class_name": "SoliqNetdocContractorService"
+  },
+  {
+    "error_message": "invoice.uzasbo.uz тизмида [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.RInvoice/Services/SoliqNetdocContractorService.cs",
+    "line_number": 61,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "soliqnetdoccontractor",
+    "class_name": "SoliqNetdocContractorService"
+  },
+  {
+    "error_message": "invoice.uzasbo.uz тизмида [...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.RInvoice/Services/SoliqNetdocContractorService.cs",
+    "line_number": 63,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "soliqnetdoccontractor",
+    "class_name": "SoliqNetdocContractorService"
+  },
+  {
+    "error_message": "Davlat Soliq Qo'mitasi bazasidan [...] topilmadi !!!",
+    "file_path": "libs/core/Uzasbo2.Integration.RInvoice/Services/SoliqNetdocContractorService.cs",
+    "line_number": 78,
+    "condition": "contractor.Tin == \"\" || contractor.Tin == null",
+    "service_name": "unknown",
+    "document_type": "soliqnetdoccontractor",
+    "class_name": "SoliqNetdocContractorService"
+  },
+  {
+    "error_message": "invoice.uzasbo.uz тизмида маълумот топилмади! Информация не найдена [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.RInvoice/Services/SoliqNetdocContractorService.cs",
+    "line_number": 82,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "soliqnetdoccontractor",
+    "class_name": "SoliqNetdocContractorService"
+  },
+  {
+    "error_message": "invoice.uzasbo.uz тизмида [...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.RInvoice/Services/SoliqNetdocContractorService.cs",
+    "line_number": 95,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "soliqnetdoccontractor",
+    "class_name": "SoliqNetdocContractorService"
+  },
+  {
+    "error_message": "invoice.uzasbo.uz тизмида [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.RInvoice/Services/SoliqNetdocContractorService.cs",
+    "line_number": 99,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "soliqnetdoccontractor",
+    "class_name": "SoliqNetdocContractorService"
+  },
+  {
+    "error_message": "invoice.uzasbo.uz тизмида [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.RInvoice/Services/SoliqNetdocContractorService.cs",
+    "line_number": 107,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "soliqnetdoccontractor",
+    "class_name": "SoliqNetdocContractorService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.RInvoice/Services/OrganizationAccounts/OrganizationAccountsService.cs",
+    "line_number": 43,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "organizationaccounts",
+    "class_name": "OrganizationAccountsService"
+  },
+  {
+    "error_message": "Текшириш учун маълумот етарли эмас! Недостаточно информации для проверки",
+    "file_path": "libs/core/Uzasbo2.Integration.RInvoice/Services/OrganizationAccounts/OrganizationAccountsService.cs",
+    "line_number": 60,
+    "condition": "string.IsNullOrEmpty(inn)",
+    "service_name": "unknown",
+    "document_type": "organizationaccounts",
+    "class_name": "OrganizationAccountsService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.RInvoice/Services/Personals/PersonalService.cs",
+    "line_number": 37,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "personal",
+    "class_name": "PersonalService"
+  },
+  {
+    "error_message": "Текшириш учун маълумот етарли эмас! Недостаточно информации для проверки",
+    "file_path": "libs/core/Uzasbo2.Integration.RInvoice/Services/PhysicalLegalPersonService/PhysicalLegalPersonService.cs",
+    "line_number": 29,
+    "condition": "string.IsNullOrEmpty(inn)",
+    "service_name": "unknown",
+    "document_type": "physicallegalperson",
+    "class_name": "PhysicalLegalPersonService"
+  },
+  {
+    "error_message": "[...]: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.RInvoice/Services/ProviderBinding/ProviderBindingService.cs",
+    "line_number": 38,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "providerbinding",
+    "class_name": "ProviderBindingService"
+  },
+  {
+    "error_message": "GetProviderBindingStatus xatolik: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.RInvoice/Services/ProviderBinding/ProviderBindingService.cs",
+    "line_number": 53,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "providerbinding",
+    "class_name": "ProviderBindingService"
+  },
+  {
+    "error_message": "[...]: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.RInvoice/Services/ProviderBinding/ProviderBindingService.cs",
+    "line_number": 69,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "providerbinding",
+    "class_name": "ProviderBindingService"
+  },
+  {
+    "error_message": "RInvoice: GetProviderBindingSubscriptionSignData  ma'lumot olinmadi.",
+    "file_path": "libs/core/Uzasbo2.Integration.RInvoice/Services/ProviderBinding/ProviderBindingService.cs",
+    "line_number": 75,
+    "condition": "string.IsNullOrWhiteSpace(content)",
+    "service_name": "unknown",
+    "document_type": "providerbinding",
+    "class_name": "ProviderBindingService"
+  },
+  {
+    "error_message": "GetProviderBindingSubscriptionSignData JSON xatolik: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.RInvoice/Services/ProviderBinding/ProviderBindingService.cs",
+    "line_number": 88,
+    "condition": "signData.StartsWith(\"\\\"\")",
+    "service_name": "unknown",
+    "document_type": "providerbinding",
+    "class_name": "ProviderBindingService"
+  },
+  {
+    "error_message": "GetProviderBindingSubscriptionSignData xatolik: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.RInvoice/Services/ProviderBinding/ProviderBindingService.cs",
+    "line_number": 93,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "providerbinding",
+    "class_name": "ProviderBindingService"
+  },
+  {
+    "error_message": "[...]: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.RInvoice/Services/ProviderBinding/ProviderBindingService.cs",
+    "line_number": 113,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "providerbinding",
+    "class_name": "ProviderBindingService"
+  },
+  {
+    "error_message": "ProviderBindingSubscription xatolik: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.RInvoice/Services/ProviderBinding/ProviderBindingService.cs",
+    "line_number": 128,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "providerbinding",
+    "class_name": "ProviderBindingService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.RInvoice/Services/Villages/VillagesService.cs",
+    "line_number": 42,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "villages",
+    "class_name": "VillagesService"
+  },
+  {
+    "error_message": "Davlat Soliq Qo'mitasi bazasidan [...] topilmadi !!!",
+    "file_path": "libs/core/Uzasbo2.Integration.Soliq/Services/SoliqNetdocContractorService.cs",
+    "line_number": 41,
+    "condition": "contractor.Tin == \"\" || contractor.Tin == null",
+    "service_name": "unknown",
+    "document_type": "soliqnetdoccontractor",
+    "class_name": "SoliqNetdocContractorService"
+  },
+  {
+    "error_message": "invoice.uzasbo.uz тизимида маълумот топилмади! Информация не найдена [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Soliq/Services/SoliqNetdocContractorService.cs",
+    "line_number": 45,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "soliqnetdoccontractor",
+    "class_name": "SoliqNetdocContractorService"
+  },
+  {
+    "error_message": "invoice.uzasbo.uz тизмида [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Soliq/Services/SoliqNetdocContractorService.cs",
+    "line_number": 61,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "soliqnetdoccontractor",
+    "class_name": "SoliqNetdocContractorService"
+  },
+  {
+    "error_message": "invoice.uzasbo.uz тизмида [...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Soliq/Services/SoliqNetdocContractorService.cs",
+    "line_number": 63,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "soliqnetdoccontractor",
+    "class_name": "SoliqNetdocContractorService"
+  },
+  {
+    "error_message": "Davlat Soliq Qo'mitasi bazasidan [...] topilmadi !!!",
+    "file_path": "libs/core/Uzasbo2.Integration.Soliq/Services/SoliqNetdocContractorService.cs",
+    "line_number": 78,
+    "condition": "contractor.Tin == \"\" || contractor.Tin == null",
+    "service_name": "unknown",
+    "document_type": "soliqnetdoccontractor",
+    "class_name": "SoliqNetdocContractorService"
+  },
+  {
+    "error_message": "invoice.uzasbo.uz тизмида маълумот топилмади! Информация не найдена [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Soliq/Services/SoliqNetdocContractorService.cs",
+    "line_number": 82,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "soliqnetdoccontractor",
+    "class_name": "SoliqNetdocContractorService"
+  },
+  {
+    "error_message": "invoice.uzasbo.uz тизмида [...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Soliq/Services/SoliqNetdocContractorService.cs",
+    "line_number": 95,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "soliqnetdoccontractor",
+    "class_name": "SoliqNetdocContractorService"
+  },
+  {
+    "error_message": "invoice.uzasbo.uz тизмида [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Soliq/Services/SoliqNetdocContractorService.cs",
+    "line_number": 99,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "soliqnetdoccontractor",
+    "class_name": "SoliqNetdocContractorService"
+  },
+  {
+    "error_message": "invoice.uzasbo.uz тизмида [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Soliq/Services/SoliqNetdocContractorService.cs",
+    "line_number": 107,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "soliqnetdoccontractor",
+    "class_name": "SoliqNetdocContractorService"
+  },
+  {
+    "error_message": "Текшириш учун маълумот етарли эмас! Недостаточно информации для проверки",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/PlasticCardSheetService.cs",
+    "line_number": 29,
+    "condition": "string.IsNullOrEmpty(request.SettlementAccountCode",
+    "service_name": "unknown",
+    "document_type": "plasticcardsheet",
+    "class_name": "PlasticCardSheetService"
+  },
+  {
+    "error_message": "Маълумот топилмади! Информация не найдена",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/PlasticCardSheetService.cs",
+    "line_number": 38,
+    "condition": "result == null",
+    "service_name": "unknown",
+    "document_type": "plasticcardsheet",
+    "class_name": "PlasticCardSheetService"
+  },
+  {
+    "error_message": "Текшириш учун маълумот етарли эмас! Недостаточно информации для проверки",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/ReceivingCashService.cs",
+    "line_number": 29,
+    "condition": "string.IsNullOrEmpty(request.SettlementAccountCode",
+    "service_name": "unknown",
+    "document_type": "receivingcash",
+    "class_name": "ReceivingCashService"
+  },
+  {
+    "error_message": "Маълумот топилмади! Информация не найдена",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/ReceivingCashService.cs",
+    "line_number": 38,
+    "condition": "result == null",
+    "service_name": "unknown",
+    "document_type": "receivingcash",
+    "class_name": "ReceivingCashService"
+  },
+  {
+    "error_message": "Текшириш учун маълумот етарли эмас! Недостаточно информации для проверки",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/ReceivingCashTableCodeService.cs",
+    "line_number": 28,
+    "condition": "request.ItemOfExpenseCode <= 0 || request.RequestReceivingCashId <= 0",
+    "service_name": "unknown",
+    "document_type": "receivingcashtablecode",
+    "class_name": "ReceivingCashTableCodeService"
+  },
+  {
+    "error_message": "Маълумот топилмади! Информация не найдена",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/ReceivingCashTableCodeService.cs",
+    "line_number": 37,
+    "condition": "result == null",
+    "service_name": "unknown",
+    "document_type": "receivingcashtablecode",
+    "class_name": "ReceivingCashTableCodeService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 56,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "Эски тизимдан ташкилот мавжудлигини текширишда хатолик юз берди",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 60,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 75,
+    "condition": "!data.Success",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 84,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 94,
+    "condition": "!data.Success",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 108,
+    "condition": "!checkResponse.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "Код:",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 130,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 133,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "Код:",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 159,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 162,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "Код:",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 180,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 184,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "Код:",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 204,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 207,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "Код:",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 225,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 228,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "Код:",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 246,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 249,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 265,
+    "condition": "!checkResponse.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "Код:",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 290,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 293,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "Код:",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 315,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 319,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "Код:",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 346,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 349,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "Код:",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 367,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 370,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "Код:",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 391,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 394,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "Код:",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 413,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 417,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "Код:",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 437,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 441,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 463,
+    "condition": "!data.Success",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 472,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 482,
+    "condition": "!data.Success",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 502,
+    "condition": "!data.Success",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 511,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 521,
+    "condition": "!data.Success",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 542,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 546,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 566,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 570,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 596,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 600,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "Код:",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 626,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 629,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "Код:",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 647,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 650,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[dynamic: error]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 675,
+    "condition": "!res.Success",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 677,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 681,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[dynamic: error]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 704,
+    "condition": "!res.Success",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 706,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 710,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[dynamic: error]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 738,
+    "condition": "!res.Success",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 740,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 744,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[dynamic: error]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 772,
+    "condition": "!res.Success",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 774,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 778,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 817,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 821,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 850,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 854,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[...]: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 893,
+    "condition": "res.Success",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[...]: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 897,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "Код:",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 909,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "Error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 912,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "Код:",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 935,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 938,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "Код:",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 956,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "Error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 959,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 981,
+    "condition": "!data.Success",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 989,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 999,
+    "condition": "!data.Success",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "Код:",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 1017,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "Error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 1020,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 1042,
+    "condition": "!data.Success",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 1050,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 1060,
+    "condition": "!data.Success",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 1081,
+    "condition": "!data.Success",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 1089,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 1099,
+    "condition": "!data.Success",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "Код:",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 1117,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "Error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 1120,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 1142,
+    "condition": "!data.Success",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 1150,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "[...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 1160,
+    "condition": "!data.Success",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "Код:",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 1178,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "Error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 1181,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "Текшириш учун маълумот етарли эмас! Недостаточно информации для проверки",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 1198,
+    "condition": "string.IsNullOrEmpty(inn",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "Ошибка UZASBO: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 1211,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "Ошибка UZASBO: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 1216,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "Маълумот топилмади! Информация не найдена",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 1228,
+    "condition": "result == null",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "Текшириш учун маълумот етарли эмас! Недостаточно информации для проверки",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 1246,
+    "condition": "string.IsNullOrEmpty(inn",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "Ошибка UZASBO: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 1259,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "Ошибка UZASBO: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 1264,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "Маълумот топилмади! Информация не найдена",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 1276,
+    "condition": "result == null",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "Текшириш учун маълумот етарли эмас! Недостаточно информации для проверки",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 1295,
+    "condition": "string.IsNullOrEmpty(inn",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "Ошибка UZASBO: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 1326,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "Маълумот топилмади! Информация не найдена",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboHelperService.cs",
+    "line_number": 1338,
+    "condition": "result == null",
+    "service_name": "unknown",
+    "document_type": "uzasbohelper",
+    "class_name": "UzasboHelperService"
+  },
+  {
+    "error_message": "Текшириш учун маълумот етарли эмас! Недостаточно информации для проверки",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboUserService.cs",
+    "line_number": 31,
+    "condition": "string.IsNullOrEmpty(inn)",
+    "service_name": "unknown",
+    "document_type": "uzasbouser",
+    "class_name": "UzasboUserService"
+  },
+  {
+    "error_message": "'[...]' дан жавоб келмади. Статус: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboUserService.cs",
+    "line_number": 39,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "uzasbouser",
+    "class_name": "UzasboUserService"
+  },
+  {
+    "error_message": "Текшириш учун маълумот етарли эмас! Недостаточно информации для проверки",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboUserService.cs",
+    "line_number": 50,
+    "condition": "string.IsNullOrEmpty(inn)",
+    "service_name": "unknown",
+    "document_type": "uzasbouser",
+    "class_name": "UzasboUserService"
+  },
+  {
+    "error_message": "Ташкилот маълумоти эски тизимдан текширилганда кутилган жавоб келмади.",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboUserService.cs",
+    "line_number": 59,
+    "condition": "checkOganizationResult == null",
+    "service_name": "unknown",
+    "document_type": "uzasbouser",
+    "class_name": "UzasboUserService"
+  },
+  {
+    "error_message": "Текшириш учун маълумот етарли эмас! Недостаточно информации для проверки",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboUserService.cs",
+    "line_number": 74,
+    "condition": "string.IsNullOrEmpty(model.Inn",
+    "service_name": "unknown",
+    "document_type": "uzasbouser",
+    "class_name": "UzasboUserService"
+  },
+  {
+    "error_message": "Маълумот топилмади! Информация не найдена",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboUserService.cs",
+    "line_number": 84,
+    "condition": "result == null",
+    "service_name": "unknown",
+    "document_type": "uzasbouser",
+    "class_name": "UzasboUserService"
+  },
+  {
+    "error_message": "Налоговая служба недоступна: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboUserService.cs",
+    "line_number": 114,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "uzasbouser",
+    "class_name": "UzasboUserService"
+  },
+  {
+    "error_message": "Сервис вернул неожиданную ошибку: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboUserService.cs",
+    "line_number": 119,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "uzasbouser",
+    "class_name": "UzasboUserService"
+  },
+  {
+    "error_message": "[dynamic: content]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboUserService.cs",
+    "line_number": 134,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "uzasbouser",
+    "class_name": "UzasboUserService"
+  },
+  {
+    "error_message": "Ошибка ЗП: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboZpEmployeeService.cs",
+    "line_number": 43,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "uzasbozpemployee",
+    "class_name": "UzasboZpEmployeeService"
+  },
+  {
+    "error_message": "Маълумот топилмади! Информация не найдена",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboZpEmployeeService.cs",
+    "line_number": 54,
+    "condition": "result == null",
+    "service_name": "unknown",
+    "document_type": "uzasbozpemployee",
+    "class_name": "UzasboZpEmployeeService"
+  },
+  {
+    "error_message": "Ошибка ЗП: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboZpEmployeeService.cs",
+    "line_number": 81,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "uzasbozpemployee",
+    "class_name": "UzasboZpEmployeeService"
+  },
+  {
+    "error_message": "Маълумот топилмади! Информация не найдена",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboZpEmployeeService.cs",
+    "line_number": 90,
+    "condition": "content == null",
+    "service_name": "unknown",
+    "document_type": "uzasbozpemployee",
+    "class_name": "UzasboZpEmployeeService"
+  },
+  {
+    "error_message": "Текшириш учун маълумот етарли эмас! Недостаточно информации для проверки",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboZpEmployeeService.cs",
+    "line_number": 102,
+    "condition": "string.IsNullOrEmpty(orgInn",
+    "service_name": "unknown",
+    "document_type": "uzasbozpemployee",
+    "class_name": "UzasboZpEmployeeService"
+  },
+  {
+    "error_message": "Ошибка ЗП: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboZpEmployeeService.cs",
+    "line_number": 117,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "uzasbozpemployee",
+    "class_name": "UzasboZpEmployeeService"
+  },
+  {
+    "error_message": "Маълумот топилмади! Информация не найдена",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboZpEmployeeService.cs",
+    "line_number": 126,
+    "condition": "result == null",
+    "service_name": "unknown",
+    "document_type": "uzasbozpemployee",
+    "class_name": "UzasboZpEmployeeService"
+  },
+  {
+    "error_message": "Ошибка ЗП: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboZpEmployeeService.cs",
+    "line_number": 165,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "uzasbozpemployee",
+    "class_name": "UzasboZpEmployeeService"
+  },
+  {
+    "error_message": "Маълумот топилмади! Информация не найдена",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/UzasboZpEmployeeService.cs",
+    "line_number": 173,
+    "condition": "content == null",
+    "service_name": "unknown",
+    "document_type": "uzasbozpemployee",
+    "class_name": "UzasboZpEmployeeService"
+  },
+  {
+    "error_message": "Текшириш учун маълумот етарли эмас! Недостаточно информации для проверки",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/ZpPayrollSheetService.cs",
+    "line_number": 31,
+    "condition": "string.IsNullOrEmpty(request.Inn) || (request.Year == 0) || (request.Month == 0)",
+    "service_name": "unknown",
+    "document_type": "zppayrollsheet",
+    "class_name": "ZpPayrollSheetService"
+  },
+  {
+    "error_message": "Маълумот топилмади! Информация не найдена",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/ZpPayrollSheetService.cs",
+    "line_number": 40,
+    "condition": "result == null",
+    "service_name": "unknown",
+    "document_type": "zppayrollsheet",
+    "class_name": "ZpPayrollSheetService"
+  },
+  {
+    "error_message": "Маълумот топилмади! Информация не найдена",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/ZpPayrollSheetService.cs",
+    "line_number": 58,
+    "condition": "!result.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "zppayrollsheet",
+    "class_name": "ZpPayrollSheetService"
+  },
+  {
+    "error_message": "Маълумот топилмади! Информация не найдена",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/ZpPayrollSheetService.cs",
+    "line_number": 66,
+    "condition": "payrollSheet == null",
+    "service_name": "unknown",
+    "document_type": "zppayrollsheet",
+    "class_name": "ZpPayrollSheetService"
+  },
+  {
+    "error_message": "Маълумот топилмади! Информация не найдена",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/ZpPayrollSheetService.cs",
+    "line_number": 78,
+    "condition": "!result.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "zppayrollsheet",
+    "class_name": "ZpPayrollSheetService"
+  },
+  {
+    "error_message": "Маълумот топилмади! Информация не найдена",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/ZpPayrollSheetService.cs",
+    "line_number": 84,
+    "condition": "string.IsNullOrEmpty(jsonString)",
+    "service_name": "unknown",
+    "document_type": "zppayrollsheet",
+    "class_name": "ZpPayrollSheetService"
+  },
+  {
+    "error_message": "Маълумот топилмади! Информация не найдена",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/ZpPayrollSheetService.cs",
+    "line_number": 95,
+    "condition": "!result.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "zppayrollsheet",
+    "class_name": "ZpPayrollSheetService"
+  },
+  {
+    "error_message": "Маълумот топилмади! Информация не найдена",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/ZpPayrollSheetService.cs",
+    "line_number": 103,
+    "condition": "payrollSheet == null",
+    "service_name": "unknown",
+    "document_type": "zppayrollsheet",
+    "class_name": "ZpPayrollSheetService"
+  },
+  {
+    "error_message": "Маълумот топилмади! Информация не найдена",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/ZpPayrollSheetService.cs",
+    "line_number": 115,
+    "condition": "!result.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "zppayrollsheet",
+    "class_name": "ZpPayrollSheetService"
+  },
+  {
+    "error_message": "Маълумот топилмади! Информация не найдена",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/ZpPayrollSheetService.cs",
+    "line_number": 121,
+    "condition": "string.IsNullOrEmpty(jsonString)",
+    "service_name": "unknown",
+    "document_type": "zppayrollsheet",
+    "class_name": "ZpPayrollSheetService"
+  },
+  {
+    "error_message": "Маълумот топилмади! Информация не найдена: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/ZpPayrollSheetService.cs",
+    "line_number": 134,
+    "condition": "!result.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "zppayrollsheet",
+    "class_name": "ZpPayrollSheetService"
+  },
+  {
+    "error_message": "Маълумот топилмади! Информация не найдена",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/ZpPayrollSheetService.cs",
+    "line_number": 140,
+    "condition": "string.IsNullOrEmpty(jsonString)",
+    "service_name": "unknown",
+    "document_type": "zppayrollsheet",
+    "class_name": "ZpPayrollSheetService"
+  },
+  {
+    "error_message": "Маълумот топилмади! Информация не найдена",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/ZpPayrollSheetService.cs",
+    "line_number": 152,
+    "condition": "!result.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "zppayrollsheet",
+    "class_name": "ZpPayrollSheetService"
+  },
+  {
+    "error_message": "Маълумот топилмади! Информация не найдена",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/ZpPayrollSheetService.cs",
+    "line_number": 158,
+    "condition": "string.IsNullOrEmpty(jsonString)",
+    "service_name": "unknown",
+    "document_type": "zppayrollsheet",
+    "class_name": "ZpPayrollSheetService"
+  },
+  {
+    "error_message": "Маълумот топилмади! Информация не найдена",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/ZpPayrollSheetService.cs",
+    "line_number": 171,
+    "condition": "!result.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "zppayrollsheet",
+    "class_name": "ZpPayrollSheetService"
+  },
+  {
+    "error_message": "Маълумот топилмади! Информация не найдена",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/ZpPayrollSheetService.cs",
+    "line_number": 177,
+    "condition": "string.IsNullOrEmpty(jsonString)",
+    "service_name": "unknown",
+    "document_type": "zppayrollsheet",
+    "class_name": "ZpPayrollSheetService"
+  },
+  {
+    "error_message": "Маълумот топилмади! Информация не найдена",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/ZpPayrollSheetService.cs",
+    "line_number": 189,
+    "condition": "!result.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "zppayrollsheet",
+    "class_name": "ZpPayrollSheetService"
+  },
+  {
+    "error_message": "Маълумот топилмади! Информация не найдена",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/ZpPayrollSheetService.cs",
+    "line_number": 195,
+    "condition": "string.IsNullOrEmpty(jsonString)",
+    "service_name": "unknown",
+    "document_type": "zppayrollsheet",
+    "class_name": "ZpPayrollSheetService"
+  },
+  {
+    "error_message": "[...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/ZpPayrollSheetService.cs",
+    "line_number": 208,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "zppayrollsheet",
+    "class_name": "ZpPayrollSheetService"
+  },
+  {
+    "error_message": "zp.uzasbo.uz tizimidan ma'lumot olishda hatolik yuz berdi",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/ZpPayrollSheetService.cs",
+    "line_number": 225,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "zppayrollsheet",
+    "class_name": "ZpPayrollSheetService"
+  },
+  {
+    "error_message": "zp.uzasbo.uz tizimida tasdiqlangan Soatlar setkasi (jami) hujjati topilmadi",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/ZpPayrollSheetService.cs",
+    "line_number": 231,
+    "condition": "string.IsNullOrEmpty(resultJson)",
+    "service_name": "unknown",
+    "document_type": "zppayrollsheet",
+    "class_name": "ZpPayrollSheetService"
+  },
+  {
+    "error_message": "zp.uzasbo.uz tizimidan ma'lumot olishda hatolik yuz berdi",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/ZpPayrollSheetService.cs",
+    "line_number": 264,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "zppayrollsheet",
+    "class_name": "ZpPayrollSheetService"
+  },
+  {
+    "error_message": "zp.uzasbo.uz tizimida tasdiqlangan Soatlar setkasi (jami) hujjati topilmadi",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/ZpPayrollSheetService.cs",
+    "line_number": 270,
+    "condition": "string.IsNullOrEmpty(resultJson)",
+    "service_name": "unknown",
+    "document_type": "zppayrollsheet",
+    "class_name": "ZpPayrollSheetService"
+  },
+  {
+    "error_message": "[...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/ZpPayrollSheetService.cs",
+    "line_number": 285,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "zppayrollsheet",
+    "class_name": "ZpPayrollSheetService"
+  },
+  {
+    "error_message": "[...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/ZpPayrollSheetService.cs",
+    "line_number": 300,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "zppayrollsheet",
+    "class_name": "ZpPayrollSheetService"
+  },
+  {
+    "error_message": "[...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/ZpPayrollSheetService.cs",
+    "line_number": 314,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "zppayrollsheet",
+    "class_name": "ZpPayrollSheetService"
+  },
+  {
+    "error_message": "[...]: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/Uzasbo53/Uzasbo53HelperService.cs",
+    "line_number": 43,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "uzasbo53helper",
+    "class_name": "Uzasbo53HelperService"
+  },
+  {
+    "error_message": "[...]: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/Uzasbo53/Uzasbo53HelperService.cs",
+    "line_number": 49,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "uzasbo53helper",
+    "class_name": "Uzasbo53HelperService"
+  },
+  {
+    "error_message": "[...]: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/Uzasbo53/Uzasbo53HelperService.cs",
+    "line_number": 69,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "uzasbo53helper",
+    "class_name": "Uzasbo53HelperService"
+  },
+  {
+    "error_message": "[...]: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/Uzasbo53/Uzasbo53HelperService.cs",
+    "line_number": 75,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "uzasbo53helper",
+    "class_name": "Uzasbo53HelperService"
+  },
+  {
+    "error_message": "[...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/Uzasbo53/Uzasbo53HelperService.cs",
+    "line_number": 93,
+    "condition": "!data.Success",
+    "service_name": "unknown",
+    "document_type": "uzasbo53helper",
+    "class_name": "Uzasbo53HelperService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/Uzasbo53/Uzasbo53HelperService.cs",
+    "line_number": 102,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "uzasbo53helper",
+    "class_name": "Uzasbo53HelperService"
+  },
+  {
+    "error_message": "[...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/Uzasbo53/Uzasbo53HelperService.cs",
+    "line_number": 112,
+    "condition": "!data.Success",
+    "service_name": "unknown",
+    "document_type": "uzasbo53helper",
+    "class_name": "Uzasbo53HelperService"
+  },
+  {
+    "error_message": "[...]: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/Uzasbo53/Uzasbo53HelperService.cs",
+    "line_number": 138,
+    "condition": "res.Success",
+    "service_name": "unknown",
+    "document_type": "uzasbo53helper",
+    "class_name": "Uzasbo53HelperService"
+  },
+  {
+    "error_message": "[...]: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.Uzasbo1/Services/Uzasbo53/Uzasbo53HelperService.cs",
+    "line_number": 142,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "uzasbo53helper",
+    "class_name": "Uzasbo53HelperService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/core/Uzasbo2.Integration.UzCard/Services/UzCardInfoService.cs",
+    "line_number": 53,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "uzcardinfo",
+    "class_name": "UzCardInfoService"
+  },
+  {
+    "error_message": "Ошибка:[...]",
+    "file_path": "libs/core/Uzasbo2.Integration.UzCard/Services/Bank/BankService.cs",
+    "line_number": 42,
+    "condition": "!result.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "bank",
+    "class_name": "BankService"
+  },
+  {
+    "error_message": "Ошибка:[...]",
+    "file_path": "libs/core/Uzasbo2.Integration.UzCard/Services/Bank/BankService.cs",
+    "line_number": 93,
+    "condition": "!result.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "bank",
+    "class_name": "BankService"
+  },
+  {
+    "error_message": "Ошибка:[...]",
+    "file_path": "libs/core/Uzasbo2.Integration.UzCard/Services/Bank/BankService.cs",
+    "line_number": 113,
+    "condition": "!result.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "bank",
+    "class_name": "BankService"
+  },
+  {
+    "error_message": "Ошибка:[...]",
+    "file_path": "libs/core/Uzasbo2.Integration.UzCard/Services/Bank/BankService.cs",
+    "line_number": 132,
+    "condition": "!result.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "bank",
+    "class_name": "BankService"
+  },
+  {
+    "error_message": "Ошибка:[...]",
+    "file_path": "libs/core/Uzasbo2.Integration.UzCard/Services/Bank/BankService.cs",
+    "line_number": 149,
+    "condition": "!result.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "bank",
+    "class_name": "BankService"
+  },
+  {
+    "error_message": "Ошибка:[...]",
+    "file_path": "libs/core/Uzasbo2.Integration.UzCard/Services/Bank/BankService.cs",
+    "line_number": 201,
+    "condition": "!result.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "bank",
+    "class_name": "BankService"
+  },
+  {
+    "error_message": "Ошибка:[...]",
+    "file_path": "libs/core/Uzasbo2.Integration.UzCard/Services/Bank/BankService.cs",
+    "line_number": 222,
+    "condition": "!result.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "bank",
+    "class_name": "BankService"
+  },
+  {
+    "error_message": "Ошибка:[...]",
+    "file_path": "libs/core/Uzasbo2.Integration.UzCard/Services/Bank/BankService.cs",
+    "line_number": 241,
+    "condition": "!result.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "bank",
+    "class_name": "BankService"
+  },
+  {
+    "error_message": "Ошибка:[...]",
+    "file_path": "libs/core/Uzasbo2.Integration.UzCard/Services/Bank/BankService.cs",
+    "line_number": 258,
+    "condition": "!result.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "bank",
+    "class_name": "BankService"
+  },
+  {
+    "error_message": "Ошибка:[...]",
+    "file_path": "libs/core/Uzasbo2.Integration.UzCard/Services/Bank/BankService.cs",
+    "line_number": 282,
+    "condition": "!result.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "bank",
+    "class_name": "BankService"
+  },
+  {
+    "error_message": "Ошибка:[...]",
+    "file_path": "libs/core/Uzasbo2.Integration.UzCard/Services/Bank/BankService.cs",
+    "line_number": 331,
+    "condition": "!result.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "bank",
+    "class_name": "BankService"
+  },
+  {
+    "error_message": "Ошибка:[...]",
+    "file_path": "libs/core/Uzasbo2.Integration.UzCard/Services/Bank/BankService.cs",
+    "line_number": 351,
+    "condition": "!result.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "bank",
+    "class_name": "BankService"
+  },
+  {
+    "error_message": "Ошибка:[...]",
+    "file_path": "libs/core/Uzasbo2.Integration.UzCard/Services/Bank/BankService.cs",
+    "line_number": 371,
+    "condition": "!result.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "bank",
+    "class_name": "BankService"
+  },
+  {
+    "error_message": "Ошибка:[...]",
+    "file_path": "libs/core/Uzasbo2.Integration.UzCard/Services/Bank/BankService.cs",
+    "line_number": 389,
+    "condition": "!result.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "bank",
+    "class_name": "BankService"
+  },
+  {
+    "error_message": "Ошибка от БАНКА:[...]",
+    "file_path": "libs/core/Uzasbo2.Integration.UzCard/Services/Bank/BankService.cs",
+    "line_number": 411,
+    "condition": "!result.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "bank",
+    "class_name": "BankService"
+  },
+  {
+    "error_message": "Ошибка от БАНКА:[...]",
+    "file_path": "libs/core/Uzasbo2.Integration.UzCard/Services/Bank/BankService.cs",
+    "line_number": 417,
+    "condition": "data.Contains(\"error\")",
+    "service_name": "unknown",
+    "document_type": "bank",
+    "class_name": "BankService"
+  },
+  {
+    "error_message": "Ошибка:[...]",
+    "file_path": "libs/core/Uzasbo2.Integration.UzCard/Services/Bank/BankService.cs",
+    "line_number": 423,
+    "condition": "bankdto == null",
+    "service_name": "unknown",
+    "document_type": "bank",
+    "class_name": "BankService"
+  },
+  {
+    "error_message": "Ошибка:[...]",
+    "file_path": "libs/core/Uzasbo2.Integration.UzCard/Services/Bank/BankService.cs",
+    "line_number": 473,
+    "condition": "!result.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "bank",
+    "class_name": "BankService"
+  },
+  {
+    "error_message": "Ошибка:[...]",
+    "file_path": "libs/core/Uzasbo2.Integration.UzCard/Services/Bank/BankService.cs",
+    "line_number": 492,
+    "condition": "!result.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "bank",
+    "class_name": "BankService"
+  },
+  {
+    "error_message": "Ошибка:[...]",
+    "file_path": "libs/core/Uzasbo2.Integration.UzCard/Services/Bank/BankService.cs",
+    "line_number": 512,
+    "condition": "!result.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "bank",
+    "class_name": "BankService"
+  },
+  {
+    "error_message": "Ошибка:[...]",
+    "file_path": "libs/core/Uzasbo2.Integration.UzCard/Services/Bank/BankService.cs",
+    "line_number": 528,
+    "condition": "!result.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "bank",
+    "class_name": "BankService"
+  },
+  {
+    "error_message": "Ошибка от БАНКА:[...]",
+    "file_path": "libs/core/Uzasbo2.Integration.UzCard/Services/Bank/BankService.cs",
+    "line_number": 533,
+    "condition": "!json.Contains(\"result\")",
+    "service_name": "unknown",
+    "document_type": "bank",
+    "class_name": "BankService"
+  },
+  {
+    "error_message": "Ошибка:[...]",
+    "file_path": "libs/core/Uzasbo2.Integration.UzCard/Services/Bank/BankService.cs",
+    "line_number": 589,
+    "condition": "!result.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "bank",
+    "class_name": "BankService"
+  },
+  {
+    "error_message": "Ошибка:[...]",
+    "file_path": "libs/core/Uzasbo2.Integration.UzCard/Services/Bank/BankService.cs",
+    "line_number": 609,
+    "condition": "!result.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "bank",
+    "class_name": "BankService"
+  },
+  {
+    "error_message": "Ошибка:[...]",
+    "file_path": "libs/core/Uzasbo2.Integration.UzCard/Services/Bank/BankService.cs",
+    "line_number": 627,
+    "condition": "!result.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "bank",
+    "class_name": "BankService"
+  },
+  {
+    "error_message": "Ошибка:[...]",
+    "file_path": "libs/core/Uzasbo2.Integration.UzCard/Services/Bank/BankService.cs",
+    "line_number": 646,
+    "condition": "!result.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "bank",
+    "class_name": "BankService"
+  },
+  {
+    "error_message": "Ошибка:[...]",
+    "file_path": "libs/core/Uzasbo2.Integration.UzCard/Services/Bank/BankService.cs",
+    "line_number": 663,
+    "condition": "!result.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "bank",
+    "class_name": "BankService"
+  },
+  {
+    "error_message": "Ошибка от БАНКА:[...]",
+    "file_path": "libs/core/Uzasbo2.Integration.UzCard/Services/Bank/BankService.cs",
+    "line_number": 668,
+    "condition": "!data.Contains(\"result\")",
+    "service_name": "unknown",
+    "document_type": "bank",
+    "class_name": "BankService"
+  },
+  {
+    "error_message": "Ошибка:[...]",
+    "file_path": "libs/core/Uzasbo2.Integration.UzCard/Services/Bank/BankService.cs",
+    "line_number": 707,
+    "condition": "!result.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "bank",
+    "class_name": "BankService"
+  },
+  {
+    "error_message": "Ошибка:[...]",
+    "file_path": "libs/core/Uzasbo2.Integration.UzCard/Services/Bank/BankService.cs",
+    "line_number": 724,
+    "condition": "!result.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "bank",
+    "class_name": "BankService"
+  },
+  {
+    "error_message": "Ошибка:[...]",
+    "file_path": "libs/core/Uzasbo2.Integration.UzCard/Services/Bank/BankService.cs",
+    "line_number": 739,
+    "condition": "!result.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "bank",
+    "class_name": "BankService"
+  },
+  {
+    "error_message": "Ошибка от БАНКА:[...]",
+    "file_path": "libs/core/Uzasbo2.Integration.UzCard/Services/Bank/BankService.cs",
+    "line_number": 775,
+    "condition": "!json.Contains(\"result\")",
+    "service_name": "unknown",
+    "document_type": "bank",
+    "class_name": "BankService"
+  },
+  {
+    "error_message": "[...] Транзит рақам хато киритилган",
+    "file_path": "libs/core/Uzasbo2.Integration.UzCard/Services/Bank/BankService.cs",
+    "line_number": 825,
+    "condition": "!Regex.IsMatch(settlementCode, \"[0-9]{20}\") || !settlementCode.StartsWith(\"23\")",
+    "service_name": "unknown",
+    "document_type": "bank",
+    "class_name": "BankService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "libs/core/Uzasbo2.Shared.BizLayer.Job/Abstractions/DocumentJobService.cs",
+    "line_number": 80,
+    "condition": "!StatusIdConst.CanApplyStatus(entity.StatusId, toStatusId)",
+    "service_name": "unknown",
+    "document_type": "documentjob",
+    "class_name": "DocumentJobService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "libs/core/Uzasbo2.Shared.BizLayer.Job/Abstractions/DocumentJobService.cs",
+    "line_number": 177,
+    "condition": "!StatusIdConst.CanApplyStatus(entity.StatusId, toStatusId)",
+    "service_name": "unknown",
+    "document_type": "documentjob",
+    "class_name": "DocumentJobService"
+  },
+  {
+    "error_message": "Файл не найдено",
+    "file_path": "libs/core/WEBASE/Storage/FileStorageService.cs",
+    "line_number": 85,
+    "condition": "!Directory.Exists(path)",
+    "service_name": "unknown",
+    "document_type": "filestorage",
+    "class_name": "FileStorageService"
+  },
+  {
+    "error_message": "Файл не найдено",
+    "file_path": "libs/core/WEBASE/Storage/FileStorageService.cs",
+    "line_number": 92,
+    "condition": "files.Length == 0",
+    "service_name": "unknown",
+    "document_type": "filestorage",
+    "class_name": "FileStorageService"
+  },
+  {
+    "error_message": "Файл в папке неоднозначен",
+    "file_path": "libs/core/WEBASE/Storage/FileStorageService.cs",
+    "line_number": 94,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "filestorage",
+    "class_name": "FileStorageService"
+  },
+  {
+    "error_message": "Файл не найдено",
+    "file_path": "libs/core/WEBASE/Storage/FileStorageService.cs",
+    "line_number": 116,
+    "condition": "!Directory.Exists(path)",
+    "service_name": "unknown",
+    "document_type": "filestorage",
+    "class_name": "FileStorageService"
+  },
+  {
+    "error_message": "Файл не найдено",
+    "file_path": "libs/core/WEBASE/Storage/FileStorageService.cs",
+    "line_number": 123,
+    "condition": "files.Length == 0",
+    "service_name": "unknown",
+    "document_type": "filestorage",
+    "class_name": "FileStorageService"
+  },
+  {
+    "error_message": "Файл в папке неоднозначен",
+    "file_path": "libs/core/WEBASE/Storage/FileStorageService.cs",
+    "line_number": 125,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "filestorage",
+    "class_name": "FileStorageService"
+  },
+  {
+    "error_message": "Temp file id: `[...]` not found in folder: `[...]`",
+    "file_path": "libs/core/WEBASE/Storage/FileStorageService.cs",
+    "line_number": 197,
+    "condition": "files.Length == 0",
+    "service_name": "unknown",
+    "document_type": "filestorage",
+    "class_name": "FileStorageService"
+  },
+  {
+    "error_message": "Temp file id: `[...]` ambiguous in folder: `[...]`",
+    "file_path": "libs/core/WEBASE/Storage/FileStorageService.cs",
+    "line_number": 199,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "filestorage",
+    "class_name": "FileStorageService"
+  },
+  {
+    "error_message": "Temp file id: `[...]` not found in folder: `[...]`",
+    "file_path": "libs/core/WEBASE/Storage/FileStorageService.cs",
+    "line_number": 271,
+    "condition": "tempFiles.Length == 0",
+    "service_name": "unknown",
+    "document_type": "filestorage",
+    "class_name": "FileStorageService"
+  },
+  {
+    "error_message": "Temp file id: `[...]` ambiguous in folder: `[...]`",
+    "file_path": "libs/core/WEBASE/Storage/FileStorageService.cs",
+    "line_number": 273,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "filestorage",
+    "class_name": "FileStorageService"
+  },
+  {
+    "error_message": "Файл не найдено (Адрес: [...])",
+    "file_path": "libs/core/WEBASE/Storage/FileStorageService.cs",
+    "line_number": 440,
+    "condition": "!File.Exists(path)",
+    "service_name": "unknown",
+    "document_type": "filestorage",
+    "class_name": "FileStorageService"
+  },
+  {
+    "error_message": "Static file `[...]` not found",
+    "file_path": "libs/core/WEBASE/Storage/FileStorageService.cs",
+    "line_number": 456,
+    "condition": "!File.Exists(path)",
+    "service_name": "unknown",
+    "document_type": "filestorage",
+    "class_name": "FileStorageService"
+  },
+  {
+    "error_message": "Static file `[...]` not found",
+    "file_path": "libs/core/WEBASE/Storage/FileStorageService.cs",
+    "line_number": 477,
+    "condition": "!File.Exists(path)",
+    "service_name": "unknown",
+    "document_type": "filestorage",
+    "class_name": "FileStorageService"
+  },
+  {
+    "error_message": "Temp file id: `[...]` not found in folder: `[...]`",
+    "file_path": "libs/core/WEBASE/Storage/FileStorageService.cs",
+    "line_number": 518,
+    "condition": "tempFiles.Length == 0",
+    "service_name": "unknown",
+    "document_type": "filestorage",
+    "class_name": "FileStorageService"
+  },
+  {
+    "error_message": "Temp file id: `[...]` ambiguous in folder: `[...]`",
+    "file_path": "libs/core/WEBASE/Storage/FileStorageService.cs",
+    "line_number": 520,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "filestorage",
+    "class_name": "FileStorageService"
+  },
+  {
+    "error_message": "Filename ([...]) not valid",
+    "file_path": "libs/core/WEBASE/Storage/StorageFile.cs",
+    "line_number": 76,
+    "condition": "FileName.NullOrEmpty() || FileName.IndexOfAny(Path.GetInvalidFileNameChars()",
+    "service_name": "unknown",
+    "document_type": "storagefile",
+    "class_name": "StorageFileInfo"
+  },
+  {
+    "error_message": "Cannot read file",
+    "file_path": "libs/core/WEBASE/Storage/StorageFile.cs",
+    "line_number": 79,
+    "condition": "GetStream() == null || !GetStream().CanRead",
+    "service_name": "unknown",
+    "document_type": "storagefile",
+    "class_name": "StorageFileInfo"
+  },
+  {
+    "error_message": "Некоторые файлы найдены",
+    "file_path": "libs/core/WEBASE.EF/Extensions/CustomFileEntityExtension.cs",
+    "line_number": 22,
+    "condition": "storageService.IsValid && fileInfos.Length != tempFileIds.Count",
+    "service_name": "unknown",
+    "document_type": "customfileentityextension",
+    "class_name": "CustomFileEntityExtension"
+  },
+  {
+    "error_message": "Некоторые файлы найдены",
+    "file_path": "libs/core/WEBASE.EF/Extensions/FileEntityExtension.cs",
+    "line_number": 22,
+    "condition": "storageService.IsValid && fileInfos.Length != tempFileIds.Count",
+    "service_name": "unknown",
+    "document_type": "fileentityextension",
+    "class_name": "FileEntityExtension"
+  },
+  {
+    "error_message": "По вашему запросу запись не найдено",
+    "file_path": "libs/core/WEBASE.EF/Repositories/BaseEntityRepository`2.cs",
+    "line_number": 312,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "baseentity`2",
+    "class_name": "BaseEntityRepository"
+  },
+  {
+    "error_message": "File (id: [...]) not found",
+    "file_path": "libs/Minio/WEBASE.Minio/MinioStorageService.cs",
+    "line_number": 73,
+    "condition": "ex.InnerException == null || ex.InnerException is not ObjectNotFoundException",
+    "service_name": "unknown",
+    "document_type": "miniostorage",
+    "class_name": "MinioStorageClient"
+  },
+  {
+    "error_message": "Temp file (id: [...]) not found",
+    "file_path": "libs/Minio/WEBASE.Minio/MinioStorageService.cs",
+    "line_number": 156,
+    "condition": "ex.InnerException == null || ex.InnerException is not ObjectNotFoundException",
+    "service_name": "unknown",
+    "document_type": "miniostorage",
+    "class_name": "MinioStorageClient"
+  },
+  {
+    "error_message": "Filename metadata not found. Temp file id: [...]",
+    "file_path": "libs/Minio/WEBASE.Minio/MinioStorageService.cs",
+    "line_number": 161,
+    "condition": "!stat.MetaData.ContainsKey(FILE_NAME_TAG_KEY) || stat.MetaData[FILE_NAME_TAG_KEY].NullOrEmpty()",
+    "service_name": "unknown",
+    "document_type": "miniostorage",
+    "class_name": "MinioStorageClient"
+  },
+  {
+    "error_message": "File (id: [...]) not found",
+    "file_path": "libs/Minio/WEBASE.Minio/MinioStorageService.cs",
+    "line_number": 365,
+    "condition": "ex.InnerException == null || ex.InnerException is not ObjectNotFoundException",
+    "service_name": "unknown",
+    "document_type": "miniostorage",
+    "class_name": "MinioStorageClient"
+  },
+  {
+    "error_message": "Could not publish message. queueName = [...], Error: [...]",
+    "file_path": "libs/mq/Uzasbo2.RabbitMQ.Core/PublisherBase.cs",
+    "line_number": 70,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "publisherbase",
+    "class_name": "PublisherBase"
+  },
+  {
+    "error_message": "RabbitMQ: Could not publish message. Error: [...]",
+    "file_path": "libs/mq/WEBASE.RabbitMQ/Publishers/Async/AsyncPublisherBase.cs",
+    "line_number": 167,
+    "condition": "",
+    "service_name": "unknown",
+    "document_type": "asyncpublisherbase",
+    "class_name": "for"
+  },
+  {
+    "error_message": "Noto'g'ri moliya yili tanlandi !!!",
+    "file_path": "libs/pck/Uzasbo2.DataLayer.Main.Ereport.Pck/Providers/Document/DocumentPackageProvider.cs",
+    "line_number": 337,
+    "condition": "!new int[] { DateTime.Now.Year - 1, DateTime.Now.Year }.Contains(forma5CreatedDto.FinanceYear) && forma5CreatedDto.type == 1",
+    "service_name": "unknown",
+    "document_type": "documentpackageprovider",
+    "class_name": "DocumentPackageProvider"
+  },
+  {
+    "error_message": "Noto'g'ri chorak tanlandi !!!",
+    "file_path": "libs/pck/Uzasbo2.DataLayer.Main.Ereport.Pck/Providers/Document/DocumentPackageProvider.cs",
+    "line_number": 343,
+    "condition": "!new int[] { 1, 2, 3, 4 }.Contains(forma5CreatedDto.Period)",
+    "service_name": "unknown",
+    "document_type": "documentpackageprovider",
+    "class_name": "DocumentPackageProvider"
+  },
+  {
+    "error_message": "Кутилмаган хатолик. Ҳужжат топилмади.",
+    "file_path": "libs/pck/Uzasbo2.DataLayer.Main.Finance.Pck/Providers/Document/DocumentPackageProvider.cs",
+    "line_number": 1020,
+    "condition": "ex.Message.NormalizeOracleError() == \"Eooeeiaaai oaoieee. ?o??ao oiieeiaae.\" || ex.Message.NormalizeOracleError() == \"?o??ao ?ieaoe oanae?eaiiaaai\"",
+    "service_name": "unknown",
+    "document_type": "documentpackageprovider",
+    "class_name": "DocumentPackageProvider"
+  },
+  {
+    "error_message": "Кутилмаган хатолик. Ҳужжат топилмади.",
+    "file_path": "libs/pck/Uzasbo2.DataLayer.Main.Finance.Pck/Providers/Document/DocumentPackageProvider.cs",
+    "line_number": 1050,
+    "condition": "ex.Message.NormalizeOracleError() == \"Eooeeiaaai oaoieee. ?o??ao oiieeiaae.\" || ex.Message.NormalizeOracleError() == \"?o??ao ?ieaoe oanae?eaiiaaai\"",
+    "service_name": "unknown",
+    "document_type": "documentpackageprovider",
+    "class_name": "DocumentPackageProvider"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/sdk/Uzasbo2.Services.Sdk.Core/Services/BaseService.cs",
+    "line_number": 90,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "base",
+    "class_name": "BaseService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "libs/sdk/Uzasbo2.Services.Sdk.Core/Services/BaseService.cs",
+    "line_number": 125,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "base",
+    "class_name": "BaseService"
+  },
+  {
+    "error_message": "[dynamic: error]",
+    "file_path": "libs/sdk/Uzasbo2.Services.Sdk.Core/Services/BaseService.cs",
+    "line_number": 252,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "unknown",
+    "document_type": "base",
+    "class_name": "BaseService"
+  }
+]

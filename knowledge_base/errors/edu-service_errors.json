@@ -1,0 +1,3179 @@
+[
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/ContractInvoiceServices/Concrete/ContractInvoiceService.cs",
+    "line_number": 197,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, StatusIdConst.MODIFIED)",
+    "service_name": "edu-service",
+    "document_type": "contractinvoice",
+    "class_name": "ContractInvoiceService"
+  },
+  {
+    "error_message": "Hujjat D-T yoki K-T shotlari bo'sh bo'la olmaydi.",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/ContractInvoiceServices/Concrete/ContractInvoiceService.cs",
+    "line_number": 236,
+    "condition": "(!entity.SubAccDbId.HasValue || entity.SubAccDbId.Value == 0) || (!entity.SubAccCrId.HasValue || entity.SubAccCrId.Value == 0)",
+    "service_name": "edu-service",
+    "document_type": "contractinvoice",
+    "class_name": "ContractInvoiceService"
+  },
+  {
+    "error_message": "Биллинг тизими орқали яратилган шартномани ташкилот ўчира олмайди.",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/ContractInvoiceServices/Concrete/ContractInvoiceService.cs",
+    "line_number": 295,
+    "condition": "ent.BillingEduId.HasValue",
+    "service_name": "edu-service",
+    "document_type": "contractinvoice",
+    "class_name": "ContractInvoiceService"
+  },
+  {
+    "error_message": "Невожможно удалить утвержденный документ",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/ContractInvoiceServices/Concrete/ContractInvoiceService.cs",
+    "line_number": 297,
+    "condition": "ent.StatusId == StatusIdConst.ACCEPTED",
+    "service_name": "edu-service",
+    "document_type": "contractinvoice",
+    "class_name": "ContractInvoiceService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/ContractInvoiceServices/Concrete/ContractInvoiceService.cs",
+    "line_number": 299,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "contractinvoice",
+    "class_name": "ContractInvoiceService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/ContractInvoiceServices/Concrete/ContractInvoiceService.cs",
+    "line_number": 334,
+    "condition": "!StatusIdConst.CanModifyStatus.Contains(entity.StatusId)",
+    "service_name": "edu-service",
+    "document_type": "contractinvoice",
+    "class_name": "ContractInvoiceService"
+  },
+  {
+    "error_message": "Биллинг тизими орқали яратилган шартномани ташкилот ўзгартира олмайди.",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/ContractInvoiceServices/Concrete/ContractInvoiceService.cs",
+    "line_number": 337,
+    "condition": "entity.BillingEduId.HasValue",
+    "service_name": "edu-service",
+    "document_type": "contractinvoice",
+    "class_name": "ContractInvoiceService"
+  },
+  {
+    "error_message": "Hujjat D-T yoki K-T shotlari bo'sh bo'la olmaydi.",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/ContractInvoiceServices/Concrete/ContractInvoiceService.cs",
+    "line_number": 341,
+    "condition": "(!dto.SubAccDbId.HasValue || dto.SubAccDbId.Value == 0) || (!dto.SubAccCrId.HasValue || dto.SubAccCrId.Value == 0)",
+    "service_name": "edu-service",
+    "document_type": "contractinvoice",
+    "class_name": "ContractInvoiceService"
+  },
+  {
+    "error_message": "Шартномалари биллинг тизими орқали афтомат шакиланади.",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/ContractInvoiceServices/Concrete/ContractInvoiceService.cs",
+    "line_number": 346,
+    "condition": "isBillingOrg",
+    "service_name": "edu-service",
+    "document_type": "contractinvoice",
+    "class_name": "ContractInvoiceService"
+  },
+  {
+    "error_message": "Документ с этим кодом [...] уже существует",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/ContractInvoiceServices/Concrete/ContractInvoiceService.cs",
+    "line_number": 349,
+    "condition": "query.ByDocNumber(dto.DocNumber).Any()",
+    "service_name": "edu-service",
+    "document_type": "contractinvoice",
+    "class_name": "ContractInvoiceService"
+  },
+  {
+    "error_message": "Бу амалиёт бажарилиш жараёнда :бошланган вақти [...]",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/ContractInvoiceServices/Concrete/ContractInvoiceService.cs",
+    "line_number": 361,
+    "condition": "jobHistory != null && jobHistory.StatusId == StatusIdConst.WAITING",
+    "service_name": "edu-service",
+    "document_type": "contractinvoice",
+    "class_name": "ContractInvoiceService"
+  },
+  {
+    "error_message": "Ҳужжат ҳолати хато берилган.",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/ContractInvoiceServices/Concrete/ContractInvoiceService.cs",
+    "line_number": 385,
+    "condition": "dto.StatusId != StatusIdConst.NOT_ACCEPTED",
+    "service_name": "edu-service",
+    "document_type": "contractinvoice",
+    "class_name": "ContractInvoiceService"
+  },
+  {
+    "error_message": "Ҳужжат ҳолати хато берилган",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/ContractInvoiceServices/Concrete/ContractInvoiceService.cs",
+    "line_number": 437,
+    "condition": "dto.StatusId != StatusIdConst.DELETED",
+    "service_name": "edu-service",
+    "document_type": "contractinvoice",
+    "class_name": "ContractInvoiceService"
+  },
+  {
+    "error_message": "Невожможно удалить утвержденный документ",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/ContractInvoiceServices/Concrete/ContractInvoiceService.cs",
+    "line_number": 449,
+    "condition": "entity.StatusId == StatusIdConst.ACCEPTED",
+    "service_name": "edu-service",
+    "document_type": "contractinvoice",
+    "class_name": "ContractInvoiceService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/ContractInvoiceServices/Concrete/ContractInvoiceService.cs",
+    "line_number": 451,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "contractinvoice",
+    "class_name": "ContractInvoiceService"
+  },
+  {
+    "error_message": "[...] ҳисоб рақам учун PaymentTypeId : [...] шартнома қабул қилинмайди...",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/ContractInvoiceServices/Concrete/ContractInvoiceService.cs",
+    "line_number": 477,
+    "condition": "billingInvoice.SettelementAccountCode.StartsWith(\"4009\") && billingInvoice.PaymentTypeId == EduPaymentTypeIdConst.Dormitory",
+    "service_name": "edu-service",
+    "document_type": "contractinvoice",
+    "class_name": "ContractInvoiceService"
+  },
+  {
+    "error_message": "[...] ҳисоб рақам учун PaymentTypeId : [...] шартнома қабул қилинмайди...",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/ContractInvoiceServices/Concrete/ContractInvoiceService.cs",
+    "line_number": 480,
+    "condition": "billingInvoice.SettelementAccountCode.StartsWith(\"4001\") && billingInvoice.PaymentTypeId == EduPaymentTypeIdConst.Contract",
+    "service_name": "edu-service",
+    "document_type": "contractinvoice",
+    "class_name": "ContractInvoiceService"
+  },
+  {
+    "error_message": "[...] - [...] талаба учун олдинги йилги шартномалар узасбо 2 тизимда қабул қилинмайди...",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/ContractInvoiceServices/Concrete/ContractInvoiceService.cs",
+    "line_number": 483,
+    "condition": "billingInvoice.PaymentTypeId == 1 && billingInvoice.DocDate.Year < 2024",
+    "service_name": "edu-service",
+    "document_type": "contractinvoice",
+    "class_name": "ContractInvoiceService"
+  },
+  {
+    "error_message": "Hujjat D-T yoki K-T shotlari bo'sh bo'la olmaydi.",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/ContractInvoiceServices/Concrete/ContractInvoiceService.cs",
+    "line_number": 518,
+    "condition": "(!updateDlDto.SubAccDbId.HasValue || updateDlDto.SubAccDbId.Value == 0) || (!updateDlDto.SubAccCrId.HasValue || updateDlDto.SubAccCrId.Value == 0)",
+    "service_name": "edu-service",
+    "document_type": "contractinvoice",
+    "class_name": "ContractInvoiceService"
+  },
+  {
+    "error_message": "Hujjat D-T yoki K-T shotlari bo'sh bo'la olmaydi.",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/ContractInvoiceServices/Concrete/ContractInvoiceService.cs",
+    "line_number": 556,
+    "condition": "(!createDlDto.SubAccDbId.HasValue || createDlDto.SubAccDbId.Value == 0) || (!createDlDto.SubAccCrId.HasValue || createDlDto.SubAccCrId.Value == 0)",
+    "service_name": "edu-service",
+    "document_type": "contractinvoice",
+    "class_name": "ContractInvoiceService"
+  },
+  {
+    "error_message": "Бу [...] инн ли ташкилот узасбо 2 тизимида топилмади.",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/ContractInvoiceServices/Concrete/ContractInvoiceService.cs",
+    "line_number": 987,
+    "condition": "organization is null",
+    "service_name": "edu-service",
+    "document_type": "contractinvoice",
+    "class_name": "ContractInvoiceService"
+  },
+  {
+    "error_message": "Ид [...] лик ҳужжат узасбо тизимида мавжуд емас.",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/ContractInvoiceServices/Concrete/ContractInvoiceService.cs",
+    "line_number": 1014,
+    "condition": "entity is null",
+    "service_name": "edu-service",
+    "document_type": "contractinvoice",
+    "class_name": "ContractInvoiceService"
+  },
+  {
+    "error_message": "Бир йил оралиғи давридан катта даврлар учун маълумот олиш имкони мавжуд эмас.",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/ContractInvoiceServices/Concrete/ContractInvoiceService.cs",
+    "line_number": 1065,
+    "condition": "!dto.StartDate.HasValue || !dto.EndDate.HasValue || dto.StartDate.Value.Year != dto.EndDate.Value.Year",
+    "service_name": "edu-service",
+    "document_type": "contractinvoice",
+    "class_name": "ContractInvoiceService"
+  },
+  {
+    "error_message": "File topilmadi.",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/ContractInvoiceServices/Concrete/ContractInvoiceService.cs",
+    "line_number": 1074,
+    "condition": "template == null",
+    "service_name": "edu-service",
+    "document_type": "contractinvoice",
+    "class_name": "ContractInvoiceService"
+  },
+  {
+    "error_message": "Бу [...] инн ли ташкилот узасбо 2 тизимида топилмади.",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/ContractInvoiceServices/Concrete/ContractInvoiceService.cs",
+    "line_number": 1123,
+    "condition": "organization is null",
+    "service_name": "edu-service",
+    "document_type": "contractinvoice",
+    "class_name": "ContractInvoiceService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/ContractOfScholarshipServices/Concrete/ContractOfScholarshipService.cs",
+    "line_number": 111,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "contractofscholarship",
+    "class_name": "ContractOfScholarshipService"
+  },
+  {
+    "error_message": "Дата документа неправильно",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/ContractOfScholarshipServices/Concrete/ContractOfScholarshipService.cs",
+    "line_number": 146,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "contractofscholarship",
+    "class_name": "ContractOfScholarshipService"
+  },
+  {
+    "error_message": "Произошла ошибка при заполнении",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/ContractOfScholarshipServices/Concrete/ContractOfScholarshipService.cs",
+    "line_number": 165,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "contractofscholarship",
+    "class_name": "ContractOfScholarshipService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/ContractOfScholarshipServices/Concrete/ContractOfScholarshipService.cs",
+    "line_number": 189,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "contractofscholarship",
+    "class_name": "ContractOfScholarshipService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/ContractOfScholarshipServices/Concrete/ContractOfScholarshipService.cs",
+    "line_number": 211,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "contractofscholarship",
+    "class_name": "ContractOfScholarshipService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/ContractOfScholarshipServices/Concrete/ContractOfScholarshipService.cs",
+    "line_number": 277,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "contractofscholarship",
+    "class_name": "ContractOfScholarshipService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/ContractOfScholarshipServices/Concrete/ContractOfScholarshipService.cs",
+    "line_number": 299,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "contractofscholarship",
+    "class_name": "ContractOfScholarshipService"
+  },
+  {
+    "error_message": "Сотрудник был удален",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/ContractOfScholarshipServices/Concrete/ContractOfScholarshipService.cs",
+    "line_number": 305,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "contractofscholarship",
+    "class_name": "ContractOfScholarshipService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/ContractOfScholarshipServices/Concrete/ContractOfScholarshipService.cs",
+    "line_number": 399,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "contractofscholarship",
+    "class_name": "ContractOfScholarshipService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/ContractOfScholarshipServices/Concrete/ContractOfScholarshipService.cs",
+    "line_number": 416,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "contractofscholarship",
+    "class_name": "ContractOfScholarshipService"
+  },
+  {
+    "error_message": "Таҳрирлаш мумкин эмас / Невозможно редактировать",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/ContractOfScholarshipServices/Concrete/ContractOfScholarshipService.cs",
+    "line_number": 457,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "contractofscholarship",
+    "class_name": "ContractOfScholarshipService"
+  },
+  {
+    "error_message": "Документ с этим кодом [...] уже существует",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/ContractOfScholarshipServices/Concrete/ContractOfScholarshipService.cs",
+    "line_number": 461,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "contractofscholarship",
+    "class_name": "ContractOfScholarshipService"
+  },
+  {
+    "error_message": "Дата документа неправильно",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/ContractOfScholarshipServices/Concrete/ContractOfScholarshipService.cs",
+    "line_number": 471,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "contractofscholarship",
+    "class_name": "ContractOfScholarshipService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/ContractOfScholarshipServices/Concrete/ContractOfScholarshipService.cs",
+    "line_number": 532,
+    "condition": "result.Id > 0 && !StatusIdConst.CanApplyStatus(ent.StatusId, StatusIdConst.MODIFIED)",
+    "service_name": "edu-service",
+    "document_type": "contractofscholarship",
+    "class_name": "ContractOfScholarshipService"
+  },
+  {
+    "error_message": "Дата документа неправильно",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/ContractOfScholarshipServices/Concrete/ContractOfScholarshipService.cs",
+    "line_number": 567,
+    "condition": "admissionOrder != null",
+    "service_name": "edu-service",
+    "document_type": "contractofscholarship",
+    "class_name": "ContractOfScholarshipService"
+  },
+  {
+    "error_message": "Произошла ошибка при заполнении",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/ContractOfScholarshipServices/Concrete/ContractOfScholarshipService.cs",
+    "line_number": 586,
+    "condition": "HasErrors",
+    "service_name": "edu-service",
+    "document_type": "contractofscholarship",
+    "class_name": "ContractOfScholarshipService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/ContractOfScholarshipServices/Concrete/ContractOfScholarshipService.cs",
+    "line_number": 610,
+    "condition": "dto.Id > 0 && !StatusIdConst.CanApplyStatus(ent.StatusId, StatusIdConst.MODIFIED)",
+    "service_name": "edu-service",
+    "document_type": "contractofscholarship",
+    "class_name": "ContractOfScholarshipService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/ContractOfScholarshipServices/Concrete/ContractOfScholarshipService.cs",
+    "line_number": 632,
+    "condition": "!StatusIdConst.CanApplyStatus(entity.StatusId, StatusIdConst.MODIFIED)",
+    "service_name": "edu-service",
+    "document_type": "contractofscholarship",
+    "class_name": "ContractOfScholarshipService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/ContractOfScholarshipServices/Concrete/ContractOfScholarshipService.cs",
+    "line_number": 702,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, StatusIdConst.MODIFIED)",
+    "service_name": "edu-service",
+    "document_type": "contractofscholarship",
+    "class_name": "ContractOfScholarshipService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/ContractOfScholarshipServices/Concrete/ContractOfScholarshipService.cs",
+    "line_number": 726,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, dto.StatusId)",
+    "service_name": "edu-service",
+    "document_type": "contractofscholarship",
+    "class_name": "ContractOfScholarshipService"
+  },
+  {
+    "error_message": "Сотрудник был удален",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/ContractOfScholarshipServices/Concrete/ContractOfScholarshipService.cs",
+    "line_number": 732,
+    "condition": "isDeleted",
+    "service_name": "edu-service",
+    "document_type": "contractofscholarship",
+    "class_name": "ContractOfScholarshipService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/ContractOfScholarshipServices/Concrete/ContractOfScholarshipService.cs",
+    "line_number": 826,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, dto.StatusId)",
+    "service_name": "edu-service",
+    "document_type": "contractofscholarship",
+    "class_name": "ContractOfScholarshipService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/ContractOfScholarshipServices/Concrete/ContractOfScholarshipService.cs",
+    "line_number": 843,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, dto.StatusId)",
+    "service_name": "edu-service",
+    "document_type": "contractofscholarship",
+    "class_name": "ContractOfScholarshipService"
+  },
+  {
+    "error_message": "Таҳрирлаш мумкин эмас / Невозможно редактировать",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/ContractOfScholarshipServices/Concrete/ContractOfScholarshipService.cs",
+    "line_number": 888,
+    "condition": "!StatusIdConst.CanModifyStatus.Contains(entity.StatusId)",
+    "service_name": "edu-service",
+    "document_type": "contractofscholarship",
+    "class_name": "ContractOfScholarshipService"
+  },
+  {
+    "error_message": "Документ с этим кодом [...] уже существует",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/ContractOfScholarshipServices/Concrete/ContractOfScholarshipService.cs",
+    "line_number": 892,
+    "condition": "await query.ByDocNumber(dto.DocNumber).AnyAsync(cancellationToken: cancellationToken)",
+    "service_name": "edu-service",
+    "document_type": "contractofscholarship",
+    "class_name": "ContractOfScholarshipService"
+  },
+  {
+    "error_message": "Дата документа неправильно",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/ContractOfScholarshipServices/Concrete/ContractOfScholarshipService.cs",
+    "line_number": 902,
+    "condition": "admissionOrder.StartOn > dto.DocOn || admissionOrder.EndOn < dto.DocOn",
+    "service_name": "edu-service",
+    "document_type": "contractofscholarship",
+    "class_name": "ContractOfScholarshipService"
+  },
+  {
+    "error_message": "Сумма ва фоиз биргаликда киритилиши мумкин эмас",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/EduTempCalcKindServices/Concrete/EduTempCalcKindService.cs",
+    "line_number": 119,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "edutempcalckind",
+    "class_name": "EduTempCalcKindService"
+  },
+  {
+    "error_message": "Произошла ошибка при заполнении",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/EduTempCalcKindServices/Concrete/EduTempCalcKindService.cs",
+    "line_number": 144,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "edutempcalckind",
+    "class_name": "EduTempCalcKindService"
+  },
+  {
+    "error_message": "Произошла ошибка при заполнении",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/EduTempCalcKindServices/Concrete/EduTempCalcKindService.cs",
+    "line_number": 163,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "edutempcalckind",
+    "class_name": "EduTempCalcKindService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/EduTempCalcKindServices/Concrete/EduTempCalcKindService.cs",
+    "line_number": 182,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "edutempcalckind",
+    "class_name": "EduTempCalcKindService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/EduTempCalcKindServices/Concrete/EduTempCalcKindService.cs",
+    "line_number": 211,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "edutempcalckind",
+    "class_name": "EduTempCalcKindService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/EduTempCalcKindServices/Concrete/EduTempCalcKindService.cs",
+    "line_number": 277,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "edutempcalckind",
+    "class_name": "EduTempCalcKindService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/EduTempCalcKindServices/Concrete/EduTempCalcKindService.cs",
+    "line_number": 300,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "edutempcalckind",
+    "class_name": "EduTempCalcKindService"
+  },
+  {
+    "error_message": "Сумма ва фоиз биргаликда киритилиши мумкин эмас",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/EduTempCalcKindServices/Concrete/EduTempCalcKindService.cs",
+    "line_number": 304,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "edutempcalckind",
+    "class_name": "EduTempCalcKindService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/EduTempCalcKindServices/Concrete/EduTempCalcKindService.cs",
+    "line_number": 327,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "edutempcalckind",
+    "class_name": "EduTempCalcKindService"
+  },
+  {
+    "error_message": "Сотрудник был удален",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/EduTempCalcKindServices/Concrete/EduTempCalcKindService.cs",
+    "line_number": 333,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "edutempcalckind",
+    "class_name": "EduTempCalcKindService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/EduTempCalcKindServices/Concrete/EduTempCalcKindService.cs",
+    "line_number": 343,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "edutempcalckind",
+    "class_name": "EduTempCalcKindService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/EduTempCalcKindServices/Concrete/EduTempCalcKindService.cs",
+    "line_number": 360,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "edutempcalckind",
+    "class_name": "EduTempCalcKindService"
+  },
+  {
+    "error_message": "Таҳрирлаш мумкин эмас / Невозможно редактировать",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/EduTempCalcKindServices/Concrete/EduTempCalcKindService.cs",
+    "line_number": 400,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "edutempcalckind",
+    "class_name": "EduTempCalcKindService"
+  },
+  {
+    "error_message": "Документ с этим кодом [...] уже существует",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/EduTempCalcKindServices/Concrete/EduTempCalcKindService.cs",
+    "line_number": 404,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "edutempcalckind",
+    "class_name": "EduTempCalcKindService"
+  },
+  {
+    "error_message": "Сумма ва фоиз биргаликда киритилиши мумкин эмас",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/EduTempCalcKindServices/Concrete/EduTempCalcKindService.cs",
+    "line_number": 408,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "edutempcalckind",
+    "class_name": "EduTempCalcKindService"
+  },
+  {
+    "error_message": "Сумма ва фоиз биргаликда киритилиши мумкин эмас",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/EduTempCalcKindServices/Concrete/EduTempCalcKindService.cs",
+    "line_number": 470,
+    "condition": "dto.Percentage > 0 && dto.Amount > 0",
+    "service_name": "edu-service",
+    "document_type": "edutempcalckind",
+    "class_name": "EduTempCalcKindService"
+  },
+  {
+    "error_message": "Произошла ошибка при заполнении",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/EduTempCalcKindServices/Concrete/EduTempCalcKindService.cs",
+    "line_number": 495,
+    "condition": "HasErrors",
+    "service_name": "edu-service",
+    "document_type": "edutempcalckind",
+    "class_name": "EduTempCalcKindService"
+  },
+  {
+    "error_message": "Произошла ошибка при заполнении",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/EduTempCalcKindServices/Concrete/EduTempCalcKindService.cs",
+    "line_number": 514,
+    "condition": "!IsValid",
+    "service_name": "edu-service",
+    "document_type": "edutempcalckind",
+    "class_name": "EduTempCalcKindService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/EduTempCalcKindServices/Concrete/EduTempCalcKindService.cs",
+    "line_number": 533,
+    "condition": "result.Id > 0 && !StatusIdConst.CanApplyStatus(ent.StatusId, StatusIdConst.MODIFIED)",
+    "service_name": "edu-service",
+    "document_type": "edutempcalckind",
+    "class_name": "EduTempCalcKindService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/EduTempCalcKindServices/Concrete/EduTempCalcKindService.cs",
+    "line_number": 562,
+    "condition": "!StatusIdConst.CanApplyStatus(entity.StatusId, StatusIdConst.MODIFIED)",
+    "service_name": "edu-service",
+    "document_type": "edutempcalckind",
+    "class_name": "EduTempCalcKindService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/EduTempCalcKindServices/Concrete/EduTempCalcKindService.cs",
+    "line_number": 632,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, StatusIdConst.MODIFIED)",
+    "service_name": "edu-service",
+    "document_type": "edutempcalckind",
+    "class_name": "EduTempCalcKindService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/EduTempCalcKindServices/Concrete/EduTempCalcKindService.cs",
+    "line_number": 657,
+    "condition": "dto.Id > 0 && !StatusIdConst.CanApplyStatus(ent.StatusId, StatusIdConst.MODIFIED)",
+    "service_name": "edu-service",
+    "document_type": "edutempcalckind",
+    "class_name": "EduTempCalcKindService"
+  },
+  {
+    "error_message": "Сумма ва фоиз биргаликда киритилиши мумкин эмас",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/EduTempCalcKindServices/Concrete/EduTempCalcKindService.cs",
+    "line_number": 661,
+    "condition": "dto.Percentage > 0 && dto.Amount > 0",
+    "service_name": "edu-service",
+    "document_type": "edutempcalckind",
+    "class_name": "EduTempCalcKindService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/EduTempCalcKindServices/Concrete/EduTempCalcKindService.cs",
+    "line_number": 684,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, dto.StatusId)",
+    "service_name": "edu-service",
+    "document_type": "edutempcalckind",
+    "class_name": "EduTempCalcKindService"
+  },
+  {
+    "error_message": "Сотрудник был удален",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/EduTempCalcKindServices/Concrete/EduTempCalcKindService.cs",
+    "line_number": 690,
+    "condition": "isDeleted",
+    "service_name": "edu-service",
+    "document_type": "edutempcalckind",
+    "class_name": "EduTempCalcKindService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/EduTempCalcKindServices/Concrete/EduTempCalcKindService.cs",
+    "line_number": 700,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, dto.StatusId)",
+    "service_name": "edu-service",
+    "document_type": "edutempcalckind",
+    "class_name": "EduTempCalcKindService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/EduTempCalcKindServices/Concrete/EduTempCalcKindService.cs",
+    "line_number": 718,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, dto.StatusId)",
+    "service_name": "edu-service",
+    "document_type": "edutempcalckind",
+    "class_name": "EduTempCalcKindService"
+  },
+  {
+    "error_message": "Таҳрирлаш мумкин эмас / Невозможно редактировать",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/EduTempCalcKindServices/Concrete/EduTempCalcKindService.cs",
+    "line_number": 762,
+    "condition": "!StatusIdConst.CanModifyStatus.Contains(entity.StatusId)",
+    "service_name": "edu-service",
+    "document_type": "edutempcalckind",
+    "class_name": "EduTempCalcKindService"
+  },
+  {
+    "error_message": "Документ с этим кодом [...] уже существует",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/EduTempCalcKindServices/Concrete/EduTempCalcKindService.cs",
+    "line_number": 766,
+    "condition": "IsValid && await query.ByDocNumber(dto.DocNumber).AnyAsync(cancellationToken: cancellationToken)",
+    "service_name": "edu-service",
+    "document_type": "edutempcalckind",
+    "class_name": "EduTempCalcKindService"
+  },
+  {
+    "error_message": "Сумма ва фоиз биргаликда киритилиши мумкин эмас",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/EduTempCalcKindServices/Concrete/EduTempCalcKindService.cs",
+    "line_number": 770,
+    "condition": "IsValid && dto.Tables.Any(a => a.Percentage > 0 && a.Amount > 0)",
+    "service_name": "edu-service",
+    "document_type": "edutempcalckind",
+    "class_name": "EduTempCalcKindService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/ScholarshipPenaltyServices/Concrete/ScholarshipPenaltyService.cs",
+    "line_number": 110,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "scholarshippenalty",
+    "class_name": "ScholarshipPenaltyService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/ScholarshipPenaltyServices/Concrete/ScholarshipPenaltyService.cs",
+    "line_number": 141,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "scholarshippenalty",
+    "class_name": "ScholarshipPenaltyService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/ScholarshipPenaltyServices/Concrete/ScholarshipPenaltyService.cs",
+    "line_number": 184,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "scholarshippenalty",
+    "class_name": "ScholarshipPenaltyService"
+  },
+  {
+    "error_message": "Документ с этим кодом [...] уже существует",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/ScholarshipPenaltyServices/Concrete/ScholarshipPenaltyService.cs",
+    "line_number": 188,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "scholarshippenalty",
+    "class_name": "ScholarshipPenaltyService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/ScholarshipPenaltyServices/Concrete/ScholarshipPenaltyService.cs",
+    "line_number": 263,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, StatusIdConst.MODIFIED)",
+    "service_name": "edu-service",
+    "document_type": "scholarshippenalty",
+    "class_name": "ScholarshipPenaltyService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/ScholarshipPenaltyServices/Concrete/ScholarshipPenaltyService.cs",
+    "line_number": 296,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, dto.StatusId)",
+    "service_name": "edu-service",
+    "document_type": "scholarshippenalty",
+    "class_name": "ScholarshipPenaltyService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/ScholarshipPenaltyServices/Concrete/ScholarshipPenaltyService.cs",
+    "line_number": 331,
+    "condition": "!StatusIdConst.CanModifyStatus.Contains(entity.StatusId)",
+    "service_name": "edu-service",
+    "document_type": "scholarshippenalty",
+    "class_name": "ScholarshipPenaltyService"
+  },
+  {
+    "error_message": "Документ с этим кодом [...] уже существует",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/ScholarshipPenaltyServices/Concrete/ScholarshipPenaltyService.cs",
+    "line_number": 335,
+    "condition": "await query.ByDocNumber(dto.DocNumber).AnyAsync(cancellationToken: cancellationToken)",
+    "service_name": "edu-service",
+    "document_type": "scholarshippenalty",
+    "class_name": "ScholarshipPenaltyService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentAdmissionOrderServices/Concrete/StudentAdmissionOrderService.cs",
+    "line_number": 129,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentadmissionorder",
+    "class_name": "StudentAdmissionOrderService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentAdmissionOrderServices/Concrete/StudentAdmissionOrderService.cs",
+    "line_number": 157,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentadmissionorder",
+    "class_name": "StudentAdmissionOrderService"
+  },
+  {
+    "error_message": "[...] аввал қабул қилинган /",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentAdmissionOrderServices/Concrete/StudentAdmissionOrderService.cs",
+    "line_number": 168,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentadmissionorder",
+    "class_name": "StudentAdmissionOrderService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentAdmissionOrderServices/Concrete/StudentAdmissionOrderService.cs",
+    "line_number": 251,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentadmissionorder",
+    "class_name": "StudentAdmissionOrderService"
+  },
+  {
+    "error_message": "Ushbu qabul buyrug'i uchun kontrakt summasi to'lagan talabalar hujjati kiritilgan",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentAdmissionOrderServices/Concrete/StudentAdmissionOrderService.cs",
+    "line_number": 256,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentadmissionorder",
+    "class_name": "StudentAdmissionOrderService"
+  },
+  {
+    "error_message": "[...] номли талаба [...] ҳужжатларда фойдаланилган",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentAdmissionOrderServices/Concrete/StudentAdmissionOrderService.cs",
+    "line_number": 295,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentadmissionorder",
+    "class_name": "StudentAdmissionOrderService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentAdmissionOrderServices/Concrete/StudentAdmissionOrderService.cs",
+    "line_number": 404,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentadmissionorder",
+    "class_name": "StudentAdmissionOrderService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentAdmissionOrderServices/Concrete/StudentAdmissionOrderService.cs",
+    "line_number": 455,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentadmissionorder",
+    "class_name": "StudentAdmissionOrderService"
+  },
+  {
+    "error_message": "Тугаш санаси бошланиш санасидан кичик бўлмаслиги керак",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentAdmissionOrderServices/Concrete/StudentAdmissionOrderService.cs",
+    "line_number": 460,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentadmissionorder",
+    "class_name": "StudentAdmissionOrderService"
+  },
+  {
+    "error_message": "Не выбрана базовая стипендия для некоторых студентов: {string.Join(",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentAdmissionOrderServices/Concrete/StudentAdmissionOrderService.cs",
+    "line_number": 475,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentadmissionorder",
+    "class_name": "StudentAdmissionOrderService"
+  },
+  {
+    "error_message": "Есть несколько дубликатов:",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentAdmissionOrderServices/Concrete/StudentAdmissionOrderService.cs",
+    "line_number": 485,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentadmissionorder",
+    "class_name": "StudentAdmissionOrderService"
+  },
+  {
+    "error_message": "[...]",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentAdmissionOrderServices/Concrete/StudentAdmissionOrderService.cs",
+    "line_number": 493,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentadmissionorder",
+    "class_name": "StudentAdmissionOrderService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentAdmissionOrderServices/Concrete/StudentAdmissionOrderService.cs",
+    "line_number": 617,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, StatusIdConst.MODIFIED)",
+    "service_name": "edu-service",
+    "document_type": "studentadmissionorder",
+    "class_name": "StudentAdmissionOrderService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentAdmissionOrderServices/Concrete/StudentAdmissionOrderService.cs",
+    "line_number": 647,
+    "condition": "!StatusIdConst.CanApplyStatus(entity.StatusId, updateStatusDto.StatusId)",
+    "service_name": "edu-service",
+    "document_type": "studentadmissionorder",
+    "class_name": "StudentAdmissionOrderService"
+  },
+  {
+    "error_message": "[...] аввал қабул қилинган /",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentAdmissionOrderServices/Concrete/StudentAdmissionOrderService.cs",
+    "line_number": 658,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentadmissionorder",
+    "class_name": "StudentAdmissionOrderService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentAdmissionOrderServices/Concrete/StudentAdmissionOrderService.cs",
+    "line_number": 744,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, statusDto.StatusId)",
+    "service_name": "edu-service",
+    "document_type": "studentadmissionorder",
+    "class_name": "StudentAdmissionOrderService"
+  },
+  {
+    "error_message": "Ushbu qabul buyrug'i uchun kontrakt summasi to'lagan talabalar hujjati kiritilgan",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentAdmissionOrderServices/Concrete/StudentAdmissionOrderService.cs",
+    "line_number": 749,
+    "condition": "await _unitOfWork.Context.Set<ContractOfScholarship>().Where(a => a.OrganizationId == _authService.CurrentOrganizationId",
+    "service_name": "edu-service",
+    "document_type": "studentadmissionorder",
+    "class_name": "StudentAdmissionOrderService"
+  },
+  {
+    "error_message": "[...] номли талаба [...] ҳужжатларда фойдаланилган",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentAdmissionOrderServices/Concrete/StudentAdmissionOrderService.cs",
+    "line_number": 788,
+    "condition": "!string.IsNullOrEmpty(error)",
+    "service_name": "edu-service",
+    "document_type": "studentadmissionorder",
+    "class_name": "StudentAdmissionOrderService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentAdmissionOrderServices/Concrete/StudentAdmissionOrderService.cs",
+    "line_number": 900,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, dto.StatusId)",
+    "service_name": "edu-service",
+    "document_type": "studentadmissionorder",
+    "class_name": "StudentAdmissionOrderService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentAdmissionOrderServices/Concrete/StudentAdmissionOrderService.cs",
+    "line_number": 943,
+    "condition": "!StatusIdConst.CanModifyStatus.Contains(entity.StatusId)",
+    "service_name": "edu-service",
+    "document_type": "studentadmissionorder",
+    "class_name": "StudentAdmissionOrderService"
+  },
+  {
+    "error_message": "Тугаш санаси бошланиш санасидан кичик бўлмаслиги керак",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentAdmissionOrderServices/Concrete/StudentAdmissionOrderService.cs",
+    "line_number": 948,
+    "condition": "dto.EndOn < dto.StartOn",
+    "service_name": "edu-service",
+    "document_type": "studentadmissionorder",
+    "class_name": "StudentAdmissionOrderService"
+  },
+  {
+    "error_message": "Не выбрана базовая стипендия для некоторых студентов: {string.Join(",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentAdmissionOrderServices/Concrete/StudentAdmissionOrderService.cs",
+    "line_number": 963,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentadmissionorder",
+    "class_name": "StudentAdmissionOrderService"
+  },
+  {
+    "error_message": "Есть несколько дубликатов:",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentAdmissionOrderServices/Concrete/StudentAdmissionOrderService.cs",
+    "line_number": 973,
+    "condition": "duplicates.Any()",
+    "service_name": "edu-service",
+    "document_type": "studentadmissionorder",
+    "class_name": "StudentAdmissionOrderService"
+  },
+  {
+    "error_message": "[...]",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentAdmissionOrderServices/Concrete/StudentAdmissionOrderService.cs",
+    "line_number": 981,
+    "condition": "student != null",
+    "service_name": "edu-service",
+    "document_type": "studentadmissionorder",
+    "class_name": "StudentAdmissionOrderService"
+  },
+  {
+    "error_message": "По вашему запросу запись не найдено",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentCalcServices/Concrete/StudentCalcService.cs",
+    "line_number": 112,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentcalc",
+    "class_name": "StudentCalcService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentCalcServices/Concrete/StudentCalcService.cs",
+    "line_number": 233,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentcalc",
+    "class_name": "StudentCalcService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentCalcServices/Concrete/StudentCalcService.cs",
+    "line_number": 705,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentcalc",
+    "class_name": "StudentCalcService"
+  },
+  {
+    "error_message": "Ushbu to'lov qaydnoma orqali yaratilgan so'rovnoma hujjati bor.",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentCalcServices/Concrete/StudentCalcService.cs",
+    "line_number": 724,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentcalc",
+    "class_name": "StudentCalcService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentCalcServices/Concrete/StudentCalcService.cs",
+    "line_number": 731,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentcalc",
+    "class_name": "StudentCalcService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentCalcServices/Concrete/StudentCalcService.cs",
+    "line_number": 778,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentcalc",
+    "class_name": "StudentCalcService"
+  },
+  {
+    "error_message": "Тизим администраторига мурожат қилинг.ШҒХ ўтказмаси бириктирилмаган // Л/С счет проводки не найден. Code : [...]",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentCalcServices/Concrete/StudentCalcService.cs",
+    "line_number": 812,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentcalc",
+    "class_name": "StudentCalcService"
+  },
+  {
+    "error_message": "Тизим администраторига мурожат қилинг. Устамалар учун ўтказмаси кўрсатилмаган.",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentCalcServices/Concrete/StudentCalcService.cs",
+    "line_number": 823,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentcalc",
+    "class_name": "StudentCalcService"
+  },
+  {
+    "error_message": "Тизим администраторига мурожат қилинг.[...] ушбу л/ш даги [...] тўлов тури учун ҳаражжат моддаси кўрсатилмаган.",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentCalcServices/Concrete/StudentCalcService.cs",
+    "line_number": 834,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentcalc",
+    "class_name": "StudentCalcService"
+  },
+  {
+    "error_message": "Ҳужжат жамланма қисми шаклланмаган.",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentCalcServices/Concrete/StudentCalcService.cs",
+    "line_number": 874,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentcalc",
+    "class_name": "StudentCalcService"
+  },
+  {
+    "error_message": "Ushbu to'lov qaydnoma orqali yaratilgan so'rovnoma hujjati bor.",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentCalcServices/Concrete/StudentCalcService.cs",
+    "line_number": 913,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentcalc",
+    "class_name": "StudentCalcService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentCalcServices/Concrete/StudentCalcService.cs",
+    "line_number": 921,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentcalc",
+    "class_name": "StudentCalcService"
+  },
+  {
+    "error_message": "Малумот топилмади.",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentCalcServices/Concrete/StudentCalcService.cs",
+    "line_number": 939,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentcalc",
+    "class_name": "StudentCalcService"
+  },
+  {
+    "error_message": "File topilmadi!",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentCalcServices/Concrete/StudentCalcService.cs",
+    "line_number": 952,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentcalc",
+    "class_name": "StudentCalcService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentCalcServices/Concrete/StudentCalcService.cs",
+    "line_number": 1871,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentcalc",
+    "class_name": "StudentCalcService"
+  },
+  {
+    "error_message": "Документ с этим кодом [...] уже существует",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentCalcServices/Concrete/StudentCalcService.cs",
+    "line_number": 1875,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentcalc",
+    "class_name": "StudentCalcService"
+  },
+  {
+    "error_message": "По вашему запросу запись не найдено",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentCalcServices/Concrete/StudentCalcService.cs",
+    "line_number": 1957,
+    "condition": "result is null",
+    "service_name": "edu-service",
+    "document_type": "studentcalc",
+    "class_name": "StudentCalcService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentCalcServices/Concrete/StudentCalcService.cs",
+    "line_number": 2016,
+    "condition": "!StatusIdConst.CanApplyStatus(entity.StatusId, StatusIdConst.MODIFIED, dto.ExecutingInJob ? new int[] { StatusIdConst.EXECUTING } : null)",
+    "service_name": "edu-service",
+    "document_type": "studentcalc",
+    "class_name": "StudentCalcService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentCalcServices/Concrete/StudentCalcService.cs",
+    "line_number": 2492,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, dlDto.StatusId)",
+    "service_name": "edu-service",
+    "document_type": "studentcalc",
+    "class_name": "StudentCalcService"
+  },
+  {
+    "error_message": "Ushbu to'lov qaydnoma orqali yaratilgan so'rovnoma hujjati bor.",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentCalcServices/Concrete/StudentCalcService.cs",
+    "line_number": 2513,
+    "condition": "requestreceivingcash",
+    "service_name": "edu-service",
+    "document_type": "studentcalc",
+    "class_name": "StudentCalcService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentCalcServices/Concrete/StudentCalcService.cs",
+    "line_number": 2520,
+    "condition": "!StatusIdConst.CanApplyStatus(entity.StatusId, StatusIdConst.NOT_ACCEPTED)",
+    "service_name": "edu-service",
+    "document_type": "studentcalc",
+    "class_name": "StudentCalcService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentCalcServices/Concrete/StudentCalcService.cs",
+    "line_number": 2568,
+    "condition": "entity.StatusId != StatusIdConst.ACCEPTED",
+    "service_name": "edu-service",
+    "document_type": "studentcalc",
+    "class_name": "StudentCalcService"
+  },
+  {
+    "error_message": "Тизим администраторига мурожат қилинг.ШҒХ ўтказмаси бириктирилмаган // Л/С счет проводки не найден. Code : [...]",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentCalcServices/Concrete/StudentCalcService.cs",
+    "line_number": 2602,
+    "condition": "!calcKindTransactions.Any()",
+    "service_name": "edu-service",
+    "document_type": "studentcalc",
+    "class_name": "StudentCalcService"
+  },
+  {
+    "error_message": "Тизим администраторига мурожат қилинг. Устамалар учун ўтказмаси кўрсатилмаган.",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentCalcServices/Concrete/StudentCalcService.cs",
+    "line_number": 2613,
+    "condition": "notAllowedTransactions.Any()",
+    "service_name": "edu-service",
+    "document_type": "studentcalc",
+    "class_name": "StudentCalcService"
+  },
+  {
+    "error_message": "Тизим администраторига мурожат қилинг.[...] ушбу л/ш даги [...] тўлов тури учун ҳаражжат моддаси кўрсатилмаган.",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentCalcServices/Concrete/StudentCalcService.cs",
+    "line_number": 2624,
+    "condition": "calcKindTransaction.CalculationKindTypeId == 1 && calcKindTransaction.SubCountDb1Value is null",
+    "service_name": "edu-service",
+    "document_type": "studentcalc",
+    "class_name": "StudentCalcService"
+  },
+  {
+    "error_message": "Ҳужжат жамланма қисми шаклланмаган.",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentCalcServices/Concrete/StudentCalcService.cs",
+    "line_number": 2664,
+    "condition": "!entity.TotalTables.Any()",
+    "service_name": "edu-service",
+    "document_type": "studentcalc",
+    "class_name": "StudentCalcService"
+  },
+  {
+    "error_message": "Ushbu to'lov qaydnoma orqali yaratilgan so'rovnoma hujjati bor.",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentCalcServices/Concrete/StudentCalcService.cs",
+    "line_number": 2704,
+    "condition": "requestreceivingcash",
+    "service_name": "edu-service",
+    "document_type": "studentcalc",
+    "class_name": "StudentCalcService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentCalcServices/Concrete/StudentCalcService.cs",
+    "line_number": 2712,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, dto.StatusId)",
+    "service_name": "edu-service",
+    "document_type": "studentcalc",
+    "class_name": "StudentCalcService"
+  },
+  {
+    "error_message": "Малумот топилмади.",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentCalcServices/Concrete/StudentCalcService.cs",
+    "line_number": 2731,
+    "condition": "studentCalc == null",
+    "service_name": "edu-service",
+    "document_type": "studentcalc",
+    "class_name": "StudentCalcService"
+  },
+  {
+    "error_message": "File topilmadi!",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentCalcServices/Concrete/StudentCalcService.cs",
+    "line_number": 2744,
+    "condition": "template == null",
+    "service_name": "edu-service",
+    "document_type": "studentcalc",
+    "class_name": "StudentCalcService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentCalcServices/Concrete/StudentCalcService.cs",
+    "line_number": 3654,
+    "condition": "!StatusIdConst.CanApplyStatus(entity.StatusId, StatusIdConst.MODIFIED, new int[] { StatusIdConst.EXECUTING })",
+    "service_name": "edu-service",
+    "document_type": "studentcalc",
+    "class_name": "StudentCalcService"
+  },
+  {
+    "error_message": "Документ с этим кодом [...] уже существует",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentCalcServices/Concrete/StudentCalcService.cs",
+    "line_number": 3658,
+    "condition": "await query.ByDocNumber(dto.DocNumber).AnyAsync(x => x.DocOn.Year == dto.DocOn.Year, cancellationToken: cancellationToken)",
+    "service_name": "edu-service",
+    "document_type": "studentcalc",
+    "class_name": "StudentCalcService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentFixingTransactionServices/Concreate/StudentFixingTransactionService.cs",
+    "line_number": 125,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, dto.StatusId)",
+    "service_name": "edu-service",
+    "document_type": "studentfixingtransaction",
+    "class_name": "StudentFixingTransactionService"
+  },
+  {
+    "error_message": "[...] {ex.InnerException?.Message ??",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentFixingTransactionServices/Concreate/StudentFixingTransactionService.cs",
+    "line_number": 159,
+    "condition": "IsValid",
+    "service_name": "edu-service",
+    "document_type": "studentfixingtransaction",
+    "class_name": "StudentFixingTransactionService"
+  },
+  {
+    "error_message": "Таҳрирлаш мумкин эмас // Невозможно редактировать",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentFixingTransactionServices/Concreate/StudentFixingTransactionService.cs",
+    "line_number": 211,
+    "condition": "!StatusIdConst.CanModifyStatus.Contains(entity.StatusId)",
+    "service_name": "edu-service",
+    "document_type": "studentfixingtransaction",
+    "class_name": "StudentFixingTransactionService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentFixingTransactionServices/Concreate/StudentFixingTransactionService.cs",
+    "line_number": 215,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentfixingtransaction",
+    "class_name": "StudentFixingTransactionService"
+  },
+  {
+    "error_message": "Ushu [...] tashkilot faoliyati turi bo'yicha hujjat oldin yaratilgan..",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentFixingTransactionServices/Concreate/StudentFixingTransactionService.cs",
+    "line_number": 223,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentfixingtransaction",
+    "class_name": "StudentFixingTransactionService"
+  },
+  {
+    "error_message": "[...] {ex.InnerException?.Message ??",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentFixingTransactionServices/Concreate/StudentFixingTransactionService.cs",
+    "line_number": 311,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentfixingtransaction",
+    "class_name": "StudentFixingTransactionService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentLeaveServices/Concreate/StudentLeaveService.cs",
+    "line_number": 57,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentleave",
+    "class_name": "StudentLeaveService"
+  },
+  {
+    "error_message": "[...] бола топилмади.! / [...] Ребенок не найден.!",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentLeaveServices/Concreate/StudentLeaveService.cs",
+    "line_number": 73,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentleave",
+    "class_name": "StudentLeaveService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentLeaveServices/Concreate/StudentLeaveService.cs",
+    "line_number": 110,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentleave",
+    "class_name": "StudentLeaveService"
+  },
+  {
+    "error_message": "[...] талаба топилмади.! / [...] студент не найден.!",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentLeaveServices/Concreate/StudentLeaveService.cs",
+    "line_number": 125,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentleave",
+    "class_name": "StudentLeaveService"
+  },
+  {
+    "error_message": "Стипендия тайинлаш буйруғи топилмади. / Приказ о назначении стипендии не найден.",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentLeaveServices/Concreate/StudentLeaveService.cs",
+    "line_number": 133,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentleave",
+    "class_name": "StudentLeaveService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentLeaveServices/Concreate/StudentLeaveService.cs",
+    "line_number": 179,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentleave",
+    "class_name": "StudentLeaveService"
+  },
+  {
+    "error_message": "По вашему запросу запись не найдено",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentLeaveServices/Concreate/StudentLeaveService.cs",
+    "line_number": 199,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentleave",
+    "class_name": "StudentLeaveService"
+  },
+  {
+    "error_message": "Дата документа неправильно",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentLeaveServices/Concreate/StudentLeaveService.cs",
+    "line_number": 228,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentleave",
+    "class_name": "StudentLeaveService"
+  },
+  {
+    "error_message": "Произошла ошибка при заполнении",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentLeaveServices/Concreate/StudentLeaveService.cs",
+    "line_number": 246,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentleave",
+    "class_name": "StudentLeaveService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentLeaveServices/Concreate/StudentLeaveService.cs",
+    "line_number": 329,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentleave",
+    "class_name": "StudentLeaveService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentLeaveServices/Concreate/StudentLeaveService.cs",
+    "line_number": 359,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, statusDto.StatusId)",
+    "service_name": "edu-service",
+    "document_type": "studentleave",
+    "class_name": "StudentLeaveService"
+  },
+  {
+    "error_message": "[...] бола топилмади.! / [...] Ребенок не найден.!",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentLeaveServices/Concreate/StudentLeaveService.cs",
+    "line_number": 376,
+    "condition": "studentManageDto == null",
+    "service_name": "edu-service",
+    "document_type": "studentleave",
+    "class_name": "StudentLeaveService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentLeaveServices/Concreate/StudentLeaveService.cs",
+    "line_number": 416,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, statusDto.StatusId)",
+    "service_name": "edu-service",
+    "document_type": "studentleave",
+    "class_name": "StudentLeaveService"
+  },
+  {
+    "error_message": "[...] талаба топилмади.! / [...] студент не найден.!",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentLeaveServices/Concreate/StudentLeaveService.cs",
+    "line_number": 432,
+    "condition": "studentManageDto == null",
+    "service_name": "edu-service",
+    "document_type": "studentleave",
+    "class_name": "StudentLeaveService"
+  },
+  {
+    "error_message": "Стипендия тайинлаш буйруғи топилмади. / Приказ о назначении стипендии не найден.",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentLeaveServices/Concreate/StudentLeaveService.cs",
+    "line_number": 440,
+    "condition": "studentAdmissionOrder == null",
+    "service_name": "edu-service",
+    "document_type": "studentleave",
+    "class_name": "StudentLeaveService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentLeaveServices/Concreate/StudentLeaveService.cs",
+    "line_number": 491,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, dto.StatusId)",
+    "service_name": "edu-service",
+    "document_type": "studentleave",
+    "class_name": "StudentLeaveService"
+  },
+  {
+    "error_message": "По вашему запросу запись не найдено",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentLeaveServices/Concreate/StudentLeaveService.cs",
+    "line_number": 512,
+    "condition": "dto is null",
+    "service_name": "edu-service",
+    "document_type": "studentleave",
+    "class_name": "StudentLeaveService"
+  },
+  {
+    "error_message": "Дата документа неправильно",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentLeaveServices/Concreate/StudentLeaveService.cs",
+    "line_number": 540,
+    "condition": "admissionOrder != null",
+    "service_name": "edu-service",
+    "document_type": "studentleave",
+    "class_name": "StudentLeaveService"
+  },
+  {
+    "error_message": "Произошла ошибка при заполнении",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentLeaveServices/Concreate/StudentLeaveService.cs",
+    "line_number": 558,
+    "condition": "HasErrors",
+    "service_name": "edu-service",
+    "document_type": "studentleave",
+    "class_name": "StudentLeaveService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentLeaveServices/Concreate/StudentLeaveService.cs",
+    "line_number": 634,
+    "condition": "result.Id > 0 && !StatusIdConst.CanApplyStatus(ent.StatusId, StatusIdConst.MODIFIED)",
+    "service_name": "edu-service",
+    "document_type": "studentleave",
+    "class_name": "StudentLeaveService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentMovementServices/Concrete/StudentMovementService.cs",
+    "line_number": 146,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentmovement",
+    "class_name": "StudentMovementService"
+  },
+  {
+    "error_message": "Хужжат асосида табель яратилган  № [...] от [...]. Болалар ФИОси: {string.Join(",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentMovementServices/Concrete/StudentMovementService.cs",
+    "line_number": 166,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentmovement",
+    "class_name": "StudentMovementService"
+  },
+  {
+    "error_message": "[...] талаба топилмади.! / [...] Студент не найден",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentMovementServices/Concrete/StudentMovementService.cs",
+    "line_number": 186,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentmovement",
+    "class_name": "StudentMovementService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentMovementServices/Concrete/StudentMovementService.cs",
+    "line_number": 240,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentmovement",
+    "class_name": "StudentMovementService"
+  },
+  {
+    "error_message": "[...] талаба топилмади.! / [...] Студент не найден",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentMovementServices/Concrete/StudentMovementService.cs",
+    "line_number": 261,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentmovement",
+    "class_name": "StudentMovementService"
+  },
+  {
+    "error_message": "Стипендия тайинлаш буйруғи топилмади. / Приказ о назначении стипендии не найден.",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentMovementServices/Concrete/StudentMovementService.cs",
+    "line_number": 269,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentmovement",
+    "class_name": "StudentMovementService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentMovementServices/Concrete/StudentMovementService.cs",
+    "line_number": 295,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentmovement",
+    "class_name": "StudentMovementService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentMovementServices/Concrete/StudentMovementService.cs",
+    "line_number": 337,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentmovement",
+    "class_name": "StudentMovementService"
+  },
+  {
+    "error_message": "Бу [...] рақамли ҳужжат бор / Документ с этим кодом [...] уже существует",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentMovementServices/Concrete/StudentMovementService.cs",
+    "line_number": 341,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentmovement",
+    "class_name": "StudentMovementService"
+  },
+  {
+    "error_message": "Илтимос жадвалга маълумот қўшинг / Пожалуйста, добавьте данные в таблицу",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentMovementServices/Concrete/StudentMovementService.cs",
+    "line_number": 344,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentmovement",
+    "class_name": "StudentMovementService"
+  },
+  {
+    "error_message": "Бир талаба икки маротаба такрорланган / Вы не можете добавить одного Студент два раза",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentMovementServices/Concrete/StudentMovementService.cs",
+    "line_number": 347,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentmovement",
+    "class_name": "StudentMovementService"
+  },
+  {
+    "error_message": "Гуруҳ топилмади / Группа не найдено",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentMovementServices/Concrete/StudentMovementService.cs",
+    "line_number": 353,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentmovement",
+    "class_name": "StudentMovementService"
+  },
+  {
+    "error_message": "Сиз 'Академик лицей' учун 'Ижарада' танлай олмайсиз. Гуруҳни текширинг / Вы не можете выбрать 'Арендует жилье' для не 'Академического лицея'. Проверьте группу",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentMovementServices/Concrete/StudentMovementService.cs",
+    "line_number": 360,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentmovement",
+    "class_name": "StudentMovementService"
+  },
+  {
+    "error_message": "Сиз 'Академик лицей' учун 'Тўловдан озод қилинган' танлай олмайсиз. Гуруҳни текширинг / Вы не можете выбрать 'Освобожден от платы' для 'Академического лицея'. Проверьте группу",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentMovementServices/Concrete/StudentMovementService.cs",
+    "line_number": 365,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentmovement",
+    "class_name": "StudentMovementService"
+  },
+  {
+    "error_message": "Сиз 'Бир боладан ортиқ' танлай олмайсиз. Гуруҳни текширинг / Вы не можете выбрать 'Более одного ребёнка'. Проверьте группу",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentMovementServices/Concrete/StudentMovementService.cs",
+    "line_number": 374,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentmovement",
+    "class_name": "StudentMovementService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentMovementServices/Concrete/StudentMovementService.cs",
+    "line_number": 486,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, dldto.StatusId)",
+    "service_name": "edu-service",
+    "document_type": "studentmovement",
+    "class_name": "StudentMovementService"
+  },
+  {
+    "error_message": "Хужжат асосида табель яратилган  № [...] от [...]. Болалар ФИОси: {string.Join(",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentMovementServices/Concrete/StudentMovementService.cs",
+    "line_number": 506,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentmovement",
+    "class_name": "StudentMovementService"
+  },
+  {
+    "error_message": "[...] талаба топилмади.! / [...] Студент не найден",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentMovementServices/Concrete/StudentMovementService.cs",
+    "line_number": 526,
+    "condition": "studnetMovmentDto == null",
+    "service_name": "edu-service",
+    "document_type": "studentmovement",
+    "class_name": "StudentMovementService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentMovementServices/Concrete/StudentMovementService.cs",
+    "line_number": 584,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, statusDto.StatusId)",
+    "service_name": "edu-service",
+    "document_type": "studentmovement",
+    "class_name": "StudentMovementService"
+  },
+  {
+    "error_message": "[...] талаба топилмади.! / [...] Студент не найден",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentMovementServices/Concrete/StudentMovementService.cs",
+    "line_number": 606,
+    "condition": "studentManageDto == null",
+    "service_name": "edu-service",
+    "document_type": "studentmovement",
+    "class_name": "StudentMovementService"
+  },
+  {
+    "error_message": "Стипендия тайинлаш буйруғи топилмади. / Приказ о назначении стипендии не найден.",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentMovementServices/Concrete/StudentMovementService.cs",
+    "line_number": 614,
+    "condition": "studentAdmissionOrder == null",
+    "service_name": "edu-service",
+    "document_type": "studentmovement",
+    "class_name": "StudentMovementService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentMovementServices/Concrete/StudentMovementService.cs",
+    "line_number": 643,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, dto.StatusId)",
+    "service_name": "edu-service",
+    "document_type": "studentmovement",
+    "class_name": "StudentMovementService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentMovementServices/Concrete/StudentMovementService.cs",
+    "line_number": 677,
+    "condition": "!StatusIdConst.CanModifyStatus.Contains(entity.StatusId)",
+    "service_name": "edu-service",
+    "document_type": "studentmovement",
+    "class_name": "StudentMovementService"
+  },
+  {
+    "error_message": "Бу [...] рақамли ҳужжат бор / Документ с этим кодом [...] уже существует",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentMovementServices/Concrete/StudentMovementService.cs",
+    "line_number": 681,
+    "condition": "await query.ByDocNumber(dto.DocNumber).AnyAsync(cancellationToken: cancellationToken)",
+    "service_name": "edu-service",
+    "document_type": "studentmovement",
+    "class_name": "StudentMovementService"
+  },
+  {
+    "error_message": "Илтимос жадвалга маълумот қўшинг / Пожалуйста, добавьте данные в таблицу",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentMovementServices/Concrete/StudentMovementService.cs",
+    "line_number": 684,
+    "condition": "dto.Tables == null || dto.Tables.Count == 0",
+    "service_name": "edu-service",
+    "document_type": "studentmovement",
+    "class_name": "StudentMovementService"
+  },
+  {
+    "error_message": "Бир талаба икки маротаба такрорланган / Вы не можете добавить одного Студент два раза",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentMovementServices/Concrete/StudentMovementService.cs",
+    "line_number": 687,
+    "condition": "entity.Tables.Select(a => a.OldStudentManageId).Distinct().Count() != entity.Tables.Select(a => a.OldStudentManageId).Count()",
+    "service_name": "edu-service",
+    "document_type": "studentmovement",
+    "class_name": "StudentMovementService"
+  },
+  {
+    "error_message": "Гуруҳ топилмади / Группа не найдено",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentMovementServices/Concrete/StudentMovementService.cs",
+    "line_number": 693,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentmovement",
+    "class_name": "StudentMovementService"
+  },
+  {
+    "error_message": "Сиз 'Академик лицей' учун 'Ижарада' танлай олмайсиз. Гуруҳни текширинг / Вы не можете выбрать 'Арендует жилье' для не 'Академического лицея'. Проверьте группу",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentMovementServices/Concrete/StudentMovementService.cs",
+    "line_number": 700,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentmovement",
+    "class_name": "StudentMovementService"
+  },
+  {
+    "error_message": "Сиз 'Академик лицей' учун 'Тўловдан озод қилинган' танлай олмайсиз. Гуруҳни текширинг / Вы не можете выбрать 'Освобожден от платы' для 'Академического лицея'. Проверьте группу",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentMovementServices/Concrete/StudentMovementService.cs",
+    "line_number": 705,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentmovement",
+    "class_name": "StudentMovementService"
+  },
+  {
+    "error_message": "Сиз 'Бир боладан ортиқ' танлай олмайсиз. Гуруҳни текширинг / Вы не можете выбрать 'Более одного ребёнка'. Проверьте группу",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentMovementServices/Concrete/StudentMovementService.cs",
+    "line_number": 714,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentmovement",
+    "class_name": "StudentMovementService"
+  },
+  {
+    "error_message": "По вашему запросу запись не найдено",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentPayrollPlasticCardSheetServices/Concrete/StudentPayrollPlasticCardSheetService.cs",
+    "line_number": 132,
+    "condition": "result is null",
+    "service_name": "edu-service",
+    "document_type": "studentpayrollplasticcardsheet",
+    "class_name": "StudentPayrollPlasticCardSheetService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentPayrollPlasticCardSheetServices/Concrete/StudentPayrollPlasticCardSheetService.cs",
+    "line_number": 288,
+    "condition": "result.Id > 0 && !StatusIdConst.CanApplyStatus(ent.StatusId, StatusIdConst.MODIFIED)",
+    "service_name": "edu-service",
+    "document_type": "studentpayrollplasticcardsheet",
+    "class_name": "StudentPayrollPlasticCardSheetService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentPayrollPlasticCardSheetServices/Concrete/StudentPayrollPlasticCardSheetService.cs",
+    "line_number": 316,
+    "condition": "!StatusIdConst.CanApplyStatus(entity.StatusId, StatusIdConst.MODIFIED)",
+    "service_name": "edu-service",
+    "document_type": "studentpayrollplasticcardsheet",
+    "class_name": "StudentPayrollPlasticCardSheetService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentPayrollPlasticCardSheetServices/Concrete/StudentPayrollPlasticCardSheetService.cs",
+    "line_number": 390,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, StatusIdConst.MODIFIED)",
+    "service_name": "edu-service",
+    "document_type": "studentpayrollplasticcardsheet",
+    "class_name": "StudentPayrollPlasticCardSheetService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentPayrollPlasticCardSheetServices/Concrete/StudentPayrollPlasticCardSheetService.cs",
+    "line_number": 415,
+    "condition": "dto.Id > 0 && !StatusIdConst.CanApplyStatus(ent.StatusId, StatusIdConst.MODIFIED)",
+    "service_name": "edu-service",
+    "document_type": "studentpayrollplasticcardsheet",
+    "class_name": "StudentPayrollPlasticCardSheetService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentPayrollPlasticCardSheetServices/Concrete/StudentPayrollPlasticCardSheetService.cs",
+    "line_number": 443,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, dto.StatusId)",
+    "service_name": "edu-service",
+    "document_type": "studentpayrollplasticcardsheet",
+    "class_name": "StudentPayrollPlasticCardSheetService"
+  },
+  {
+    "error_message": "Ushbu to'lov qaydnoma orqali yaratilgan so'rovnoma hujjati bor.",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentPayrollPlasticCardSheetServices/Concrete/StudentPayrollPlasticCardSheetService.cs",
+    "line_number": 459,
+    "condition": "requestreceivingcash",
+    "service_name": "edu-service",
+    "document_type": "studentpayrollplasticcardsheet",
+    "class_name": "StudentPayrollPlasticCardSheetService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentPayrollPlasticCardSheetServices/Concrete/StudentPayrollPlasticCardSheetService.cs",
+    "line_number": 467,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, dto.StatusId)",
+    "service_name": "edu-service",
+    "document_type": "studentpayrollplasticcardsheet",
+    "class_name": "StudentPayrollPlasticCardSheetService"
+  },
+  {
+    "error_message": "Ushbu to'lov qaydnoma orqali yaratilgan so'rovnoma hujjati bor.",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentPayrollPlasticCardSheetServices/Concrete/StudentPayrollPlasticCardSheetService.cs",
+    "line_number": 610,
+    "condition": "requestreceivingcash",
+    "service_name": "edu-service",
+    "document_type": "studentpayrollplasticcardsheet",
+    "class_name": "StudentPayrollPlasticCardSheetService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentPayrollPlasticCardSheetServices/Concrete/StudentPayrollPlasticCardSheetService.cs",
+    "line_number": 618,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, dto.StatusId)",
+    "service_name": "edu-service",
+    "document_type": "studentpayrollplasticcardsheet",
+    "class_name": "StudentPayrollPlasticCardSheetService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentPayrollPlasticCardSheetServices/Concrete/StudentPayrollPlasticCardSheetService.cs",
+    "line_number": 660,
+    "condition": "!StatusIdConst.CanModifyStatus.Contains(entity.StatusId)",
+    "service_name": "edu-service",
+    "document_type": "studentpayrollplasticcardsheet",
+    "class_name": "StudentPayrollPlasticCardSheetService"
+  },
+  {
+    "error_message": "Документ с этим кодом [...] уже существует",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentPayrollPlasticCardSheetServices/Concrete/StudentPayrollPlasticCardSheetService.cs",
+    "line_number": 664,
+    "condition": "await query.ByDocNumber(dto.DocNumber).AnyAsync(cancellationToken: cancellationToken)",
+    "service_name": "edu-service",
+    "document_type": "studentpayrollplasticcardsheet",
+    "class_name": "StudentPayrollPlasticCardSheetService"
+  },
+  {
+    "error_message": "Невозможно отправит документ. Статус документа неверный",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentPayrollPlasticCardSheetServices/Concrete/StudentPayrollPlasticCardSheetService.cs",
+    "line_number": 726,
+    "condition": "!StatusIdConst.CanApplyStatus(a.StatusId, dto.StatusId)",
+    "service_name": "edu-service",
+    "document_type": "studentpayrollplasticcardsheet",
+    "class_name": "StudentPayrollPlasticCardSheetService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentPayrollPlasticCardSheetServices/Concrete/StudentPayrollPlasticCardSheetService.cs",
+    "line_number": 866,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentpayrollplasticcardsheet",
+    "class_name": "StudentPayrollPlasticCardSheetService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentPayrollPlasticCardSheetServices/Concrete/StudentPayrollPlasticCardSheetService.cs",
+    "line_number": 873,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, dto.StatusId)",
+    "service_name": "edu-service",
+    "document_type": "studentpayrollplasticcardsheet",
+    "class_name": "StudentPayrollPlasticCardSheetService"
+  },
+  {
+    "error_message": "Ҳужжат топилмади !",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentPayrollPlasticCardSheetServices/Concrete/StudentPayrollPlasticCardSheetService.cs",
+    "line_number": 887,
+    "condition": "doc == null",
+    "service_name": "edu-service",
+    "document_type": "studentpayrollplasticcardsheet",
+    "class_name": "StudentPayrollPlasticCardSheetService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentPayrollPlasticCardSheetServices/Concrete/StudentPayrollPlasticCardSheetService.cs",
+    "line_number": 893,
+    "condition": "doc.StatusId != StatusIdConst.ACCEPTED",
+    "service_name": "edu-service",
+    "document_type": "studentpayrollplasticcardsheet",
+    "class_name": "StudentPayrollPlasticCardSheetService"
+  },
+  {
+    "error_message": "Платежное поручение не найдено",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentPayrollPlasticCardSheetServices/Concrete/StudentPayrollPlasticCardSheetService.cs",
+    "line_number": 938,
+    "condition": "paymentOrder == null",
+    "service_name": "edu-service",
+    "document_type": "studentpayrollplasticcardsheet",
+    "class_name": "StudentPayrollPlasticCardSheetService"
+  },
+  {
+    "error_message": "Пластик карта с номером №:",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentPayrollPlasticCardSheetServices/Concrete/StudentPayrollPlasticCardSheetService.cs",
+    "line_number": 1025,
+    "condition": "dublicateCardNumber != null",
+    "service_name": "edu-service",
+    "document_type": "studentpayrollplasticcardsheet",
+    "class_name": "StudentPayrollPlasticCardSheetService"
+  },
+  {
+    "error_message": "Невозможно отправит документ. Организация закрыт",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentPayrollPlasticCardSheetServices/Concrete/StudentPayrollPlasticCardSheetService.cs",
+    "line_number": 1032,
+    "condition": "stateId != StateIdConst.ACTIVE",
+    "service_name": "edu-service",
+    "document_type": "studentpayrollplasticcardsheet",
+    "class_name": "StudentPayrollPlasticCardSheetService"
+  },
+  {
+    "error_message": "Расчет зарплата за",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentPayrollPlasticCardSheetServices/Concrete/StudentPayrollPlasticCardSheetService.cs",
+    "line_number": 1040,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentpayrollplasticcardsheet",
+    "class_name": "StudentPayrollPlasticCardSheetService"
+  },
+  {
+    "error_message": "Платежные поручения не найден. Убедитесь, что статус документа Оплачен.",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentPayrollPlasticCardSheetServices/Concrete/StudentPayrollPlasticCardSheetService.cs",
+    "line_number": 1051,
+    "condition": "paymentOrder == null",
+    "service_name": "edu-service",
+    "document_type": "studentpayrollplasticcardsheet",
+    "class_name": "StudentPayrollPlasticCardSheetService"
+  },
+  {
+    "error_message": "Дата платежного поручения неправильная.",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentPayrollPlasticCardSheetServices/Concrete/StudentPayrollPlasticCardSheetService.cs",
+    "line_number": 1057,
+    "condition": "paymentOrder.DocOn < new DateTime(doc.Year, doc.Month, 1)",
+    "service_name": "edu-service",
+    "document_type": "studentpayrollplasticcardsheet",
+    "class_name": "StudentPayrollPlasticCardSheetService"
+  },
+  {
+    "error_message": "Л/С реестра и Л/С платежного поручения не совпадают.",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentPayrollPlasticCardSheetServices/Concrete/StudentPayrollPlasticCardSheetService.cs",
+    "line_number": 1062,
+    "condition": "doc.OrgSettlementAccountId != paymentOrder.OrganizationSettlementAccountId",
+    "service_name": "edu-service",
+    "document_type": "studentpayrollplasticcardsheet",
+    "class_name": "StudentPayrollPlasticCardSheetService"
+  },
+  {
+    "error_message": "Сумма реестра и сумма платежного поручения не совпадают",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentPayrollPlasticCardSheetServices/Concrete/StudentPayrollPlasticCardSheetService.cs",
+    "line_number": 1067,
+    "condition": "paymentOrder.DocSum != doc.Tables.Sum(a => a.DocSum)",
+    "service_name": "edu-service",
+    "document_type": "studentpayrollplasticcardsheet",
+    "class_name": "StudentPayrollPlasticCardSheetService"
+  },
+  {
+    "error_message": "Неверный номер пластиковой карты. Ф.И.О.:",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentPayrollPlasticCardSheetServices/Concrete/StudentPayrollPlasticCardSheetService.cs",
+    "line_number": 1073,
+    "condition": "doc.Tables.Any(a => a.PlasticCardNumber.Length != 20 || !a.PlasticCardNumber.StartsWith(\"22618\"))",
+    "service_name": "edu-service",
+    "document_type": "studentpayrollplasticcardsheet",
+    "class_name": "StudentPayrollPlasticCardSheetService"
+  },
+  {
+    "error_message": "Код банка не выбран.",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentPayrollPlasticCardSheetServices/Concrete/StudentPayrollPlasticCardSheetService.cs",
+    "line_number": 1078,
+    "condition": "string.IsNullOrEmpty(doc.BankParentCode)",
+    "service_name": "edu-service",
+    "document_type": "studentpayrollplasticcardsheet",
+    "class_name": "StudentPayrollPlasticCardSheetService"
+  },
+  {
+    "error_message": "Tалаба топилмади!",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentPayrollPlasticCardSheetServices/Concrete/StudentPayrollPlasticCardSheetService.cs",
+    "line_number": 1125,
+    "condition": "ent is null",
+    "service_name": "edu-service",
+    "document_type": "studentpayrollplasticcardsheet",
+    "class_name": "StudentPayrollPlasticCardSheetService"
+  },
+  {
+    "error_message": "[...] бу ид ли ҳужжатни ўзгартириб бўлмайди!",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentPayrollPlasticCardSheetServices/Concrete/StudentPayrollPlasticCardSheetService.cs",
+    "line_number": 1135,
+    "condition": "!new List<int> { StatusIdConst.CREATED, StatusIdConst.MODIFIED, StatusIdConst.NOT_ACCEPTED, StatusIdConst.ACCEPTED, }.Contains(k)",
+    "service_name": "edu-service",
+    "document_type": "studentpayrollplasticcardsheet",
+    "class_name": "StudentPayrollPlasticCardSheetService"
+  },
+  {
+    "error_message": "По вашему запросу запись не найдено",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentPayrollSheetServices/Concrete/StudentPayrollSheetService.cs",
+    "line_number": 115,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentpayrollsheet",
+    "class_name": "StudentPayrollSheetService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentPayrollSheetServices/Concrete/StudentPayrollSheetService.cs",
+    "line_number": 254,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentpayrollsheet",
+    "class_name": "StudentPayrollSheetService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentPayrollSheetServices/Concrete/StudentPayrollSheetService.cs",
+    "line_number": 282,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentpayrollsheet",
+    "class_name": "StudentPayrollSheetService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentPayrollSheetServices/Concrete/StudentPayrollSheetService.cs",
+    "line_number": 345,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentpayrollsheet",
+    "class_name": "StudentPayrollSheetService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentPayrollSheetServices/Concrete/StudentPayrollSheetService.cs",
+    "line_number": 367,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentpayrollsheet",
+    "class_name": "StudentPayrollSheetService"
+  },
+  {
+    "error_message": "Ushbu to'lov qaydnoma orqali yaratilgan so'rovnoma hujjati bor.",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentPayrollSheetServices/Concrete/StudentPayrollSheetService.cs",
+    "line_number": 381,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentpayrollsheet",
+    "class_name": "StudentPayrollSheetService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentPayrollSheetServices/Concrete/StudentPayrollSheetService.cs",
+    "line_number": 389,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentpayrollsheet",
+    "class_name": "StudentPayrollSheetService"
+  },
+  {
+    "error_message": "Ushbu to'lov qaydnoma orqali yaratilgan so'rovnoma hujjati bor.",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentPayrollSheetServices/Concrete/StudentPayrollSheetService.cs",
+    "line_number": 411,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentpayrollsheet",
+    "class_name": "StudentPayrollSheetService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentPayrollSheetServices/Concrete/StudentPayrollSheetService.cs",
+    "line_number": 419,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentpayrollsheet",
+    "class_name": "StudentPayrollSheetService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentPayrollSheetServices/Concrete/StudentPayrollSheetService.cs",
+    "line_number": 462,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentpayrollsheet",
+    "class_name": "StudentPayrollSheetService"
+  },
+  {
+    "error_message": "Документ с этим кодом [...] уже существует",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentPayrollSheetServices/Concrete/StudentPayrollSheetService.cs",
+    "line_number": 466,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentpayrollsheet",
+    "class_name": "StudentPayrollSheetService"
+  },
+  {
+    "error_message": "По вашему запросу запись не найдено",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentPayrollSheetServices/Concrete/StudentPayrollSheetService.cs",
+    "line_number": 625,
+    "condition": "result is null",
+    "service_name": "edu-service",
+    "document_type": "studentpayrollsheet",
+    "class_name": "StudentPayrollSheetService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentPayrollSheetServices/Concrete/StudentPayrollSheetService.cs",
+    "line_number": 763,
+    "condition": "result.Id > 0 && !StatusIdConst.CanApplyStatus(ent.StatusId, StatusIdConst.MODIFIED)",
+    "service_name": "edu-service",
+    "document_type": "studentpayrollsheet",
+    "class_name": "StudentPayrollSheetService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentPayrollSheetServices/Concrete/StudentPayrollSheetService.cs",
+    "line_number": 791,
+    "condition": "!StatusIdConst.CanApplyStatus(entity.StatusId, StatusIdConst.MODIFIED)",
+    "service_name": "edu-service",
+    "document_type": "studentpayrollsheet",
+    "class_name": "StudentPayrollSheetService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentPayrollSheetServices/Concrete/StudentPayrollSheetService.cs",
+    "line_number": 859,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, StatusIdConst.MODIFIED)",
+    "service_name": "edu-service",
+    "document_type": "studentpayrollsheet",
+    "class_name": "StudentPayrollSheetService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentPayrollSheetServices/Concrete/StudentPayrollSheetService.cs",
+    "line_number": 883,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, dto.StatusId)",
+    "service_name": "edu-service",
+    "document_type": "studentpayrollsheet",
+    "class_name": "StudentPayrollSheetService"
+  },
+  {
+    "error_message": "Ushbu to'lov qaydnoma orqali yaratilgan so'rovnoma hujjati bor.",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentPayrollSheetServices/Concrete/StudentPayrollSheetService.cs",
+    "line_number": 898,
+    "condition": "requestreceivingcash",
+    "service_name": "edu-service",
+    "document_type": "studentpayrollsheet",
+    "class_name": "StudentPayrollSheetService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentPayrollSheetServices/Concrete/StudentPayrollSheetService.cs",
+    "line_number": 906,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, dto.StatusId)",
+    "service_name": "edu-service",
+    "document_type": "studentpayrollsheet",
+    "class_name": "StudentPayrollSheetService"
+  },
+  {
+    "error_message": "Ushbu to'lov qaydnoma orqali yaratilgan so'rovnoma hujjati bor.",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentPayrollSheetServices/Concrete/StudentPayrollSheetService.cs",
+    "line_number": 930,
+    "condition": "requestreceivingcash",
+    "service_name": "edu-service",
+    "document_type": "studentpayrollsheet",
+    "class_name": "StudentPayrollSheetService"
+  },
+  {
+    "error_message": "Нет доступа",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentPayrollSheetServices/Concrete/StudentPayrollSheetService.cs",
+    "line_number": 938,
+    "condition": "!StatusIdConst.CanApplyStatus(ent.StatusId, dto.StatusId)",
+    "service_name": "edu-service",
+    "document_type": "studentpayrollsheet",
+    "class_name": "StudentPayrollSheetService"
+  },
+  {
+    "error_message": "Имкони йўқ / нет возможности",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentPayrollSheetServices/Concrete/StudentPayrollSheetService.cs",
+    "line_number": 973,
+    "condition": "!StatusIdConst.CanModifyStatus.Contains(entity.StatusId)",
+    "service_name": "edu-service",
+    "document_type": "studentpayrollsheet",
+    "class_name": "StudentPayrollSheetService"
+  },
+  {
+    "error_message": "Документ с этим кодом [...] уже существует",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Doc/StudentPayrollSheetServices/Concrete/StudentPayrollSheetService.cs",
+    "line_number": 977,
+    "condition": "await query.ByDocNumber(dto.DocNumber).AnyAsync(cancellationToken: cancellationToken)",
+    "service_name": "edu-service",
+    "document_type": "studentpayrollsheet",
+    "class_name": "StudentPayrollSheetService"
+  },
+  {
+    "error_message": "Бу амалиёт бажарилиш жараёнда :бошланган вақти [...]",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/HL/EduSpecialityService/Concrete/EduSpecialityService.cs",
+    "line_number": 126,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "eduspeciality",
+    "class_name": "EduSpecialityService"
+  },
+  {
+    "error_message": "Cфера образования не найдено",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/HL/EduSpecialityService/Concrete/EduSpecialityService.cs",
+    "line_number": 190,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "eduspeciality",
+    "class_name": "EduSpecialityService"
+  },
+  {
+    "error_message": "Fakultetlar sinxronizatsiya qilinmagan",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/HL/EduSpecialityService/Concrete/EduSpecialityService.cs",
+    "line_number": 194,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "eduspeciality",
+    "class_name": "EduSpecialityService"
+  },
+  {
+    "error_message": "Тип образования не найдено",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/HL/EduSpecialityService/Concrete/EduSpecialityService.cs",
+    "line_number": 198,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "eduspeciality",
+    "class_name": "EduSpecialityService"
+  },
+  {
+    "error_message": "Бу амалиёт бажарилиш жараёнда :бошланган вақти [...]",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/HL/EduSpecialityService/Concrete/EduSpecialityService.cs",
+    "line_number": 356,
+    "condition": "jobHistory != null && jobHistory.StatusId == StatusIdConst.WAITING",
+    "service_name": "edu-service",
+    "document_type": "eduspeciality",
+    "class_name": "EduSpecialityService"
+  },
+  {
+    "error_message": "Cфера образования не найдено",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/HL/EduSpecialityService/Concrete/EduSpecialityService.cs",
+    "line_number": 419,
+    "condition": "eduArea == null",
+    "service_name": "edu-service",
+    "document_type": "eduspeciality",
+    "class_name": "EduSpecialityService"
+  },
+  {
+    "error_message": "Fakultetlar sinxronizatsiya qilinmagan",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/HL/EduSpecialityService/Concrete/EduSpecialityService.cs",
+    "line_number": 424,
+    "condition": "faculty == null",
+    "service_name": "edu-service",
+    "document_type": "eduspeciality",
+    "class_name": "EduSpecialityService"
+  },
+  {
+    "error_message": "Тип образования не найдено",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/HL/EduSpecialityService/Concrete/EduSpecialityService.cs",
+    "line_number": 428,
+    "condition": "eduType == null",
+    "service_name": "edu-service",
+    "document_type": "eduspeciality",
+    "class_name": "EduSpecialityService"
+  },
+  {
+    "error_message": "Бу амалиёт бажарилиш жараёнда :бошланган вақти [...]",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/HL/FacultyService/Concrete/FacultyService.cs",
+    "line_number": 125,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "faculty",
+    "class_name": "FacultyService"
+  },
+  {
+    "error_message": "[...]. {ex.InnerException?.Message ??",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/HL/FacultyService/Concrete/FacultyService.cs",
+    "line_number": 212,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "faculty",
+    "class_name": "FacultyService"
+  },
+  {
+    "error_message": "Бу амалиёт бажарилиш жараёнда :бошланган вақти [...]",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/HL/FacultyService/Concrete/FacultyService.cs",
+    "line_number": 390,
+    "condition": "jobHistory != null && jobHistory.StatusId == StatusIdConst.WAITING",
+    "service_name": "edu-service",
+    "document_type": "faculty",
+    "class_name": "FacultyService"
+  },
+  {
+    "error_message": "[...]. {ex.InnerException?.Message ??",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/HL/FacultyService/Concrete/FacultyService.cs",
+    "line_number": 477,
+    "condition": "IsValid && canCommit",
+    "service_name": "edu-service",
+    "document_type": "faculty",
+    "class_name": "FacultyService"
+  },
+  {
+    "error_message": "Информация об этом студенте не найдены",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/HL/Student/Concrete/StudentService.cs",
+    "line_number": 192,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "student",
+    "class_name": "StudentService"
+  },
+  {
+    "error_message": "Этот человек не студент",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/HL/Student/Concrete/StudentService.cs",
+    "line_number": 216,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "student",
+    "class_name": "StudentService"
+  },
+  {
+    "error_message": "[...] аввал киритилган. ЖШШИР ёки ФИО орқали қидирув бериб текшириб кўринг.",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/HL/Student/Concrete/StudentService.cs",
+    "line_number": 304,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "student",
+    "class_name": "StudentService"
+  },
+  {
+    "error_message": "Бу амалиёт бажарилиш жараёнда :бошланган вақти [...]",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/HL/Student/Concrete/StudentService.cs",
+    "line_number": 352,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "student",
+    "class_name": "StudentService"
+  },
+  {
+    "error_message": "File topilmadi.",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/HL/Student/Concrete/StudentService.cs",
+    "line_number": 622,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "student",
+    "class_name": "StudentService"
+  },
+  {
+    "error_message": "Информация об этом студенте не найдены",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/HL/Student/Concrete/StudentService.cs",
+    "line_number": 940,
+    "condition": "HasErrors || gspData == null",
+    "service_name": "edu-service",
+    "document_type": "student",
+    "class_name": "StudentService"
+  },
+  {
+    "error_message": "Этот человек не студент",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/HL/Student/Concrete/StudentService.cs",
+    "line_number": 964,
+    "condition": "isStudent == false",
+    "service_name": "edu-service",
+    "document_type": "student",
+    "class_name": "StudentService"
+  },
+  {
+    "error_message": "[...] аввал киритилган. ЖШШИР ёки ФИО орқали қидирув бериб текшириб кўринг.",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/HL/Student/Concrete/StudentService.cs",
+    "line_number": 1052,
+    "condition": "ex.InnerException is not null && ex.InnerException.Message.Contains(\"UX_HL_STUDENT__ORG_PERSON\")",
+    "service_name": "edu-service",
+    "document_type": "student",
+    "class_name": "StudentService"
+  },
+  {
+    "error_message": "Бу амалиёт бажарилиш жараёнда :бошланган вақти [...]",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/HL/Student/Concrete/StudentService.cs",
+    "line_number": 1100,
+    "condition": "jobHistory != null && (jobHistory.StatusId == StatusIdConst.WAITING || jobHistory.StatusId == StatusIdConst.EXECUTING)",
+    "service_name": "edu-service",
+    "document_type": "student",
+    "class_name": "StudentService"
+  },
+  {
+    "error_message": "Ushbu [...] talaba pinfl uzasbo tizimida xato kiritilgan bo'lishi mumkin, iltimos oldin talaba ma'lumotlarini tekshirib ko'ring.",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/HL/Student/Concrete/StudentService.cs",
+    "line_number": 1390,
+    "condition": "studentPerson == null",
+    "service_name": "edu-service",
+    "document_type": "student",
+    "class_name": "StudentService"
+  },
+  {
+    "error_message": "Ushbu [...] talaba pinfl uzasbo tizimida xato kiritilgan bo'lishi mumkin, iltimos oldin talaba ma'lumotlarini tekshirib ko'ring.",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/HL/Student/Concrete/StudentService.cs",
+    "line_number": 1397,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "student",
+    "class_name": "StudentService"
+  },
+  {
+    "error_message": "File topilmadi.",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/HL/Student/Concrete/StudentService.cs",
+    "line_number": 1472,
+    "condition": "template == null",
+    "service_name": "edu-service",
+    "document_type": "student",
+    "class_name": "StudentService"
+  },
+  {
+    "error_message": "Bank ma'lumoti topilmadi.",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/HL/Student/Concrete/StudentService.cs",
+    "line_number": 1685,
+    "condition": "bank is null",
+    "service_name": "edu-service",
+    "document_type": "student",
+    "class_name": "StudentService"
+  },
+  {
+    "error_message": "Personallashtirish agentligi tizimidan ma'lumot to'liq kelmadi: [...]",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/HL/StudentPerson/Concrete/StudentPersonService.cs",
+    "line_number": 117,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentperson",
+    "class_name": "StudentPersonService"
+  },
+  {
+    "error_message": "Туғилганлик ҳақида гувоҳнома билан талабани қабул қилиб бўлмайди !",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/HL/StudentPerson/Concrete/StudentPersonService.cs",
+    "line_number": 175,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentperson",
+    "class_name": "StudentPersonService"
+  },
+  {
+    "error_message": "ГСП тизимидан маълумот топилмади !",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/HL/StudentPerson/Concrete/StudentPersonService.cs",
+    "line_number": 182,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentperson",
+    "class_name": "StudentPersonService"
+  },
+  {
+    "error_message": "ГСП тизимидан маълумот хато келди !",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/HL/StudentPerson/Concrete/StudentPersonService.cs",
+    "line_number": 188,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentperson",
+    "class_name": "StudentPersonService"
+  },
+  {
+    "error_message": "ГСП тизимидан маълумот топилмади !",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/HL/StudentPerson/Concrete/StudentPersonService.cs",
+    "line_number": 196,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentperson",
+    "class_name": "StudentPersonService"
+  },
+  {
+    "error_message": "ГСП тизимидан маълумот хато келди !",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/HL/StudentPerson/Concrete/StudentPersonService.cs",
+    "line_number": 209,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentperson",
+    "class_name": "StudentPersonService"
+  },
+  {
+    "error_message": "{_problemPerson.BirthOn.ToString(",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/HL/StudentPerson/Concrete/StudentPersonService.cs",
+    "line_number": 445,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentperson",
+    "class_name": "StudentPersonService"
+  },
+  {
+    "error_message": "{_problemPerson.BirthOn.ToString(",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/HL/StudentPerson/Concrete/StudentPersonService.cs",
+    "line_number": 454,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentperson",
+    "class_name": "StudentPersonService"
+  },
+  {
+    "error_message": "Personallashtirish agentligi tizimidan ma'lumot to'liq kelmadi: [...]",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/HL/StudentPerson/Concrete/StudentPersonService.cs",
+    "line_number": 552,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentperson",
+    "class_name": "StudentPersonService"
+  },
+  {
+    "error_message": "Туғилганлик ҳақида гувоҳнома билан талабани қабул қилиб бўлмайди !",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/HL/StudentPerson/Concrete/StudentPersonService.cs",
+    "line_number": 610,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentperson",
+    "class_name": "StudentPersonService"
+  },
+  {
+    "error_message": "ГСП тизимидан маълумот топилмади !",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/HL/StudentPerson/Concrete/StudentPersonService.cs",
+    "line_number": 617,
+    "condition": "!result.IsSuccess",
+    "service_name": "edu-service",
+    "document_type": "studentperson",
+    "class_name": "StudentPersonService"
+  },
+  {
+    "error_message": "ГСП тизимидан маълумот хато келди !",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/HL/StudentPerson/Concrete/StudentPersonService.cs",
+    "line_number": 623,
+    "condition": "String.IsNullOrEmpty(result.Data.birthDate) || String.IsNullOrEmpty(result.Data.Pinfl) || String.IsNullOrEmpty(result.Data.docDateBegin) || String.IsNullOrEmpty(result.Data.DocSeria) || String.IsNullO...",
+    "service_name": "edu-service",
+    "document_type": "studentperson",
+    "class_name": "StudentPersonService"
+  },
+  {
+    "error_message": "ГСП тизимидан маълумот топилмади !",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/HL/StudentPerson/Concrete/StudentPersonService.cs",
+    "line_number": 631,
+    "condition": "!resultChild.IsSuccess",
+    "service_name": "edu-service",
+    "document_type": "studentperson",
+    "class_name": "StudentPersonService"
+  },
+  {
+    "error_message": "ГСП тизимидан маълумот хато келди !",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/HL/StudentPerson/Concrete/StudentPersonService.cs",
+    "line_number": 644,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentperson",
+    "class_name": "StudentPersonService"
+  },
+  {
+    "error_message": "{_problemPerson.BirthOn.ToString(",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/HL/StudentPerson/Concrete/StudentPersonService.cs",
+    "line_number": 880,
+    "condition": "_problemPerson is not null",
+    "service_name": "edu-service",
+    "document_type": "studentperson",
+    "class_name": "StudentPersonService"
+  },
+  {
+    "error_message": "{_problemPerson.BirthOn.ToString(",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/HL/StudentPerson/Concrete/StudentPersonService.cs",
+    "line_number": 890,
+    "condition": "_problemPerson is not null",
+    "service_name": "edu-service",
+    "document_type": "studentperson",
+    "class_name": "StudentPersonService"
+  },
+  {
+    "error_message": "Cфера образования не найдено",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Info/EduSpecialityClassifierService/Concrete/EduSpecialityClassifierService.cs",
+    "line_number": 148,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "eduspecialityclassifier",
+    "class_name": "EduSpecialityClassifierService"
+  },
+  {
+    "error_message": "Cфера образования не найдено",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.BizLayer/Info/EduSpecialityClassifierService/Concrete/EduSpecialityClassifierService.cs",
+    "line_number": 292,
+    "condition": "eduArea == null",
+    "service_name": "edu-service",
+    "document_type": "eduspecialityclassifier",
+    "class_name": "EduSpecialityClassifierService"
+  },
+  {
+    "error_message": "Ýòîò 'Ïðèêàç î çà÷èñëåíèè ñòóäåíòîâ' íåäîñòóïåí",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.DataLayer.Repository/Doc/ContractOfScholarship/Concrete/ContractOfScholarshipRepository.cs",
+    "line_number": 51,
+    "condition": "admissionOrder == null",
+    "service_name": "edu-service",
+    "document_type": "contractofscholarship",
+    "class_name": "ContractOfScholarshipRepository"
+  },
+  {
+    "error_message": "Ýòîò 'Ïðèêàç î çà÷èñëåíèè ñòóäåíòîâ' íåäîñòóïåí",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.DataLayer.Repository/Doc/ContractOfScholarship/Concrete/ContractOfScholarshipRepository.cs",
+    "line_number": 166,
+    "condition": "admissionOrder == null",
+    "service_name": "edu-service",
+    "document_type": "contractofscholarship",
+    "class_name": "ContractOfScholarshipRepository"
+  },
+  {
+    "error_message": "Ma'lumot topilmadi [...]",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.DataLayer.Repository/Doc/StudentAdmissionOrder/Concrete/StudentAdmissionOrderRepository.cs",
+    "line_number": 65,
+    "condition": "orgSetlementAccount == null",
+    "service_name": "edu-service",
+    "document_type": "studentadmissionorder",
+    "class_name": "StudentAdmissionOrderRepository"
+  },
+  {
+    "error_message": "Ma'lumot topilmadi [...]",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.DataLayer.Repository/Doc/StudentAdmissionOrder/Concrete/StudentAdmissionOrderRepository.cs",
+    "line_number": 77,
+    "condition": "orgSetlementAccount == null",
+    "service_name": "edu-service",
+    "document_type": "studentadmissionorder",
+    "class_name": "StudentAdmissionOrderRepository"
+  },
+  {
+    "error_message": "ШҒХ маълумот топилмади [...]",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.DataLayer.Repository/Doc/StudentFixingTransaction/Concrete/StudentFixingTransactionRepository.cs",
+    "line_number": 52,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentfixingtransaction",
+    "class_name": "StudentFixingTransactionRepository"
+  },
+  {
+    "error_message": "Этот 'Приказ о зачислении студентов' недоступен",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.DataLayer.Repository/Doc/StudentLeave/Concrete/StudentLeaveRepository.cs",
+    "line_number": 49,
+    "condition": "admissionOrder == null",
+    "service_name": "edu-service",
+    "document_type": "studentleave",
+    "class_name": "StudentLeaveRepository"
+  },
+  {
+    "error_message": "Этот 'Приказ о зачислении студентов' недоступен",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.DataLayer.Repository/Doc/StudentLeave/Concrete/StudentLeaveRepository.cs",
+    "line_number": 104,
+    "condition": "admissionOrder == null",
+    "service_name": "edu-service",
+    "document_type": "studentleave",
+    "class_name": "StudentLeaveRepository"
+  },
+  {
+    "error_message": "OldStudentManageId not found ([...])",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.DataLayer.Repository/Doc/StudentMovement/Concrete/StudentMovementRepository.cs",
+    "line_number": 83,
+    "condition": "!oldStudentManage.ContainsKey(table.OldStudentManageId ?? 0)",
+    "service_name": "edu-service",
+    "document_type": "studentmovement",
+    "class_name": "StudentMovementRepository"
+  },
+  {
+    "error_message": "OldStudentManageId not found ([...])",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.DataLayer.Repository/Doc/StudentMovement/Concrete/StudentMovementRepository.cs",
+    "line_number": 116,
+    "condition": "!oldStudentManage.ContainsKey(table.OldStudentManageId ?? 0)",
+    "service_name": "edu-service",
+    "document_type": "studentmovement",
+    "class_name": "StudentMovementRepository"
+  },
+  {
+    "error_message": "Запись не найдено",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.DataLayer.Repository/sys/StudentManage/Concrete/StudentManageRepository.cs",
+    "line_number": 43,
+    "condition": "entity == null",
+    "service_name": "edu-service",
+    "document_type": "studentmanage",
+    "class_name": "StudentManageRepository"
+  },
+  {
+    "error_message": "Документ заблокирован::",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.DataLayer.Repository/sys/StudentManage/Concrete/StudentManageRepository.cs",
+    "line_number": 45,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentmanage",
+    "class_name": "StudentManageRepository"
+  },
+  {
+    "error_message": "Дата окончания не может быть меньше даты начала. Дата начала: [...]. Дата окончания: [...]",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.DataLayer.Repository/sys/StudentManage/Concrete/StudentManageRepository.cs",
+    "line_number": 48,
+    "condition": "entity != null && entity.StartOn > endOn",
+    "service_name": "edu-service",
+    "document_type": "studentmanage",
+    "class_name": "StudentManageRepository"
+  },
+  {
+    "error_message": "Запись не найдено",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.DataLayer.Repository/sys/StudentManage/Concrete/StudentManageRepository.cs",
+    "line_number": 73,
+    "condition": "entity == null",
+    "service_name": "edu-service",
+    "document_type": "studentmanage",
+    "class_name": "StudentManageRepository"
+  },
+  {
+    "error_message": "Запись не найдено",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.DataLayer.Repository/sys/StudentManage/Concrete/StudentManageRepository.cs",
+    "line_number": 162,
+    "condition": "entity == null",
+    "service_name": "edu-service",
+    "document_type": "studentmanage",
+    "class_name": "StudentManageRepository"
+  },
+  {
+    "error_message": "Документ заблокирован::",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.DataLayer.Repository/sys/StudentManage/Concrete/StudentManageRepository.cs",
+    "line_number": 164,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentmanage",
+    "class_name": "StudentManageRepository"
+  },
+  {
+    "error_message": "Дата окончания не может быть меньше даты начала. Дата начала:",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.DataLayer.Repository/sys/StudentManage/Concrete/StudentManageRepository.cs",
+    "line_number": 167,
+    "condition": "entity != null && entity.StartOn > endOn",
+    "service_name": "edu-service",
+    "document_type": "studentmanage",
+    "class_name": "StudentManageRepository"
+  },
+  {
+    "error_message": "Запись не найдено",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.DataLayer.Repository/sys/StudentManage/Concrete/StudentManageRepository.cs",
+    "line_number": 186,
+    "condition": "entity == null",
+    "service_name": "edu-service",
+    "document_type": "studentmanage",
+    "class_name": "StudentManageRepository"
+  },
+  {
+    "error_message": "Есть незавершенное выполнение документов. Попробуй позже.",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.Job.BizLayer/Services/StudentCalcJobService.cs",
+    "line_number": 55,
+    "condition": "notFinishedJobs.Any()",
+    "service_name": "edu-service",
+    "document_type": "studentcalcjob",
+    "class_name": "StudentCalcJobService"
+  },
+  {
+    "error_message": "Документ с этим кодом [...] уже существует",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.Job.BizLayer/Services/StudentCalcJobService.cs",
+    "line_number": 101,
+    "condition": "query.ByDocNumber(dto.DocNumber).Any()",
+    "service_name": "edu-service",
+    "document_type": "studentcalcjob",
+    "class_name": "StudentCalcJobService"
+  },
+  {
+    "error_message": "Есть незавершенное выполнение документов. Попробуй позже.{jobHistorys.Select(x => x.Table.ShortName +",
+    "file_path": "services/edu-service/src/libs/Uzasbo2.Services.Edu.Job.BizLayer/Services/StudentFixingTransactionJobService.cs",
+    "line_number": 82,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "studentfixingtransactionjob",
+    "class_name": "StudentFixingTransactionJobService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "services/edu-service/Uzasbo2.Integration.BillinEdu/Services/ContractInvoice/BillingEduContractInvoicesService.cs",
+    "line_number": 50,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "edu-service",
+    "document_type": "billingeducontractinvoices",
+    "class_name": "BillingEduContractInvoicesService"
+  },
+  {
+    "error_message": "BillingEdu билан алоқа йўқ!",
+    "file_path": "services/edu-service/Uzasbo2.Integration.BillinEdu/Services/ContractInvoice/BillingEduContractInvoicesService.cs",
+    "line_number": 57,
+    "condition": "res == null",
+    "service_name": "edu-service",
+    "document_type": "billingeducontractinvoices",
+    "class_name": "BillingEduContractInvoicesService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "services/edu-service/Uzasbo2.Integration.BillinEdu/Services/ContractInvoice/BillingEduContractInvoicesService.cs",
+    "line_number": 78,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "edu-service",
+    "document_type": "billingeducontractinvoices",
+    "class_name": "BillingEduContractInvoicesService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "services/edu-service/Uzasbo2.Integration.BillinEdu/Services/ContractInvoice/BillingEduContractInvoicesService.cs",
+    "line_number": 81,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "billingeducontractinvoices",
+    "class_name": "BillingEduContractInvoicesService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "services/edu-service/Uzasbo2.Integration.BillinEdu/Services/ContractInvoice/BillingEduContractInvoicesService.cs",
+    "line_number": 104,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "edu-service",
+    "document_type": "billingeducontractinvoices",
+    "class_name": "BillingEduContractInvoicesService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "services/edu-service/Uzasbo2.Integration.BillinEdu/Services/ContractInvoice/BillingEduContractInvoicesService.cs",
+    "line_number": 107,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "billingeducontractinvoices",
+    "class_name": "BillingEduContractInvoicesService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "services/edu-service/Uzasbo2.Integration.BillinEdu/Services/EduSpecialities/EduSpecialitiesService.cs",
+    "line_number": 64,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "edu-service",
+    "document_type": "eduspecialities",
+    "class_name": "EduSpecialitiesService"
+  },
+  {
+    "error_message": "BillingEdu билан алоқа йўқ!",
+    "file_path": "services/edu-service/Uzasbo2.Integration.BillinEdu/Services/EduSpecialities/EduSpecialitiesService.cs",
+    "line_number": 71,
+    "condition": "res == null",
+    "service_name": "edu-service",
+    "document_type": "eduspecialities",
+    "class_name": "EduSpecialitiesService"
+  },
+  {
+    "error_message": "Billing tizimidan xatolik:",
+    "file_path": "services/edu-service/Uzasbo2.Integration.BillinEdu/Services/EduSpecialities/EduSpecialitiesService.cs",
+    "line_number": 100,
+    "condition": "!response1.IsSuccessStatusCode",
+    "service_name": "edu-service",
+    "document_type": "eduspecialities",
+    "class_name": "EduSpecialitiesService"
+  },
+  {
+    "error_message": "Error: [...]",
+    "file_path": "services/edu-service/Uzasbo2.Integration.BillinEdu/Services/EduSpecialities/EduSpecialitiesService.cs",
+    "line_number": 105,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "eduspecialities",
+    "class_name": "EduSpecialitiesService"
+  },
+  {
+    "error_message": "Billing tizimidan xatolik :",
+    "file_path": "services/edu-service/Uzasbo2.Integration.BillinEdu/Services/EduSpecialities/EduSpecialitiesService.cs",
+    "line_number": 122,
+    "condition": "!response1.IsSuccessStatusCode",
+    "service_name": "edu-service",
+    "document_type": "eduspecialities",
+    "class_name": "EduSpecialitiesService"
+  },
+  {
+    "error_message": "Error: [...]",
+    "file_path": "services/edu-service/Uzasbo2.Integration.BillinEdu/Services/EduSpecialities/EduSpecialitiesService.cs",
+    "line_number": 127,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "eduspecialities",
+    "class_name": "EduSpecialitiesService"
+  },
+  {
+    "error_message": "Billing tizimidan xatolik :",
+    "file_path": "services/edu-service/Uzasbo2.Integration.BillinEdu/Services/EduSpecialities/EduSpecialitiesService.cs",
+    "line_number": 144,
+    "condition": "!response1.IsSuccessStatusCode",
+    "service_name": "edu-service",
+    "document_type": "eduspecialities",
+    "class_name": "EduSpecialitiesService"
+  },
+  {
+    "error_message": "Error: [...]",
+    "file_path": "services/edu-service/Uzasbo2.Integration.BillinEdu/Services/EduSpecialities/EduSpecialitiesService.cs",
+    "line_number": 149,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "eduspecialities",
+    "class_name": "EduSpecialitiesService"
+  },
+  {
+    "error_message": "Billing tizimidan xatolik :",
+    "file_path": "services/edu-service/Uzasbo2.Integration.BillinEdu/Services/EduSpecialities/EduSpecialitiesService.cs",
+    "line_number": 166,
+    "condition": "!response1.IsSuccessStatusCode",
+    "service_name": "edu-service",
+    "document_type": "eduspecialities",
+    "class_name": "EduSpecialitiesService"
+  },
+  {
+    "error_message": "Error: [...]",
+    "file_path": "services/edu-service/Uzasbo2.Integration.BillinEdu/Services/EduSpecialities/EduSpecialitiesService.cs",
+    "line_number": 171,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "eduspecialities",
+    "class_name": "EduSpecialitiesService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "services/edu-service/Uzasbo2.Integration.BillinEdu/Services/EduSpecialityClassifiers/EduSpecialityClassifiersService.cs",
+    "line_number": 43,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "edu-service",
+    "document_type": "eduspecialityclassifiers",
+    "class_name": "EduSpecialityClassifiersService"
+  },
+  {
+    "error_message": "BillingEdu билан алоқа йўқ!",
+    "file_path": "services/edu-service/Uzasbo2.Integration.BillinEdu/Services/EduSpecialityClassifiers/EduSpecialityClassifiersService.cs",
+    "line_number": 50,
+    "condition": "res == null",
+    "service_name": "edu-service",
+    "document_type": "eduspecialityclassifiers",
+    "class_name": "EduSpecialityClassifiersService"
+  },
+  {
+    "error_message": "error: [...]",
+    "file_path": "services/edu-service/Uzasbo2.Integration.BillinEdu/Services/Faculties/FacultiesService.cs",
+    "line_number": 44,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "edu-service",
+    "document_type": "faculties",
+    "class_name": "FacultiesService"
+  },
+  {
+    "error_message": "BillingEdu билан алоқа йўқ!",
+    "file_path": "services/edu-service/Uzasbo2.Integration.BillinEdu/Services/Faculties/FacultiesService.cs",
+    "line_number": 51,
+    "condition": "res == null",
+    "service_name": "edu-service",
+    "document_type": "faculties",
+    "class_name": "FacultiesService"
+  },
+  {
+    "error_message": "Billing tizimidan xatolik:",
+    "file_path": "services/edu-service/Uzasbo2.Integration.BillinEdu/Services/RestByStudentBilling/BillingRestByStudentService.cs",
+    "line_number": 67,
+    "condition": "!response1.IsSuccessStatusCode",
+    "service_name": "edu-service",
+    "document_type": "billingrestbystudent",
+    "class_name": "BillingRestByStudentService"
+  },
+  {
+    "error_message": "Error: [...]",
+    "file_path": "services/edu-service/Uzasbo2.Integration.BillinEdu/Services/RestByStudentBilling/BillingRestByStudentService.cs",
+    "line_number": 72,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "billingrestbystudent",
+    "class_name": "BillingRestByStudentService"
+  },
+  {
+    "error_message": "Billing tizimidan xatolik :",
+    "file_path": "services/edu-service/Uzasbo2.Integration.BillinEdu/Services/RestByStudentBilling/BillingRestByStudentService.cs",
+    "line_number": 90,
+    "condition": "!response1.IsSuccessStatusCode",
+    "service_name": "edu-service",
+    "document_type": "billingrestbystudent",
+    "class_name": "BillingRestByStudentService"
+  },
+  {
+    "error_message": "Error: [...]",
+    "file_path": "services/edu-service/Uzasbo2.Integration.BillinEdu/Services/RestByStudentBilling/BillingRestByStudentService.cs",
+    "line_number": 95,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "billingrestbystudent",
+    "class_name": "BillingRestByStudentService"
+  },
+  {
+    "error_message": "Billing tizimidan xatolik :",
+    "file_path": "services/edu-service/Uzasbo2.Integration.BillinEdu/Services/RestByStudentBilling/BillingRestByStudentService.cs",
+    "line_number": 113,
+    "condition": "!response1.IsSuccessStatusCode",
+    "service_name": "edu-service",
+    "document_type": "billingrestbystudent",
+    "class_name": "BillingRestByStudentService"
+  },
+  {
+    "error_message": "Error: [...]",
+    "file_path": "services/edu-service/Uzasbo2.Integration.BillinEdu/Services/RestByStudentBilling/BillingRestByStudentService.cs",
+    "line_number": 118,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "billingrestbystudent",
+    "class_name": "BillingRestByStudentService"
+  },
+  {
+    "error_message": "Billing tizimidan xatolik :",
+    "file_path": "services/edu-service/Uzasbo2.Integration.BillinEdu/Services/RestByStudentBilling/BillingRestByStudentService.cs",
+    "line_number": 135,
+    "condition": "!response1.IsSuccessStatusCode",
+    "service_name": "edu-service",
+    "document_type": "billingrestbystudent",
+    "class_name": "BillingRestByStudentService"
+  },
+  {
+    "error_message": "Error: [...]",
+    "file_path": "services/edu-service/Uzasbo2.Integration.BillinEdu/Services/RestByStudentBilling/BillingRestByStudentService.cs",
+    "line_number": 140,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "billingrestbystudent",
+    "class_name": "BillingRestByStudentService"
+  },
+  {
+    "error_message": "Billing tizimidan xatolik:",
+    "file_path": "services/edu-service/Uzasbo2.Integration.BillinEdu/Services/RestByStudentBilling/BillingRestByStudentService.cs",
+    "line_number": 158,
+    "condition": "!response1.IsSuccessStatusCode",
+    "service_name": "edu-service",
+    "document_type": "billingrestbystudent",
+    "class_name": "BillingRestByStudentService"
+  },
+  {
+    "error_message": "Error: [...]",
+    "file_path": "services/edu-service/Uzasbo2.Integration.BillinEdu/Services/RestByStudentBilling/BillingRestByStudentService.cs",
+    "line_number": 164,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "billingrestbystudent",
+    "class_name": "BillingRestByStudentService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "services/edu-service/Uzasbo2.Integration.BillinEdu/Services/RestByStudentBilling/BillingRestByStudentService.cs",
+    "line_number": 186,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "edu-service",
+    "document_type": "billingrestbystudent",
+    "class_name": "BillingRestByStudentService"
+  },
+  {
+    "error_message": "BillingEdu билан алоқа йўқ!",
+    "file_path": "services/edu-service/Uzasbo2.Integration.BillinEdu/Services/RestByStudentBilling/BillingRestByStudentService.cs",
+    "line_number": 196,
+    "condition": "res == null",
+    "service_name": "edu-service",
+    "document_type": "billingrestbystudent",
+    "class_name": "BillingRestByStudentService"
+  },
+  {
+    "error_message": "Billing tizimidan xatolik:",
+    "file_path": "services/edu-service/Uzasbo2.Integration.BillinEdu/Services/RestByStudentBilling/BillingRestByStudentService.cs",
+    "line_number": 220,
+    "condition": "!response1.IsSuccessStatusCode",
+    "service_name": "edu-service",
+    "document_type": "billingrestbystudent",
+    "class_name": "BillingRestByStudentService"
+  },
+  {
+    "error_message": "Error: [...]",
+    "file_path": "services/edu-service/Uzasbo2.Integration.BillinEdu/Services/RestByStudentBilling/BillingRestByStudentService.cs",
+    "line_number": 226,
+    "condition": "",
+    "service_name": "edu-service",
+    "document_type": "billingrestbystudent",
+    "class_name": "BillingRestByStudentService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "services/edu-service/Uzasbo2.Integration.BillinEdu/Services/Students/StudentsService.cs",
+    "line_number": 56,
+    "condition": "!zpresponse.IsSuccessStatusCode",
+    "service_name": "edu-service",
+    "document_type": "students",
+    "class_name": "StudentsService"
+  },
+  {
+    "error_message": "УзAСБО 1 билан алоқа йўқ!",
+    "file_path": "services/edu-service/Uzasbo2.Integration.BillinEdu/Services/Students/StudentsService.cs",
+    "line_number": 65,
+    "condition": "ress == null",
+    "service_name": "edu-service",
+    "document_type": "students",
+    "class_name": "StudentsService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "services/edu-service/Uzasbo2.Integration.BillinEdu/Services/Students/StudentsService.cs",
+    "line_number": 84,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "edu-service",
+    "document_type": "students",
+    "class_name": "StudentsService"
+  },
+  {
+    "error_message": "BillingEdu билан алоқа йўқ!",
+    "file_path": "services/edu-service/Uzasbo2.Integration.BillinEdu/Services/Students/StudentsService.cs",
+    "line_number": 95,
+    "condition": "resAsString == null",
+    "service_name": "edu-service",
+    "document_type": "students",
+    "class_name": "StudentsService"
+  }
+]

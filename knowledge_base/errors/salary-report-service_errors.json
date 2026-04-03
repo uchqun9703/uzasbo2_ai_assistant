@@ -1,0 +1,263 @@
+[
+  {
+    "error_message": "Person not found !",
+    "file_path": "services/salary-report-service/src/libs/Uzasbo2.Services.SalaryReport.BizLayer/Dashboard/Concrete/DashboardService.cs",
+    "line_number": 681,
+    "condition": "!person.IsSuccess",
+    "service_name": "salary-report-service",
+    "document_type": "dashboard",
+    "class_name": "DashboardService"
+  },
+  {
+    "error_message": "Person not found !",
+    "file_path": "services/salary-report-service/src/libs/Uzasbo2.Services.SalaryReport.BizLayer/Dashboard/Concrete/DashboardService.cs",
+    "line_number": 2307,
+    "condition": "!person.IsSuccess",
+    "service_name": "salary-report-service",
+    "document_type": "dashboard",
+    "class_name": "DashboardService"
+  },
+  {
+    "error_message": "File topilmadi",
+    "file_path": "services/salary-report-service/src/libs/Uzasbo2.Services.SalaryReport.BizLayer/MibService/Concrete/MibService.cs",
+    "line_number": 193,
+    "condition": "",
+    "service_name": "salary-report-service",
+    "document_type": "mib",
+    "class_name": "MibService"
+  },
+  {
+    "error_message": "File topilmadi",
+    "file_path": "services/salary-report-service/src/libs/Uzasbo2.Services.SalaryReport.BizLayer/MibService/Concrete/MibService.cs",
+    "line_number": 212,
+    "condition": "entity == null || !entity.FileName.HasValue",
+    "service_name": "salary-report-service",
+    "document_type": "mib",
+    "class_name": "MibService"
+  },
+  {
+    "error_message": "File topilmadi",
+    "file_path": "services/salary-report-service/src/libs/Uzasbo2.Services.SalaryReport.BizLayer/MibService/Concrete/MibService.cs",
+    "line_number": 479,
+    "condition": "entity == null || !entity.FileName.HasValue",
+    "service_name": "salary-report-service",
+    "document_type": "mib",
+    "class_name": "MibService"
+  },
+  {
+    "error_message": "File topilmadi",
+    "file_path": "services/salary-report-service/src/libs/Uzasbo2.Services.SalaryReport.BizLayer/MibService/Concrete/MibService.cs",
+    "line_number": 519,
+    "condition": "entity == null || !entity.FileName.HasValue",
+    "service_name": "salary-report-service",
+    "document_type": "mib",
+    "class_name": "MibService"
+  },
+  {
+    "error_message": "Ma'lumot topilmadi!",
+    "file_path": "services/salary-report-service/src/libs/Uzasbo2.Services.SalaryReport.BizLayer/Report/Concrete/ReportService.cs",
+    "line_number": 214,
+    "condition": "data.HumanData == null || !data.HumanData.Any()",
+    "service_name": "salary-report-service",
+    "document_type": "report",
+    "class_name": "ReportService"
+  },
+  {
+    "error_message": "ma'lumot topilmadi!",
+    "file_path": "services/salary-report-service/src/libs/Uzasbo2.Services.SalaryReport.BizLayer/Report/Concrete/ReportService.cs",
+    "line_number": 1154,
+    "condition": "!employeeIds.Any()",
+    "service_name": "salary-report-service",
+    "document_type": "report",
+    "class_name": "ReportService"
+  },
+  {
+    "error_message": "Maulmot topilmadi",
+    "file_path": "services/salary-report-service/src/libs/Uzasbo2.Services.SalaryReport.BizLayer/Report/Concrete/ReportService.cs",
+    "line_number": 1851,
+    "condition": "",
+    "service_name": "salary-report-service",
+    "document_type": "report",
+    "class_name": "ReportService"
+  },
+  {
+    "error_message": "not found employee",
+    "file_path": "services/salary-report-service/src/libs/Uzasbo2.Services.SalaryReport.BizLayer/Report/Concrete/ReportService.cs",
+    "line_number": 2235,
+    "condition": "",
+    "service_name": "salary-report-service",
+    "document_type": "report",
+    "class_name": "ReportService"
+  },
+  {
+    "error_message": "Пользователь не найден !",
+    "file_path": "services/salary-report-service/src/libs/Uzasbo2.Services.SalaryReport.BizLayer/Report/Concrete/ReportService.cs",
+    "line_number": 4012,
+    "condition": "user is null",
+    "service_name": "salary-report-service",
+    "document_type": "report",
+    "class_name": "ReportService"
+  },
+  {
+    "error_message": "нет доступа",
+    "file_path": "services/salary-report-service/src/libs/Uzasbo2.Services.SalaryReport.BizLayer/Report/Concrete/ReportService.cs",
+    "line_number": 4063,
+    "condition": "dto.HasSearch()",
+    "service_name": "salary-report-service",
+    "document_type": "report",
+    "class_name": "ReportService"
+  },
+  {
+    "error_message": "нет доступа",
+    "file_path": "services/salary-report-service/src/libs/Uzasbo2.Services.SalaryReport.BizLayer/Report/Concrete/ReportService.cs",
+    "line_number": 4207,
+    "condition": "!any",
+    "service_name": "salary-report-service",
+    "document_type": "report",
+    "class_name": "ReportService"
+  },
+  {
+    "error_message": "нет доступа",
+    "file_path": "services/salary-report-service/src/libs/Uzasbo2.Services.SalaryReport.BizLayer/Report/Concrete/ReportService.cs",
+    "line_number": 4453,
+    "condition": "!any",
+    "service_name": "salary-report-service",
+    "document_type": "report",
+    "class_name": "ReportService"
+  },
+  {
+    "error_message": "нет доступа",
+    "file_path": "services/salary-report-service/src/libs/Uzasbo2.Services.SalaryReport.BizLayer/Report/Concrete/ReportService.cs",
+    "line_number": 4703,
+    "condition": "!any",
+    "service_name": "salary-report-service",
+    "document_type": "report",
+    "class_name": "ReportService"
+  },
+  {
+    "error_message": "нет доступа",
+    "file_path": "services/salary-report-service/src/libs/Uzasbo2.Services.SalaryReport.BizLayer/Report/Concrete/ReportService.cs",
+    "line_number": 5038,
+    "condition": "!any",
+    "service_name": "salary-report-service",
+    "document_type": "report",
+    "class_name": "ReportService"
+  },
+  {
+    "error_message": "нет доступа",
+    "file_path": "services/salary-report-service/src/libs/Uzasbo2.Services.SalaryReport.BizLayer/Report/Concrete/ReportService.cs",
+    "line_number": 5390,
+    "condition": "!any",
+    "service_name": "salary-report-service",
+    "document_type": "report",
+    "class_name": "ReportService"
+  },
+  {
+    "error_message": "нет доступа",
+    "file_path": "services/salary-report-service/src/libs/Uzasbo2.Services.SalaryReport.BizLayer/Report/Concrete/ReportService.cs",
+    "line_number": 5497,
+    "condition": "!any",
+    "service_name": "salary-report-service",
+    "document_type": "report",
+    "class_name": "ReportService"
+  },
+  {
+    "error_message": "нет доступа",
+    "file_path": "services/salary-report-service/src/libs/Uzasbo2.Services.SalaryReport.BizLayer/Report/Concrete/ReportService.cs",
+    "line_number": 5630,
+    "condition": "!any",
+    "service_name": "salary-report-service",
+    "document_type": "report",
+    "class_name": "ReportService"
+  },
+  {
+    "error_message": "Malumot Topilmadi !!",
+    "file_path": "services/salary-report-service/src/libs/Uzasbo2.Services.SalaryReport.BizLayer/Report/Concrete/ReportService.cs",
+    "line_number": 6956,
+    "condition": "data.HumanData == null || !data.HumanData.Any()",
+    "service_name": "salary-report-service",
+    "document_type": "report",
+    "class_name": "ReportService"
+  },
+  {
+    "error_message": "Maulmot topilmadi",
+    "file_path": "services/salary-report-service/src/libs/Uzasbo2.Services.SalaryReport.BizLayer/Report/Concrete/ReportService.cs",
+    "line_number": 7408,
+    "condition": "",
+    "service_name": "salary-report-service",
+    "document_type": "report",
+    "class_name": "ReportService"
+  },
+  {
+    "error_message": "not found employee",
+    "file_path": "services/salary-report-service/src/libs/Uzasbo2.Services.SalaryReport.BizLayer/Report/Concrete/ReportService.cs",
+    "line_number": 7792,
+    "condition": "",
+    "service_name": "salary-report-service",
+    "document_type": "report",
+    "class_name": "ReportService"
+  },
+  {
+    "error_message": "нет доступа",
+    "file_path": "services/salary-report-service/src/libs/Uzasbo2.Services.SalaryReport.BizLayer/Report/Concrete/ReportService.cs",
+    "line_number": 9320,
+    "condition": "!any",
+    "service_name": "salary-report-service",
+    "document_type": "report",
+    "class_name": "ReportService"
+  },
+  {
+    "error_message": "нет доступа",
+    "file_path": "services/salary-report-service/src/libs/Uzasbo2.Services.SalaryReport.BizLayer/Report/Concrete/ReportService.cs",
+    "line_number": 9566,
+    "condition": "!any",
+    "service_name": "salary-report-service",
+    "document_type": "report",
+    "class_name": "ReportService"
+  },
+  {
+    "error_message": "нет доступа",
+    "file_path": "services/salary-report-service/src/libs/Uzasbo2.Services.SalaryReport.BizLayer/Report/Concrete/ReportService.cs",
+    "line_number": 9816,
+    "condition": "!any",
+    "service_name": "salary-report-service",
+    "document_type": "report",
+    "class_name": "ReportService"
+  },
+  {
+    "error_message": "нет доступа",
+    "file_path": "services/salary-report-service/src/libs/Uzasbo2.Services.SalaryReport.BizLayer/Report/Concrete/ReportService.cs",
+    "line_number": 10151,
+    "condition": "!any",
+    "service_name": "salary-report-service",
+    "document_type": "report",
+    "class_name": "ReportService"
+  },
+  {
+    "error_message": "нет доступа",
+    "file_path": "services/salary-report-service/src/libs/Uzasbo2.Services.SalaryReport.BizLayer/Report/Concrete/ReportService.cs",
+    "line_number": 10503,
+    "condition": "!any",
+    "service_name": "salary-report-service",
+    "document_type": "report",
+    "class_name": "ReportService"
+  },
+  {
+    "error_message": "нет доступа",
+    "file_path": "services/salary-report-service/src/libs/Uzasbo2.Services.SalaryReport.BizLayer/Report/Concrete/ReportService.cs",
+    "line_number": 10610,
+    "condition": "!any",
+    "service_name": "salary-report-service",
+    "document_type": "report",
+    "class_name": "ReportService"
+  },
+  {
+    "error_message": "нет доступа",
+    "file_path": "services/salary-report-service/src/libs/Uzasbo2.Services.SalaryReport.BizLayer/Report/Concrete/ReportService.cs",
+    "line_number": 10743,
+    "condition": "!any",
+    "service_name": "salary-report-service",
+    "document_type": "report",
+    "class_name": "ReportService"
+  }
+]

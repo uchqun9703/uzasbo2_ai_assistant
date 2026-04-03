@@ -1,0 +1,38 @@
+[
+  {
+    "error_message": "xatolik yuz berdi",
+    "file_path": "services/finance-report-service/src/libs/Uzasbo2.Services.FinanceReport.BizLayer/Report/Concrete/ReportService.cs",
+    "line_number": 626,
+    "condition": "",
+    "service_name": "finance-report-service",
+    "document_type": "report",
+    "class_name": "ReportService"
+  },
+  {
+    "error_message": "xatolik yuz berdi",
+    "file_path": "services/finance-report-service/src/libs/Uzasbo2.Services.FinanceReport.BizLayer/Report/Concrete/ReportService.cs",
+    "line_number": 2235,
+    "condition": "",
+    "service_name": "finance-report-service",
+    "document_type": "report",
+    "class_name": "ReportService"
+  },
+  {
+    "error_message": "xatolik yuz berdi",
+    "file_path": "services/finance-report-service/src/libs/Uzasbo2.Services.FinanceReport.BizLayer/Report/Concrete/ReportService.cs",
+    "line_number": 2372,
+    "condition": "",
+    "service_name": "finance-report-service",
+    "document_type": "report",
+    "class_name": "ReportService"
+  },
+  {
+    "error_message": "[...] error: [...]",
+    "file_path": "services/finance-report-service/Uzasbo2.Integration.Dmbat/Services/IncomeCalculationService.cs",
+    "line_number": 37,
+    "condition": "!response.IsSuccessStatusCode",
+    "service_name": "finance-report-service",
+    "document_type": "incomecalculation",
+    "class_name": "IncomeCalculationService"
+  }
+]
