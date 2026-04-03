@@ -17,6 +17,8 @@ langchain>=0.3.0
 langchain-community>=0.3.0
 # Ollama Python SDK — mahalliy LLM bilan ishlash
 ollama>=0.3.3
+# Anthropic SDK — Claude API bilan ishlash (bulutli LLM)
+anthropic>=0.42.0
 
 # --- Vector Database ---
 # ChromaDB — vektorli ma'lumotlar bazasi (RAG uchun)

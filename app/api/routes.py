@@ -263,16 +263,23 @@ async def health_check(
     muntazam chaqirib, tizim ishlayotganini tekshiradi.
     """
     # Har bir komponentni alohida tekshiramiz
+    llm_ok = await rag_engine.check_llm_connection()
     ollama_ok = await rag_engine.check_ollama_connection()
     chroma_ok = await rag_engine.check_chroma_connection()
     redis_ok = await chat_history.check_connection()
     kb_chunks = await rag_engine.get_knowledge_base_count()
 
+    # LLM provider nomi
+    from app.config import settings
+    llm_provider = settings.llm.provider
+
     # Agar birorta komponent ishlamasa, status "degraded" bo'ladi
-    overall_status = "ok" if all([ollama_ok, chroma_ok, redis_ok]) else "degraded"
+    overall_status = "ok" if all([llm_ok, ollama_ok, chroma_ok, redis_ok]) else "degraded"
 
     return HealthResponse(
         status=overall_status,
+        llm_provider=llm_provider,
+        llm_connected=llm_ok,
         ollama_connected=ollama_ok,
         chroma_connected=chroma_ok,
         redis_connected=redis_ok,

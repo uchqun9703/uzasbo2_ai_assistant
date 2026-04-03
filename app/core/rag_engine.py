@@ -476,9 +476,16 @@ JAVOB:"""
     # Health check metodlari — monitoring uchun
     # ============================================================
 
-    async def check_ollama_connection(self) -> bool:
-        """Ollama server ulanishini tekshirish."""
+    async def check_llm_connection(self) -> bool:
+        """LLM (Claude yoki Ollama) ulanishini tekshirish."""
         return await self.llm.check_connection()
+
+    async def check_ollama_connection(self) -> bool:
+        """Ollama server ulanishini tekshirish (embedding uchun har doim kerak)."""
+        try:
+            return await self.embedding_service.check_model()
+        except Exception:
+            return False
 
     async def check_chroma_connection(self) -> bool:
         """ChromaDB ulanishini tekshirish."""

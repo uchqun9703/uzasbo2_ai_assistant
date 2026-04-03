@@ -221,10 +221,20 @@ class HealthResponse(BaseModel):
 
     # Umumiy holat
     status: str = Field(default="ok", description="Tizim holati")
-    # Ollama ulanishi
+    # LLM provider nomi
+    llm_provider: str = Field(
+        default="ollama",
+        description="LLM provider: 'claude' yoki 'ollama'"
+    )
+    # LLM ulanishi (Claude yoki Ollama)
+    llm_connected: bool = Field(
+        default=False,
+        description="LLM serverga ulanish holati"
+    )
+    # Ollama ulanishi (embedding uchun har doim kerak)
     ollama_connected: bool = Field(
         default=False,
-        description="Ollama serverga ulanish holati"
+        description="Ollama serverga ulanish holati (embedding uchun)"
     )
     # ChromaDB ulanishi
     chroma_connected: bool = Field(

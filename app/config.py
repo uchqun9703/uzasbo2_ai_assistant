@@ -11,6 +11,52 @@ from pydantic import Field
 from typing import List
 
 
+class LLMProviderSettings(BaseSettings):
+    """
+    LLM provider tanlash sozlamalari.
+    "claude" — Anthropic Claude API (bulutli, sifatli, tez)
+    "ollama" — mahalliy Ollama server (bepul, internet kerak emas)
+    """
+
+    # LLM provider — "claude" yoki "ollama"
+    provider: str = Field(
+        default="ollama",
+        description="LLM provider: 'claude' yoki 'ollama'"
+    )
+
+    class Config:
+        env_prefix = "LLM_"
+
+
+class ClaudeSettings(BaseSettings):
+    """
+    Anthropic Claude API sozlamalari.
+    Claude — Anthropic kompaniyasining bulutli AI modeli.
+    Sifati yuqori, tez ishlaydi, lekin pullik va internet kerak.
+    """
+
+    # Anthropic API kalit — https://console.anthropic.com dan olinadi
+    api_key: str = Field(
+        default="",
+        description="Anthropic API kaliti"
+    )
+    # Model nomi
+    # claude-sonnet-4-6 — tez va sifatli (tavsiya etiladi)
+    # claude-haiku-4-5-20251001 — arzon va tez
+    model: str = Field(
+        default="claude-sonnet-4-6",
+        description="Claude model nomi"
+    )
+    # Maksimal javob uzunligi (tokenlarda)
+    max_tokens: int = Field(
+        default=1024,
+        description="Maksimal javob token soni"
+    )
+
+    class Config:
+        env_prefix = "CLAUDE_"
+
+
 class OllamaSettings(BaseSettings):
     """
     Ollama (mahalliy LLM) sozlamalari.
@@ -23,20 +69,18 @@ class OllamaSettings(BaseSettings):
         description="Ollama API server manzili"
     )
     # Javob generatsiya qilish uchun model
-    # llama3.1:8b — 8 milliard parametrli model (4.7 GB)
     model: str = Field(
         default="llama3.1:8b",
         description="Asosiy LLM model nomi"
     )
-    # Matnni vektor (raqamlar ro'yxati) ga aylantirish uchun model
-    # nomic-embed-text — kichik va tez embedding model (274 MB)
+    # Embedding model — ChromaDB uchun (har doim Ollama orqali)
     embed_model: str = Field(
         default="nomic-embed-text",
         description="Embedding model nomi"
     )
 
     class Config:
-        env_prefix = "OLLAMA_"  # .env da OLLAMA_ prefiksi bilan yoziladi
+        env_prefix = "OLLAMA_"
 
 
 class ChromaSettings(BaseSettings):
@@ -153,6 +197,8 @@ class AppSettings(BaseSettings):
     )
 
     # Ichki sozlamalar guruhlari
+    llm: LLMProviderSettings = LLMProviderSettings()
+    claude: ClaudeSettings = ClaudeSettings()
     ollama: OllamaSettings = OllamaSettings()
     chroma: ChromaSettings = ChromaSettings()
     redis: RedisSettings = RedisSettings()
