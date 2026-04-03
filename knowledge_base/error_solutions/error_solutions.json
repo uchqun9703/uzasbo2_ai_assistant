@@ -1,0 +1,156 @@
+{
+  "hisobraqam_kiritilmagan": {
+    "pattern": "тўлов тури учун.*ҳисобрақамлар қисмига маълумот киритилмаган",
+    "shablon": "{to'lov_turi} to'lov turi uchun hisobraqam ma'lumotlari kiritilmagan",
+    "sabab": "Ushbu to'lov turi uchun pul o'tkaziladigan hisobraqam tizimga kiritilmagan.",
+    "yechim": "1. Hujjatlar bo'limiga o'ting\n2. To'lov hujjatlari → To'lov turlari bo'limini tanlang\n3. Kerakli to'lov turini toping (masalan: Kasaba uyushmasi)\n4. 'Pul o'tkaziladigan hisobraqamlar' qismini to'ldiring\n5. Saqlang va hujjatni qaytadan tasdiqlang",
+    "hujjat_turi": "Naqd pul olish so'rovnomasi, To'lov topshiriqnomasi"
+  },
+  "bank_topilmadi": {
+    "pattern": "банк.*топилмади|bank.*null|банк коди.*бўйича",
+    "shablon": "Bank ma'lumotlari topilmadi",
+    "sabab": "Kontragent yoki tashkilot uchun bank rekvizitlari tizimga kiritilmagan.",
+    "yechim": "1. Ma'lumotnomalar bo'limiga o'ting\n2. Bank rekvizitlari bo'limini tanlang\n3. Kerakli tashkilot/kontragent uchun bank ma'lumotlarini kiriting\n4. Bank nomi, MFO, hisobraqam maydonlarini to'ldiring\n5. Saqlang",
+    "hujjat_turi": "To'lov topshiriqnomasi, To'lov reyestri"
+  },
+  "kontragent_hisobraqam_topilmadi": {
+    "pattern": "контрагент ҳисоб рақами топилмади|контрагент.*счет.*не найден",
+    "shablon": "Kontragent hisob raqami topilmadi",
+    "sabab": "Tanlangan kontragent uchun hisob raqami tizimda mavjud emas.",
+    "yechim": "1. Ma'lumotnomalar → Kontragentlar bo'limiga o'ting\n2. Kerakli kontragentni toping\n3. 'Hisob raqamlari' qismini oching\n4. Bank va hisob raqam ma'lumotlarini kiriting\n5. Saqlang",
+    "hujjat_turi": "To'lov topshiriqnomasi"
+  },
+  "summa_manfiy": {
+    "pattern": "сумма манфий бўлиши мумкин эмас|summa.*nol|сумма.*ноль",
+    "shablon": "Hujjatda summa manfiy yoki nol bo'lishi mumkin emas",
+    "sabab": "Hujjatdagi summa 0 dan katta bo'lishi kerak.",
+    "yechim": "1. Hujjatni oching\n2. Summa maydonini tekshiring\n3. To'g'ri (musbat) summani kiriting\n4. Saqlang va qayta tasdiqlang",
+    "hujjat_turi": "Barcha moliyaviy hujjatlar"
+  },
+  "summa_mos_emas": {
+    "pattern": "сумма мос эмас|суммага мос келмайди|сумма.*ошиб кетяпти",
+    "shablon": "Hujjatdagi summalar bir-biriga mos kelmaydi",
+    "sabab": "Hujjat ichidagi summalar (ish haqi, ushlama, to'lov) bir-biriga mos kelmaydi.",
+    "yechim": "1. Hujjatni oching\n2. Barcha qatorlardagi summalarni tekshiring\n3. Ish haqi to'lovi + Ushlama = Hisoblangan ish haqi ekanini tekshiring\n4. Noto'g'ri summani to'g'rilang\n5. Saqlang va qayta tasdiqlang",
+    "hujjat_turi": "Naqd pul olish so'rovnomasi, Ish haqi hisob-kitobi"
+  },
+  "foiz_100_emas": {
+    "pattern": "фоиз 100 га тенг бўлиши керак|foiz.*100|процент.*100",
+    "shablon": "Jami foiz 100% ga teng bo'lishi kerak",
+    "sabab": "To'lov turlari bo'yicha taqsimlangan foizlar yig'indisi 100% ga teng emas.",
+    "yechim": "1. Hujjatni oching\n2. To'lov turlari bo'yicha foizlar qismini tekshiring\n3. Barcha foizlar yig'indisi 100% bo'lishini ta'minlang\n4. Saqlang va qayta tasdiqlang",
+    "hujjat_turi": "Naqd pul olish so'rovnomasi"
+  },
+  "xarajat_kodi_taqiqlangan": {
+    "pattern": "ушбу харажат кодидан фойдаланиш мумкин эмас|xarajat kod.*mumkin emas",
+    "shablon": "{xarajat_kodi} xarajat kodidan foydalanish mumkin emas",
+    "sabab": "Tanlangan xarajat kodi bu hujjat turi uchun ruxsat etilmagan.",
+    "yechim": "1. Hujjatni oching\n2. Xarajat kodi maydonini tekshiring\n3. Ruxsat etilgan boshqa xarajat kodini tanlang\n4. Agar qaysi kodni tanlashni bilmasangiz, buxgalteriyaga murojaat qiling",
+    "hujjat_turi": "Naqd pul olish so'rovnomasi, To'lov topshiriqnomasi"
+  },
+  "statiya_ushlama_yoq": {
+    "pattern": "statiya uchun ushlama mavjud emas",
+    "shablon": "{xarajat_kodi} statiya uchun ushlama mavjud emas",
+    "sabab": "Tanlangan xarajat kodiga tegishli ushlama (ushlanma) ma'lumotlari topilmadi.",
+    "yechim": "1. Xarajat kodi va ushlama turini tekshiring\n2. Ma'lumotnomalar → Ushlama turlari bo'limida kerakli ushlama mavjudligini tekshiring\n3. Agar mavjud bo'lmasa, yangi ushlama turini qo'shing\n4. Hujjatni qayta tasdiqlang",
+    "hujjat_turi": "Naqd pul olish so'rovnomasi"
+  },
+  "indeksatsiya_yoq": {
+    "pattern": "индексация ҳужжати яратилмаган|индексация.*керак",
+    "shablon": "{sana} davr uchun indeksatsiya hujjati yaratilmagan",
+    "sabab": "Ish haqi indeksatsiya hujjati bu davr uchun yaratilmagan.",
+    "yechim": "1. Ish haqi → Indeksatsiya bo'limiga o'ting\n2. Kerakli davr uchun indeksatsiya hujjati yarating\n3. Agar indeksatsiya kerak bo'lmasa, hujjatni shunchaki yaratib tasdiqlang\n4. So'rovnomani qayta tasdiqlang",
+    "hujjat_turi": "Naqd pul olish so'rovnomasi"
+  },
+  "raqam_mavjud": {
+    "pattern": "рақам.*мавжуд|номер.*существует|raqam.*mavjud",
+    "shablon": "Bu hujjat raqami allaqachon mavjud",
+    "sabab": "Kiritilgan hujjat raqami boshqa hujjatda ishlatilgan.",
+    "yechim": "1. Hujjat raqami maydonini o'zgartiring\n2. Yangi (takrorlanmaydigan) raqam kiriting\n3. Yoki avtomatik raqamlash tugmasini bosing",
+    "hujjat_turi": "Barcha hujjatlar"
+  },
+  "billing_tekshirilmagan": {
+    "pattern": "биллинг тизими орқали текширилмаган",
+    "shablon": "To'lov billing tizimi orqali tekshirilmagan",
+    "sabab": "To'lov turini tanlagan bo'lsangiz-da, billing tizimi orqali tekshirish bajarilmagan.",
+    "yechim": "1. Hujjatni oching\n2. To'lov turi maydonini tekshiring\n3. 'Billing tekshirish' tugmasini bosing\n4. Tekshirish muvaffaqiyatli bo'lganidan keyin hujjatni tasdiqlang",
+    "hujjat_turi": "To'lov topshiriqnomasi, To'lov reyestri"
+  },
+  "tolov_turi_mavjud": {
+    "pattern": "тўлов тури мавжуд|to'lov turi mavjud",
+    "shablon": "Bu to'lov turi allaqachon mavjud",
+    "sabab": "Bunday nomdagi to'lov turi tizimda allaqachon yaratilgan.",
+    "yechim": "1. Mavjud to'lov turlarini tekshiring\n2. Boshqa nom bilan yarating yoki mavjudini ishlating",
+    "hujjat_turi": "Ma'lumotnomalar"
+  },
+  "tolov_turi_topilmadi": {
+    "pattern": "тўлов тури топилмади|to'lov turi topilmadi|клон.*тўлов тури",
+    "shablon": "To'lov turi topilmadi",
+    "sabab": "Hujjatda ko'rsatilgan to'lov turi tizimda mavjud emas yoki o'chirilgan.",
+    "yechim": "1. To'lov turi maydonini tekshiring\n2. Ma'lumotnomalar → To'lov turlari dan kerakli turni tanlang\n3. Agar to'lov turi yo'q bo'lsa, administrator bilan bog'laning",
+    "hujjat_turi": "Barcha moliyaviy hujjatlar"
+  },
+  "bir_martalik_tolov_taqiq": {
+    "pattern": "бир марталик тўлов қисмидан киритиш мумкин эмас",
+    "shablon": "Bu to'lov turini bir martalik to'lov qismidan kiritish mumkin emas",
+    "sabab": "Tanlangan to'lov turi doimiy to'lov hisoblanadi va bir martalik to'lovlar qismidan kiritib bo'lmaydi.",
+    "yechim": "1. Hujjatni oching\n2. To'lov turini doimiy to'lovlar qismida kiriting\n3. Yoki boshqa to'lov turini tanlang",
+    "hujjat_turi": "Ish haqi hisobi"
+  },
+  "inps_topilmadi": {
+    "pattern": "ИНПС.*реестри.*топилмади|INPS.*topilmadi",
+    "shablon": "INPS reyestri hujjati topilmadi",
+    "sabab": "Ko'rsatilgan summaga teng INPS reyestri hujjati tizimda mavjud emas.",
+    "yechim": "1. Ish haqi → INPS reyestri bo'limiga o'ting\n2. Kerakli summa uchun INPS reyestri yarating\n3. Reyestrini tasdiqlang\n4. So'rovnomani qayta tasdiqlang",
+    "hujjat_turi": "Naqd pul olish so'rovnomasi"
+  },
+  "eski_tizim": {
+    "pattern": "eski tizimdan kelgan|эски тизимдан",
+    "shablon": "Eski tizimdan kelgan hujjatlar holatini o'zgartirib bo'lmaydi",
+    "sabab": "Bu hujjat eski tizimdan ko'chirilgan va holatini o'zgartirish mumkin emas.",
+    "yechim": "1. Bu hujjatni tahrirlash mumkin emas\n2. Yangi hujjat yarating\n3. Agar muammo davom etsa, Call-center (71) 202-07-12 ga murojaat qiling",
+    "hujjat_turi": "Barcha hujjatlar"
+  },
+  "hisobot_davr_yopiq": {
+    "pattern": "хисобот қабул қилиш тўхтатилган|хисобот қайтариш тўхтатилган|отчёт.*приостановлен",
+    "shablon": "Bu davr uchun hisobot qabul qilish/qaytarish to'xtatilgan",
+    "sabab": "Bu davr uchun hisobotlar qabul qilish muddati tugagan.",
+    "yechim": "1. Boshqa davr uchun hisobot yuboring\n2. Agar shu davr uchun zarur bo'lsa, yuqori tashkilotga murojaat qiling\n3. Call-center (71) 202-07-12 ga qo'ng'iroq qiling",
+    "hujjat_turi": "Elektron hisobotlar"
+  },
+  "balans_toldirilmagan": {
+    "pattern": "баланс.*тўлдиринг|баланс.*заполните|balans.*provedeno",
+    "shablon": "Hisobotni yuborishdan oldin balans to'ldirilishi kerak",
+    "sabab": "Elektron hisobotni yuborishdan oldin balans hisobotini tuzib, tasdiqlash kerak.",
+    "yechim": "1. Hisobotlar → Balans bo'limiga o'ting\n2. Shu davr uchun balans hisobotini to'ldiring\n3. Balansni 'Tasdiqlangan' holatga keltiring\n4. Keyin kerakli hisobotni yuborishga harakat qiling",
+    "hujjat_turi": "Elektron hisobotlar"
+  },
+  "duplikat_tolov_turi": {
+    "pattern": "тўлов тури икки марта|to'lov turi ikki marta|дубликат",
+    "shablon": "Bir sinfga to'lov turi ikki marta kiritish mumkin emas",
+    "sabab": "Bitta sinf yoki guruhga bir xil to'lov turi allaqachon kiritilgan.",
+    "yechim": "1. Hujjatdagi to'lov turlari ro'yxatini tekshiring\n2. Takrorlangan to'lov turini o'chiring\n3. Saqlang va qayta tasdiqlang",
+    "hujjat_turi": "Tabel (ta'lim)"
+  },
+  "shtat_yoq": {
+    "pattern": "штат.*топилмади|shtat.*topilmadi|ставка.*не найден",
+    "shablon": "Xodim uchun shtat birligi topilmadi",
+    "sabab": "Xodimga tegishli shtat birligi tizimda mavjud emas yoki faol emas.",
+    "yechim": "1. Ish haqi → Shtatlar jadvali bo'limiga o'ting\n2. Kerakli bo'lim va lavozimni tekshiring\n3. Shtat birligini yarating yoki faollashtiring\n4. Hujjatni qayta tasdiqlang",
+    "hujjat_turi": "Naqd pul olish so'rovnomasi, Oylik hisobi"
+  },
+  "sana_notogrri": {
+    "pattern": "сана.*мос эмас|дата.*не соответствует|сана.*нотўғри|davr.*mos emas",
+    "shablon": "Hujjat sanasi yoki davr noto'g'ri",
+    "sabab": "Hujjat sanasi yoki davr boshqa hujjatlar bilan mos kelmaydi.",
+    "yechim": "1. Hujjat sanasini tekshiring\n2. Davr (oy/yil) to'g'ri ekanligini tekshiring\n3. Kerakli davr uchun to'g'ri sanani tanlang\n4. Saqlang va qayta tasdiqlang",
+    "hujjat_turi": "Barcha hujjatlar"
+  },
+  "translate_text": {
+    "pattern": "GetTranslateText|100105|tarjima",
+    "shablon": "Tizim xato xabari (tarjima kodi)",
+    "sabab": "Tizimda ichki xato yuz berdi.",
+    "yechim": "1. Sahifani yangilang (F5)\n2. Qayta urinib ko'ring\n3. Xato davom etsa, Call-center (71) 202-07-12 ga murojaat qiling",
+    "hujjat_turi": "Barcha hujjatlar"
+  }
+}
