@@ -162,6 +162,7 @@ class AppSettings(BaseSettings):
     class Config:
         env_prefix = "APP_"
         env_file = ".env"  # .env fayldan o'qish
+        extra = "ignore"  # .env dagi qo'shimcha o'zgaruvchilarni e'tiborsiz qoldirish
 
     def get_cors_origins_list(self) -> List[str]:
         """
